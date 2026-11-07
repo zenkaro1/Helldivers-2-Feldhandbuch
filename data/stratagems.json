@@ -1,0 +1,3857 @@
+{
+  "version": 1,
+  "source": "https://helldivers.wiki.gg/wiki/Stratagems",
+  "note": "aliases are voice hints (German ones are approximate, not official)",
+  "count": 117,
+  "stratagems": [
+    {
+      "id": "orbital_120mm_he_barrage",
+      "name": "Orbital 120mm HE Barrage",
+      "category": "orbital",
+      "code": "RRDLRD",
+      "cooldown": 180,
+      "unlock_level": 5,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_120mm_he_barrage.svg",
+      "icon_source": "/images/Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg?17de59",
+      "aliases": [
+        "120 mm sperrfeuer",
+        "120er sperrfeuer",
+        "orbital 120mm he barrage",
+        "orbital 120mm he sperrfeuer"
+      ],
+      "uses": null,
+      "radius": 30,
+      "ap": 4,
+      "traits": [
+        "Sperrfeuer",
+        "Explosiv"
+      ],
+      "beschreibung": "Ruft mehrere 120-mm-Salven auf ein enges Zielgebiet; gut gegen Gruppen mittlerer Gegner und zum Abfangen von Bug Breaches. Der Radius ist klein, die Streuung ungenau und der Cooldown mit 180 s hoch.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Dichte Sprengwirkung gegen Gruppen",
+        "AP 4 knackt mittlere Panzerung",
+        "Mehrere Salven hintereinander"
+      ],
+      "schwaechen": [
+        "Kleiner Radius, ungenaue Streuung",
+        "Gefährlich für eigene Truppen im Zielgebiet"
+      ]
+    },
+    {
+      "id": "orbital_380mm_he_barrage",
+      "name": "Orbital 380mm HE Barrage",
+      "category": "orbital",
+      "code": "RDUULDD",
+      "cooldown": 240,
+      "unlock_level": 8,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_380mm_he_barrage.svg",
+      "icon_source": "/images/Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg?eb3f95",
+      "aliases": [
+        "380 mm sperrfeuer",
+        "380er sperrfeuer",
+        "dreihundertachtzig",
+        "orbital 380mm he barrage",
+        "orbital 380mm he sperrfeuer"
+      ],
+      "uses": null,
+      "radius": 60,
+      "ap": 5,
+      "traits": [
+        "Sperrfeuer",
+        "Explosiv"
+      ],
+      "beschreibung": "Mehrere 380-mm-Sprengladungen decken ein großes Gebiet ein und zerstören Fabricators, Nester und dichte Verteidigungen. Die Einschläge kommen verzögert und verstreut; im Nahkampf ist der Barrage selbstmörderisch.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Riesiger Wirkungsbereich (60 m)",
+        "Zerstört Strukturen und schwere Ziele",
+        "AP 5"
+      ],
+      "schwaechen": [
+        "240 s Cooldown",
+        "Lange, unberechenbare Einschlagsserie"
+      ]
+    },
+    {
+      "id": "orbital_airburst_strike",
+      "name": "Orbital Airburst Strike",
+      "category": "orbital",
+      "code": "RRR",
+      "cooldown": 90,
+      "unlock_level": 5,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_airburst_strike.svg",
+      "icon_source": "/images/Orbital_Airburst_Strike_Stratagem_Icon_Background.svg?c77894",
+      "aliases": [
+        "luftburst",
+        "orbital airburst strike",
+        "orbital luftburst schlag",
+        "orbitaler luftburst"
+      ],
+      "uses": null,
+      "radius": 18,
+      "ap": 3,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Eine Luftburst-Granate zerlegt sich in einen Schrapnellring und räumt leichte Infanterie sowie Shrieker-Schwärme. Gegen Panzerung und Gebäude bringt der Schrapnell nichts.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Breite Schrapnellwirkung",
+        "Sehr gut gegen fliegende und leichte Ziele",
+        "Nur 90 s Cooldown"
+      ],
+      "schwaechen": [
+        "Kaum Schaden an Panzerung",
+        "Zerstört keine Fabricators oder Nester"
+      ]
+    },
+    {
+      "id": "orbital_confetti",
+      "name": "Orbital Confetti",
+      "category": "orbital",
+      "code": "RDDUUDDUU",
+      "cooldown": 80,
+      "unlock_level": null,
+      "unlock_source": "Liberty Day 2026",
+      "icon": "icons/orbital_confetti.svg",
+      "icon_source": "/images/Orbital_Strike_Stratagem_Fallback_Icon_Background.svg?5bcff4",
+      "aliases": [
+        "orbital confetti"
+      ],
+      "uses": null,
+      "radius": 25,
+      "ap": 2,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Feuert nicht-tödliche Luftburst-Granaten mit Konfetti auf das Zielgebiet – reine Liberty-Day-2026-Deko ohne Wirkung auf Gegner. Wirf es nur, wenn du deinem Team eine Show gönnen willst.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Komplett harmlos für Freunde",
+        "Großer, sichtbarer Effekt",
+        "80 s Cooldown"
+      ],
+      "schwaechen": [
+        "Kein Schaden",
+        "Nur als zeitlich begrenzte Event-Belohnung erhältlich"
+      ]
+    },
+    {
+      "id": "orbital_ems_strike",
+      "name": "Orbital EMS Strike",
+      "category": "orbital",
+      "code": "RRLD",
+      "cooldown": 75,
+      "unlock_level": 5,
+      "unlock_source": "Bridge",
+      "icon": "icons/orbital_ems_strike.svg",
+      "icon_source": "/images/Orbital_EMS_Strike_Stratagem_Icon_Background.svg?5e3ef9",
+      "aliases": [
+        "ems",
+        "ems schlag",
+        "orbital ems schlag",
+        "orbital ems strike"
+      ],
+      "uses": null,
+      "radius": 18,
+      "ap": 0,
+      "traits": [
+        "EMP"
+      ],
+      "beschreibung": "Legt ein EMS-Feld über das Zielgebiet, das Gegner für einige Sekunden lähmt und ihre Bewegungen stoppt, ohne Schaden zu verursachen. Ideal, um einen Ansturm zu brechen oder Zeit zum Nachladen zu gewinnen.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Stoppt auch schwere Gegner kurz",
+        "Sehr kurzer Cooldown (75 s)",
+        "Keine Explosionsgefahr fürs Team"
+      ],
+      "schwaechen": [
+        "Verursacht keinen Schaden",
+        "Wirkung verpufft, wenn das Team nicht sofort nachsetzt"
+      ]
+    },
+    {
+      "id": "orbital_gas_strike",
+      "name": "Orbital Gas Strike",
+      "category": "orbital",
+      "code": "RRDR",
+      "cooldown": 75,
+      "unlock_level": 1,
+      "unlock_source": "Bridge",
+      "icon": "icons/orbital_gas_strike.svg",
+      "icon_source": "/images/Orbital_Gas_Strike_Stratagem_Icon_Background.svg?668a1e",
+      "aliases": [
+        "gasschlag",
+        "gassperrfeuer",
+        "orbital gas schlag",
+        "orbital gas strike"
+      ],
+      "uses": null,
+      "radius": 20,
+      "ap": 0,
+      "traits": [
+        "Gas"
+      ],
+      "beschreibung": "Beschießt das Zielgebiet mit Gasgranaten; die Wolke fügt über Zeit Schaden zu und verwirrt Gegner, sodass sie die Orientierung verlieren. Gegen gepanzerte Ziele ist die Wirkung gering, und die Wolke schadet auch Helldivern.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Flächige Schadenswirkung über Zeit",
+        "Verwirrung löst Angriffswellen auf",
+        "Gut gegen Bug Breaches"
+      ],
+      "schwaechen": [
+        "Sehr geringe Panzerungsdurchdringung",
+        "Eigene Truppen werden ebenfalls vergiftet"
+      ]
+    },
+    {
+      "id": "orbital_gatling_barrage",
+      "name": "Orbital Gatling Barrage",
+      "category": "orbital",
+      "code": "RDLUU",
+      "cooldown": 70,
+      "unlock_level": 1,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_gatling_barrage.svg",
+      "icon_source": "/images/Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg?f73d52",
+      "aliases": [
+        "gatling",
+        "gatling sperrfeuer",
+        "orbital gatling barrage",
+        "orbital gatling sperrfeuer"
+      ],
+      "uses": null,
+      "radius": 16,
+      "ap": 3,
+      "traits": [
+        "Sperrfeuer",
+        "Automatik"
+      ],
+      "beschreibung": "Ein kurzes, aber heftiges Gatling-Sperrfeuer auf einen kleinen Bereich; es zerlegt leichte Gegner und hält Breaches kurz in Schach. Die Salve ist schnell vorbei und erreicht keine schweren Ziele.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Sehr kurzer Cooldown (70 s)",
+        "Hohe Feuerrate gegen leichte Gegner",
+        "Schnell verfügbar"
+      ],
+      "schwaechen": [
+        "Nur AP 3",
+        "Sehr kurze Wirkungsdauer"
+      ]
+    },
+    {
+      "id": "orbital_laser",
+      "name": "Orbital Laser",
+      "category": "orbital",
+      "code": "RDURD",
+      "cooldown": 300,
+      "unlock_level": 15,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_laser.svg",
+      "icon_source": "/images/Orbital_Laser_Stratagem_Icon_Background.svg?ae2ad3",
+      "aliases": [
+        "laser",
+        "orbital laser",
+        "orbitaler laser"
+      ],
+      "uses": 3,
+      "radius": 12,
+      "ap": 6,
+      "traits": [
+        "Laser",
+        "Gelenkt"
+      ],
+      "beschreibung": "Ein orbitaler Laser schneidet für einige Sekunden eigenständig durch das Zielgebiet, verfolgt Ziele und brennt selbst schwere Gegner nieder. Du hast nur drei Einsätze pro Mission, und der Strahl kann auch dich treffen.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "AP 6 und hoher Dauerschaden",
+        "Verfolgt Ziele automatisch",
+        "Räumt auch schwere Gegner ab"
+      ],
+      "schwaechen": [
+        "Nur 3 Einsätze",
+        "300 s Cooldown; der Strahl trifft auch eigene Truppen"
+      ]
+    },
+    {
+      "id": "orbital_napalm_barrage",
+      "name": "Orbital Napalm Barrage",
+      "category": "orbital",
+      "code": "RRDLRU",
+      "cooldown": 240,
+      "unlock_level": 18,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_napalm_barrage.svg",
+      "icon_source": "/images/Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg?be78c4",
+      "aliases": [
+        "napalm sperrfeuer",
+        "orbital napalm barrage",
+        "orbital napalm sperrfeuer",
+        "orbitales napalm"
+      ],
+      "uses": null,
+      "radius": 45,
+      "ap": 3,
+      "traits": [
+        "Napalm",
+        "Sperrfeuer"
+      ],
+      "beschreibung": "Ein Flächenbrand aus Napalmgranaten legt Feuer über ein großes Gebiet und blockiert für längere Zeit Zulaufwege. Gegen gepanzerte Ziele verbrennt das Feuer kaum, und der Brand breitet sich unkontrolliert aus.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Große Flächenzündung (45 m)",
+        "Blockiert Zulaufwege nachhaltig",
+        "Tötet leichte Gegner im Dauerbrand"
+      ],
+      "schwaechen": [
+        "Wenig Wirkung gegen Panzerung",
+        "Feuer gefährdet das eigene Team"
+      ]
+    },
+    {
+      "id": "orbital_precision_strike",
+      "name": "Orbital Precision Strike",
+      "category": "orbital",
+      "code": "RRU",
+      "cooldown": 80,
+      "unlock_level": 1,
+      "unlock_source": "Bridge",
+      "icon": "icons/orbital_precision_strike.svg",
+      "icon_source": "/images/Orbital_Precision_Strike_Stratagem_Icon_Background.svg?e78550",
+      "aliases": [
+        "orbital precision strike",
+        "orbital präzision schlag",
+        "präzision",
+        "präzisionsschlag"
+      ],
+      "uses": null,
+      "radius": 6,
+      "ap": 6,
+      "traits": [
+        "Explosiv",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein einzelner, präziser Orbitaltreffer mit hoher Durchschlagskraft; er zerstört Fabricators, Bug Holes und schwere Einzelziele. Der Radius ist winzig, du musst also genau treffen, und der Cooldown liegt bei 80 s.",
+      "rolle": "Präzision",
+      "staerken": [
+        "AP 6 und hoher Einzelschaden",
+        "Zerstört Spawner und Strukturen",
+        "Nur 80 s Cooldown"
+      ],
+      "schwaechen": [
+        "Sehr kleiner Radius (6 m)",
+        "Verfehlt bewegliche Ziele leicht"
+      ]
+    },
+    {
+      "id": "orbital_railcannon_strike",
+      "name": "Orbital Railcannon Strike",
+      "category": "orbital",
+      "code": "RUDDR",
+      "cooldown": 180,
+      "unlock_level": 20,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_railcannon_strike.svg",
+      "icon_source": "/images/Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg?ee9232",
+      "aliases": [
+        "orbital railcannon strike",
+        "orbital railgun schlag",
+        "orbitaler railgun schlag",
+        "railcannon"
+      ],
+      "uses": null,
+      "radius": 5,
+      "ap": 8,
+      "traits": [
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Die Railcannon erfasst automatisch das größte Ziel im Wurfbereich und löscht es mit einem hypergeschwinden Schuss aus. Sie trifft nur ein Ziel, hat 180 s Cooldown und verfehlt kleine, schnelle Gegner.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 8 – killt Bile Titans und Fabricators",
+        "Zielt automatisch auf das größte Ziel",
+        "Kein Zielen nötig"
+      ],
+      "schwaechen": [
+        "Nur ein Ziel pro Einsatz",
+        "Langer Cooldown, nutzlos gegen Schwärme"
+      ]
+    },
+    {
+      "id": "orbital_smoke_strike",
+      "name": "Orbital Smoke Strike",
+      "category": "orbital",
+      "code": "RRDU",
+      "cooldown": 75,
+      "unlock_level": 8,
+      "unlock_source": "Bridge",
+      "icon": "icons/orbital_smoke_strike.svg",
+      "icon_source": "/images/Orbital_Smoke_Strike_Stratagem_Icon_Background.svg?a05463",
+      "aliases": [
+        "orbital rauch schlag",
+        "orbital smoke strike",
+        "orbitaler rauch",
+        "rauchschlag"
+      ],
+      "uses": null,
+      "radius": 18,
+      "ap": 0,
+      "traits": [
+        "Rauch"
+      ],
+      "beschreibung": "Legt eine Rauchwand über das Zielgebiet, die Sichtlinien bricht und Rückzug oder Stellungswechsel deckt. Rauch macht keinen Schaden und hält Gegner nicht auf, die bereits im Nahkampf sind.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Unterbricht Sichtlinien zuverlässig",
+        "Deckt Revive und Rückzug",
+        "Nur 75 s Cooldown"
+      ],
+      "schwaechen": [
+        "Kein Schaden oder Kontrolleffekt",
+        "Gegner im Nahbereich sehen dich trotzdem"
+      ]
+    },
+    {
+      "id": "orbital_walking_barrage",
+      "name": "Orbital Walking Barrage",
+      "category": "orbital",
+      "code": "RDRDRD",
+      "cooldown": 240,
+      "unlock_level": 10,
+      "unlock_source": "Orbital Cannons",
+      "icon": "icons/orbital_walking_barrage.svg",
+      "icon_source": "/images/Orbital_Walking_Barrage_Stratagem_Icon_Background.svg?cb3bf0",
+      "aliases": [
+        "laufendes sperrfeuer",
+        "orbital laufend sperrfeuer",
+        "orbital walking barrage",
+        "wanderndes sperrfeuer"
+      ],
+      "uses": null,
+      "radius": 40,
+      "ap": 5,
+      "traits": [
+        "Sperrfeuer",
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Sperrfeuer, das sich vom Einschlagpunkt aus in einer Linie vorwärts frisst und dabei Bases und Gräben der Reihe nach zerlegt. Die Richtung ist kaum kontrollierbar, und die Salve braucht Zeit.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Sehr breite Abdeckung in der Tiefe",
+        "Zerstört Strukturen entlang der Linie",
+        "AP 5"
+      ],
+      "schwaechen": [
+        "Richtung nicht präzise steuerbar",
+        "240 s Cooldown"
+      ]
+    },
+    {
+      "id": "eagle_110mm_rocket_pods",
+      "name": "Eagle 110mm Rocket Pods",
+      "category": "eagle",
+      "code": "URUL",
+      "cooldown": 15,
+      "unlock_level": 10,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_110mm_rocket_pods.svg",
+      "icon_source": "/images/Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg?2e218a",
+      "aliases": [
+        "110er raketen",
+        "adler 110mm rakete raketen",
+        "adler raketen",
+        "eagle 110mm rocket pods",
+        "raketenpod"
+      ],
+      "uses": 2,
+      "radius": 18,
+      "ap": 5,
+      "traits": [
+        "Gelenkt"
+      ],
+      "beschreibung": "Die Eagle feuert gelenkte 110-mm-Raketen auf das größte Ziel im Markierungsbereich und killt Chargers, Hulks und andere schwere Einheiten. Du hast zwei Einsätze pro Aufmunitionierung, und die Raketen brauchen ein sichtbares Ziel.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Gelenkt – trifft auch bewegte Ziele",
+        "AP 5 gegen schwere Einheiten",
+        "Kurzer Cooldown nach dem Rearm"
+      ],
+      "schwaechen": [
+        "Nur 2 Einsätze",
+        "Streuung bei mehreren Zielen"
+      ]
+    },
+    {
+      "id": "eagle_500kg_bomb",
+      "name": "Eagle 500kg Bomb",
+      "category": "eagle",
+      "code": "URDDD",
+      "cooldown": 15,
+      "unlock_level": 15,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_500kg_bomb.svg",
+      "icon_source": "/images/Eagle_500kg_Bomb_Stratagem_Icon_Background.svg?48a0f3",
+      "aliases": [
+        "500 kg bombe",
+        "500er bombe",
+        "adler 500 kg bombe",
+        "adler 500kg bombe",
+        "eagle 500kg bomb",
+        "fünfhundert kilo bombe"
+      ],
+      "uses": 1,
+      "radius": 30,
+      "ap": 7,
+      "traits": [
+        "Explosiv",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Eine einzelne 500-kg-Bombe mit gewaltiger Sprengkraft; sie reißt Bile Titans, Fabricators und ganze Gruppen mit. Du bekommst nur eine Bombe pro Aufmunitionierung, und der Feuerball ist auch für dich tödlich.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "AP 7 und massiver Schaden",
+        "Zerstört Strukturen und schwere Ziele",
+        "Sehr kurzer Cooldown nach dem Rearm"
+      ],
+      "schwaechen": [
+        "Nur 1 Einsatz pro Rearm",
+        "Extrem gefährlich im Nahbereich"
+      ]
+    },
+    {
+      "id": "eagle_airstrike",
+      "name": "Eagle Airstrike",
+      "category": "eagle",
+      "code": "URDR",
+      "cooldown": 15,
+      "unlock_level": 1,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_airstrike.svg",
+      "icon_source": "/images/Eagle_Airstrike_Stratagem_Icon_Background.svg?b497fe",
+      "aliases": [
+        "adler luftschlag",
+        "eagle airstrike",
+        "luftschlag"
+      ],
+      "uses": 3,
+      "radius": 24,
+      "ap": 5,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Die Eagle legt eine Linie aus vier Bomben über das Ziel und zerlegt Gruppen sowie Fabricators. Drei Einsätze pro Aufmunitionierung, aber die Bomben fallen senkrecht zur Wurfrichtung.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Drei Einsätze",
+        "Gute Flächenwirkung mit AP 5",
+        "Schnell einsatzbereit"
+      ],
+      "schwaechen": [
+        "Nur begrenzte Fläche",
+        "Eigene Truppen im Bombenteppich sterben"
+      ]
+    },
+    {
+      "id": "eagle_cluster_bomb",
+      "name": "Eagle Cluster Bomb",
+      "category": "eagle",
+      "code": "URDDR",
+      "cooldown": 15,
+      "unlock_level": 3,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_cluster_bomb.svg",
+      "icon_source": "/images/Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg?b730d4",
+      "aliases": [
+        "adler streu bombe",
+        "adler streubombe",
+        "eagle cluster bomb",
+        "streubombe"
+      ],
+      "uses": 2,
+      "radius": 32,
+      "ap": 3,
+      "traits": [
+        "Streumunition"
+      ],
+      "beschreibung": "Eine Streubombe regnet Bomblets über ein breites Gebiet und löscht leichte Infanterie und Schwärme aus. Gegen Panzerung und Gebäude bringt sie fast nichts, und die Bomblets treffen auch Freunde.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Sehr breite Streuung",
+        "Perfekt gegen leichte Schwärme",
+        "Zwei Einsätze"
+      ],
+      "schwaechen": [
+        "Kaum Schaden an Panzerung",
+        "Hohe Eigengefahr durch Streuung"
+      ]
+    },
+    {
+      "id": "eagle_fly_by",
+      "name": "Eagle Fly By",
+      "category": "eagle",
+      "code": "UDDUUDDUU",
+      "cooldown": null,
+      "unlock_level": null,
+      "unlock_source": "Liberty Day 2026",
+      "icon": "icons/eagle_fly_by.svg",
+      "icon_source": "/images/Eagle_Stratagem_Fallback_Icon_Background.svg?906dd7",
+      "aliases": [
+        "adler fly by",
+        "eagle fly by"
+      ],
+      "uses": null,
+      "radius": 14,
+      "ap": 3,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Die Eagle fliegt nur über das Zielgebiet, ohne Waffen einzusetzen – ein reiner Liberty-Day-2026-Gag ohne Spielwirkung. Es gibt keinen Cooldown, aber auch keinen Nutzen.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Komplett harmlos",
+        "Kein Cooldown",
+        "Hübscher Überflug"
+      ],
+      "schwaechen": [
+        "Keine Wirkung auf Gegner",
+        "Nur als Event-Belohnung erhältlich"
+      ]
+    },
+    {
+      "id": "eagle_gas_airstrike",
+      "name": "Eagle Gas Airstrike",
+      "category": "eagle",
+      "code": "URLR",
+      "cooldown": 15,
+      "unlock_level": null,
+      "unlock_source": "Counterdissident Hammer",
+      "icon": "icons/eagle_gas_airstrike.svg",
+      "icon_source": "/images/Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg?e47dc1",
+      "aliases": [
+        "adler gas luftschlag",
+        "eagle gas airstrike"
+      ],
+      "uses": null,
+      "radius": 26,
+      "ap": 0,
+      "traits": [
+        "Gas"
+      ],
+      "beschreibung": "Die Eagle legt eine große Gaswolke ab, die Gegner über Zeit schädigt und verwirrt. Die Wolke ist nicht tödlich gegen Panzerung und trifft unterschiedslos auch Helldiver.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Große Fläche",
+        "Verwirrung stoppt Angriffe",
+        "Schneller Eagle-Einsatz"
+      ],
+      "schwaechen": [
+        "Geringe Panzerungsdurchdringung",
+        "Eigengefahr durch Gaswolke"
+      ]
+    },
+    {
+      "id": "eagle_napalm_airstrike",
+      "name": "Eagle Napalm Airstrike",
+      "category": "eagle",
+      "code": "URDU",
+      "cooldown": 15,
+      "unlock_level": 5,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_napalm_airstrike.svg",
+      "icon_source": "/images/Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg?735c8b",
+      "aliases": [
+        "adler napalm luftschlag",
+        "eagle napalm airstrike",
+        "napalm luftschlag"
+      ],
+      "uses": 2,
+      "radius": 28,
+      "ap": 3,
+      "traits": [
+        "Napalm"
+      ],
+      "beschreibung": "Zwei Napalmbomben brennen eine Fläche nieder und riegeln Zulaufwege ab. Das Feuer tötet leichte Gegner, hält schwere aber nur kurz auf – und brennt auch dich.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Flächige Brandwirkung",
+        "Zwei Einsätze",
+        "Gute Zonenkontrolle"
+      ],
+      "schwaechen": [
+        "Wenig gegen Panzerung",
+        "Feuer gefährdet das Team"
+      ]
+    },
+    {
+      "id": "eagle_smoke_strike",
+      "name": "Eagle Smoke Strike",
+      "category": "eagle",
+      "code": "URUD",
+      "cooldown": 15,
+      "unlock_level": 8,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_smoke_strike.svg",
+      "icon_source": "/images/Eagle_Smoke_Strike_Stratagem_Icon_Background.svg?159f1f",
+      "aliases": [
+        "adler rauch schlag",
+        "adler rauchschlag",
+        "eagle smoke strike",
+        "rauchschlag"
+      ],
+      "uses": 3,
+      "radius": 24,
+      "ap": 0,
+      "traits": [
+        "Rauch"
+      ],
+      "beschreibung": "Drei Rauchbomben legen eine dichte Rauchwand, die Sichtlinien kappt und Deckung für Revives schafft. Schaden macht der Rauch keinen.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Drei Einsätze",
+        "Solide Sichtbarriere",
+        "Schneller Eagle-Call"
+      ],
+      "schwaechen": [
+        "Keine Wirkung auf Gegner",
+        "Rauch verzieht sich schnell"
+      ]
+    },
+    {
+      "id": "eagle_strafing_run",
+      "name": "Eagle Strafing Run",
+      "category": "eagle",
+      "code": "URR",
+      "cooldown": 15,
+      "unlock_level": 1,
+      "unlock_source": "Hangar",
+      "icon": "icons/eagle_strafing_run.svg",
+      "icon_source": "/images/Eagle_Strafing_Run_Stratagem_Icon_Background.svg?fe286e",
+      "aliases": [
+        "adler bordwaffenangriff",
+        "adler strafing angriff",
+        "bordwaffenangriff",
+        "eagle strafing run"
+      ],
+      "uses": 3,
+      "radius": 10,
+      "ap": 3,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Die Eagle fliegt einen tiefen Bordwaffenangriff und mäht leichte Infanterie in einer Linie nieder. Die Kanonen durchschlagen nur leichte Panzerung.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Drei Einsätze",
+        "Sehr präzise Linie",
+        "Ideal gegen leichte Gegner"
+      ],
+      "schwaechen": [
+        "Nur AP 3",
+        "Wenig Wirkung gegen schwere Ziele"
+      ]
+    },
+    {
+      "id": "40_k_meltagun",
+      "name": "40-K Meltagun",
+      "category": "support",
+      "code": "DLULLD",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Castellan’s Creed P3",
+      "icon": "icons/40_k_meltagun.svg",
+      "icon_source": "/images/Meltagun_Stratagem_Icon_Background.svg?c412fb",
+      "aliases": [
+        "40-k meltagun"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Feuer",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein Hitzestrahl mit kurzer Reichweite, der massive Schäden verursacht und schwere Panzerung durchschmilzt. Du musst nah heran, und der Strahl braucht Zeit auf dem Ziel.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 6 – schmilzt schwere Panzerung",
+        "Sehr hoher Dauerschaden",
+        "Kontinuierlicher Strahl"
+      ],
+      "schwaechen": [
+        "Sehr kurze Reichweite",
+        "Du musst dich exponiert nähern"
+      ]
+    },
+    {
+      "id": "ac_8_autocannon",
+      "name": "AC-8 Autocannon",
+      "category": "support",
+      "code": "DLDUUR",
+      "cooldown": 480,
+      "unlock_level": 10,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/ac_8_autocannon.svg",
+      "icon_source": "/images/Autocannon_Stratagem_Icon_Background.svg?556cf5",
+      "aliases": [
+        "ac-8 autocannon",
+        "ac-8 autokanone",
+        "autocannon",
+        "autokanone"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 5,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Die AC-8 ist ein halbautomatisches Geschütz, das mit AP 5 mittlere und schwere Ziele sowie Fabricators knackt. Du brauchst den Rucksack zum Nachladen und bist beim Reload langsam.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "AP 5 gegen mittlere und schwere Ziele",
+        "Zerstört Strukturen",
+        "Präzise auf Distanz"
+      ],
+      "schwaechen": [
+        "Langsames Nachladen aus dem Rucksack",
+        "Schwer und unhandlich"
+      ]
+    },
+    {
+      "id": "amw_20_apex",
+      "name": "AMW-20 Apex",
+      "category": "support",
+      "code": "DLLUDL",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Scope of AuthorityP2",
+      "icon": "icons/amw_20_apex.svg",
+      "icon_source": "/images/Apex_Stratagem_Icon_Background.svg?ff81dc",
+      "aliases": [
+        "amw-20 apex",
+        "apex"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein Hochleistungs-Anti-Materiel-Gewehr, das mit AP 6 auf große Distanz schwere Ziele und Schwachpunkte ausschaltet. Die Waffe feuert langsam, und im Nahkampf bist du aufgeschmissen.",
+      "rolle": "Präzision",
+      "staerken": [
+        "AP 6 auf große Reichweite",
+        "Präzise Schwachpunktschüsse",
+        "Durchschlägt mittlere Panzerung"
+      ],
+      "schwaechen": [
+        "Sehr langsame Feuerrate",
+        "Unhandlich im Nahkampf"
+      ]
+    },
+    {
+      "id": "apw_1_anti_materiel_rifle",
+      "name": "APW-1 Anti-Materiel Rifle",
+      "category": "support",
+      "code": "DLRUD",
+      "cooldown": 480,
+      "unlock_level": 1,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/apw_1_anti_materiel_rifle.svg",
+      "icon_source": "/images/Anti-Materiel_Rifle_Stratagem_Icon_Background.svg?37652d",
+      "aliases": [
+        "anti-materiel rifle",
+        "apw-1 anti-materiel gewehr",
+        "apw-1 anti-materiel rifle"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein schweres Anti-Materiel-Gewehr, das mit AP 6 auf Distanz mittlere und schwere Ziele sowie Schwachpunkte zerlegt. Der Rückstoß und das langsame Repetieren machen es im Getümmel träge.",
+      "rolle": "Präzision",
+      "staerken": [
+        "AP 6 und hoher Einzelschaden",
+        "Große Reichweite",
+        "Zerstört Schwachpunkte"
+      ],
+      "schwaechen": [
+        "Langsame Schussfolge",
+        "Schwer und unhandlich"
+      ]
+    },
+    {
+      "id": "arc_3_arc_thrower",
+      "name": "ARC-3 Arc Thrower",
+      "category": "support",
+      "code": "DRDULL",
+      "cooldown": 480,
+      "unlock_level": 15,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/arc_3_arc_thrower.svg",
+      "icon_source": "/images/Arc_Thrower_Stratagem_Icon_Background.svg?5909af",
+      "aliases": [
+        "arc thrower",
+        "arc werfer",
+        "arc-3 arc thrower",
+        "blitzwerfer"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Elektro"
+      ],
+      "beschreibung": "Der Arc Thrower schießt Lichtbögen, die auf mehrere Gegner überspringen und sie betäuben; er braucht keine Munition. Die Reichweite ist kurz, und die Bögen treffen auch Mitspieler.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Kettet auf mehrere Ziele",
+        "Betäubt Gegner",
+        "Keine Munition nötig"
+      ],
+      "schwaechen": [
+        "Kurze Reichweite",
+        "Kann Mitspieler treffen"
+      ]
+    },
+    {
+      "id": "cqc_1_one_true_flag",
+      "name": "CQC-1 One True Flag",
+      "category": "support",
+      "code": "DLRRU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Masters of Ceremony P3",
+      "icon": "icons/cqc_1_one_true_flag.svg",
+      "icon_source": "/images/One_True_Flag_Stratagem_Icon_Background.svg?e919be",
+      "aliases": [
+        "cqc-1 eine wahre flagge",
+        "cqc-1 one true flag",
+        "one true flag"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Nahkampf"
+      ],
+      "beschreibung": "Die CQC-1 ist eine Melee-Waffe, deren Stoß Gegner dazu bringt, dich statt deiner Teamkameraden anzugreifen. Du hältst damit Aggro, teilst aber kaum Schaden aus.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Zieht Gegner auf dich",
+        "Schützt Revives und Objektive",
+        "Schneller Stoß"
+      ],
+      "schwaechen": [
+        "Fast kein Schaden",
+        "Du stehst im Zentrum der Angriffe"
+      ]
+    },
+    {
+      "id": "cqc_20_breaching_hammer",
+      "name": "CQC-20 Breaching Hammer",
+      "category": "support",
+      "code": "DLRLU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Siege Breakers P1",
+      "icon": "icons/cqc_20_breaching_hammer.svg",
+      "icon_source": "/images/Breaching_Hammer_Stratagem_Icon_Background.svg?65dd9b",
+      "aliases": [
+        "breaching hammer",
+        "cqc-20 breaching hammer"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Nahkampf"
+      ],
+      "beschreibung": "Der Breaching Hammer ist ein Nahkampfhammer, der explosive Wucht auf kurze Distanz austeilt und mittlere Ziele zertrümmert. Du musst direkt an den Gegner heran.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Explosiver Melee-Schaden",
+        "Knackt mittlere Panzerung",
+        "Kein Munitionsverbrauch"
+      ],
+      "schwaechen": [
+        "Nur auf Reichweite 0",
+        "Langsamer Schwung"
+      ]
+    },
+    {
+      "id": "cqc_9_defoliation_tool",
+      "name": "CQC-9 Defoliation Tool",
+      "category": "support",
+      "code": "DLRRD",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Python Commandos P2",
+      "icon": "icons/cqc_9_defoliation_tool.svg",
+      "icon_source": "/images/Defoliation_Tool_Stratagem_Icon_Background.svg?418556",
+      "aliases": [
+        "cqc-9 defoliation tool",
+        "cqc-9 entlaubung tool",
+        "defoliation tool"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Nahkampf",
+        "Feuer"
+      ],
+      "beschreibung": "Das CQC-9 ist eine Flammen-Mehrzweckwaffe für den Nahkampf, die Ziele über längere Zeit in Brand setzt und Vegetation rodet. Gegen gepanzerte Gegner ist der Feuerstrahl schwach.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Setzt Ziele dauerhaft in Brand",
+        "Räumt Pflanzen und leichte Gegner",
+        "Setzt auch Gruppen in Brand"
+      ],
+      "schwaechen": [
+        "Sehr kurze Reichweite",
+        "Wenig gegen Panzerung"
+      ]
+    },
+    {
+      "id": "eat_17_expendable_anti_tank",
+      "name": "EAT-17 Expendable Anti-Tank",
+      "category": "support",
+      "code": "DDLUR",
+      "cooldown": 70,
+      "unlock_level": 3,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/eat_17_expendable_anti_tank.svg",
+      "icon_source": "/images/Expendable_Anti-Tank_Stratagem_Icon_Background.svg?d52ad8",
+      "aliases": [
+        "eat",
+        "eat-17 einweg anti-tank",
+        "eat-17 expendable anti-tank",
+        "einweg panzerabwehr",
+        "expendable anti-tank",
+        "panzerfaust"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Panzerbrechend",
+        "Einweg"
+      ],
+      "beschreibung": "Wirft zwei Einweg-Panzerfäuste ab, die je einen starken Treffer mit AP 7 austeilen. Ideal als schnelle Panzerabwehr fürs ganze Team, aber nach dem Schuss ist die Waffe weg.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 7 – killt Chargers und Hulks",
+        "Zwei Werfer pro Abwurf",
+        "Nur 70 s Cooldown"
+      ],
+      "schwaechen": [
+        "Einweg – ein Schuss pro Werfer",
+        "Kein Nachladen"
+      ]
+    },
+    {
+      "id": "eat_411_leveller",
+      "name": "EAT-411 Leveller",
+      "category": "support",
+      "code": "DDLUD",
+      "cooldown": 140,
+      "unlock_level": null,
+      "unlock_source": "Siege Breakers P2",
+      "icon": "icons/eat_411_leveller.svg",
+      "icon_source": "/images/Leveller_Stratagem_Icon_Background.svg?8f0c64",
+      "aliases": [
+        "eat-411 leveller",
+        "eat-411 nivellierer",
+        "leveller"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Panzerbrechend",
+        "Einweg"
+      ],
+      "beschreibung": "Ein einzelner Einweg-Raketenwerfer mit gewaltiger Sprengladung, der schwere Ziele und ganze Gruppen auf einmal auslöscht. Die Rakete fliegt langsam und fällt, und du hast nur einen Schuss.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Massiver Flächenschaden mit AP 7",
+        "Zerstört Spawner von außen",
+        "Schneller als Solo Silo"
+      ],
+      "schwaechen": [
+        "Nur ein Schuss",
+        "Langsame, ballistische Rakete"
+      ]
+    },
+    {
+      "id": "eat_700_expendable_napalm",
+      "name": "EAT-700 Expendable Napalm",
+      "category": "support",
+      "code": "DDLUL",
+      "cooldown": 140,
+      "unlock_level": null,
+      "unlock_source": "Dust Devils P2",
+      "icon": "icons/eat_700_expendable_napalm.svg",
+      "icon_source": "/images/Expendable_Napalm_Stratagem_Icon_Background.svg?117778",
+      "aliases": [
+        "eat-700 einweg napalm",
+        "eat-700 expendable napalm",
+        "expendable napalm"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Napalm",
+        "Einweg"
+      ],
+      "beschreibung": "Wirft zwei Einweg-Napalmwerfer ab, die beim Einschlag eine brennende Fläche hinterlassen. Gegen Panzerung wirkt das Feuer kaum, und der Brand kann dich selbst erwischen.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Zwei Werfer",
+        "Flächige Brandwirkung",
+        "Gut gegen Schwärme"
+      ],
+      "schwaechen": [
+        "Wenig Panzerungsdurchdringung",
+        "Eigengefahr durch Feuer"
+      ]
+    },
+    {
+      "id": "faf_14_spear",
+      "name": "FAF-14 Spear",
+      "category": "support",
+      "code": "DDUDD",
+      "cooldown": 480,
+      "unlock_level": 20,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/faf_14_spear.svg",
+      "icon_source": "/images/Spear_Stratagem_Icon_Background.svg?3f7623",
+      "aliases": [
+        "faf-14 spear",
+        "faf-14 speer",
+        "spear",
+        "speer"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 8,
+      "traits": [
+        "Gelenkt",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Die Spear ist ein gelenktes Panzerabwehrsystem, das Fahrzeuge und schwere Gegner auf große Distanz mit einem Treffer erledigt. Sie braucht eine saubere Zielerfassung und ist im Nahkampf nutzlos.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 8 und Top-Attack",
+        "Große Reichweite",
+        "Zielt selbstständig"
+      ],
+      "schwaechen": [
+        "Braucht Lock-on und freie Sicht",
+        "Wenig Munition, träge"
+      ]
+    },
+    {
+      "id": "flam_40_flamethrower",
+      "name": "FLAM-40 Flamethrower",
+      "category": "support",
+      "code": "DLUDU",
+      "cooldown": 480,
+      "unlock_level": 10,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/flam_40_flamethrower.svg",
+      "icon_source": "/images/Flamethrower_Stratagem_Icon_Background.svg?648ed8",
+      "aliases": [
+        "flam-40 flamethrower",
+        "flam-40 flammenwerfer",
+        "flamethrower",
+        "flammenwerfer"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Feuer"
+      ],
+      "beschreibung": "Der Flammenwerfer brennt leichte Gegner in Sekunden nieder und hält Schwärme auf Distanz. Die Reichweite ist kurz, die Panzerungsdurchdringung gering, und du kannst dich selbst anzünden.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Sehr hoher Flächenschaden",
+        "Stoppt leichte Schwärme",
+        "Gute Zonenkontrolle"
+      ],
+      "schwaechen": [
+        "Kurze Reichweite, AP 2",
+        "Selbstentzündung möglich"
+      ]
+    },
+    {
+      "id": "gl_21_grenade_launcher",
+      "name": "GL-21 Grenade Launcher",
+      "category": "support",
+      "code": "DLULD",
+      "cooldown": 480,
+      "unlock_level": 5,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/gl_21_grenade_launcher.svg",
+      "icon_source": "/images/Grenade_Launcher_Stratagem_Icon_Background.svg?168a60",
+      "aliases": [
+        "gl-21 granat werfer",
+        "gl-21 grenade launcher",
+        "granatwerfer",
+        "grenade launcher"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Granatwerfer, der Sprenggranaten im Bogen verschießt und Gruppen sowie Fabricators knackt. Im Nahbereich besteht Eigengefahr, und gegen schwere Panzerung reicht AP 4 nicht.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Gute Flächenwirkung",
+        "Zerstört Strukturen",
+        "Indirekter Bogen"
+      ],
+      "schwaechen": [
+        "AP 4 – keine schweren Panzer",
+        "Eigengefahr bei kurzer Distanz"
+      ]
+    },
+    {
+      "id": "gl_28_belt_fed_grenade_launcher",
+      "name": "GL-28 Belt-Fed Grenade Launcher",
+      "category": "support",
+      "code": "DLULUU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Siege Breakers P3",
+      "icon": "icons/gl_28_belt_fed_grenade_launcher.svg",
+      "icon_source": "/images/Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg?4c99f1",
+      "aliases": [
+        "belt-fed grenade launcher",
+        "gl-28 belt-fed granat werfer",
+        "gl-28 belt-fed grenade launcher"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Explosiv",
+        "Automatik"
+      ],
+      "beschreibung": "Ein gurtgeführter Granatwerfer mit Munitionsrucksack, der ohne Nachladen Dauerfeuer auf Gruppen gibt. Das Gewicht und der Rucksack machen dich langsam.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Dauerfeuer ohne Nachladen",
+        "Große Magazine",
+        "Gute Flächenwirkung"
+      ],
+      "schwaechen": [
+        "Schwer und sperrig",
+        "AP 4 gegen schwere Ziele zu wenig"
+      ]
+    },
+    {
+      "id": "gl_52_de_escalator",
+      "name": "GL-52 De-Escalator",
+      "category": "support",
+      "code": "DRULR",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Force of Law P2",
+      "icon": "icons/gl_52_de_escalator.svg",
+      "icon_source": "/images/De-Escalator_Stratagem_Icon_Background.svg?7a9dca",
+      "aliases": [
+        "de-escalator",
+        "gl-52 de-escalator"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Revolver-Granatwerfer mit sechs Schuss, dessen Granaten als Lichtbögen explodieren und mit schwerer Panzerung auch Hulks und Bile Titans verletzen. Unter 4 m Entfernung prallen die Granaten ab, und Spawner kann sie nicht zerstören.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Schwere Panzerungsdurchdringung",
+        "Kettet auf Gruppen",
+        "Sechs Schuss im Revolver"
+      ],
+      "schwaechen": [
+        "Zerstört keine Spawner",
+        "Gefährlich unter 4 m"
+      ]
+    },
+    {
+      "id": "gr_8_recoilless_rifle",
+      "name": "GR-8 Recoilless Rifle",
+      "category": "support",
+      "code": "DLRRL",
+      "cooldown": 480,
+      "unlock_level": 5,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/gr_8_recoilless_rifle.svg",
+      "icon_source": "/images/Recoilless_Rifle_Stratagem_Icon_Background.svg?aaa0b7",
+      "aliases": [
+        "gr-8 recoilless rifle",
+        "gr-8 rückstoßfrei gewehr",
+        "recoilless rifle"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Panzerbrechend",
+        "Einzelschuss"
+      ],
+      "beschreibung": "Ein rückstoßfreies Panzerabwehrgewehr, das mit einem Schuss schwere Panzerung durchschlägt. Nachladen dauert lange, mit einem zweiten Helldiver am Rucksack geht es deutlich schneller.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 7 – One-Shot gegen schwere Ziele",
+        "Zerstört Fabricators",
+        "Schnelleres Nachladen zu zweit"
+      ],
+      "schwaechen": [
+        "Langes Nachladen",
+        "Wenig Munition"
+      ]
+    },
+    {
+      "id": "las_44_nova",
+      "name": "LAS-44 Nova",
+      "category": "support",
+      "code": "DLRDD",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Scope of Authority P3",
+      "icon": "icons/las_44_nova.svg",
+      "icon_source": "/images/Nova_Stratagem_Icon_Background.svg?44e1ea",
+      "aliases": [
+        "las-44 nova",
+        "nova"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 5,
+      "traits": [
+        "Laser"
+      ],
+      "beschreibung": "Ein Energie-Scharfschützengewehr ohne Munition, das mit AP 5 präzise schwere Schwachpunkte trifft. Zwischen den Schüssen muss die Waffe abkühlen.",
+      "rolle": "Präzision",
+      "staerken": [
+        "Keine Munition nötig",
+        "AP 5 auf Distanz",
+        "Präzise Einzelschüsse"
+      ],
+      "schwaechen": [
+        "Abkühlzeit zwischen Schüssen",
+        "Wenig Wirkung gegen Schwärme"
+      ]
+    },
+    {
+      "id": "las_98_laser_cannon",
+      "name": "LAS-98 Laser Cannon",
+      "category": "support",
+      "code": "DLDUL",
+      "cooldown": 480,
+      "unlock_level": 5,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/las_98_laser_cannon.svg",
+      "icon_source": "/images/Laser_Cannon_Stratagem_Icon_Background.svg?21b5f6",
+      "aliases": [
+        "las-98 laser cannon",
+        "laser cannon",
+        "laserkanone"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Laser"
+      ],
+      "beschreibung": "Die Laserkanone brennt mit einem kontinuierlichen Strahl auf mittlere Distanz durch mittlere Panzerung und Schwachpunkte. Der Strahl überhitzt bei Dauerfeuer, und gegen Schwärme ist er ineffizient.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "AP 6 und Dauerstrahl",
+        "Keine Munition",
+        "Präzise auf Schwachpunkte"
+      ],
+      "schwaechen": [
+        "Überhitzung",
+        "Wenig Flächenwirkung"
+      ]
+    },
+    {
+      "id": "las_99_quasar_cannon",
+      "name": "LAS-99 Quasar Cannon",
+      "category": "support",
+      "code": "DDULR",
+      "cooldown": 480,
+      "unlock_level": 18,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/las_99_quasar_cannon.svg",
+      "icon_source": "/images/Quasar_Cannon_Stratagem_Icon_Background.svg?559764",
+      "aliases": [
+        "las-99 quasar cannon",
+        "quasar",
+        "quasar cannon",
+        "quasar kanone"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Panzerbrechend",
+        "Laser"
+      ],
+      "beschreibung": "Die Quasar-Kanone lädt auf und feuert dann einen panzerbrechenden Energieschuss mit AP 7, ohne Munition zu verbrauchen. Zwischen den Schüssen musst du abwarten, und der Ladevorgang macht dich langsam.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 7 ohne Munition",
+        "One-Shot gegen schwere Ziele",
+        "Zerstört Strukturen"
+      ],
+      "schwaechen": [
+        "Ladezeit zwischen Schüssen",
+        "Langsame Handhabung"
+      ]
+    },
+    {
+      "id": "m_1000_maxigun",
+      "name": "M-1000 Maxigun",
+      "category": "support",
+      "code": "DLRDUU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Python Commandos P3",
+      "icon": "icons/m_1000_maxigun.svg",
+      "icon_source": "/images/Maxigun_Stratagem_Icon_Background.svg?d08884",
+      "aliases": [
+        "m-1000 maxigun",
+        "maxigun"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Eine gurtgeführte Minigun mit Munitionsrucksack, die ohne Nachladen Dauerfeuer gibt und leichte bis mittlere Gegner niedermäht. Die Anlaufzeit macht dich verwundbar.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Dauerfeuer ohne Nachladen",
+        "Sehr hohe Feuerrate",
+        "Große Magazine"
+      ],
+      "schwaechen": [
+        "Anlaufzeit vor dem Feuern",
+        "AP 4 gegen schwere Panzerung zu wenig"
+      ]
+    },
+    {
+      "id": "mg_206_heavy_machine_gun",
+      "name": "MG-206 Heavy Machine Gun",
+      "category": "support",
+      "code": "DLUDD",
+      "cooldown": 480,
+      "unlock_level": 12,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/mg_206_heavy_machine_gun.svg",
+      "icon_source": "/images/Heavy_Machine_Gun_Stratagem_Icon_Background.svg?7f60eb",
+      "aliases": [
+        "heavy machine gun",
+        "hmg",
+        "mg-206 heavy machine gun",
+        "mg-206 schwer maschinen gewehr",
+        "schweres maschinengewehr"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Das schwere Maschinengewehr zerkleinert mit AP 4 mittlere Gegner und Fahrzeuge, solange du feuern kannst. Der Rückstoß zwingt dich in den Stand, und der Reload ist langsam.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "AP 4 und hohe Feuerrate",
+        "Gut gegen mittlere Ziele",
+        "Große Reichweite"
+      ],
+      "schwaechen": [
+        "Langsames Nachladen im Stand",
+        "Wenig mobil"
+      ]
+    },
+    {
+      "id": "mg_43_machine_gun",
+      "name": "MG-43 Machine Gun",
+      "category": "support",
+      "code": "DLDUR",
+      "cooldown": 480,
+      "unlock_level": 1,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/mg_43_machine_gun.svg",
+      "icon_source": "/images/Machine_Gun_Stratagem_Icon_Background.svg?35fc07",
+      "aliases": [
+        "machine gun",
+        "maschinengewehr",
+        "mg 43",
+        "mg-43 machine gun",
+        "mg-43 maschinen gewehr"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Das Standard-Maschinengewehr mäht leichte Gegner und Schwärme auf mittlere Distanz nieder. AP 3 reicht nicht an schwere Panzerung heran.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Große Magazine",
+        "Ideal gegen leichte Schwärme",
+        "Einfach zu bedienen"
+      ],
+      "schwaechen": [
+        "Nur AP 3",
+        "Langsamer Reload"
+      ]
+    },
+    {
+      "id": "mgx_42_bullet_storm",
+      "name": "MGX-42 Bullet Storm",
+      "category": "support",
+      "code": "DLDRUL",
+      "cooldown": 70,
+      "unlock_level": null,
+      "unlock_source": "Exo Experts P1",
+      "icon": "icons/mgx_42_bullet_storm.svg",
+      "icon_source": "/images/Bullet_Storm_Stratagem_Icon_Background.svg?97328f",
+      "aliases": [
+        "bullet storm",
+        "mgx-42 bullet storm"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Wirft zwei Einweg-Maschinengewehre ab, die je ein großes Magazin für leichte Ziele haben. Nach dem Leerschießen bleiben nur leere Waffen zurück.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Zwei Waffen pro Abwurf",
+        "Viel Munition für leichte Gegner",
+        "Nur 70 s Cooldown"
+      ],
+      "schwaechen": [
+        "Einweg",
+        "Nur AP 3"
+      ]
+    },
+    {
+      "id": "mls_4x_commando",
+      "name": "MLS-4X Commando",
+      "category": "support",
+      "code": "DLUDR",
+      "cooldown": 120,
+      "unlock_level": 15,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/mls_4x_commando.svg",
+      "icon_source": "/images/Commando_Stratagem_Icon_Background.svg?6ea896",
+      "aliases": [
+        "mls-4x commando",
+        "mls-4x kommando"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Gelenkt"
+      ],
+      "beschreibung": "Die Commando feuert vier gelenkte Raketen, die du einzeln auf Ziele leitest; sie knackt mittlere und schwere Panzerung. Du musst die Raketen manuell ins Ziel führen.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Vier gelenkte Raketen",
+        "AP 6",
+        "Kurzer Cooldown (120 s)"
+      ],
+      "schwaechen": [
+        "Manuelle Zielsteuerung",
+        "Wenig Wirkung gegen Schwärme"
+      ]
+    },
+    {
+      "id": "ms_11_solo_silo",
+      "name": "MS-11 Solo Silo",
+      "category": "support",
+      "code": "DURDD",
+      "cooldown": 180,
+      "unlock_level": null,
+      "unlock_source": "Dust Devils P3",
+      "icon": "icons/ms_11_solo_silo.svg",
+      "icon_source": "/images/Solo_Silo_Stratagem_Icon_Background.svg?69f961",
+      "aliases": [
+        "ms-11 solo silo",
+        "solo silo"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 8,
+      "traits": [
+        "Gelenkt",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein Einweg-Raketensilo, das sich im Boden verankert und über ein Zielgerät eine starke gelenkte Rakete startet. Es braucht Aufbauzeit und trifft nur ein Ziel.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 8 und große Reichweite",
+        "Gelenkte Rakete",
+        "Einmaliger starker Treffer"
+      ],
+      "schwaechen": [
+        "Nur ein Schuss",
+        "Aufbau- und Zielzeit"
+      ]
+    },
+    {
+      "id": "plas_45_epoch",
+      "name": "PLAS-45 Epoch",
+      "category": "support",
+      "code": "DLULR",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Control Group P1",
+      "icon": "icons/plas_45_epoch.svg",
+      "icon_source": "/images/Epoch_Stratagem_Icon_Background.svg?bfe6b1",
+      "aliases": [
+        "epoch",
+        "plas-45 epoch",
+        "plas-45 epoche"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Explosiv",
+        "Laser"
+      ],
+      "beschreibung": "Eine Plasma-Waffe, deren Schuss beim Aufladen an Durchschlag und Schaden gewinnt; voll aufgeladen durchschlägt sie schwere Panzerung. Ungeladen ist sie schwach, und die Aufladezeit kostet Tempo.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Aufladbar bis schwere Panzerung",
+        "Guter Einzelschaden",
+        "Plasma trifft Schwachpunkte"
+      ],
+      "schwaechen": [
+        "Aufladezeit",
+        "Schwacher ungeladener Schuss"
+      ]
+    },
+    {
+      "id": "rl_77_airburst_rocket_launcher",
+      "name": "RL-77 Airburst Rocket Launcher",
+      "category": "support",
+      "code": "DUULR",
+      "cooldown": 480,
+      "unlock_level": 15,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/rl_77_airburst_rocket_launcher.svg",
+      "icon_source": "/images/Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg?6755a7",
+      "aliases": [
+        "airburst rocket launcher",
+        "rl-77 airburst rocket launcher",
+        "rl-77 luftburst rakete werfer"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Explosiv",
+        "Gelenkt"
+      ],
+      "beschreibung": "Der Airburst-Raketenwerfer schießt eine Rakete, die kurz vor dem Ziel in Cluster-Sprengköpfe zerfällt und leichte bis mittlere Gruppen auslöscht. Im Nahbereich ist der Splitterregen tödlich für dich.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Große Flächenwirkung",
+        "Gut gegen Gruppen",
+        "Gelenkte Rakete"
+      ],
+      "schwaechen": [
+        "AP 4 gegen schwere Ziele zu wenig",
+        "Eigengefahr durch Cluster"
+      ]
+    },
+    {
+      "id": "rs_422_railgun",
+      "name": "RS-422 Railgun",
+      "category": "support",
+      "code": "DRDULR",
+      "cooldown": 480,
+      "unlock_level": 20,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/rs_422_railgun.svg",
+      "icon_source": "/images/Railgun_Stratagem_Icon_Background.svg?7030a2",
+      "aliases": [
+        "railgun",
+        "rs-422 railgun"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 8,
+      "traits": [
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Die Railgun verschießt einen aufgeladenen Schuss mit AP 8, der schwere Panzerung und Schwachpunkte durchschlägt. Im unsicheren Modus riskierst du eine Explosion, und die Ladezeit macht dich langsam.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 8 auf Distanz",
+        "One-Shot auf Schwachpunkte",
+        "Präzise"
+      ],
+      "schwaechen": [
+        "Aufladen und Überhitzungsrisiko",
+        "Langsame Schussfolge"
+      ]
+    },
+    {
+      "id": "s_11_speargun",
+      "name": "S-11 Speargun",
+      "category": "support",
+      "code": "DRDLUR",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Dust Devils P2",
+      "icon": "icons/s_11_speargun.svg",
+      "icon_source": "/images/Speargun_Stratagem_Icon_Background.svg?2f0be9",
+      "aliases": [
+        "s-11 speargun",
+        "s-11 speerpistole",
+        "speargun"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Die Speargun verschießt Harpunen mit enormer Rückstoßkraft, die beim Aufprall eine Gaswolke freisetzen. Sie ist langsam und für Schwärme ungeeignet.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "AP 7 und starke Verdrängung",
+        "Gaswolke beim Einschlag",
+        "Präzise"
+      ],
+      "schwaechen": [
+        "Langsame Einzelschüsse",
+        "Wenig Flächenwirkung"
+      ]
+    },
+    {
+      "id": "sta_x3_w_a_s_p_launcher",
+      "name": "StA-X3 W.A.S.P. Launcher",
+      "category": "support",
+      "code": "DDUDR",
+      "cooldown": 480,
+      "unlock_level": 20,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/sta_x3_w_a_s_p_launcher.svg",
+      "icon_source": "/images/W.A.S.P._Launcher_Stratagem_Icon_Background.svg?a33ba8",
+      "aliases": [
+        "sta-x3 w a s p werfer",
+        "sta-x3 w.a.s.p. launcher"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 5,
+      "traits": [
+        "Gelenkt"
+      ],
+      "beschreibung": "Der W.A.S.P. feuert gelenkte Mikroraketen in zwei Modi auf mehrere Ziele gleichzeitig und ist stark gegen mittlere und schwere Gegner. Die Salven brauchen Zielerfassung, und im Getümmel gehen Raketen verloren.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Gelenkte Salven auf mehrere Ziele",
+        "AP 5",
+        "Zwei Feuermodi"
+      ],
+      "schwaechen": [
+        "Zielerfassung nötig",
+        "Begrenzte Munition"
+      ]
+    },
+    {
+      "id": "tx_41_sterilizer",
+      "name": "TX-41 Sterilizer",
+      "category": "support",
+      "code": "DLUDL",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Chemical Agents P2",
+      "icon": "icons/tx_41_sterilizer.svg",
+      "icon_source": "/images/Sterilizer_Stratagem_Icon_Background.svg?a42db7",
+      "aliases": [
+        "sterilizer",
+        "tx-41 sterilisator",
+        "tx-41 sterilizer"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 1,
+      "traits": [
+        "Gas"
+      ],
+      "beschreibung": "Der Sterilizer sprüht Gas, das Gegner über Zeit schädigt und verwirrt, statt sie sofort zu töten. Die Reichweite ist kurz, und der Schaden gegen Panzerung minimal.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Verwirrt ganze Gruppen",
+        "Gute Crowd-Kontrolle",
+        "Kontinuierlicher Gasstrahl"
+      ],
+      "schwaechen": [
+        "Sehr geringer Schaden",
+        "Kurze Reichweite"
+      ]
+    },
+    {
+      "id": "ax_ar_23_guard_dog",
+      "name": "AX/AR-23 Guard Dog",
+      "category": "backpack",
+      "code": "DULURD",
+      "cooldown": 480,
+      "unlock_level": 10,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/ax_ar_23_guard_dog.svg",
+      "icon_source": "/images/Guard_Dog_Stratagem_Icon_Background.svg?eb2b15",
+      "aliases": [
+        "ax/ar-23 guard dog",
+        "ax/ar-23 wach hund",
+        "guard dog",
+        "wachhund"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Drohne",
+        "Automatik"
+      ],
+      "beschreibung": "Ein Drohnen-Rucksack mit AR-23, der selbstständig Ziele beschießt und bei leerem Magazin zu dir zurückkehrt. Die Drohne braucht Zeit zum Nachladen und kann nicht gezielt gesteuert werden.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Automatische Feuerunterstützung",
+        "Verbraucht keine eigene Munition",
+        "Gut gegen leichte Gegner"
+      ],
+      "schwaechen": [
+        "Muss zum Nachladen zurück",
+        "Trifft nicht immer das gewünschte Ziel"
+      ]
+    },
+    {
+      "id": "ax_arc_3_k_9",
+      "name": "AX/ARC-3 K-9",
+      "category": "backpack",
+      "code": "DULURL",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Force of Law P3",
+      "icon": "icons/ax_arc_3_k_9.svg",
+      "icon_source": "/images/K-9_Stratagem_Icon_Background.svg?3ed7fe",
+      "aliases": [
+        "ax/arc-3 k-9",
+        "k-9"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Drohne",
+        "Elektro"
+      ],
+      "beschreibung": "Ein Drohnen-Rucksack mit Arc Thrower, der Gegner automatisch unter Strom setzt und betäubt. Die Drohne kämpft nur im Nahbereich und lädt zwischen den Entladungen nach.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Betäubt Gegner automatisch",
+        "Elektro-Schaden",
+        "Entlastet im Nahkampf"
+      ],
+      "schwaechen": [
+        "Kurze Reichweite",
+        "Lange Ladezyklen"
+      ]
+    },
+    {
+      "id": "ax_flam_75_hot_dog",
+      "name": "AX/FLAM-75 Hot Dog",
+      "category": "backpack",
+      "code": "DULULL",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Python Commandos P1",
+      "icon": "icons/ax_flam_75_hot_dog.svg",
+      "icon_source": "/images/Hot_Dog_Stratagem_Icon_Background.svg?c8e42d",
+      "aliases": [
+        "ax/flam-75 hot dog",
+        "ax/flam-75 hot hund",
+        "hot dog"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Drohne",
+        "Feuer"
+      ],
+      "beschreibung": "Ein Drohnen-Rucksack mit Flammenwerfer, der nahe Gegner automatisch anzündet. Die Drohne ist kurzreichweitig und kann dich mit dem Feuerstrahl treffen.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Automatisches Anzünden",
+        "Gut gegen leichte Schwärme",
+        "Zonenkontrolle"
+      ],
+      "schwaechen": [
+        "Sehr kurze Reichweite",
+        "Eigengefahr durch Feuer"
+      ]
+    },
+    {
+      "id": "ax_las_5_rover",
+      "name": "AX/LAS-5 Rover",
+      "category": "backpack",
+      "code": "DULURR",
+      "cooldown": 480,
+      "unlock_level": 10,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/ax_las_5_rover.svg",
+      "icon_source": "/images/Rover_Stratagem_Icon_Background.svg?12ad26",
+      "aliases": [
+        "ax/las-5 rover",
+        "rover"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Drohne",
+        "Laser"
+      ],
+      "beschreibung": "Ein Drohnen-Rucksack mit Laser, der Ziele selbstständig beschießt und nicht nachladen muss, aber überhitzt. Der Rover ist auf einzelne Ziele spezialisiert.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Keine Munition nötig",
+        "Automatischer Laserbeschuss",
+        "Gut gegen leichte und mittlere Ziele"
+      ],
+      "schwaechen": [
+        "Überhitzt bei Dauerfeuer",
+        "Nicht steuerbar"
+      ]
+    },
+    {
+      "id": "ax_tx_13_dog_breath",
+      "name": "AX/TX-13 Dog Breath",
+      "category": "backpack",
+      "code": "DULURU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Chemical Agents P3",
+      "icon": "icons/ax_tx_13_dog_breath.svg",
+      "icon_source": "/images/Dog_Breath_Stratagem_Icon_Background.svg?b93a24",
+      "aliases": [
+        "ax/tx-13 dog breath",
+        "ax/tx-13 hund breath",
+        "dog breath"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 1,
+      "traits": [
+        "Drohne",
+        "Gas"
+      ],
+      "beschreibung": "Ein Drohnen-Rucksack, der Gaswolken auf Gegner sprüht und sie vergiftet und verwirrt. Die Drohne tötet langsam und ist im Nahkampf schnell überfordert.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Verwirrt Gruppen",
+        "Automatischer Gaseinsatz",
+        "Gute Crowd-Kontrolle"
+      ],
+      "schwaechen": [
+        "Geringer Schaden",
+        "Gas gefährdet auch Helldiver"
+      ]
+    },
+    {
+      "id": "b_1_supply_pack",
+      "name": "B-1 Supply Pack",
+      "category": "backpack",
+      "code": "DLDUUD",
+      "cooldown": 480,
+      "unlock_level": 1,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/b_1_supply_pack.svg",
+      "icon_source": "/images/Supply_Pack_Stratagem_Icon_Background.svg?6f6c53",
+      "aliases": [
+        "b-1 nachschub paket",
+        "b-1 supply pack",
+        "nachschubpaket",
+        "supply pack"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Versorgung"
+      ],
+      "beschreibung": "Ein Rucksack mit vier Versorgungspaketen, die Munition, Stim und Granaten auffüllen. Du teilst sie mit dem Team, musst aber an die Kisten heran.",
+      "rolle": "Versorgung",
+      "staerken": [
+        "Füllt Munition, Stim und Granaten auf",
+        "Versorgt das ganze Team",
+        "Unabhängig vom Resupply-Cooldown"
+      ],
+      "schwaechen": [
+        "Begrenzte Anzahl Pakete",
+        "Nur über Interaktion nutzbar"
+      ]
+    },
+    {
+      "id": "b_100_portable_hellbomb",
+      "name": "B-100 Portable Hellbomb",
+      "category": "backpack",
+      "code": "DRUUU",
+      "cooldown": 300,
+      "unlock_level": null,
+      "unlock_source": "Servants of Freedom P3",
+      "icon": "icons/b_100_portable_hellbomb.svg",
+      "icon_source": "/images/Portable_Hellbomb_Stratagem_Icon_Background.svg?e8bd76",
+      "aliases": [
+        "b-100 portable hellbomb",
+        "b-100 portable höllenbombe",
+        "portable hellbomb"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 8,
+      "traits": [
+        "Explosiv",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Eine tragbare Hellbomb im Rucksack, die du platzierst und mit kurzer Zündverzögerung detonieren lässt; die Explosion zerstört Ziele und Strukturen, tötet aber alles im Umkreis. Du musst rechtzeitig wegkommen.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Gewaltige Sprengkraft",
+        "Zerstört Missionziele und Jammers",
+        "Überall einsetzbar"
+      ],
+      "schwaechen": [
+        "Tödlich für dich und dein Team",
+        "Lange Zündverzögerung"
+      ]
+    },
+    {
+      "id": "b_flam_80_cremator",
+      "name": "B/FLAM-80 Cremator",
+      "category": "backpack",
+      "code": "DDRDUU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Entrenched Division P3",
+      "icon": "icons/b_flam_80_cremator.svg",
+      "icon_source": "/images/Cremator_Stratagem_Icon_Background.svg?ce54a7",
+      "aliases": [
+        "b/flam-80 cremator",
+        "b/flam-80 einäscherer",
+        "cremator"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Feuer"
+      ],
+      "beschreibung": "Ein schlauchgeführter Doppelflammenwerfer mit Treibstoffrucksack, der ohne Nachladen Dauerfeuer gibt. Kurze Reichweite und Feuer gefährden dich selbst.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Dauerfeuer ohne Nachladen",
+        "Große Flammenfläche",
+        "Gut gegen Schwärme"
+      ],
+      "schwaechen": [
+        "Sehr kurze Reichweite",
+        "Selbstentzündung möglich"
+      ]
+    },
+    {
+      "id": "b_md_c4_pack",
+      "name": "B/MD C4 Pack",
+      "category": "backpack",
+      "code": "DRUURU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Redacted Regiment P3",
+      "icon": "icons/b_md_c4_pack.svg",
+      "icon_source": "/images/C4_Pack_Stratagem_Icon_Background.svg?bfb8f2",
+      "aliases": [
+        "b/md c4 pack",
+        "b/md c4 paket"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Rucksack mit mehreren C4-Ladungen, die du einzeln oder gleichzeitig zündest; sie zerlegen Fahrzeuge, Strukturen und schwere Gegner. Du musst die Ladungen vorher anbringen.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Hoher Sprengschaden",
+        "Einzeln oder gebündelt zündbar",
+        "Zerstört Strukturen"
+      ],
+      "schwaechen": [
+        "Ladungen müssen platziert werden",
+        "Eigengefahr im Sprengradius"
+      ]
+    },
+    {
+      "id": "lift_182_warp_pack",
+      "name": "LIFT-182 Warp Pack",
+      "category": "backpack",
+      "code": "DLRDLR",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Control Group P3",
+      "icon": "icons/lift_182_warp_pack.svg",
+      "icon_source": "/images/Warp_Pack_Stratagem_Icon_Background.svg?b27510",
+      "aliases": [
+        "lift-182 warp pack",
+        "lift-182 warp paket",
+        "warp pack"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Mobilität"
+      ],
+      "beschreibung": "Ein Rucksack, der dich auf Knopfdruck ein Stück durch Gelände und Gegner teleportiert; Gegner auf der Bahn können sterben. Nach dem Warp musst du auf den Cooldown warten.",
+      "rolle": "Mobilität",
+      "staerken": [
+        "Teleport durch Hindernisse",
+        "Tötet Gegner auf der Bahn",
+        "Schneller Stellungswechsel"
+      ],
+      "schwaechen": [
+        "Langer Cooldown",
+        "Nur kurze Distanz"
+      ]
+    },
+    {
+      "id": "lift_850_jump_pack",
+      "name": "LIFT-850 Jump Pack",
+      "category": "backpack",
+      "code": "DUUDU",
+      "cooldown": 480,
+      "unlock_level": 8,
+      "unlock_source": "Hangar",
+      "icon": "icons/lift_850_jump_pack.svg",
+      "icon_source": "/images/Jump_Pack_Stratagem_Icon_Background.svg?464278",
+      "aliases": [
+        "jump pack",
+        "lift-850 jump pack",
+        "lift-850 sprung paket",
+        "sprung rucksack",
+        "sprungpaket"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Mobilität"
+      ],
+      "beschreibung": "Ein Sprungrucksack, der dich über Hindernisse und aus Gefahren katapultiert. Der Sprung macht dich kurzzeitig zum leichten Ziel, und danach musst du auf den Cooldown warten.",
+      "rolle": "Mobilität",
+      "staerken": [
+        "Überwindet Hindernisse",
+        "Schnelle Flucht",
+        "Gute vertikale Mobilität"
+      ],
+      "schwaechen": [
+        "Langer Cooldown",
+        "Kein Schutz in der Luft"
+      ]
+    },
+    {
+      "id": "lift_860_hover_pack",
+      "name": "LIFT-860 Hover Pack",
+      "category": "backpack",
+      "code": "DUUDLR",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "Borderline Justice P3",
+      "icon": "icons/lift_860_hover_pack.svg",
+      "icon_source": "/images/Hover_Pack_Stratagem_Icon_Background.svg?63fe63",
+      "aliases": [
+        "hover pack",
+        "lift-860 hover pack",
+        "lift-860 schwebe paket"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Mobilität"
+      ],
+      "beschreibung": "Ein Rucksack, der dich etwa sechs Sekunden schweben lässt, um erhöhte Positionen zu erreichen oder Beschuss auszuweichen. Danach musst du auf die Aufladung warten.",
+      "rolle": "Mobilität",
+      "staerken": [
+        "Erreicht hohe Positionen",
+        "Ausweichen in der Luft",
+        "Gute Mobilität"
+      ],
+      "schwaechen": [
+        "Nur kurze Schwebezeit",
+        "Lange Aufladephase"
+      ]
+    },
+    {
+      "id": "sh_20_ballistic_shield_backpack",
+      "name": "SH-20 Ballistic Shield Backpack",
+      "category": "backpack",
+      "code": "DLDDUL",
+      "cooldown": 240,
+      "unlock_level": 12,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/sh_20_ballistic_shield_backpack.svg",
+      "icon_source": "/images/Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg?6697d4",
+      "aliases": [
+        "ballistic shield backpack",
+        "ballistischer schild",
+        "schildrucksack",
+        "sh-20 ballistic shield backpack",
+        "sh-20 ballistisch schild rucksack"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Schild"
+      ],
+      "beschreibung": "Ein ballistischer Schutzschild, den du mit einer Einhandwaffe vor dir trägst und der Kugeln abfängt. Explosionen und Nahkampf durchschlagen ihn, und er schränkt deine Waffenwahl ein.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Blockt Beschuss von vorn",
+        "Schützt beim Vorrücken",
+        "Kombinierbar mit Einhandwaffen"
+      ],
+      "schwaechen": [
+        "Kein Schutz gegen Explosionen und Nahkampf",
+        "Nur Einhandwaffen nutzbar"
+      ]
+    },
+    {
+      "id": "sh_32_shield_generator_pack",
+      "name": "SH-32 Shield Generator Pack",
+      "category": "backpack",
+      "code": "DULRLR",
+      "cooldown": 480,
+      "unlock_level": 20,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/sh_32_shield_generator_pack.svg",
+      "icon_source": "/images/Shield_Generator_Pack_Stratagem_Icon_Background.svg?2f4980",
+      "aliases": [
+        "schild rucksack",
+        "schildgenerator",
+        "schildpaket",
+        "sh-32 schild generator paket",
+        "sh-32 shield generator pack",
+        "shield generator pack"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Schild"
+      ],
+      "beschreibung": "Ein Rucksack, der eine Energiekuppel um dich aufspannt und dich vor Beschuss und Explosionen schützt, bis sie zusammenbricht. Danach musst du auf die Regeneration warten.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Schützt vor Beschuss und Explosionen",
+        "Regeneriert",
+        "Gut für Revives"
+      ],
+      "schwaechen": [
+        "Kuppel bricht unter Dauerfeuer",
+        "Lange Regenerationszeit"
+      ]
+    },
+    {
+      "id": "sh_51_directional_shield",
+      "name": "SH-51 Directional Shield",
+      "category": "backpack",
+      "code": "DULRUU",
+      "cooldown": 300,
+      "unlock_level": null,
+      "unlock_source": "Urban Legends P1",
+      "icon": "icons/sh_51_directional_shield.svg",
+      "icon_source": "/images/Directional_Shield_Stratagem_Icon_Background.svg?a0bd68",
+      "aliases": [
+        "directional shield",
+        "sh-51 directional shield",
+        "sh-51 gerichtet schild"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Schild"
+      ],
+      "beschreibung": "Ein Rucksack, der eine breite Energiescheibe vor dir aufspannt, solange du eine Einhandwaffe führst. Sie schützt nur nach vorn und nur mit der richtigen Waffe.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Breiter Frontalschutz",
+        "Beweglich einsetzbar",
+        "Gut beim Vorrücken"
+      ],
+      "schwaechen": [
+        "Nur mit Einhandwaffe aktiv",
+        "Kein Schutz von hinten"
+      ]
+    },
+    {
+      "id": "exo_45_patriot_exosuit",
+      "name": "EXO-45 Patriot Exosuit",
+      "category": "vehicle",
+      "code": "LDRULDD",
+      "cooldown": 420,
+      "unlock_level": 25,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/exo_45_patriot_exosuit.svg",
+      "icon_source": "/images/Patriot_Exosuit_Stratagem_Icon_Background.svg?3fa7de",
+      "aliases": [
+        "exo-45 patriot exoanzug",
+        "exo-45 patriot exosuit",
+        "exoanzug",
+        "mech",
+        "patriot exoanzug",
+        "patriot exosuit"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Fahrzeug",
+        "Automatik"
+      ],
+      "beschreibung": "Ein Exoanzug mit Minigun und Raketenwerfer, der schwere Feuerkraft auf zwei Beinen liefert. Der Anzug ist langsam, hat begrenzte Munition und ist kein Ersatz für echte Panzerung.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Minigun plus Raketen",
+        "Gut gegen Gruppen und mittlere Ziele",
+        "Viel Feuerkraft in kurzer Zeit"
+      ],
+      "schwaechen": [
+        "Langsam und großes Ziel",
+        "Begrenzte Munition"
+      ]
+    },
+    {
+      "id": "exo_49_emancipator_exosuit",
+      "name": "EXO-49 Emancipator Exosuit",
+      "category": "vehicle",
+      "code": "LDRULDU",
+      "cooldown": 420,
+      "unlock_level": 25,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/exo_49_emancipator_exosuit.svg",
+      "icon_source": "/images/Emancipator_Exosuit_Stratagem_Icon_Background.svg?336419",
+      "aliases": [
+        "emancipator exosuit",
+        "emanzipator exoanzug",
+        "exo-49 emancipator exosuit",
+        "exo-49 emanzipator exoanzug"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Fahrzeug",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein Exoanzug mit zwei Autokanonen, der mittlere und schwere Ziele auf Distanz zerlegt. Er ist langsam, schlecht gepanzert und nach leergeschossener Munition nutzlos.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Zwei Autokanonen",
+        "Große Reichweite",
+        "Gut gegen schwere Ziele"
+      ],
+      "schwaechen": [
+        "Langsam und verwundbar",
+        "Begrenzte Munition"
+      ]
+    },
+    {
+      "id": "exo_51_lumberer_exosuit",
+      "name": "EXO-51 Lumberer Exosuit",
+      "category": "vehicle",
+      "code": "LDRURLU",
+      "cooldown": 420,
+      "unlock_level": null,
+      "unlock_source": "Exo Experts P2",
+      "icon": "icons/exo_51_lumberer_exosuit.svg",
+      "icon_source": "/images/Lumberer_Exosuit_Stratagem_Icon_Background.svg?c3895f",
+      "aliases": [
+        "exo-51 holzfäller exoanzug",
+        "exo-51 lumberer exosuit",
+        "lumberer exosuit"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 5,
+      "traits": [
+        "Fahrzeug",
+        "Automatik"
+      ],
+      "beschreibung": "Ein Exoanzug mit Panzerabwehrkanone am rechten und Flammenwerfer am linken Arm; er deckt Fahrzeuge und Infanterie gleichzeitig ab. Der Anzug ist schwerfällig und ein großes Ziel.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Panzerabwehr plus Flammenwerfer",
+        "Gemischt gegen Fahrzeuge und Infanterie",
+        "Viel Feuerkraft"
+      ],
+      "schwaechen": [
+        "Sehr langsam",
+        "Kurze Flammenreichweite"
+      ]
+    },
+    {
+      "id": "exo_55_breakthrough_exosuit",
+      "name": "EXO-55 Breakthrough Exosuit",
+      "category": "vehicle",
+      "code": "LDRLRDU",
+      "cooldown": 420,
+      "unlock_level": null,
+      "unlock_source": "Exo Experts P3",
+      "icon": "icons/exo_55_breakthrough_exosuit.svg",
+      "icon_source": "/images/Breakthrough_Exosuit_Stratagem_Icon_Background.svg?d9bc7c",
+      "aliases": [
+        "breakthrough exosuit",
+        "exo-55 breakthrough exosuit",
+        "exo-55 durchbruch exoanzug"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Fahrzeug",
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Exoanzug mit schwerer Flak-Kanone und massivem Ballistikschild, der Beschuss einsteckt und austeilt. Der Schild schützt nur vorn, und der Anzug bleibt langsam.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Flak-Kanone mit Flächenwirkung",
+        "Ballistikschild schützt vorn",
+        "Robust im Vorrücken"
+      ],
+      "schwaechen": [
+        "Langsam und schwerfällig",
+        "Schild deckt nur die Front"
+      ]
+    },
+    {
+      "id": "m_102_gunner_frv",
+      "name": "M-102 Gunner FRV",
+      "category": "vehicle",
+      "code": "LDRDRDU",
+      "cooldown": 480,
+      "unlock_level": 25,
+      "unlock_source": "Hangar",
+      "icon": "icons/m_102_gunner_frv.svg",
+      "icon_source": "/images/Fast_Recon_Vehicle_Stratagem_Icon_Background.svg?d9bba1",
+      "aliases": [
+        "frv",
+        "gunner fahrzeug",
+        "gunner frv",
+        "m-102 gunner frv"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Fahrzeug",
+        "Automatik"
+      ],
+      "beschreibung": "Ein schneller vierrädriger Aufklärungswagen mit MG-206, der dich und dein Team mobil hält und Feuerunterstützung gibt. Das Fahrzeug ist ungepanzert und explodiert schnell.",
+      "rolle": "Mobilität",
+      "staerken": [
+        "Schnell und wendig",
+        "MG-206 als Bordwaffe",
+        "Transportiert das Team"
+      ],
+      "schwaechen": [
+        "Kaum gepanzert",
+        "Fahrer und Schütze exponiert"
+      ]
+    },
+    {
+      "id": "m_103_supply_frv",
+      "name": "M-103 Supply FRV",
+      "category": "vehicle",
+      "code": "LDLLDUR",
+      "cooldown": 480,
+      "unlock_level": 1,
+      "unlock_source": "Hanger",
+      "icon": "icons/m_103_supply_frv.svg",
+      "icon_source": "/images/Supply_FRV_Stratagem_Icon_Background.svg?415445",
+      "aliases": [
+        "m-103 nachschub frv",
+        "m-103 supply frv",
+        "supply frv"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Fahrzeug",
+        "Versorgung"
+      ],
+      "beschreibung": "Ein vierrädriger Versorgungswagen mit Vorräten und automatischem Turm, der das Team mobil versorgt. Der Wagen ist ungepanzert und der Turm ersetzt keine echte Deckung.",
+      "rolle": "Versorgung",
+      "staerken": [
+        "Mobile Versorgung",
+        "Automatischer Turm",
+        "Schneller Stellungswechsel"
+      ],
+      "schwaechen": [
+        "Ungepanzert",
+        "Begrenzte Vorräte"
+      ]
+    },
+    {
+      "id": "m_104_incinerator_frv",
+      "name": "M-104 Incinerator FRV",
+      "category": "vehicle",
+      "code": "LDRLDUU",
+      "cooldown": 480,
+      "unlock_level": null,
+      "unlock_source": "N/A",
+      "icon": "icons/m_104_incinerator_frv.svg",
+      "icon_source": "/images/Incinerator_FRV_Stratagem_Icon_Background.svg?f5764f",
+      "aliases": [
+        "incinerator frv",
+        "m-104 incinerator frv"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Fahrzeug",
+        "Feuer"
+      ],
+      "beschreibung": "Ein gepanzerter vierrädriger Wagen mit Rammgitter und montiertem Cremator, der sich durch Infanterie pflügt. Das Fahrzeug ist groß, laut und im Nahkampf schnell überfordert.",
+      "rolle": "Mobilität",
+      "staerken": [
+        "Rammgitter plus Flammenwerfer",
+        "Gut gegen Infanterie",
+        "Schnell"
+      ],
+      "schwaechen": [
+        "Großes Ziel",
+        "Kurze Flammenreichweite"
+      ]
+    },
+    {
+      "id": "m_105_stalwart",
+      "name": "M-105 Stalwart",
+      "category": "support",
+      "code": "DLDUUL",
+      "cooldown": 480,
+      "unlock_level": 1,
+      "unlock_source": "Patriotic Administration Center",
+      "icon": "icons/m_105_stalwart.svg",
+      "icon_source": "/images/Stalwart_Stratagem_Icon_Background.svg?89f988",
+      "aliases": [
+        "m-105 stalwart",
+        "stalwart"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Fahrzeug",
+        "Automatik"
+      ],
+      "beschreibung": "Das M-105 Stalwart ist ein leichtes Maschinengewehr mit hoher Feuerrate und großem Magazin, das leichte Gegner und Schwärme niedermäht. AP 3 reicht nicht an schwere Panzerung.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Hohe Feuerrate",
+        "Großes Magazin",
+        "Leicht zu kontrollieren"
+      ],
+      "schwaechen": [
+        "Nur AP 3",
+        "Wenig Wirkung gegen schwere Ziele"
+      ]
+    },
+    {
+      "id": "td_110_maelstrom",
+      "name": "TD-110 Maelstrom",
+      "category": "vehicle",
+      "code": "LDRDLDULR",
+      "cooldown": 780,
+      "unlock_level": null,
+      "unlock_source": "Armored Eagle",
+      "icon": "icons/td_110_maelstrom.svg",
+      "icon_source": "/images/Maelstrom_Stratagem_Icon_Background.svg?23094c",
+      "aliases": [
+        "maelstrom",
+        "td-110 maelstrom"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Fahrzeug",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein Kettenfahrzeug mit zwei dreiläufigen Rotationsgeschützen und lasergeführten Raketen, das Infanterie und Fahrzeuge gleichzeitig bekämpft. Es ist langsam, groß und braucht offenes Gelände.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "Rotationsgeschütze plus Raketen",
+        "Starke Feuerkraft",
+        "Panzerbrechend"
+      ],
+      "schwaechen": [
+        "Langsam und groß",
+        "780 s Cooldown"
+      ]
+    },
+    {
+      "id": "td_220_bastion_mk_xvi",
+      "name": "TD-220 Bastion MK XVI",
+      "category": "vehicle",
+      "code": "LDRDLDUDU",
+      "cooldown": 780,
+      "unlock_level": 30,
+      "unlock_source": "Hangar",
+      "icon": "icons/td_220_bastion_mk_xvi.svg",
+      "icon_source": "/images/Bastion_MK_XVI_Stratagem_Icon_Background.svg?9de952",
+      "aliases": [
+        "bastion mk xvi",
+        "td-220 bastion mk xvi"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Fahrzeug",
+        "Automatik"
+      ],
+      "beschreibung": "Ein Kettenfahrzeug mit 120-mm-HV-Kanone und koaxialem MG, das auf Distanz schwere Ziele und Strukturen zerlegt. Es ist langsam, schwer und braucht freie Schusslinie.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "120-mm-Kanone mit AP 6",
+        "Große Reichweite",
+        "Zerstört Strukturen"
+      ],
+      "schwaechen": [
+        "Langsam und schwerfällig",
+        "Langer Cooldown"
+      ]
+    },
+    {
+      "id": "a_ac_8_autocannon_sentry",
+      "name": "A/AC-8 Autocannon Sentry",
+      "category": "sentry",
+      "code": "DURULU",
+      "cooldown": 150,
+      "unlock_level": 13,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/a_ac_8_autocannon_sentry.svg",
+      "icon_source": "/images/Autocannon_Sentry_Stratagem_Icon_Background.svg?428b69",
+      "aliases": [
+        "a/ac-8 autocannon sentry",
+        "a/ac-8 autokanone geschütz",
+        "autocannon sentry",
+        "autokanone geschütz"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 5,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Ein Geschützturm mit Autokanonen, der selbstständig mittlere und schwere Ziele beschießt. Er hat begrenzte Munition und braucht freies Schussfeld.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "AP 5 gegen mittlere und schwere Ziele",
+        "Automatisches Zielen",
+        "Große Reichweite"
+      ],
+      "schwaechen": [
+        "Begrenzte Munition",
+        "Braucht offenes Schussfeld"
+      ]
+    },
+    {
+      "id": "a_arc_3_tesla_tower",
+      "name": "A/ARC-3 Tesla Tower",
+      "category": "sentry",
+      "code": "DURULR",
+      "cooldown": 120,
+      "unlock_level": 15,
+      "unlock_source": "Bridge",
+      "icon": "icons/a_arc_3_tesla_tower.svg",
+      "icon_source": "/images/Tesla_Tower_Stratagem_Icon_Background.svg?a40a2e",
+      "aliases": [
+        "a/arc-3 tesla tower",
+        "a/arc-3 tesla turm",
+        "tesla",
+        "tesla tower",
+        "tesla turm"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Elektro"
+      ],
+      "beschreibung": "Ein Teslaturm, der ein elektrisches Feld aufbaut und Gegner betäubt und schädigt. Das Feld trifft auch Helldiver, und der Turm ist zerbrechlich.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Flächige Elektro-Schäden",
+        "Betäubt Gegner",
+        "Günstiger Cooldown (120 s)"
+      ],
+      "schwaechen": [
+        "Trifft auch Spieler",
+        "Zerbrechlich"
+      ]
+    },
+    {
+      "id": "a_flam_40_flame_sentry",
+      "name": "A/FLAM-40 Flame Sentry",
+      "category": "sentry",
+      "code": "DURDUU",
+      "cooldown": 100,
+      "unlock_level": null,
+      "unlock_source": "Urban Legends P2",
+      "icon": "icons/a_flam_40_flame_sentry.svg",
+      "icon_source": "/images/Flame_Sentry_Stratagem_Icon_Background.svg?9214db",
+      "aliases": [
+        "a/flam-40 flame geschütz",
+        "a/flam-40 flame sentry",
+        "flame sentry"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Feuer"
+      ],
+      "beschreibung": "Ein Flammengeschütz, das kurze Distanzen mit Feuer abdeckt und Schwärme stoppt. Die Reichweite ist kurz, und der Turm kann dich ansengen.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "Gute Nahverteidigung",
+        "Flächige Brandwirkung",
+        "Günstiger Cooldown (100 s)"
+      ],
+      "schwaechen": [
+        "Sehr kurze Reichweite",
+        "Eigengefahr durch Feuer"
+      ]
+    },
+    {
+      "id": "a_g_16_gatling_sentry",
+      "name": "A/G-16 Gatling Sentry",
+      "category": "sentry",
+      "code": "DURL",
+      "cooldown": 150,
+      "unlock_level": 5,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/a_g_16_gatling_sentry.svg",
+      "icon_source": "/images/Gatling_Sentry_Stratagem_Icon_Background.svg?7ee8f3",
+      "aliases": [
+        "a/g-16 gatling geschütz",
+        "a/g-16 gatling sentry",
+        "gatling geschütz",
+        "gatling sentry"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Ein Gatling-Geschütz mit hoher Feuerrate, das leichte Gegner und Schwärme niedermäht. Gegen Panzerung richtet es wenig aus.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "Sehr hohe Feuerrate",
+        "Ideal gegen leichte Gegner",
+        "Schnell aufgebaut"
+      ],
+      "schwaechen": [
+        "Nur AP 3",
+        "Verschwendet Munition an schweren Zielen"
+      ]
+    },
+    {
+      "id": "a_gm_17_gas_mortar_sentry",
+      "name": "A/GM-17 Gas Mortar Sentry",
+      "category": "sentry",
+      "code": "DURDL",
+      "cooldown": 180,
+      "unlock_level": null,
+      "unlock_source": "Entrenched Division P2",
+      "icon": "icons/a_gm_17_gas_mortar_sentry.svg",
+      "icon_source": "/images/Gas_Mortar_Sentry_Stratagem_Icon_Background.svg?8948b9",
+      "aliases": [
+        "a/gm-17 gas mortar sentry",
+        "a/gm-17 gas mörser geschütz",
+        "gas mortar sentry"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Gas",
+        "Indirekt"
+      ],
+      "beschreibung": "Ein Mörsergeschütz, das Gasgranaten indirekt über Deckung hinweg verschießt und Gegner vergiftet und verwirrt. Der Gasnebel trifft auch dein Team.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "Indirektes Feuer über Deckung",
+        "Verwirrt Gruppen",
+        "Gute Zonenkontrolle"
+      ],
+      "schwaechen": [
+        "Gefährdet eigene Truppen",
+        "Geringer Panzerungsschaden"
+      ]
+    },
+    {
+      "id": "a_las_98_laser_sentry",
+      "name": "A/LAS-98 Laser Sentry",
+      "category": "sentry",
+      "code": "DURDUR",
+      "cooldown": 150,
+      "unlock_level": null,
+      "unlock_source": "Control Group P2",
+      "icon": "icons/a_las_98_laser_sentry.svg",
+      "icon_source": "/images/Laser_Sentry_Stratagem_Icon_Background.svg?90ea4a",
+      "aliases": [
+        "a/las-98 laser geschütz",
+        "a/las-98 laser sentry",
+        "laser sentry"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Laser"
+      ],
+      "beschreibung": "Ein Lasergeschütz mit durchgehendem Strahl, das Ziele auf bis zu 50 m beschießt und bei Überhitzung selbst zerstört wird. Es braucht Sichtlinie und ist gegen Schwärme träge.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "AP 6 und Dauerstrahl",
+        "Große Reichweite",
+        "Präzise"
+      ],
+      "schwaechen": [
+        "Überhitzt und zerstört sich selbst",
+        "Braucht Sichtlinie"
+      ]
+    },
+    {
+      "id": "a_m_12_mortar_sentry",
+      "name": "A/M-12 Mortar Sentry",
+      "category": "sentry",
+      "code": "DURRD",
+      "cooldown": 180,
+      "unlock_level": 8,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/a_m_12_mortar_sentry.svg",
+      "icon_source": "/images/Mortar_Sentry_Stratagem_Icon_Background.svg?30dea2",
+      "aliases": [
+        "a/m-12 mortar sentry",
+        "a/m-12 mörser geschütz",
+        "mortar sentry",
+        "mörser",
+        "mörsergeschütz"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Explosiv",
+        "Indirekt"
+      ],
+      "beschreibung": "Ein Mörsergeschütz, das indirekt über Deckung hinweg Sprenggranaten auf Gegnergruppen feuert. Im Nahbereich trifft es auch dich, und gegen schnelle Ziele ist es ungenau.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "Indirektes Feuer über Deckung",
+        "Große Reichweite",
+        "Flächenwirkung"
+      ],
+      "schwaechen": [
+        "Gefährlich im Nahbereich",
+        "Ungenau gegen schnelle Ziele"
+      ]
+    },
+    {
+      "id": "a_m_23_ems_mortar_sentry",
+      "name": "A/M-23 EMS Mortar Sentry",
+      "category": "sentry",
+      "code": "DURDR",
+      "cooldown": 180,
+      "unlock_level": 20,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/a_m_23_ems_mortar_sentry.svg",
+      "icon_source": "/images/EMS_Mortar_Sentry_Stratagem_Icon_Background.svg?202fdc",
+      "aliases": [
+        "a/m-23 ems mortar sentry",
+        "a/m-23 ems mörser geschütz",
+        "ems mortar sentry"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "EMP",
+        "Indirekt"
+      ],
+      "beschreibung": "Ein Mörsergeschütz, das EMS-Granaten verschießt und Gegner flächig lähmt, ohne Schaden zu verursachen. Es bereitet Treffer vor, tötet aber nichts.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Lähmt Gruppen indirekt",
+        "Unterstützt Sperrfeuer",
+        "Guter Cooldown"
+      ],
+      "schwaechen": [
+        "Kein Schaden",
+        "Braucht Mitspieler zum Ausnutzen"
+      ]
+    },
+    {
+      "id": "a_mg_43_machine_gun_sentry",
+      "name": "A/MG-43 Machine Gun Sentry",
+      "category": "sentry",
+      "code": "DURRU",
+      "cooldown": 90,
+      "unlock_level": 1,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/a_mg_43_machine_gun_sentry.svg",
+      "icon_source": "/images/Machine_Gun_Sentry_Stratagem_Icon_Background.svg?331c9d",
+      "aliases": [
+        "a/mg-43 machine gun sentry",
+        "a/mg-43 maschinen gewehr geschütz",
+        "machine gun sentry",
+        "maschinengewehr geschütz",
+        "mg geschütz"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Ein Maschinengewehr-Geschütz mit 90 s Cooldown, das leichte Gegner und Schwärme aufhält. Es ist günstig, aber schwach gegen Panzerung.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "Sehr kurzer Cooldown",
+        "Gut gegen leichte Gegner",
+        "Schnell verfügbar"
+      ],
+      "schwaechen": [
+        "Nur AP 3",
+        "Begrenzte Munition"
+      ]
+    },
+    {
+      "id": "a_mls_4x_rocket_sentry",
+      "name": "A/MLS-4X Rocket Sentry",
+      "category": "sentry",
+      "code": "DURRL",
+      "cooldown": 150,
+      "unlock_level": 15,
+      "unlock_source": "Robotics Workshop",
+      "icon": "icons/a_mls_4x_rocket_sentry.svg",
+      "icon_source": "/images/Rocket_Sentry_Stratagem_Icon_Background.svg?1af08c",
+      "aliases": [
+        "a/mls-4x rakete geschütz",
+        "a/mls-4x rocket sentry",
+        "raketengeschütz"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 5,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Raketengeschütz, das selbstständig schwere Ziele beschießt und mit AP 5 Fahrzeuge und Elitesoldaten knackt. Es braucht Sichtlinie und ist im Nahkampf wehrlos.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "AP 5 gegen schwere Ziele",
+        "Automatisches Zielen",
+        "Große Reichweite"
+      ],
+      "schwaechen": [
+        "Langsame Schussfolge",
+        "Wehrlos im Nahkampf"
+      ]
+    },
+    {
+      "id": "md_17_anti_tank_mines",
+      "name": "MD-17 Anti-Tank Mines",
+      "category": "mine",
+      "code": "DLUU",
+      "cooldown": 120,
+      "unlock_level": 15,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/md_17_anti_tank_mines.svg",
+      "icon_source": "/images/Anti-Tank_Mines_Stratagem_Icon_Background.svg?4573f2",
+      "aliases": [
+        "anti-tank mines",
+        "md-17 anti-tank minen",
+        "md-17 anti-tank mines",
+        "panzerabwehrminen",
+        "panzerminen"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 6,
+      "traits": [
+        "Explosiv",
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Ein Minenfeld mit panzerbrechenden Minen, das Fahrzeuge und schwere Gegner auf Zulaufwegen zerlegt. Minen brauchen Zeit zum Auslegen und wirken nur auf vorbereiteten Wegen.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Zerstört Fahrzeuge und schwere Ziele",
+        "Sichert Flanken",
+        "Günstiger Cooldown"
+      ],
+      "schwaechen": [
+        "Braucht vorbereitete Wege",
+        "Gegen schnelle Schwärme langsam"
+      ]
+    },
+    {
+      "id": "md_6_anti_personnel_minefield",
+      "name": "MD-6 Anti-Personnel Minefield",
+      "category": "mine",
+      "code": "DLUR",
+      "cooldown": 120,
+      "unlock_level": 1,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/md_6_anti_personnel_minefield.svg",
+      "icon_source": "/images/Anti-Personnel_Minefield_Stratagem_Icon_Background.svg?ac79b4",
+      "aliases": [
+        "anti-personnel minefield",
+        "antipersonenminen",
+        "md-6 anti-personnel minefield",
+        "md-6 anti-personnel minenfeld",
+        "minenfeld"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 2,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Ein Minenfeld gegen Infanterie, das leichte Gegner auf vorbereiteten Wegen zerlegt. Gegen Panzerung und große Gegner ist es wirkungslos.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Gut gegen Schwärme",
+        "Sichert Zulaufwege",
+        "Günstig"
+      ],
+      "schwaechen": [
+        "Keine Wirkung gegen Panzerung",
+        "Braucht vorbereitete Wege"
+      ]
+    },
+    {
+      "id": "md_8_gas_mines",
+      "name": "MD-8 Gas Mines",
+      "category": "mine",
+      "code": "DLLR",
+      "cooldown": 120,
+      "unlock_level": 20,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/md_8_gas_mines.svg",
+      "icon_source": "/images/Gas_Mines_Stratagem_Icon_Background.svg?b10ef8",
+      "aliases": [
+        "gas mines",
+        "md-8 gas minen",
+        "md-8 gas mines"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Gas"
+      ],
+      "beschreibung": "Ein Minenfeld, das beim Auslösen Gaswolken freisetzt und Gegner vergiftet und verwirrt. Es tötet langsam und gefährdet auch Helldiver.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Flächige Gaswirkung",
+        "Verwirrt Gruppen",
+        "Gute Zonenkontrolle"
+      ],
+      "schwaechen": [
+        "Geringer Schaden",
+        "Eigengefahr durch Gas"
+      ]
+    },
+    {
+      "id": "md_i4_incendiary_mines",
+      "name": "MD-I4 Incendiary Mines",
+      "category": "mine",
+      "code": "DLLD",
+      "cooldown": 120,
+      "unlock_level": 8,
+      "unlock_source": "Engineering Bay",
+      "icon": "icons/md_i4_incendiary_mines.svg",
+      "icon_source": "/images/Incendiary_Mines_Stratagem_Icon_Background.svg?6c612f",
+      "aliases": [
+        "incendiary mines",
+        "md-i4 incendiary minen",
+        "md-i4 incendiary mines"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 3,
+      "traits": [
+        "Napalm"
+      ],
+      "beschreibung": "Ein Minenfeld, das beim Auslösen Feuer fontänenartig freisetzt und Zulaufwege abbrennt. Das Feuer tötet leichte Gegner, hält schwere aber nur kurz auf.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Flächige Brandwirkung",
+        "Gute Zonenkontrolle",
+        "Günstig"
+      ],
+      "schwaechen": [
+        "Wenig gegen Panzerung",
+        "Feuer gefährdet das Team"
+      ]
+    },
+    {
+      "id": "e_at_12_anti_tank_emplacement",
+      "name": "E/AT-12 Anti-Tank Emplacement",
+      "category": "emplacement",
+      "code": "DULRRR",
+      "cooldown": 180,
+      "unlock_level": null,
+      "unlock_source": "Urban Legends P3",
+      "icon": "icons/e_at_12_anti_tank_emplacement.svg",
+      "icon_source": "/images/Anti-Tank_Emplacement_Stratagem_Icon_Background.svg?d8adfc",
+      "aliases": [
+        "anti-tank emplacement",
+        "e/at-12 anti-tank emplacement",
+        "e/at-12 anti-tank stellung",
+        "panzerabwehrstellung"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 7,
+      "traits": [
+        "Panzerbrechend"
+      ],
+      "beschreibung": "Eine stationäre Panzerabwehrkanone, die du besteigst und mit AP 7 auf Fahrzeuge und schwere Gegner feuerst. Du bist dabei ein festes Ziel und musst die Stellung verteidigen.",
+      "rolle": "Panzerabwehr",
+      "staerken": [
+        "AP 7 und hoher Schaden",
+        "Große Reichweite",
+        "Zerstört schwere Ziele"
+      ],
+      "schwaechen": [
+        "Stationär und exponiert",
+        "Braucht freies Schussfeld"
+      ]
+    },
+    {
+      "id": "e_gl_21_grenadier_battlement",
+      "name": "E/GL-21 Grenadier Battlement",
+      "category": "emplacement",
+      "code": "DRDLR",
+      "cooldown": 120,
+      "unlock_level": 15,
+      "unlock_source": "Bridge",
+      "icon": "icons/e_gl_21_grenadier_battlement.svg",
+      "icon_source": "/images/Grenadier_Battlement_Stratagem_Icon_Background.svg?80ed1c",
+      "aliases": [
+        "e/gl-21 grenadier battlement",
+        "grenadier battlement"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Explosiv"
+      ],
+      "beschreibung": "Eine Stellung aus ballistischer Deckung mit montiertem Granatwerfer, die dich vor Beschuss schützt und indirekt feuert. Du bist stationär, und der Werfer hat begrenzte Munition.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "Deckung plus Granatwerfer",
+        "Indirektes Feuer",
+        "Schützt den Bediener"
+      ],
+      "schwaechen": [
+        "Stationär",
+        "Begrenzte Munition"
+      ]
+    },
+    {
+      "id": "e_mg_101_hmg_emplacement",
+      "name": "E/MG-101 HMG Emplacement",
+      "category": "emplacement",
+      "code": "DULRRL",
+      "cooldown": 180,
+      "unlock_level": 10,
+      "unlock_source": "Bridge",
+      "icon": "icons/e_mg_101_hmg_emplacement.svg",
+      "icon_source": "/images/HMG_Emplacement_Stratagem_Icon_Background.svg?204f0f",
+      "aliases": [
+        "e/mg-101 hmg emplacement",
+        "e/mg-101 hmg stellung",
+        "hmg emplacement",
+        "hmg stellung",
+        "schwere mg stellung"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 4,
+      "traits": [
+        "Automatik"
+      ],
+      "beschreibung": "Eine stationäre schwere MG-Stellung mit Schutzschild, die mittlere Gegner und Fahrzeuge niederhält. Du bist festgenagelt und brauchst freies Schussfeld.",
+      "rolle": "Geschütz",
+      "staerken": [
+        "AP 4 und hohe Feuerrate",
+        "Schutzschild für den Bediener",
+        "Große Reichweite"
+      ],
+      "schwaechen": [
+        "Stationär",
+        "Langsames Nachladen"
+      ]
+    },
+    {
+      "id": "fx_12_shield_generator_relay",
+      "name": "FX-12 Shield Generator Relay",
+      "category": "emplacement",
+      "code": "DDLRLR",
+      "cooldown": 90,
+      "unlock_level": 10,
+      "unlock_source": "Bridge",
+      "icon": "icons/fx_12_shield_generator_relay.svg",
+      "icon_source": "/images/Shield_Generator_Relay_Stratagem_Icon_Background.svg?8f5149",
+      "aliases": [
+        "fx-12 schild generator relais",
+        "fx-12 shield generator relay",
+        "shield generator relay"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Schild"
+      ],
+      "beschreibung": "Ein stationäres Schildgenerator-Relais, das eine Kuppel aufspannt und dich und dein Team vor Beschuss und Explosionen schützt. Die Kuppel hat eine begrenzte Lebensdauer.",
+      "rolle": "Verteidigung",
+      "staerken": [
+        "Schützt das ganze Team",
+        "Blockt Beschuss und Explosionen",
+        "Kurzer Cooldown"
+      ],
+      "schwaechen": [
+        "Begrenzte Lebensdauer",
+        "Nur stationär"
+      ]
+    },
+    {
+      "id": "activate_e_711_extraction_drill",
+      "name": "Activate E-711 Extraction Drill",
+      "category": "mission",
+      "code": "DDLLDD",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/activate_e_711_extraction_drill.svg",
+      "icon_source": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "aliases": [
+        "activate e-711 extraction drill",
+        "aktivieren e-711 extraktion bohrer"
+      ],
+      "uses": null,
+      "beschreibung": "Aktiviert den Bohrer am GATER, sobald du an einer passenden Bohrstelle stehst. Nur in der entsprechenden Mission verfügbar.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet den Extraktionsbohrer",
+        "Kein Cooldown",
+        "Wenige Sekunden Interaktion"
+      ],
+      "schwaechen": [
+        "Nur an der Bohrstelle",
+        "Nur missionsspezifisch"
+      ]
+    },
+    {
+      "id": "aquifer_drill",
+      "name": "Aquifer Drill",
+      "category": "mission",
+      "code": "LLLUDRDD",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/aquifer_drill.svg",
+      "icon_source": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "aliases": [
+        "aquifer drill",
+        "grundwasser bohrer"
+      ],
+      "uses": null,
+      "beschreibung": "Startet das Schrein-Reinigungsziel in der Infiltrate-Illuminate-Lair-Mission. Nur dort verfügbar.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet das Reinigungsziel",
+        "Kein Cooldown",
+        "Einfache Aktivierung"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Nur an der Zielstelle"
+      ]
+    },
+    {
+      "id": "cargo_container",
+      "name": "Cargo Container",
+      "category": "mission",
+      "code": "UUDDRD",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/cargo_container.svg",
+      "icon_source": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b",
+      "aliases": [
+        "cargo container"
+      ],
+      "uses": null,
+      "beschreibung": "Ein Pelican setzt einen Frachtcontainer ab, in den du Fusionsbatterien und Platin einlagerst; danach holt ihn ein Pelican ab. Nur in Confiscate-Assets- und Rapid-Acquisition-Missionen.",
+      "rolle": "Mission",
+      "staerken": [
+        "Nimmt Missionsfracht auf",
+        "Fester Abholpunkt",
+        "Kein Cooldown"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Container ist stationär"
+      ]
+    },
+    {
+      "id": "dark_fluid_vessel",
+      "name": "Dark Fluid Vessel",
+      "category": "mission",
+      "code": "ULRDUU",
+      "cooldown": 30,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/dark_fluid_vessel.svg",
+      "icon_source": "/images/Dark_Fluid_Vessel_Stratagem_Icon_Background.svg?ce7771",
+      "aliases": [
+        "dark fluid vessel",
+        "dunkel flüssigkeit vessel"
+      ],
+      "uses": null,
+      "beschreibung": "Ein Hellpod liefert einen Dark-Fluid-Rucksack, den du in den Tectonic Drill einsetzt. Nur in der Deploy-Dark-Fluid-Mission verfügbar.",
+      "rolle": "Mission",
+      "staerken": [
+        "Missionskritischer Gegenstand",
+        "Direkt per Hellpod",
+        "30 s Cooldown"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Rucksack belegt den Rücken"
+      ]
+    },
+    {
+      "id": "eagle_rearm",
+      "name": "Eagle Rearm",
+      "category": "mission",
+      "code": "UULUR",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/eagle_rearm.svg",
+      "icon_source": "/images/Eagle_Rearm_Stratagem_Icon_Background.svg?ddcd30",
+      "aliases": [
+        "adler aufmunitionieren",
+        "aufmunitionieren",
+        "eagle rearm",
+        "rearm"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Eagle"
+      ],
+      "beschreibung": "Munitioniert deine Eagle auf, bevor alle Einsätze verbraucht sind, und startet den Rearm-Cooldown. Nur nötig, wenn du früher wieder volle Ladung brauchst.",
+      "rolle": "Versorgung",
+      "staerken": [
+        "Volle Eagle-Ladung sofort",
+        "Kein Cooldown",
+        "Flexibel einsetzbar"
+      ],
+      "schwaechen": [
+        "Blockiert Eagle-Einsätze während des Rearms",
+        "Nur bei Eagle-Loadout sinnvoll"
+      ]
+    },
+    {
+      "id": "hive_breaker_drill",
+      "name": "Hive Breaker Drill",
+      "category": "mission",
+      "code": "LUDRDD",
+      "cooldown": 119,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/hive_breaker_drill.svg",
+      "icon_source": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "aliases": [
+        "hive breaker drill",
+        "nest breaker bohrer"
+      ],
+      "uses": null,
+      "beschreibung": "Ruft den Hive-Breaker-Bohrer an der Bohrstelle ab; nach dem Aufbau gibst du einen Code ein und verteidigst den Bohrer, bis die Nuklearladung sitzt. Nur in der Nuke-Nursery-Mission.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet das Hauptziel",
+        "Nach Erfolg riesiger Krater",
+        "Zerstört das Nest"
+      ],
+      "schwaechen": [
+        "Muss lange verteidigt werden",
+        "Nur missionsspezifisch"
+      ]
+    },
+    {
+      "id": "nux_223_hellbomb",
+      "name": "NUX-223 Hellbomb",
+      "category": "mission",
+      "code": "DULDURDU",
+      "cooldown": 30,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/nux_223_hellbomb.svg",
+      "icon_source": "/images/Hellbomb_Stratagem_Icon_Background.svg?4be6bb",
+      "aliases": [
+        "hellbomb",
+        "höllenbombe",
+        "nux-223 hellbomb",
+        "nux-223 höllenbombe"
+      ],
+      "uses": null,
+      "beschreibung": "Ruft eine NUX-223 Hellbomb ab; nach dem Aktivieren hast du wenige Sekunden, um dich zu entfernen, dann zerlegt die Explosion Ziele und Strukturen. Nur an Missionszielen sinnvoll.",
+      "rolle": "Mission",
+      "staerken": [
+        "Gewaltige Sprengkraft",
+        "Zerstört Missionsziele",
+        "30 s Cooldown"
+      ],
+      "schwaechen": [
+        "Sehr kurze Zündzeit",
+        "Tödlich im Umkreis"
+      ]
+    },
+    {
+      "id": "portable_comms_relay",
+      "name": "Portable Comms Relay",
+      "category": "mission",
+      "code": "UUDDLLD",
+      "cooldown": null,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/portable_comms_relay.svg",
+      "icon_source": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b",
+      "aliases": [
+        "portable comms relais",
+        "portable comms relay"
+      ],
+      "uses": null,
+      "beschreibung": "Setzt ein tragbares Kommunikationsrelais ab, über das du die Daten der Tactical Video Camera hochlädst. Nur in der Infiltrate-Illuminate-Lair-Mission.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet den Datenupload",
+        "Kleiner Aufbau",
+        "Kein Cooldown"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Relais ist stationär"
+      ]
+    },
+    {
+      "id": "prospecting_drill",
+      "name": "Prospecting Drill",
+      "category": "mission",
+      "code": "DDLRDD",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/prospecting_drill.svg",
+      "icon_source": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "aliases": [
+        "prospecting bohrer",
+        "prospecting drill"
+      ],
+      "uses": null,
+      "beschreibung": "Startet den Bohrer für die geologische Vermessung an der markierten Stelle. Nur in der Conduct-Geological-Survey-Mission.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet das Hauptziel",
+        "Kein Cooldown",
+        "Schnelle Aktivierung"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Nur an der Messstelle"
+      ]
+    },
+    {
+      "id": "reinforce",
+      "name": "Reinforce",
+      "category": "mission",
+      "code": "UDRLU",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/reinforce.svg",
+      "icon_source": "/images/Reinforce_Stratagem_Icon_Background.svg?c9d622",
+      "aliases": [
+        "reinforce",
+        "verstärkung",
+        "verstärkung rufen"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Verstärkung"
+      ],
+      "beschreibung": "Ruft einen gefallenen Helldiver in einer Hellpod-Kapsel zurück ins Spiel; du kannst den Landepunkt frei wählen. Jeder Einsatz kostet ein Verstärkungsleben.",
+      "rolle": "Verstärkung",
+      "staerken": [
+        "Bringt Gefallene zurück",
+        "Landepunkt frei wählbar",
+        "Kein Cooldown"
+      ],
+      "schwaechen": [
+        "Kostet ein Verstärkungsleben",
+        "Landung kann Gegner anziehen"
+      ]
+    },
+    {
+      "id": "reinforcement_pods",
+      "name": "Reinforcement Pods",
+      "category": "mission",
+      "code": "LRUUU",
+      "cooldown": null,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/reinforcement_pods.svg",
+      "icon_source": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565",
+      "aliases": [
+        "reinforcement pods",
+        "reinforcement raketen"
+      ],
+      "uses": null,
+      "beschreibung": "Aktiviert Reserve-Verstärkungspods, die zusätzliche Verstärkungsleben geben, während der Super Destroyer außer Reichweite ist. Nur in der Commando-Mission als optionales Ziel.",
+      "rolle": "Verstärkung",
+      "staerken": [
+        "Zusätzliche Verstärkungen",
+        "Unabhängig vom Mutterschiff",
+        "Optionales Ziel"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Pods müssen gefunden und aktiviert werden"
+      ]
+    },
+    {
+      "id": "resupply",
+      "name": "Resupply",
+      "category": "mission",
+      "code": "DDUR",
+      "cooldown": 180,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/resupply.svg",
+      "icon_source": "/images/Resupply_Stratagem_Icon_Background.svg?e011d4",
+      "aliases": [
+        "nachschub",
+        "resupply",
+        "versorgung"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Versorgung"
+      ],
+      "beschreibung": "Wirft vier Versorgungskisten ab, die Munition, Stim und Granaten auffüllen. Der Cooldown von 180 s zwingt dich, die Kisten einzuteilen.",
+      "rolle": "Versorgung",
+      "staerken": [
+        "Versorgt das ganze Team",
+        "Füllt alle Ressourcen",
+        "Fester Cooldown"
+      ],
+      "schwaechen": [
+        "180 s Cooldown",
+        "Kisten müssen eingesammelt werden"
+      ]
+    },
+    {
+      "id": "seaf_artillery",
+      "name": "SEAF Artillery",
+      "category": "mission",
+      "code": "RUUD",
+      "cooldown": 14,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/seaf_artillery.svg",
+      "icon_source": "/images/SEAF_Artillery_Stratagem_Icon_Background.svg?f72d95",
+      "aliases": [
+        "artillerie",
+        "seaf artillerie",
+        "seaf artillery"
+      ],
+      "uses": null,
+      "beschreibung": "Nach dem Beladen der SEAF-Artillerie mit fünf Granaten rufst du fünf Artillerieschläge auf ein Zielgebiet. Die Einschläge sind stark, aber ungenau und langsam.",
+      "rolle": "Flächenangriff",
+      "staerken": [
+        "Fünf Einsätze",
+        "Große Flächenwirkung",
+        "Zerstört Strukturen"
+      ],
+      "schwaechen": [
+        "Ungenau und verzögert",
+        "Nur nach Missionsziel verfügbar"
+      ]
+    },
+    {
+      "id": "sssd_delivery",
+      "name": "SSSD Delivery",
+      "category": "mission",
+      "code": "DDDDDUU",
+      "cooldown": 8,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/sssd_delivery.svg",
+      "icon_source": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565",
+      "aliases": [
+        "sssd delivery"
+      ],
+      "alt_codes": [
+        "DDDUU"
+      ],
+      "uses": null,
+      "beschreibung": "Ein Hellpod liefert eine SSSD-Festplatte, die du für Datenziele aufnimmst und abgibst. Der Abwurf dauert nur wenige Sekunden.",
+      "rolle": "Mission",
+      "staerken": [
+        "Missionskritischer Datenträger",
+        "Schneller Abwurf",
+        "8 s Cooldown"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Festplatte muss getragen werden"
+      ]
+    },
+    {
+      "id": "seismic_probe",
+      "name": "Seismic Probe",
+      "category": "mission",
+      "code": "UULRDD",
+      "cooldown": 27,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/seismic_probe.svg",
+      "icon_source": "/images/Seismic_Probe_Stratagem_Icon_Background.svg?9631fa",
+      "aliases": [
+        "seismic probe",
+        "seismisch sonde"
+      ],
+      "uses": null,
+      "beschreibung": "Setzt eine Seismic Probe ab, die den Untergrund vermisst und das Vermessungsziel abschließt. Nur in der Conduct-Geological-Survey-Mission.",
+      "rolle": "Mission",
+      "staerken": [
+        "Schließt das Sonde-Ziel ab",
+        "Einfache Kalibrierung",
+        "27 s Cooldown"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Sonde ist stationär"
+      ]
+    },
+    {
+      "id": "sos_beacon",
+      "name": "SoS Beacon",
+      "category": "mission",
+      "code": "UDRU",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/sos_beacon.svg",
+      "icon_source": "/images/SOS_Beacon_Stratagem_Icon_Background.svg?390b65",
+      "aliases": [
+        "notsignal",
+        "sos",
+        "sos bake",
+        "sos beacon",
+        "sos signal"
+      ],
+      "uses": null,
+      "radius": null,
+      "ap": 0,
+      "traits": [
+        "Verstärkung"
+      ],
+      "beschreibung": "Markiert deine Mission als hohe Priorität, damit andere Helldiver im Galaktischen Krieg beitreten. Nur der Host kann das Beacon werfen.",
+      "rolle": "Unterstützung",
+      "staerken": [
+        "Mehr Mitspieler für schwere Missionen",
+        "Kein Cooldown",
+        "Sofort einsatzbereit"
+      ],
+      "schwaechen": [
+        "Nur Host",
+        "Keine direkte Spielwirkung"
+      ]
+    },
+    {
+      "id": "super_earth_flag",
+      "name": "Super Earth Flag",
+      "category": "mission",
+      "code": "DUDU",
+      "cooldown": null,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/super_earth_flag.svg",
+      "icon_source": "/images/Super_Earth_Flag_Stratagem_Icon_Background.svg?cb3975",
+      "aliases": [
+        "super earth flag",
+        "super erde flagge"
+      ],
+      "uses": null,
+      "beschreibung": "Ruft eine Super-Earth-Flagge herab, die du bei Demokratie-Zielen hisst. Nur in den passenden Missionen verfügbar.",
+      "rolle": "Mission",
+      "staerken": [
+        "Schließt Flaggenziele ab",
+        "Kein Cooldown",
+        "Schneller Aufbau"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Flagge ist stationär"
+      ]
+    },
+    {
+      "id": "tactical_video_camera",
+      "name": "Tactical Video Camera",
+      "category": "mission",
+      "code": "RDDULLU",
+      "cooldown": null,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/tactical_video_camera.svg",
+      "icon_source": "/images/Tactical_Video_Camera_Stratagem_Icon_Background.svg?5dd24d",
+      "aliases": [
+        "tactical video camera"
+      ],
+      "uses": null,
+      "beschreibung": "Ruft eine taktische Videokamera herab, mit der du Beweise für die Commando-Mission aufnimmst. Nur in der Acquire-Evidence-Mission und in Illuminaten-Verstecken.",
+      "rolle": "Mission",
+      "staerken": [
+        "Missionskritischer Beweis",
+        "Kamera schnell abgeworfen",
+        "Kombinierbar mit Comms Relay"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Kamera muss getragen werden"
+      ]
+    },
+    {
+      "id": "tectonic_drill",
+      "name": "Tectonic Drill",
+      "category": "mission",
+      "code": "UDUDUD",
+      "cooldown": 0,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/tectonic_drill.svg",
+      "icon_source": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "aliases": [
+        "tectonic drill",
+        "tektonisch bohrer"
+      ],
+      "uses": null,
+      "beschreibung": "Ruft einen Tectonic Drill an der Payload-Stelle ab; setze den Dark Fluid Vessel ein und verteidige den Bohrer. Nur in der Deploy-Dark-Fluid-Mission.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet das Hauptziel",
+        "Bohrt tief in den Planeten",
+        "Kein Cooldown"
+      ],
+      "schwaechen": [
+        "Muss verteidigt werden",
+        "Nur missionsspezifisch"
+      ]
+    },
+    {
+      "id": "upload_data",
+      "name": "Upload Data",
+      "category": "mission",
+      "code": "LRUUU",
+      "cooldown": null,
+      "unlock_level": null,
+      "unlock_source": "",
+      "icon": "icons/upload_data.svg",
+      "icon_source": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565",
+      "aliases": [
+        "hochladen daten",
+        "upload data"
+      ],
+      "uses": null,
+      "beschreibung": "Startet den Datenupload, sobald du am Escape Pod der Mission „Upload Escape Pod Data“ stehst. Der Upload läuft über Zeit und muss gehalten werden.",
+      "rolle": "Mission",
+      "staerken": [
+        "Startet das Upload-Ziel",
+        "Kurze Interaktion",
+        "Kein Cooldown"
+      ],
+      "schwaechen": [
+        "Nur missionsspezifisch",
+        "Upload muss verteidigt werden"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,898 @@
+{
+  "currencies": [
+    {
+      "id": "requisition",
+      "name": "Requisition Slips",
+      "de": "Bereitstellungsmarken",
+      "icon": "REQ",
+      "color": "#e8c33a",
+      "earn": [
+        "Haupt- und Nebenziele in Missionen abschließen",
+        "Schnell und erfolgreich extrahieren",
+        "Minor POIs, Container und Kisten plündern",
+        "Major Orders und persönliche Orders abschließen"
+      ],
+      "spend": [
+        "Stratagems freischalten",
+        "Ship Modules ab Tier 4 mitbezahlen",
+        "Waffen-Attachments und Weapon Patterns kaufen",
+        "Taktikaktionen der Democracy Space Station spenden"
+      ],
+      "cap": "50.000",
+      "note": "Horte Requisition nicht: Bei 50.000 ist Schluss. Kauf früh die Stratagems, die dir fehlen – bei den Modulen bremsen Samples, nicht Requisition."
+    },
+    {
+      "id": "medals",
+      "name": "Medals",
+      "de": "Medaillen",
+      "icon": "MED",
+      "color": "#c98a4b",
+      "earn": [
+        "Missionen abschließen und extrahieren",
+        "Major Orders erfüllen",
+        "Persönliche Orders erfüllen",
+        "Minor POIs plündern"
+      ],
+      "spend": [
+        "Neue Seiten in Warbonds freischalten",
+        "Waffen, Rüstungen, Booster und Kosmetik in Warbonds kaufen",
+        "Super Credits innerhalb eines Warbonds freikaufen"
+      ],
+      "cap": "250",
+      "note": "Medaillen verfallen nicht, aber der Cap liegt bei 250. Gib sie regelmäßig in einem Warbond aus, sonst geht der Nachschub verloren."
+    },
+    {
+      "id": "super_credits",
+      "name": "Super Credits",
+      "de": "Super-Credits",
+      "icon": "SC",
+      "color": "#58c7e8",
+      "earn": [
+        "Minor POIs in Missionen (je nach Glück rund 10–100 pro Run)",
+        "Warbonds (300–750 SC pro Warbond als Rückzahlung)",
+        "Acquisition Center: mit Echtgeld kaufen"
+      ],
+      "spend": [
+        "Premium-Warbond freischalten (1.000 SC)",
+        "Legendary-Warbond freischalten (1.500 SC)",
+        "Items im Superstore kaufen"
+      ],
+      "cap": "kein Cap",
+      "note": "Du musst nichts kaufen: Super Credits liegen in Missionen herum, und die meisten Warbonds zahlen 300 SC zurück. Für ein Premium-Warbond brauchst du 1.000 SC."
+    },
+    {
+      "id": "common_samples",
+      "name": "Common Samples",
+      "de": "Gewöhnliche Samples",
+      "icon": "COM",
+      "color": "#7fbf5a",
+      "earn": [
+        "Minor POIs und Missionsziele auf jeder Schwierigkeit",
+        "Sample Extricator: große Gegner lassen zusätzliche Samples fallen",
+        "Nur erfolgreich extrahierte Samples zählen"
+      ],
+      "spend": [
+        "Ship Modules (alle 30 Upgrades)",
+        "Taktikaktionen der DSS (max. 75 pro 24 h)"
+      ],
+      "cap": "500",
+      "note": "60 Common Samples reichen für dein erstes Modul – nimm sie ab der ersten Mission mit, auch wenn du sie nicht brauchst."
+    },
+    {
+      "id": "rare_samples",
+      "name": "Rare Samples",
+      "de": "Seltene Samples",
+      "icon": "RAR",
+      "color": "#4a90d9",
+      "earn": [
+        "Schwierigkeit 4 und höher",
+        "Minor POIs und Missionsziele",
+        "Sample Extricator"
+      ],
+      "spend": [
+        "Ship Modules ab Tier 1",
+        "Taktikaktionen der DSS (max. 50 pro 24 h)"
+      ],
+      "cap": "250",
+      "note": "Rare Samples gibt es erst ab Schwierigkeit 4. Sie sind der typische Engpass für Tier 2–3 – spiel früh ein paar Runden auf 4, bevor du Module planst."
+    },
+    {
+      "id": "super_samples",
+      "name": "Super Samples",
+      "de": "Super-Samples",
+      "icon": "SUP",
+      "color": "#b06fd8",
+      "earn": [
+        "Schwierigkeit 6+ (Super Sample Rock)",
+        "Helldiver-Statuen in Städten auf Schwierigkeit 6+",
+        "Sample Extricator"
+      ],
+      "spend": [
+        "Ship Modules ab Tier 3"
+      ],
+      "cap": "100",
+      "note": "Der seltenste Rohstoff: Super Samples droppen nur auf 6+ und zahlen die stärksten Modul-Upgrades. Erst sammeln, wenn du auf 6 sicher extrahierst."
+    },
+    {
+      "id": "warbond_token",
+      "name": "Premium Warbond Token",
+      "de": "Warbond-Gutschein",
+      "icon": "TOK",
+      "color": "#d9d9d9",
+      "earn": [
+        "Super Citizen Edition bzw. Super Citizen Upgrade"
+      ],
+      "spend": [
+        "Ein Premium-Warbond deiner Wahl gratis freischalten"
+      ],
+      "cap": "1",
+      "note": "Nicht für Legendary-Warbonds einlösbar. Heb den Gutschein auf, bis du weißt, welches Premium-Warbond zu deinem Spielstil passt."
+    }
+  ],
+  "vendors": [
+    {
+      "id": "ship_modules",
+      "name": "Super-Destroyer-Module",
+      "currency": "common_samples",
+      "where": "Schiff → Patriotic Administration Center → Ship Management → Ship Modules",
+      "what": "30 Upgrades in 6 Bereichen. Bezahlt wird mit Common, Rare und Super Samples, ab Tier 4 zusätzlich mit Requisition. Jede Stufe schaltet die nächste frei."
+    },
+    {
+      "id": "stratagem_unlock",
+      "name": "Stratagem-Freischaltung",
+      "currency": "requisition",
+      "where": "Schiff → Patriotic Administration Center → Ship Management → Stratagems",
+      "what": "Stratagems werden mit Requisition gekauft und sind zusätzlich an deinen Dienstgrad gebunden. Die Reihenfolge ist frei, das Level begrenzt das Angebot."
+    },
+    {
+      "id": "warbonds",
+      "name": "Acquisition Center – Warbonds",
+      "currency": "medals",
+      "where": "Schiff → Acquisition Center → Warbonds",
+      "what": "Warbonds sind Belohnungspfade. Premium kostet 1.000 SC, Legendary 1.500 SC; die Seiten und Items darin zahlst du mit Medaillen."
+    },
+    {
+      "id": "superstore",
+      "name": "Superstore",
+      "currency": "super_credits",
+      "where": "Schiff → Acquisition Center → Superstore",
+      "what": "Wechselnder Tageskatalog plus fester Katalog: Rüstungen, Waffen, Capes, Emotes und Titel. Kein Pay-to-win, aber einzelne Waffen und Rüstungspassive sind auch spielrelevant."
+    },
+    {
+      "id": "dss",
+      "name": "Democracy Space Station",
+      "currency": "requisition",
+      "where": "Galaktische Karte → Democracy Space Station",
+      "what": "Taktikaktionen werden durch Spenden geladen: Requisition, Common und Rare Samples. Pro 24 h gilt ein Cap von 50.000 Requisition, 75 Common und 50 Rare Samples."
+    },
+    {
+      "id": "sample_upgrades",
+      "name": "Sample-Upgrades",
+      "currency": "common_samples",
+      "where": "Schiff → Ship Management → Ship Modules → Bereich wählen",
+      "what": "Samples haben nur zwei Senken: Ship Modules und DSS-Taktikaktionen. Common und Rare zahlen Tier 1–5, Super Samples erst ab Tier 3 – spar sie für die oberen Stufen."
+    }
+  ],
+  "warbonds": [
+    {
+      "id": "helldivers_mobilize",
+      "name": "Helldivers Mobilize!",
+      "type": "Standard",
+      "cost": 0,
+      "pages": 10,
+      "theme": "Das kostenlose Standard-Warbond: Grundwaffen, erste Booster und 750 Super Credits für den Einstieg.",
+      "highlights": [
+        "AR-23P Liberator Penetrator",
+        "SG-225 Breaker",
+        "PLAS-1 Scorcher",
+        "LAS-5 Scythe",
+        "Hellpod Space Optimization"
+      ],
+      "released": "2024-02"
+    },
+    {
+      "id": "steeled_veterans",
+      "name": "Steeled Veterans",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Veteranen-Ausrüstung mit schwerem JAR-5 Dominator, Senator-Revolver und Brand-Breaker.",
+      "highlights": [
+        "JAR-5 Dominator",
+        "SG-225IE Breaker Incendiary",
+        "P-4 Senator",
+        "AR-23C Liberator Concussive",
+        "Flexible Reinforcement Budget"
+      ],
+      "released": "2024-02"
+    },
+    {
+      "id": "cutting_edge",
+      "name": "Cutting Edge",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Energiewaffen und Lichtbögen: Sickle, Punisher Plasma, Blitzer und Stun-Granaten.",
+      "highlights": [
+        "LAS-16 Sickle",
+        "SG-8P Punisher Plasma",
+        "ARC-12 Blitzer",
+        "G-23 Stun",
+        "Localization Confusion"
+      ],
+      "released": "2024-03"
+    },
+    {
+      "id": "democratic_detonation",
+      "name": "Democratic Detonation",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Sprengstoff-Spezialisten: Eruptor, Exploding Crossbow, Thermite und Granatpistole.",
+      "highlights": [
+        "R-36 Eruptor",
+        "CB-9 Exploding Crossbow",
+        "BR-14 Adjudicator",
+        "G-123 Thermite",
+        "GP-31 Grenade Pistol"
+      ],
+      "released": "2024-04"
+    },
+    {
+      "id": "polar_patriots",
+      "name": "Polar Patriots",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Kaltwetter-Kit mit Tenderizer, Purifier, Pummeler und Brandgranaten.",
+      "highlights": [
+        "AR-61 Tenderizer",
+        "PLAS-101 Purifier",
+        "SMG-72 Pummeler",
+        "P-113 Verdict",
+        "G-13 Incendiary Impact"
+      ],
+      "released": "2024-05"
+    },
+    {
+      "id": "viper_commandos",
+      "name": "Viper Commandos",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Dschungel-Nahkampf: Liberator Carbine, Bushwhacker, Wurfmesser und Stim-Booster.",
+      "highlights": [
+        "AR-23A Liberator Carbine",
+        "SG-22 Bushwhacker",
+        "K-2 Throwing Knife",
+        "Experimental Infusion"
+      ],
+      "released": "2024-06"
+    },
+    {
+      "id": "freedoms_flame",
+      "name": "Freedom's Flame",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Feuer und Napalm: Cookout, Torcher, Crisper und Firebomb-Hellpods.",
+      "highlights": [
+        "SG-451 Cookout",
+        "FLAM-66 Torcher",
+        "P-72 Crisper",
+        "Firebomb Hellpods"
+      ],
+      "released": "2024-08"
+    },
+    {
+      "id": "chemical_agents",
+      "name": "Chemical Agents",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Gas- und Giftkrieg: Sterilizer, Gasgranaten, Stim-Pistole und Gift-Hund.",
+      "highlights": [
+        "TX-41 Sterilizer",
+        "P-11 Stim Pistol",
+        "G-4 Gas",
+        "AX/TX-13 Dog Breath"
+      ],
+      "released": "2024-09"
+    },
+    {
+      "id": "truth_enforcers",
+      "name": "Truth Enforcers",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Disziplin und Kontrolle: Halt, Reprimand, Loyalist und Dead-Sprint-Booster.",
+      "highlights": [
+        "SG-20 Halt",
+        "SMG-32 Reprimand",
+        "PLAS-15 Loyalist",
+        "Dead Sprint"
+      ],
+      "released": "2024-10"
+    },
+    {
+      "id": "urban_legends",
+      "name": "Urban Legends",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Stadtkampf: Stun Lance, Directional Shield, Flame Sentry und Panzerabwehr-Emplacement.",
+      "highlights": [
+        "CQC-19 Stun Lance",
+        "SH-51 Directional Shield",
+        "A/FLAM-40 Flame Sentry",
+        "E/AT-12 Anti-Tank Emplacement",
+        "Armed Resupply Pods"
+      ],
+      "released": "2024-12"
+    },
+    {
+      "id": "servants_of_freedom",
+      "name": "Servants of Freedom",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Sprengstoff-Patriotismus: Double-Edge Sickle, Ultimatum, Seeker und tragbarer Hellbomb.",
+      "highlights": [
+        "LAS-17 Double-Edge Sickle",
+        "GP-20 Ultimatum",
+        "G-50 Seeker",
+        "B-100 Portable Hellbomb"
+      ],
+      "released": "2025-02"
+    },
+    {
+      "id": "borderline_justice",
+      "name": "Borderline Justice",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Ordnungskräfte: Deadeye, Talon, Dynamit, Hover Pack und Sample Extricator.",
+      "highlights": [
+        "R-6 Deadeye",
+        "LAS-58 Talon",
+        "TED-63 Dynamite",
+        "Hover Pack",
+        "Sample Extricator"
+      ],
+      "released": "2025-03"
+    },
+    {
+      "id": "masters_of_ceremony",
+      "name": "Masters of Ceremony",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Parade und Nahkampf: Saber, One True Flag, Pyrotech und Sample Scanner.",
+      "highlights": [
+        "R-2 Amendment",
+        "CQC-2 Saber",
+        "CQC-1 One True Flag",
+        "G-142 Pyrotech",
+        "Sample Scanner"
+      ],
+      "released": "2025-05"
+    },
+    {
+      "id": "force_of_law",
+      "name": "Force of Law",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Polizei-Ausrüstung: Pacifier, De-Escalator, Stun Pods und K-9-Drohne.",
+      "highlights": [
+        "AR-32 Pacifier",
+        "GL-52 De-Escalator",
+        "G-109 Urchin",
+        "AX/ARC-3 K-9",
+        "Stun Pods"
+      ],
+      "released": "2025-06"
+    },
+    {
+      "id": "control_group",
+      "name": "Control Group",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Kontrolle durch Energie: Variable, Epoch, Arc-Granate, Laser-Sentry und Warp Pack.",
+      "highlights": [
+        "VG-70 Variable",
+        "PLAS-45 Epoch",
+        "G-31 Arc",
+        "A/LAS-98 Laser Sentry",
+        "LIFT-182 Warp Pack"
+      ],
+      "released": "2025-07"
+    },
+    {
+      "id": "obedient_democracy_support_troopers",
+      "name": "Obedient Democracy Support Troopers",
+      "type": "Legendary",
+      "cost": 1500,
+      "pages": 3,
+      "theme": "Halo-3-ODST-Crossover: MA5C, M7S, M90A und SOCOM-Pistole.",
+      "highlights": [
+        "MA5C Assault Rifle",
+        "M7S SMG",
+        "M90A Shotgun",
+        "M6C/SOCOM Pistol"
+      ],
+      "released": "2025-08"
+    },
+    {
+      "id": "dust_devils",
+      "name": "Dust Devils",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Wüstenkampf: Coyote, Speargun, Napalm-EAT und Solo-Silo.",
+      "highlights": [
+        "AR-2 Coyote",
+        "S-11 Speargun",
+        "EAT-700 Expendable Napalm",
+        "MS-11 Solo Silo",
+        "G-7 Pineapple"
+      ],
+      "released": "2025-09"
+    },
+    {
+      "id": "python_commandos",
+      "name": "Python Commandos",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Kommando-Ausrüstung: One-Two, Defoliation Tool, Maxigun und Flame-Drone.",
+      "highlights": [
+        "AR/GL-21 One-Two",
+        "CQC-9 Defoliation Tool",
+        "M-1000 Maxigun",
+        "AX/FLAM-75 Hot Dog"
+      ],
+      "released": "2025-12"
+    },
+    {
+      "id": "righteous_revenants",
+      "name": "Righteous Revenants",
+      "type": "Legendary",
+      "cost": 1500,
+      "pages": 3,
+      "theme": "Killzone-Crossover: StA-52, StA-11 und PLAS-39 Accelerator Rifle.",
+      "highlights": [
+        "StA-52 Assault Rifle",
+        "StA-11 SMG",
+        "PLAS-39 Accelerator Rifle"
+      ],
+      "released": "2025-12"
+    },
+    {
+      "id": "redacted_regiment",
+      "name": "Redacted Regiment",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Verdeckte Operationen: Censor, Suppressor, Re-Educator und C4-Pack.",
+      "highlights": [
+        "R-72 Censor",
+        "AR-59 Suppressor",
+        "P-35 Re-Educator",
+        "B/MD C4 Pack",
+        "Concealed Insertion"
+      ],
+      "released": "2026-01"
+    },
+    {
+      "id": "siege_breakers",
+      "name": "Siege Breakers",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Belagerung und Durchbruch: Breaching Hammer, Trident, Leveller und Shield.",
+      "highlights": [
+        "CQC-20 Breaching Hammer",
+        "LAS-13 Trident",
+        "EAT-411 Leveller",
+        "GL-28 Belt-Fed Grenade Launcher",
+        "G/SH-39 Shield"
+      ],
+      "released": "2026-02"
+    },
+    {
+      "id": "entrenched_division",
+      "name": "Entrenched Division",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Grabenkrieg: Stoker, Gas-Mörser, Cremator und Giga-Grenade.",
+      "highlights": [
+        "SMG/FLAM-34 Stoker",
+        "A/GM-17 Gas Mortar Sentry",
+        "B/FLAM-80 Cremator",
+        "P-69 Veto",
+        "G-48 Giga Grenade"
+      ],
+      "released": "2026-03"
+    },
+    {
+      "id": "exo_experts",
+      "name": "Exo Experts",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Exosuit-Spezialisten: Lumberer, Breakthrough und Bullet Storm.",
+      "highlights": [
+        "EXO-51 Lumberer Exosuit",
+        "EXO-55 Breakthrough Exosuit",
+        "MGX-42 Bullet Storm",
+        "SMG-203 Gallant",
+        "P-33 Missile Pistol"
+      ],
+      "released": "2026-04"
+    },
+    {
+      "id": "castellans_creed",
+      "name": "Castellan's Creed",
+      "type": "Legendary",
+      "cost": 1500,
+      "pages": 3,
+      "theme": "Warhammer-40k-Crossover: Meltagun, Hot-Shot-Marksman, Bolt-Pistole und Melta-Mine.",
+      "highlights": [
+        "40-K Meltagun",
+        "R/40-K Hot-Shot Marksman Rifle",
+        "P/40-K Bolt Pistol",
+        "G/40-K Melta Mine"
+      ],
+      "released": "2026-08"
+    },
+    {
+      "id": "ironclad_democracy",
+      "name": "Ironclad Democracy",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Gepanzerte Front: Arbitrator, Evictor, Breacher und Integrated Extinguishers.",
+      "highlights": [
+        "AR-11 Arbitrator",
+        "GL-15 Evictor",
+        "P-34 Breacher",
+        "G-60 Anti-Tank Seeker",
+        "Surplus EAT Allocation"
+      ],
+      "released": "2026-09"
+    },
+    {
+      "id": "scope_of_authority",
+      "name": "Scope of Authority",
+      "type": "Premium",
+      "cost": 1000,
+      "pages": 3,
+      "theme": "Präzisionsschützen: Sightliner, Apex, Nova und Caltrops.",
+      "highlights": [
+        "R-40 Sightliner",
+        "AMW-20 Apex",
+        "LAS-44 Nova",
+        "P-44 Mist",
+        "G-11 Caltrops"
+      ],
+      "released": "2026-10"
+    }
+  ],
+  "ship_modules": [
+    {
+      "id": "donation_access_license",
+      "name": "Donation Access License",
+      "category": "Patriotic Administration Center",
+      "cost": 0,
+      "samples": { "common": 60, "rare": 0, "super": 0 },
+      "effect": "Support-Waffen landen mit der maximalen Zahl tragbarer Magazine.",
+      "requires": null
+    },
+    {
+      "id": "streamlined_request_process",
+      "name": "Streamlined Request Process",
+      "category": "Patriotic Administration Center",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 40, "super": 0 },
+      "effect": "Cooldown von Support-Waffen-Stratagems -10%.",
+      "requires": "donation_access_license"
+    },
+    {
+      "id": "hand_carts",
+      "name": "Hand Carts",
+      "category": "Patriotic Administration Center",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 60, "super": 5 },
+      "effect": "Cooldown aller Backpack-Stratagems -10%.",
+      "requires": "streamlined_request_process"
+    },
+    {
+      "id": "superior_packing_methodology",
+      "name": "Superior Packing Methodology",
+      "category": "Patriotic Administration Center",
+      "cost": 20000,
+      "samples": { "common": 150, "rare": 150, "super": 15 },
+      "effect": "Resupply-Boxen füllen Support-Waffen mit der maximalen Magazinanzahl auf.",
+      "requires": "hand_carts"
+    },
+    {
+      "id": "payroll_management_system",
+      "name": "Payroll Management System",
+      "category": "Patriotic Administration Center",
+      "cost": 30000,
+      "samples": { "common": 200, "rare": 200, "super": 20 },
+      "effect": "Nachladezeit aller Support-Waffen -10%.",
+      "requires": "superior_packing_methodology"
+    },
+    {
+      "id": "exploding_shrapnel",
+      "name": "Exploding Shrapnel",
+      "category": "Orbital Cannons",
+      "cost": 0,
+      "samples": { "common": 100, "rare": 0, "super": 0 },
+      "effect": "Weniger Schadensabfall am Explosionszentrum; innerer Radius orbitaler Explosionen +50%.",
+      "requires": null
+    },
+    {
+      "id": "more_guns",
+      "name": "More Guns",
+      "category": "Orbital Cannons",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 60, "super": 0 },
+      "effect": "Barrage-Orbitals feuern eine zusätzliche Salve.",
+      "requires": "exploding_shrapnel"
+    },
+    {
+      "id": "zero_g_breech_loading",
+      "name": "Zero-G Breech Loading",
+      "category": "Orbital Cannons",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 80, "super": 10 },
+      "effect": "Cooldown aller Orbital-Stratagems -10%.",
+      "requires": "more_guns"
+    },
+    {
+      "id": "atmospheric_monitoring",
+      "name": "Atmospheric Monitoring",
+      "category": "Orbital Cannons",
+      "cost": 25000,
+      "samples": { "common": 200, "rare": 150, "super": 15 },
+      "effect": "Streuung der orbitalen HE-Barrage -15%.",
+      "requires": "zero_g_breech_loading"
+    },
+    {
+      "id": "high_density_explosives",
+      "name": "High-Density Explosives",
+      "category": "Orbital Cannons",
+      "cost": 35000,
+      "samples": { "common": 250, "rare": 200, "super": 20 },
+      "effect": "Explosionsradius orbitaler Stratagems +10%.",
+      "requires": "atmospheric_monitoring"
+    },
+    {
+      "id": "liquid_ventilated_cockpit",
+      "name": "Liquid-Ventilated Cockpit",
+      "category": "Hangar",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 0, "super": 0 },
+      "effect": "Cooldown aller Eagle-Stratagems -50%.",
+      "requires": null
+    },
+    {
+      "id": "pit_crew_hazard_pay",
+      "name": "Pit Crew Hazard Pay",
+      "category": "Hangar",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 40, "super": 0 },
+      "effect": "Eagle-Rearm-Zeit -20%.",
+      "requires": "liquid_ventilated_cockpit"
+    },
+    {
+      "id": "expanded_weapons_bay",
+      "name": "Expanded Weapons Bay",
+      "category": "Hangar",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 80, "super": 10 },
+      "effect": "Eine zusätzliche Eagle-Nutzung pro Rearm.",
+      "requires": "pit_crew_hazard_pay"
+    },
+    {
+      "id": "xxl_weapons_bay",
+      "name": "XXL Weapons Bay",
+      "category": "Hangar",
+      "cost": 25000,
+      "samples": { "common": 150, "rare": 150, "super": 15 },
+      "effect": "Eagle-Stratagems mit mehreren Bomben werfen eine Bombe zusätzlich.",
+      "requires": "expanded_weapons_bay"
+    },
+    {
+      "id": "advanced_crew_training",
+      "name": "Advanced Crew Training",
+      "category": "Hangar",
+      "cost": 30000,
+      "samples": { "common": 200, "rare": 250, "super": 25 },
+      "effect": "Eagle-Rearm -10% zusätzlich, wenn beim Ruf noch Eagle-Nutzungen übrig sind.",
+      "requires": "xxl_weapons_bay"
+    },
+    {
+      "id": "targeting_software_upgrade",
+      "name": "Targeting Software Upgrade",
+      "category": "Bridge",
+      "cost": 0,
+      "samples": { "common": 60, "rare": 0, "super": 0 },
+      "effect": "Orbital-Stratagems kommen 1 Sekunde schneller an.",
+      "requires": null
+    },
+    {
+      "id": "nuclear_radar",
+      "name": "Nuclear Radar",
+      "category": "Bridge",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 40, "super": 0 },
+      "effect": "Radius der Gegner-Pings auf der Minimap +50%.",
+      "requires": "targeting_software_upgrade"
+    },
+    {
+      "id": "power_steering",
+      "name": "Power Steering",
+      "category": "Bridge",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 80, "super": 10 },
+      "effect": "Bessere Steuerung des Hellpods beim Landeanflug.",
+      "requires": "nuclear_radar"
+    },
+    {
+      "id": "enhanced_combustion",
+      "name": "Enhanced Combustion",
+      "category": "Bridge",
+      "cost": 25000,
+      "samples": { "common": 200, "rare": 150, "super": 15 },
+      "effect": "Feuerschaden durch Stratagems +25%.",
+      "requires": "power_steering"
+    },
+    {
+      "id": "morale_augmentation",
+      "name": "Morale Augmentation",
+      "category": "Bridge",
+      "cost": 35000,
+      "samples": { "common": 250, "rare": 200, "super": 20 },
+      "effect": "Cooldown aller Stratagems -5%.",
+      "requires": "enhanced_combustion"
+    },
+    {
+      "id": "synthetic_supplementation",
+      "name": "Synthetic Supplementation",
+      "category": "Engineering Bay",
+      "cost": 0,
+      "samples": { "common": 60, "rare": 10, "super": 0 },
+      "effect": "Cooldown von Sentry-, Emplacement- und Resupply-Stratagems -10%.",
+      "requires": null
+    },
+    {
+      "id": "advanced_construction",
+      "name": "Advanced Construction",
+      "category": "Engineering Bay",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 60, "super": 5 },
+      "effect": "Lebenspunkte aller Sentries +50%.",
+      "requires": "synthetic_supplementation"
+    },
+    {
+      "id": "rapid_launch_system",
+      "name": "Rapid Launch System",
+      "category": "Engineering Bay",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 80, "super": 10 },
+      "effect": "Emplacements werden sofort nach dem Ruf aufgestellt.",
+      "requires": "advanced_construction"
+    },
+    {
+      "id": "circuit_expansion",
+      "name": "Circuit Expansion",
+      "category": "Engineering Bay",
+      "cost": 20000,
+      "samples": { "common": 200, "rare": 150, "super": 20 },
+      "effect": "Blitzbögen von Waffen und Türmen springen auf zwei zusätzliche Gegner über.",
+      "requires": "rapid_launch_system"
+    },
+    {
+      "id": "streamlined_launch_process",
+      "name": "Streamlined Launch Process",
+      "category": "Engineering Bay",
+      "cost": 30000,
+      "samples": { "common": 250, "rare": 200, "super": 25 },
+      "effect": "Support-Waffen werden sofort nach dem Ruf abgeworfen.",
+      "requires": "circuit_expansion"
+    },
+    {
+      "id": "dynamic_tracking",
+      "name": "Dynamic Tracking",
+      "category": "Robotics Workshop",
+      "cost": 0,
+      "samples": { "common": 60, "rare": 20, "super": 0 },
+      "effect": "Sentries werden sofort nach dem Ruf abgeworfen.",
+      "requires": null
+    },
+    {
+      "id": "shock_absorption_gel",
+      "name": "Shock Absorption Gel",
+      "category": "Robotics Workshop",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 40, "super": 5 },
+      "effect": "Munition aller Sentries +50%.",
+      "requires": "dynamic_tracking"
+    },
+    {
+      "id": "high_quality_lubricant",
+      "name": "High-Quality Lubricant",
+      "category": "Robotics Workshop",
+      "cost": 0,
+      "samples": { "common": 80, "rare": 80, "super": 10 },
+      "effect": "Sentries drehen sich schneller auf neue Ziele.",
+      "requires": "shock_absorption_gel"
+    },
+    {
+      "id": "blast_absorption",
+      "name": "Blast Absorption",
+      "category": "Robotics Workshop",
+      "cost": 25000,
+      "samples": { "common": 150, "rare": 150, "super": 20 },
+      "effect": "Sentries nehmen 50% weniger Explosionsschaden.",
+      "requires": "high_quality_lubricant"
+    },
+    {
+      "id": "cross_platform_compatibility",
+      "name": "Cross-Platform Compatibility",
+      "category": "Robotics Workshop",
+      "cost": 35000,
+      "samples": { "common": 250, "rare": 200, "super": 30 },
+      "effect": "Mörser-Sentries priorisieren markierte Ziele.",
+      "requires": "blast_absorption"
+    }
+  ],
+  "progression": [
+    {
+      "step": 1,
+      "title": "Standard-Warbond zuerst",
+      "text": "Helldivers Mobilize! kostet nichts und läuft nebenbei. Nimm SG-225 Breaker, AR-23P Liberator Penetrator und den Booster Hellpod Space Optimization mit – damit bist du auf jeder Front startklar."
+    },
+    {
+      "step": 2,
+      "title": "Stratagems mit Requisition kaufen",
+      "text": "Investiere deine ersten Requisition in EAT-17, GR-8 Recoilless Rifle, Eagle Airstrike und Orbital Precision Strike. Diese vier decken Panzer, Gruppen und Gebäude ab, ohne dass du auf ein Warbond warten musst."
+    },
+    {
+      "step": 3,
+      "title": "Erstes Ship Module: Eagle-Cooldown",
+      "text": "Liquid-Ventilated Cockpit im Hangar kostet nur 80 Common Samples und halbiert den Eagle-Cooldown. Danach Donation Access License (60 Common), damit Support-Waffen mit vollen Magazinen landen."
+    },
+    {
+      "step": 4,
+      "title": "Samples konsequent mitnehmen",
+      "text": "Samples zählen nur, wenn du extrahierst. Nimm auf jeder Mission alles mit, was du siehst; Rare Samples kommen ab Schwierigkeit 4, Super Samples ab 6. Der Sample-Fluss entscheidet, wie schnell dein Schiff stärker wird."
+    },
+    {
+      "step": 5,
+      "title": "Booster nicht vergessen",
+      "text": "Ein Booster wirkt für das ganze Team. Hellpod Space Optimization gibt volle Magazine und Granaten beim Abwurf, Vitality Enhancement und Stamina Enhancement halten dich länger im Kampf."
+    },
+    {
+      "step": 6,
+      "title": "Erstes Premium-Warbond gezielt wählen",
+      "text": "Steeled Veterans bringt JAR-5 Dominator und P-4 Senator, Cutting Edge mit LAS-16 Sickle eine starke Energiewaffe für den Anfang. Kauf erst, wenn du 1.000 Super Credits zusammen hast – und nur eines."
+    },
+    {
+      "step": 7,
+      "title": "Super Credits farmen statt kaufen",
+      "text": "Super Credits liegen in Minor POIs; ein guter Run bringt rund 10–100 SC. Warbonds zahlen 300 SC zurück, deshalb finanziert ein abgeschlossenes Warbond den nächsten zu einem guten Teil mit."
+    },
+    {
+      "step": 8,
+      "title": "Module-Tier 3 und DSS später",
+      "text": "Super Samples ab Schwierigkeit 6 zahlst du zuerst in Tier-3-Module (z. B. Expanded Weapons Bay, Advanced Construction). DSS-Spenden sind erst sinnvoll, wenn dein eigenes Schiff und deine Samples versorgt sind."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "boosters": [
+    {
+      "id": "hellpod_space_optimization",
+      "name": "Hellpod Space Optimization",
+      "effect": "Jeder Helldiver steigt mit vollem Magazin, voller Munitionsreserve, allen Granaten und allen Stims aus dem Hellpod – auch nach jedem Respawn.",
+      "rating": "S",
+      "note": "Der stärkste Einsteiger-Booster: wirkt bei jedem Tod erneut und spart auf langen Missionen mehrere Resupplys."
+    },
+    {
+      "id": "vitality_enhancement",
+      "name": "Vitality Enhancement",
+      "effect": "Alle Helldiver nehmen 10 % weniger Schaden aus allen Quellen; Gliedmaßenverletzungen treten seltener auf.",
+      "rating": "S",
+      "note": "Immer sinnvoll, besonders in Defensiv- und Boss-Missionen. Kombiniert mit Dead Sprint sinkt der Gesundheitsverlust beim Sprinten von ca. 3,6 % auf rund 1 % pro Sekunde."
+    },
+    {
+      "id": "stamina_enhancement",
+      "name": "Stamina Enhancement",
+      "effect": "+22,5 % maximale Ausdauer und +40 % Ausdauer-Regeneration für das ganze Team.",
+      "rating": "A",
+      "note": "Für große Karten, Blitz-Missionen und Hitzeplaneten (halbe Ausdauer) fast Pflicht – reine Mobilität, kein Kampfvorteil."
+    },
+    {
+      "id": "muscle_enhancement",
+      "name": "Muscle Enhancement",
+      "effect": "Reduziert Verlangsamung durch Schnee, Schlamm, Wasser, Sandstürme, Blizzards, Pflanzen und Stacheldraht sowie den Säure-Slow der Terminiden. Hilft nicht auf trockenem Sand, an Hängen oder beim Klettern.",
+      "rating": "A",
+      "note": "Auf Sumpf-, Schnee- und Säureplaneten ein echter Zeitgewinn; auf offenen Wüstenkarten verschwendet."
+    },
+    {
+      "id": "uav_recon_booster",
+      "name": "UAV Recon Booster",
+      "effect": "Erhöht die effektive Radarreichweite um etwa 50 % – nur für dich sichtbar, nicht für das Team.",
+      "rating": "A",
+      "note": "Für Stealth- und Aufklärungsspieler stark. Wirkt nicht bei aktivem Atmospheric-Spores-Modifier."
+    },
+    {
+      "id": "experimental_infusion",
+      "name": "Experimental Infusion",
+      "effect": "Stims heilen nicht nur, sondern geben kurzzeitig mehr Bewegungstempo und Schadensreduktion.",
+      "rating": "A",
+      "note": "Sehr stark, wenn du Stims ohnehin oft nutzt – der Boost verwandelt Heilung in einen Kampfvorteil."
+    },
+    {
+      "id": "surplus_eat_allocation",
+      "name": "Surplus EAT Allocation",
+      "effect": "Zwei kostenlose EAT-Abrufe pro Mission, ohne das Stratagem zu belegen – genug für eine Einweg-Panzerfaust pro Helldiver.",
+      "rating": "A",
+      "note": "Beste Wahl für Teams ohne feste Panzerabwehr; gegen Charger und Tanks rettet jeder zusätzliche EAT eine Situation."
+    },
+    {
+      "id": "expert_extraction_pilot",
+      "name": "Expert Extraction Pilot",
+      "effect": "Der Extraktionsshuttle kommt 30 % schneller: 2:00 Min werden zu 1:24, mit Complex Stratagem Plotting 3:00 zu 2:06.",
+      "rating": "B",
+      "note": "Nützlich bei knappen Timern und überrannten Extractionen, sonst verschwendet – der Timer läuft ohnehin nur am Ende."
+    },
+    {
+      "id": "flexible_reinforcement_budget",
+      "name": "Flexible Reinforcement Budget",
+      "effect": "Verkürzt die Wartezeit, bis nach aufgebrauchtem Verstärkungsbudget neue Verstärkungen freigegeben werden.",
+      "rating": "B",
+      "note": "Versicherung für schwache Runs: greift erst, wenn das Team schon dabei ist zu verlieren."
+    },
+    {
+      "id": "armed_resupply_pods",
+      "name": "Armed Resupply Pods",
+      "effect": "Jeder Resupply-Pod ist mit einem AR-23 Liberator bestückt und fungiert als automatische Turret.",
+      "rating": "B",
+      "note": "Sinnvoll in Defensivmissionen mit häufigen Resupplys; die Turret ersetzt keine echte Sentry."
+    },
+    {
+      "id": "dead_sprint",
+      "name": "Dead Sprint",
+      "effect": "Sprinten ist auch ohne Ausdauer möglich, kostet dafür Gesundheit (ca. 3,6 % pro Sekunde, mit Vitality nur rund 1 %).",
+      "rating": "B",
+      "note": "Für Flucht und Objective-Rushes stark, aber nur mit Vitality oder viel Heilung empfehlenswert."
+    },
+    {
+      "id": "integrated_extinguishers",
+      "name": "Integrated Extinguishers",
+      "effect": "Feuer an der eigenen Ausrüstung erlischt deutlich schneller von selbst, ohne Hinlegen und Wälzen.",
+      "rating": "B",
+      "note": "Gegen Terminiden-Brand und eigene Napalm-/Flammenwaffen praktisch; sonst ein Nischenslot."
+    },
+    {
+      "id": "motivational_shocks",
+      "name": "Motivational Shocks",
+      "effect": "Helldiver erholen sich schneller von Verlangsamung durch Treffer (z. B. Terminiden-Säure). Wirkt nicht gegen Flächeneffekte wie EMS.",
+      "rating": "B",
+      "note": "Guter Konter gegen Säure- und Spinnweben-Slows; gegen Automatons fast wirkungslos."
+    },
+    {
+      "id": "sample_scanner",
+      "name": "Sample Scanner",
+      "effect": "15 % Chance, beim Aufnehmen eines Samples die doppelte Menge zu erhalten.",
+      "rating": "B",
+      "note": "Reiner Farm-Booster für den Fortschritt – im Kampf nutzlos, beim Sample-Sammeln stark."
+    },
+    {
+      "id": "sample_extricator",
+      "name": "Sample Extricator",
+      "effect": "Große Gegner lassen mit einer Chance Samples fallen; maximal 10 zusätzliche Drops pro Mission.",
+      "rating": "B",
+      "note": "Lohnt sich auf Missionen, in denen du ohnehin viele Charger und Titans tötest."
+    },
+    {
+      "id": "increased_reinforcement_budget",
+      "name": "Increased Reinforcement Budget",
+      "effect": "Erhöht die Zahl der verfügbaren Verstärkungen um eine pro Mission.",
+      "rating": "C",
+      "note": "Nur ein Polster für unerfahrene Teams – wer selten stirbt, merkt nichts davon."
+    },
+    {
+      "id": "localization_confusion",
+      "name": "Localization Confusion",
+      "effect": "Erhöht die Zeit zwischen Feindbegegnungen, sodass weniger Patrouillen auf das Team treffen.",
+      "rating": "C",
+      "note": "Hilft Stealth- und Objective-Runs, ist aber im offenen Gefecht ohne Wirkung."
+    },
+    {
+      "id": "firebomb_hellpods",
+      "name": "Firebomb Hellpods",
+      "effect": "Alle Hellpods sind mit Brandsätzen bestückt und entzünden beim Einschlag die Umgebung.",
+      "rating": "C",
+      "note": "Witzig und gelegentlich nützlich beim Landen in Nester – im Normalfall kein Slot wert."
+    },
+    {
+      "id": "stun_pods",
+      "name": "Stun Pods",
+      "effect": "Beim Einschlag eines Hellpods werden alle Gegner in der Umgebung betäubt.",
+      "rating": "C",
+      "note": "Nur für gezielte Hellpod-Schläge auf Gruppen sinnvoll, sonst zu situationsabhängig."
+    },
+    {
+      "id": "concealed_insertion",
+      "name": "Concealed Insertion",
+      "effect": "Hellpods setzen beim Einschlag eine Rauchwolke frei, die die Landung verdeckt.",
+      "rating": "C",
+      "note": "Für Stealth-Teams gegen Automatons nett, aber Rauchgranaten leisten dasselbe gezielter."
+    }
+  ]
+}

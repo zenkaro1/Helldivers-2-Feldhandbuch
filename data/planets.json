@@ -1,0 +1,360 @@
+{
+  "hazards": [
+    {
+      "id": "acid_storms",
+      "name": "Acid Storms",
+      "de": "Säurestürme",
+      "effect": "Korrosive Säure in der Luft senkt zeitweise die Panzerungswirkung — bei Feinden und bei Helldivern.",
+      "counter": "Stims bereithalten, offene Flächen meiden und keine langen Feuerduelle erzwingen. Heilung wirkt, aber der Schaden kommt schneller durch.",
+      "severity": "hoch"
+    },
+    {
+      "id": "blizzards",
+      "name": "Blizzards",
+      "de": "Schneestürme",
+      "effect": "Reduzieren die Beweglichkeit und die Sicht deutlich.",
+      "counter": "Kartenmarker setzen, in Deckung bleiben, Abstände kleiner halten. Fahrzeuge und Exosuits werden träge.",
+      "severity": "mittel"
+    },
+    {
+      "id": "extreme_cold",
+      "name": "Extreme Cold",
+      "de": "Extreme Kälte",
+      "effect": "Senkt die Feuerrate und verzögert den Hitzestau bei Waffen.",
+      "counter": "Energiewaffen (Sickle, Laser Cannon, Quasar) profitieren, weil sie später überhitzen. Bei Projektilwaffen Feuerrate einplanen.",
+      "severity": "niedrig"
+    },
+    {
+      "id": "fire_tornados",
+      "name": "Fire Tornados",
+      "de": "Feuertornados",
+      "effect": "Tödliche Feuertornados ziehen über die Karte und verbrennen alles, was sie berühren.",
+      "counter": "Nicht in offenen Ebenen kämpfen, Fluchtwege vorher festlegen. Tornados sind langsam, aber sie schneiden Wege ab.",
+      "severity": "hoch"
+    },
+    {
+      "id": "intense_heat",
+      "name": "Intense Heat",
+      "de": "Extreme Hitze",
+      "effect": "Erhöht den Ausdauerverbrauch und beschleunigt den Hitzestau von Waffen.",
+      "counter": "Sprints sparen, Energiewaffen kürzer feuern. Wasserflaschen und Schatten gibt es nicht — plane Pausen ein.",
+      "severity": "mittel"
+    },
+    {
+      "id": "ion_storms",
+      "name": "Ion Storms",
+      "de": "Ionenstürme",
+      "effect": "Stratagems werden immer wieder für einige Sekunden komplett deaktiviert.",
+      "counter": "Nie nur auf Stratagems verlassen. Vorräte, Support-Waffe und Granaten tragen; Sturm abwarten, statt blind zu werfen.",
+      "severity": "hoch"
+    },
+    {
+      "id": "meteor_storms",
+      "name": "Meteor Storms",
+      "de": "Meteoritenstürme",
+      "effect": "Meteoriten schlagen auf der Karte ein und verursachen massiven Schaden.",
+      "counter": "In Bewegung bleiben, nicht unter freiem Himmel campen. Einschläge haben Schatten und Rauch als Vorwarnung.",
+      "severity": "hoch"
+    },
+    {
+      "id": "rainstorms",
+      "name": "Rainstorms",
+      "de": "Regenstürme",
+      "effect": "Starker Regen reduziert die Sicht.",
+      "counter": "Markierungen und Minimap nutzen; auf Geräusche achten. Leuchtspur verrät die eigene Position.",
+      "severity": "niedrig"
+    },
+    {
+      "id": "sandstorms",
+      "name": "Sandstorms",
+      "de": "Sandstürme",
+      "effect": "Dichter Sand reduziert Beweglichkeit und Sicht stark.",
+      "counter": "Nahkampf-Distanz halten, Marker setzen, nicht ohne Kompass laufen. Fluchtwege früh planen.",
+      "severity": "hoch"
+    },
+    {
+      "id": "thick_fog",
+      "name": "Thick Fog",
+      "de": "Dichter Nebel",
+      "effect": "Reduziert die Sicht leicht.",
+      "counter": "Kaum problematisch — aber Fernkampf wird unzuverlässig. Markierungen helfen.",
+      "severity": "niedrig"
+    },
+    {
+      "id": "tremors",
+      "name": "Tremors",
+      "de": "Erdbeben",
+      "effect": "Häufige Beben betäuben Helldiver und Feinde gleichermaßen.",
+      "counter": "Nicht auf Klippen oder an Kanten stehen. Beben sind auch eine Chance: Feinde sind kurz handlungsunfähig.",
+      "severity": "mittel"
+    },
+    {
+      "id": "volcanic_activity",
+      "name": "Volcanic Activity",
+      "de": "Vulkanaktivität",
+      "effect": "Vulkane schleudern brennende Gesteinsbrocken auf die Karte.",
+      "counter": "Nicht am Fuß aktiver Vulkane kämpfen. Brennende Brocken hinterlassen Feuerflächen.",
+      "severity": "mittel"
+    },
+    {
+      "id": "gloom_light",
+      "name": "Light Gloom Cover",
+      "de": "Leichte Gloom-Decke",
+      "effect": "Gloom-Partikel stören landende Pelicans: Extraction dauert 20 Sekunden länger.",
+      "counter": "Extraction früher rufen und den LZ freihalten.",
+      "severity": "niedrig"
+    },
+    {
+      "id": "gloom_moderate",
+      "name": "Moderate Gloom Blanket",
+      "de": "Mittlere Gloom-Decke",
+      "effect": "Extraction +30 Sekunden, Eagle-Rearm +20 %.",
+      "counter": "Eagle-Ladungen einteilen, Extraction noch früher vorbereiten.",
+      "severity": "mittel"
+    },
+    {
+      "id": "gloom_heavy",
+      "name": "Heavy Gloom Shroud",
+      "de": "Schwere Gloom-Decke",
+      "effect": "Extraction +40 Sekunden, Eagle-Rearm +30 %, Munition aus Pickups −50 %.",
+      "counter": "Munitionsdisziplin, Resupply früh rufen, Eagle nur für schwere Ziele.",
+      "severity": "hoch"
+    },
+    {
+      "id": "gloom_source",
+      "name": "Gloom Source",
+      "de": "Gloom-Quelle",
+      "effect": "Gesamtverstärkungen −20 %, Eagle-Rearm +30 %, Munition aus Pickups −50 %.",
+      "counter": "Leben ist teuer: nicht sterben, Resupply teilen, keine Solo-Exkursionen.",
+      "severity": "extrem"
+    }
+  ],
+  "modifiers": [
+    {
+      "id": "complex_stratagem_plotting",
+      "name": "Complex Stratagem Plotting",
+      "de": "Komplexe Stratagem-Planung",
+      "kind": "operation",
+      "effect": "Stratagem-Call-in-Zeit +50 %.",
+      "counter": "Würfe vorausplanen und nicht in Panik werfen. Bewegliche Ziele verfehlen sonst leichter."
+    },
+    {
+      "id": "orbital_fluctuations",
+      "name": "Orbital Fluctuations",
+      "de": "Orbitale Schwankungen",
+      "kind": "operation",
+      "effect": "Stratagem-Cooldowns +25 %.",
+      "counter": "Orbitals sparsamer einsetzen, Eagle- und Support-Slots stärker gewichten."
+    },
+    {
+      "id": "poor_intel",
+      "name": "Poor Intel",
+      "de": "Schlechte Aufklärung",
+      "kind": "operation",
+      "effect": "Positionen der Ziele sind auf der Karte verborgen.",
+      "counter": "Karte systematisch absuchen, Radarstation aktivieren, auf Rauch und Licht achten."
+    },
+    {
+      "id": "civilians_seaf",
+      "name": "Civilians and SEAF in Area",
+      "de": "Zivilisten und SEAF im Gebiet",
+      "kind": "operation",
+      "effect": "SEAF-Trupps und Zivilisten sind auf dem Schlachtfeld — nur in Metropolis-Biomen.",
+      "counter": "Kein Friendly Fire auf Zivilisten. SEAF hilft im Kampf, stirbt aber schnell."
+    },
+    {
+      "id": "atmospheric_spores",
+      "name": "Atmospheric Spores",
+      "de": "Atmosphärische Sporen",
+      "kind": "operation",
+      "effect": "Die Karte ist von Terminiden-Sporen verdeckt.",
+      "counter": "Marker setzen, Spore Spewer zerstören, Kompass nutzen."
+    },
+    {
+      "id": "roving_shriekers",
+      "name": "Roving Shriekers",
+      "de": "Umherziehende Shrieker",
+      "kind": "operation",
+      "effect": "Fliegende Shrieker-Schwärme ziehen über das Schlachtfeld.",
+      "counter": "Luftabwehr oder MG bereithalten; nicht in offenen Gruppen laufen."
+    },
+    {
+      "id": "gunship_patrols",
+      "name": "Gunship Patrols",
+      "de": "Gunship-Patrouillen",
+      "kind": "operation",
+      "effect": "Fliegende Gunships patrouillieren über der Karte.",
+      "counter": "Gunship Facility zerstören, Deckung nutzen, nicht im Offenen verweilen."
+    },
+    {
+      "id": "leviathan_blockade",
+      "name": "Leviathan Blockade",
+      "de": "Leviathan-Blockade",
+      "kind": "operation",
+      "effect": "Fliegende Leviathan-Kriegsschiffe patrouillieren über der Karte.",
+      "counter": "Bewegung und Deckung; Leviathans sind mit normalen Waffen kaum zu stoppen."
+    },
+    {
+      "id": "orbital_fluctuations_event",
+      "name": "Orbital Fluctuations (Event)",
+      "de": "Orbitale Schwankungen (Event)",
+      "kind": "operational",
+      "effect": "Alle Orbital-Stratagems haben erhöhte Cooldowns — gilt auf allen Schwierigkeiten.",
+      "counter": "Orbitals nur für Prioritäten; Support- und Eagle-Slots tragen die Mission."
+    },
+    {
+      "id": "medical_supply_strain",
+      "name": "Medical Supply Strain",
+      "de": "Medizinischer Engpass",
+      "kind": "operational",
+      "effect": "Jeder Helldiver startet mit einem Stim weniger.",
+      "counter": "Heilung dosieren, nicht für jeden Kratzer stimmen. Resupply teilen."
+    },
+    {
+      "id": "pilot_shortage",
+      "name": "Pilot Shortage",
+      "de": "Pilotenmangel",
+      "kind": "operational",
+      "effect": "Extraction dauert 30 Sekunden länger.",
+      "counter": "Extraction früher rufen, LZ vorher sichern."
+    },
+    {
+      "id": "slower_eagle_rearm",
+      "name": "Slower Eagle Rearm",
+      "de": "Langsamerer Eagle-Rearm",
+      "kind": "operational",
+      "effect": "Eagle-Rearm dauert 25 % länger.",
+      "counter": "Eagle-Ladungen einteilen; nicht alle Bomben auf ein Ziel werfen."
+    }
+  ],
+  "forces": [
+    {
+      "faction": "terminids",
+      "name": "Predator Strain",
+      "effect": "Gerissene Hunter- und Stalker-Varianten mit Tarnung und Sprungangriffen."
+    },
+    {
+      "faction": "terminids",
+      "name": "Rupture Strain",
+      "effect": "Grabende Warrior-, Spewer- und Charger-Varianten, die aus dem Boden brechen."
+    },
+    {
+      "faction": "terminids",
+      "name": "Spore Burst Strain",
+      "effect": "Explodierende Scavenger-, Hunter- und Warrior-Varianten, die Sporenwolken hinterlassen."
+    },
+    {
+      "faction": "terminids",
+      "name": "Caustic Strain",
+      "effect": "Säure-spezialisierte Warrior, Spewer, Spitter und Charger."
+    },
+    {
+      "faction": "terminids",
+      "name": "Noxious Strain",
+      "effect": "Giftgas-Varianten von Scavenger und Spewer."
+    },
+    {
+      "faction": "terminids",
+      "name": "Dragonroaches",
+      "effect": "Fliegende Bile-Titan-Ersatzgegner — der gefährlichste Luftgegner der Terminiden."
+    },
+    {
+      "faction": "terminids",
+      "name": "Hive Lords",
+      "effect": "Kolossaler Wurm, erscheint ab Suicide Mission."
+    },
+    {
+      "faction": "automatons",
+      "name": "Jet Brigade",
+      "effect": "Jetpack-Varianten von Trooper, MG Raider, Commissar, Devastator und Hulks."
+    },
+    {
+      "faction": "automatons",
+      "name": "Incineration Corps",
+      "effect": "Brandwaffen-Varianten: Pyro Trooper, Incendiary Rocket Raider, Hulk Firebomber."
+    },
+    {
+      "faction": "automatons",
+      "name": "Cyborg Legion",
+      "effect": "Cyborg-Einheiten Agitator, Radical und Vox Engine."
+    },
+    {
+      "faction": "automatons",
+      "name": "Hulk Surge",
+      "effect": "Hulks erscheinen deutlich häufiger."
+    },
+    {
+      "faction": "automatons",
+      "name": "Heavy Armor Surge",
+      "effect": "Tanks und Striders erscheinen deutlich häufiger."
+    },
+    {
+      "faction": "automatons",
+      "name": "Devastator Surge",
+      "effect": "Devastatoren erscheinen deutlich häufiger."
+    },
+    {
+      "faction": "illuminate",
+      "name": "Appropriators",
+      "effect": "Obtruder, Veracitor und Gatekeeper — schwere Illuminate-Spezialisten."
+    },
+    {
+      "faction": "illuminate",
+      "name": "Vote Snatchers",
+      "effect": "Wretch und Crusher — schnelle, aggressive Nahkampf-Varianten."
+    },
+    {
+      "faction": "illuminate",
+      "name": "Mindless Masses",
+      "effect": "Voteless und Fleshmob erscheinen in Massen."
+    },
+    {
+      "faction": "illuminate",
+      "name": "Invasion Fleet",
+      "effect": "Die volle Illuminate-Flotte erscheint häufiger, inklusive Harvester und Stingray."
+    },
+    {
+      "faction": "superearth",
+      "name": "Heavy SEAF Presence",
+      "effect": "SEAF-Soldaten werden per Pelican in das Missionsgebiet gebracht."
+    }
+  ],
+  "biomes": [
+    {
+      "name": "Sandy / Wüste",
+      "note": "Offene Flächen, wenig Deckung, oft Extreme Heat. Fernkampf ist stark, Fluchtwege sind weit."
+    },
+    {
+      "name": "Moor",
+      "note": "Offene Ebenen und Hügel, leuchtende Moor-Pilze. Gute Sicht, wenig Versteck."
+    },
+    {
+      "name": "Arctic / Schnee",
+      "note": "Kälte, Blizzards, weite Sicht bei klarem Wetter. Energiewaffen laufen hier länger."
+    },
+    {
+      "name": "Primordial / Dschungel",
+      "note": "Dichter Bewuchs, viel Deckung, enge Sichtlinien. Eagles und Orbitals treffen schlechter."
+    },
+    {
+      "name": "Swamp / Sumpf",
+      "note": "Hohe Bäume blockieren Luftunterstützung, Wasser bremst. Nahkampf und Sprengstoff dominieren."
+    },
+    {
+      "name": "Forest / Wald",
+      "note": "Lichtungen und Baumbestand, insgesamt ruhiger. Gute Balance aus Deckung und Sicht."
+    },
+    {
+      "name": "Oasis",
+      "note": "Dünen, Palmen, flache Seen. Offen und heiß, aber mit Wasser als Sichtbarriere."
+    },
+    {
+      "name": "City / Metropolis",
+      "note": "Gebäude blockieren Stratagems, enge Straßen, Zivilisten möglich. CQC und Sprengstoff."
+    },
+    {
+      "name": "Hive World (Gloom)",
+      "note": "Terminiden-Biom mit Sporen, Säure und Gloom-Effekten. Extraction und Logistik sind teuer."
+    }
+  ]
+}

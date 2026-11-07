@@ -1,0 +1,1370 @@
+{
+  "missions": [
+    {
+      "id": "launch_icbm",
+      "name": "Launch ICBM",
+      "de": "ICBM-Start",
+      "category": "main",
+      "faction": "any",
+      "summary": "Startet eine Interkontinentalrakete gegen ein Bodenziel. Auf höheren Schwierigkeiten kommen Teilziele wie Startcodes bergen und Generator reaktivieren dazu.",
+      "steps": [
+        "Startcodes bergen: zum Symbol gehen, Gebäude sichern, blaue Code-Festplatte am Boden aufnehmen.",
+        "Generator starten: am Terminal 5 Sicherungen setzen, Spannung auf 100 % drehen, Hebel am Trafo umlegen.",
+        "Treibstoffpumpen: Verbindungen aus dem Boden ziehen und drei Tanks befüllen — jede Pumpe startet eine Welle.",
+        "ICBM-Terminal: gesammelte Codes oben links im HUD ablesen, eingeben, vier Silo-Verriegelungen lösen.",
+        "Abschuss: 30 m Abstand nehmen und die Rakete zünden."
+      ],
+      "tips": [
+        "Beim Abschuss wird der Bereich gefährlich: geh mindestens 30 Meter weg.",
+        "Auf Helldive kommen alle drei Teilziele dazu: Codes, Generator und Treibstoffpumpen.",
+        "Teilt die Arbeit: einer hält Gegner vom Terminal fern, einer tippt die Codes."
+      ],
+      "required": [
+        "Startcodes finden (höhere Schwierigkeiten)",
+        "Generator reaktivieren",
+        "Silo-Verriegelungen lösen",
+        "Zielkoordinaten bestätigen"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "6–10 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Launch_ICBM",
+      "stepImages": [
+        "assets/img/missions/codes_disk_cool.png",
+        "assets/img/missions/generator_cool.png",
+        "assets/img/missions/fuel_pump_cool.png",
+        "assets/img/missions/codes_disk_cool.png",
+        "assets/img/missions/icbm_launch.png"
+      ]
+    },
+    {
+      "id": "terminate_illegal_broadcast",
+      "name": "Terminate Illegal Broadcast",
+      "de": "Illegalen Sender abschalten",
+      "category": "main",
+      "faction": "any",
+      "summary": "Schaltet einen Propagandasender ab. Auf Trivial und Easy ist es ein Hauptziel, auf höheren Schwierigkeiten nur ein Nebenobjekt.",
+      "steps": [
+        "Folge dem Marker zum Sendemast und räume die Wachen weg.",
+        "Interagiere am Terminal, um den Login zu starten.",
+        "Gib den angezeigten Pfeilcode ein.",
+        "Dreh die Signalstärke auf 100 %, bis die Ausstrahlung stoppt.",
+        "Alternativ: Zerstöre den Turm mit Sprengstoff (Demolition 30), dann ist das Ziel sofort erledigt."
+      ],
+      "tips": [
+        "Der Turm fällt auch durch Granaten, Autocannon oder Eagle Airstrike.",
+        "Auf höheren Schwierigkeiten nimmst du den Sender mit, wenn du vorbeikommst.",
+        "Rammen mit Fahrzeug oder Mech zerstört den Turm ebenfalls."
+      ],
+      "required": [
+        "Terminal hacken",
+        "Pfeilcode eingeben",
+        "Signal auf 100 % drehen"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–4 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Terminate_Illegal_Broadcast",
+      "stepImages": [
+        "assets/img/missions/steps/broadcast.png",
+        "assets/img/missions/steps/broadcast_console.png",
+        "assets/img/missions/steps/transmission.png",
+        "assets/img/missions/steps/broadcast.png",
+        "assets/img/missions/steps/broadcast.png"
+      ]
+    },
+    {
+      "id": "conduct_geological_survey",
+      "name": "Conduct Geological Survey",
+      "de": "Geologische Untersuchung",
+      "category": "main",
+      "faction": "any",
+      "summary": "Sichert Erzproben mit seismischer Sonde und Prospektionsbohrer. Jeder Bohrvorgang lockt Gegnerwellen an.",
+      "steps": [
+        "Begib dich zum ersten Marker und ruf die Seismische Sonde.",
+        "Logge dich am Sonden-Terminal ein; danach bricht eine Gegnerwelle los.",
+        "Richte den Marker auf die rechts angezeigten Koordinaten aus und starte den Scan.",
+        "Ruf am zweiten Teilziel den Prospektionsbohrer, bestätige die Tiefe und zieh drei Proben.",
+        "Lade die drei Proben am Bohrer-Terminal hoch.",
+        "Verteidige den Bereich, bis die Meldung Ziel erfüllt erscheint."
+      ],
+      "tips": [
+        "Login und Probenziehen lösen sofort Bug Breaches oder Bot Drops aus – stell vorher Sentries auf.",
+        "Die Zielkoordinaten stehen rechts im Raster; dreh den Marker langsam.",
+        "Auf Extreme+ gibt es zwei Erzadern zu prüfen."
+      ],
+      "required": [
+        "Seismische Sonde rufen",
+        "Prospektionsbohrer rufen",
+        "Koordinaten ausrichten",
+        "Proben hochladen"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Conduct_Geological_Survey",
+      "stepImages": [
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/battle.png",
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/battle.png"
+      ]
+    },
+    {
+      "id": "spread_democracy",
+      "name": "Spread Democracy",
+      "de": "Demokratie verbreiten",
+      "category": "main",
+      "faction": "any",
+      "summary": "Hiss die Flagge Super Earths und halte die Stellung, bis sie oben ist. Auf Easy+ gibt es mehrere Flaggenziele.",
+      "steps": [
+        "Geh zum markierten Flaggenpunkt.",
+        "Ruf das Stratagem Super-Earth-Flagge.",
+        "Bleib im 25-Meter-Radius und verteidige die Flagge 1:40 Min lang.",
+        "Töte alle Gegner am Punkt, sobald die Flagge ganz oben ist.",
+        "Arbeite auf Easy+ die weiteren Flaggenziele nacheinander ab."
+      ],
+      "tips": [
+        "Verlässt das Team den Radius, sinkt der Fortschritt wieder.",
+        "Salutieren beschleunigt das Hissen der Flagge.",
+        "Stell Sentries und Minen an die Anmarschwege, nicht direkt an die Flagge."
+      ],
+      "required": [
+        "Super-Earth-Flagge rufen",
+        "25-m-Radius halten",
+        "Gegner am Punkt töten"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "4–6 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Spread_Democracy",
+      "stepImages": [
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/flag.png"
+      ]
+    },
+    {
+      "id": "retrieve_valuable_data",
+      "name": "Retrieve Valuable Data",
+      "de": "Wertvolle Daten bergen",
+      "category": "main",
+      "faction": "any",
+      "summary": "Hol eine SSSD-Festplatte aus einem Forschungslabor und lade sie am Kommunikationsrelais hoch.",
+      "steps": [
+        "Logge dich am Laborterminal ein (5 Richtungen) und starte das Notfall-Backup.",
+        "Warte 20 Sekunden und wirf dann die SSSD-Festplatte aus (7 Richtungen).",
+        "Nimm die Festplatte aus dem Behälter; du kannst nur einhändige Waffen nutzen.",
+        "Trage sie zum Kommunikationsrelais und sichere den Bereich.",
+        "Aktiviere das Terminal, richte die Satellitenschüssel aus und warte den Upload ab.",
+        "Lösche am Ende die sensiblen Daten mit dem 11-Richtungs-Code."
+      ],
+      "tips": [
+        "Die Festplatte lässt sich fallen und wieder aufheben – sie bleibt auf der Karte markiert.",
+        "Auf Suicide Mission+ muss zusätzlich der Generator reaktiviert werden.",
+        "Einer trägt, die anderen sichern den Weg."
+      ],
+      "required": [
+        "Laborterminal hacken",
+        "SSSD auswerfen",
+        "Festplatte transportieren",
+        "Satellit ausrichten",
+        "Daten löschen"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Retrieve_Valuable_Data",
+      "stepImages": [
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/broadcast_console.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/research.png"
+      ]
+    },
+    {
+      "id": "emergency_evacuation",
+      "name": "Emergency Evacuation",
+      "de": "Notfall-Evakuierung",
+      "category": "main",
+      "faction": "any",
+      "summary": "Richtet einen Kommunikations-Uplink ein und eskortiert Priority Citizens zum Shuttle.",
+      "steps": [
+        "Aktiviere das Terminal am Kommunikationsturm und logge dich ein.",
+        "Öffne die SSSD-Luke, ruf die SSSD-Lieferung und setz sie in die Luke.",
+        "Richte die Signalstärke auf 100 % und aktiviere den Turm.",
+        "Logge dich am Shuttle-Bay-Terminal ein und bestätige die Evakuierungskoordinaten.",
+        "Öffne das Tor und eskortiere die Bürger zu den gelben Türen; alle 33 Sekunden gehen drei Personen raus.",
+        "Verteidige den Shuttle-Bay, bis die letzte Person an Bord ist."
+      ],
+      "tips": [
+        "Töte keine Zivilisten – ab neun Kills wirst du zum Verräter und wirst beschossen.",
+        "Minen und Tesla-Türme fern der Evakuierungswege platzieren.",
+        "Auf Extreme+ kommen zwei Teilziele dazu."
+      ],
+      "required": [
+        "SSSD-Lieferung rufen",
+        "Kommunikationsturm aktivieren",
+        "Shuttle-Tor öffnen",
+        "Bürger eskortieren"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "10–15 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Emergency_Evacuation",
+      "stepImages": [
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/broadcast.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/colony.png"
+      ]
+    },
+    {
+      "id": "evacuate_high_value_assets",
+      "name": "Evacuate High-Value Assets",
+      "de": "Hochwertige Güter evakuieren",
+      "category": "main",
+      "faction": "any",
+      "summary": "Verteidige einen Evakuierungspunkt, bis acht Raketen gestartet sind. Erscheint bei Defend-Events und auf Illuminate-Planeten.",
+      "steps": [
+        "Nutze die 1:30 Min Vorbereitung: ruf Sentries, Emplacements und Versorgung.",
+        "Öffne bei Bedarf das Terminal und aktiviere Strom, Treibstoff und Triebwerke.",
+        "Verteidige die Generatoren und Tore gegen die anrollenden Wellen.",
+        "Halte die Außenmauern; geschlossene Tore bremsen Gegner aus.",
+        "Warte die Raketenstarts ab – alle 1:45 Min startet eine, nach acht ist das Ziel erledigt."
+      ],
+      "tips": [
+        "Die Generatoren haben eigene HP; achte auf die Anzeige oben rechts.",
+        "Charger zerstören Tore sofort, Factory Strider zerschlagen sie aus der Ferne.",
+        "Große Barrages im kleinen Areal nur mit Bedacht – sie treffen auch eigene Stellungen."
+      ],
+      "required": [
+        "Sentries und Emplacements aufstellen",
+        "Generatoren verteidigen",
+        "Tore kontrollieren",
+        "8 Raketenstarts abwarten"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "15–18 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Evacuate_High-Value_Assets",
+      "stepImages": [
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/sam.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/colony.png"
+      ]
+    },
+    {
+      "id": "upload_escape_pod_data",
+      "name": "Upload Escape Pod Data",
+      "de": "Daten der Rettungskapsel hochladen",
+      "category": "main",
+      "faction": "any",
+      "summary": "Lädt Daten aus einer abgestürzten Rettungskapsel hoch und hält die Position 40 Sekunden.",
+      "steps": [
+        "Geh zur abgestürzten Rettungskapsel; ab 30 Metern wird das Upload-Stratagem verfügbar.",
+        "Ruf Daten hochladen und bleib im 30-Meter-Radius.",
+        "Verteidige den Uploader 40 Sekunden lang.",
+        "Stirbt der Uploader oder verlässt den Radius, läuft der Fortschritt zurück."
+      ],
+      "tips": [
+        "Der Upload setzt den Gegner-Verstärkungs-Cooldown zurück – rechne mit einer Welle.",
+        "Gegner spawnen nie direkt an der Kapsel; nutz sie als sicheren Landepunkt.",
+        "Einer lädt hoch, der Rest deckt ihn."
+      ],
+      "required": [
+        "Upload-Stratagem rufen",
+        "30-m-Radius halten",
+        "40 Sekunden verteidigen"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–3 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Upload_Escape_Pod_Data",
+      "stepImages": [
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/research.png"
+      ]
+    },
+    {
+      "id": "purge_hatcheries",
+      "name": "Purge Hatcheries",
+      "de": "Brutstätten säubern",
+      "category": "main",
+      "faction": "terminids",
+      "summary": "Zerstört die Eier in einer Terminiden-Brutstätte. Auf Gloom-Planeten taucht das Ziel auch optional auf.",
+      "steps": [
+        "Folge dem Marker zur Brutstätte und räum die Wachen weg.",
+        "Zerstöre die Eier in den Nestern – Sprengstoff oder Feuer geht am schnellsten.",
+        "Arbeite die Gelege von außen nach innen ab; die Eier platzen und schleudern dich weg.",
+        "Prüf die Restanzeige und zerstöre den Rest, bis das Ziel erfüllt ist.",
+        "Zieh dich zurück, bevor die nächste Welle eintrifft."
+      ],
+      "tips": [
+        "Eine 500-kg-Bombe oder eine Hellbomb räumt ein ganzes Nest auf einmal.",
+        "Der Flamethrower ist sehr effizient, weil die Eier kaum HP haben.",
+        "Nahkampf funktioniert nur mit Waffenreichweite – sonst wirst du weggeschleudert."
+      ],
+      "required": [
+        "Brutstätte finden",
+        "Eier zerstören",
+        "Sprengstoff oder Feuer"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "3–6 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Purge_Hatcheries",
+      "stepImages": [
+        "assets/img/missions/steps/hatchery.png",
+        "assets/img/missions/steps/eggs.png",
+        "assets/img/missions/steps/eggs.png",
+        "assets/img/missions/steps/battle.png",
+        "assets/img/missions/steps/hatchery.png"
+      ]
+    },
+    {
+      "id": "eradicate_terminid_swarm",
+      "name": "Eradicate Terminid Swarm",
+      "de": "Terminiden-Schwarm auslöschen",
+      "category": "main",
+      "faction": "terminids",
+      "summary": "Kurze Kill-Mission in einem engen Areal: Töte die geforderte Anzahl Terminiden.",
+      "steps": [
+        "Bleib im markierten Areal; Verlassen zählt nicht.",
+        "Stell Sentries und Flächenwaffen an die Zugänge.",
+        "Töte die geforderte Anzahl – die Anzeige läuft oben mit.",
+        "Sammle nach dem letzten Kill Munition und geh zur Extraktion."
+      ],
+      "tips": [
+        "Auf Easy sind es 200 Kills; die Zahl steigt mit der Schwierigkeit.",
+        "Nach Erreichen des Ziels hören die Spawns auf.",
+        "Flammen- und Gaswaffen halten die Engstellen frei."
+      ],
+      "required": [
+        "Geforderte Kills erzielen",
+        "Areal halten"
+      ],
+      "rewards": "200 Requisition Slips, 40 XP",
+      "time": "5–10 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Eradicate_Terminid_Swarm",
+      "stepImages": [
+        "assets/img/missions/steps/battle.png",
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/bile.png",
+        "assets/img/missions/steps/sam.png"
+      ]
+    },
+    {
+      "id": "nuke_nursery",
+      "name": "Nuke Nursery",
+      "de": "Brutkammer nuken",
+      "category": "main",
+      "faction": "terminids",
+      "summary": "Bohrt den Hive-Breaker-Bohrer in Brutkammern und zündet eine Nuklearladung.",
+      "steps": [
+        "Finde im markierten Kreis den Bohransatz; der Boden ist dort verseucht.",
+        "Ruf den Hive-Breaker-Bohrer und warte, bis die Kapsel sich entfaltet.",
+        "Aktiviere den Bohrer am Terminal mit dem 5-Richtungs-Code.",
+        "Verteidige den Bohrer, bis der Fortschritt voll ist; bei zu viel Schaden stoppt er.",
+        "Gib die Nuklearladung frei (einmal Pfeil hoch) und verlass den Bereich – 10 Sekunden bis zur Detonation.",
+        "Wiederhole das an zwei bis drei Brutkammern."
+      ],
+      "tips": [
+        "Ein EMS-Strike fesselt die Bugs und schützt den Bohrer.",
+        "Der Krater ist tödlich – nicht hineinfallen.",
+        "Wird der Bohrer zerstört, behält er bis zu 50 % Fortschritt."
+      ],
+      "required": [
+        "Hive-Breaker-Bohrer rufen",
+        "Bohrer aktivieren",
+        "Bohrer verteidigen",
+        "Nuklearladung zünden"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Nuke_Nursery",
+      "stepImages": [
+        "assets/img/missions/steps/hatchery.png",
+        "assets/img/missions/steps/eggs.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/hatchery.png",
+        "assets/img/missions/steps/hatchery.png",
+        "assets/img/missions/steps/hatchery.png"
+      ]
+    },
+    {
+      "id": "sabotage_air_base",
+      "name": "Sabotage Air Base",
+      "de": "Luftwaffenstützpunkt sabotieren",
+      "category": "main",
+      "faction": "automatons",
+      "summary": "Zerstört geparkte Dropships und auf Hard+ den Kontrollturm des Stützpunkts.",
+      "steps": [
+        "Finde den SSSD-Behälter im Stützpunkt und nimm die Festplatte.",
+        "Ruf die SSSD-Lieferung und setz die Festplatte in den Empfänger am Terminal oder Turm.",
+        "Hacke das Terminal und löse das Automaton-Buchstabenrätsel.",
+        "Aktiviere die drei Schalter für Druck, Temperatur und Strom und bestätige die Sabotage.",
+        "Verlass den Turm – nach 10 Sekunden explodiert er.",
+        "Zerstöre alle geparkten Dropships mit Anti-Tank-Waffen oder Eagles."
+      ],
+      "tips": [
+        "Der Turm lässt sich nicht mit normalen Waffen zerstören – nur über das Terminal.",
+        "Geparkte Dropships haben nur 1.000 HP; eine AT-Waffe reicht.",
+        "Auf Helldive sind es zwei Stützpunkte und zwei Dropship-Gruppen."
+      ],
+      "required": [
+        "SSSD besorgen",
+        "SSSD einsetzen",
+        "Terminal hacken",
+        "Dropships zerstören"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Sabotage_Air_Base",
+      "stepImages": [
+        "assets/img/missions/steps/airbase.png",
+        "assets/img/missions/steps/airbase.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/gunship.png",
+        "assets/img/missions/steps/airbase.png",
+        "assets/img/missions/steps/airbase.png"
+      ]
+    },
+    {
+      "id": "destroy_transmission_network",
+      "name": "Destroy Transmission Network",
+      "de": "Übertragungsnetz zerstören",
+      "category": "main",
+      "faction": "automatons",
+      "summary": "Zerstört die Antennentürme der Automaton-Kommunikation.",
+      "steps": [
+        "Geh zum markierten Sendemast.",
+        "Zerstöre die einzelnen Antennenplatten – kleine Waffen reichen.",
+        "Für mehrere Platten auf einmal: Sprengwaffen wie Crossbow, Eruptor oder Autocannon.",
+        "Alternativ den ganzen Turm mit Demolition sprengen.",
+        "Wiederhole das an allen markierten Türmen."
+      ],
+      "tips": [
+        "Quasar Cannon oder 500-kg-Bombe legen den ganzen Turm auf einmal.",
+        "Die Platten sind klein – ziel ruhig und einzeln.",
+        "Eine Hellbomb ist nicht nötig; der Marker zeigt trotzdem günstige Stellen."
+      ],
+      "required": [
+        "Antennenplatten zerstören",
+        "Sprengwaffe oder Demolition"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "3–5 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Destroy_Transmission_Network",
+      "stepImages": [
+        "assets/img/missions/steps/transmission.png",
+        "assets/img/missions/steps/broadcast.png",
+        "assets/img/missions/steps/broadcast_console.png",
+        "assets/img/missions/steps/transmission.png",
+        "assets/img/missions/steps/broadcast.png"
+      ]
+    },
+    {
+      "id": "seize_industrial_complex",
+      "name": "Seize Industrial Complex",
+      "de": "Industriekomplex übernehmen",
+      "category": "main",
+      "faction": "automatons",
+      "summary": "Übernimm eine Automaton-Platinraffinerie per SSSD und hol dir auf höheren Schwierigkeiten zusätzlich einen Steinbruch.",
+      "steps": [
+        "Finde den SSSD-Behälter in der Raffinerie und nimm die Festplatte.",
+        "Ruf die SSSD-Lieferung und setz sie in den Empfänger neben der Raffinerie.",
+        "Hacke das Terminal und löse das Buchstabenrätsel.",
+        "Betätige die drei Schalter für Zerkleinern, Schmelzen und Reinigen und warte 45 Sekunden.",
+        "Setz den Rootkit-Schalter und überschreib die Kernprotokolle mit dem 5er-Code.",
+        "Hiss für den Steinbruch die Super-Earth-Flagge und verteidige sie 1:40 Min."
+      ],
+      "tips": [
+        "Der Zerkleinerer in der Raffinerie tötet sofort – nicht hineingehen.",
+        "Der Flaggen-Teil kommt erst auf höheren Schwierigkeiten dazu.",
+        "Der SSSD-Träger kann nur einhändige Waffen nutzen."
+      ],
+      "required": [
+        "SSSD besorgen",
+        "SSSD einsetzen",
+        "Terminal hacken",
+        "Prozess starten",
+        "Flagge hissen (höhere Schwierigkeiten)"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Seize_Industrial_Complex",
+      "stepImages": [
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/flag.png"
+      ]
+    },
+    {
+      "id": "blitz_search_and_destroy",
+      "name": "Blitz: Search and Destroy",
+      "de": "Blitz: Suchen und Zerstören",
+      "category": "main",
+      "faction": "automatons",
+      "summary": "Kurze Mission mit Zeitdruck: Zerstöre eine geforderte Zahl Automaton-Fabrikatoren, bevor der Zerstörer den Luftraum verlassen muss.",
+      "steps": [
+        "Prüf beim Start die Anzahl der Fabrikatoren und die Missionszeit.",
+        "Ort die Fabrikatoren – sie erscheinen auf der Karte, sobald du in der Nähe bist.",
+        "Zerstöre sie aus der Ferne mit Quasar, Recoilless oder Eagle Airstrike.",
+        "Arbeite die Ziele zügig ab und meide lange Kämpfe.",
+        "Ruf die Extraktion, sobald der Zähler voll ist."
+      ],
+      "tips": [
+        "Die Belohnung hängt von der Schwierigkeit ab: 375–1250 Requisition und 75–250 XP.",
+        "Fabrikatoren fallen mit einer AT-Waffe oder einem Eagle Airstrike.",
+        "Für Sololäufe eignen sich Super-Sample-Routen."
+      ],
+      "required": [
+        "Fabrikatoren orten",
+        "Fabrikatoren zerstören",
+        "AT-Waffe oder Eagle Airstrike"
+      ],
+      "rewards": "375–1250 Requisition Slips, 75–250 XP (je nach Schwierigkeit)",
+      "time": "5–8 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Blitz_Search_And_Destroy/Automaton",
+      "stepImages": [
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/battle.png",
+        "assets/img/missions/steps/battle.png"
+      ]
+    },
+    {
+      "id": "evacuate_colonists",
+      "name": "Evacuate Colonists",
+      "de": "Kolonisten evakuieren",
+      "category": "main",
+      "faction": "illuminate",
+      "summary": "Wie Notfall-Evakuierung, nur auf Illuminate-Planeten: Kommunikation aufbauen und Zivilisten zum Shuttle bringen.",
+      "steps": [
+        "Aktiviere den Kommunikationsturm und logge dich ein.",
+        "Öffne die SSSD-Luke, ruf die Lieferung und setz sie ein.",
+        "Richte das Signal auf 100 % und aktiviere den Turm.",
+        "Logge dich am Shuttle-Bay-Terminal ein und bestätige die Koordinaten.",
+        "Öffne das Tor und eskortiere die Kolonisten zu den Ausgängen.",
+        "Verteidige den Shuttle-Bay, bis alle durch sind."
+      ],
+      "tips": [
+        "Ab neun getöteten Zivilisten giltst du als Verräter.",
+        "Illuminate-Wellen kommen oft über die Flanken – sicher die Seitengänge.",
+        "Auf höheren Schwierigkeiten kommen Teilziele dazu."
+      ],
+      "required": [
+        "Kommunikationsturm aktivieren",
+        "SSSD einsetzen",
+        "Shuttle-Tor öffnen",
+        "Kolonisten eskortieren"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "10–15 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Evacuate_Colonists",
+      "stepImages": [
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/broadcast.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/colony.png"
+      ]
+    },
+    {
+      "id": "free_colony",
+      "name": "Free Colony",
+      "de": "Kolonie befreien",
+      "category": "main",
+      "faction": "illuminate",
+      "summary": "Zerstöre einen Illuminate-Monolithen und hisse die Flagge Super Earths.",
+      "steps": [
+        "Ruf am markierten Punkt die Super-Earth-Flagge und verteidige sie 1:40 Min.",
+        "Suche den Monolithen – er ist auf der Karte markiert.",
+        "Ruf eine Hellbomb und zerstöre den Monolithen (Demolition 60).",
+        "Räume die restlichen Illuminate-Kräfte am Flaggenpunkt."
+      ],
+      "tips": [
+        "Der Monolith geht nur mit Demolition 60 – Hellbomb, Portable Hellbomb oder Mini-Nuke.",
+        "Beim Flaggenziel musst du anders als sonst keine Restgegner töten.",
+        "Auf Trivial gibt es eine Flagge, ab Schwierigkeit 6 zwei."
+      ],
+      "required": [
+        "Super-Earth-Flagge rufen",
+        "Flagge verteidigen",
+        "Hellbomb am Monolithen",
+        "Monolith zerstören"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "6–10 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Free_Colony",
+      "stepImages": [
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/flag.png"
+      ]
+    },
+    {
+      "id": "repel_invasion_fleet",
+      "name": "Repel Invasion Fleet",
+      "de": "Invasionsflotte abwehren",
+      "category": "main",
+      "faction": "illuminate",
+      "summary": "Zerstört landende Warp Ships, bevor Super Earths Kontrolle auf null fällt.",
+      "steps": [
+        "Beobachte Himmel und Karte: Warp Ships landen an markierten Stellen.",
+        "Zerstöre jede gelandete Warp Ship, bevor sie Truppen entlädt.",
+        "Konzentriere Anti-Tank-Feuer auf die Türen und den Rumpf.",
+        "Halte die Kontrollanzeige über null, bis die Reserven der Schiffe aufgebraucht sind."
+      ],
+      "tips": [
+        "Die Schilde fressen den ersten Treffer – erst Schild brechen, dann AT.",
+        "Ultimatum und Thermite brauchen einen Treffer an der richtigen Stelle.",
+        "Gelandete Schiffe sind Gegner und werden von Sentries beschossen."
+      ],
+      "required": [
+        "Warp Ships zerstören",
+        "Kontrollanzeige über 0 halten"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Repel_Invasion_Fleet",
+      "stepImages": [
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/gunship.png",
+        "assets/img/missions/steps/battle.png",
+        "assets/img/missions/steps/overship.png"
+      ]
+    },
+    {
+      "id": "infiltrate_illuminate_lair",
+      "name": "Infiltrate Illuminate Lair",
+      "de": "Illuminate-Lair infiltrieren",
+      "category": "main",
+      "faction": "illuminate",
+      "summary": "Mission mit zufälligen Zielen im Void: Schrein säubern, Experimente dokumentieren, Gazer Spire sprengen, Void Blossoms ausrotten.",
+      "steps": [
+        "Prüf beim Landen die Zielliste – sie ist jedes Mal anders.",
+        "Für den Schrein: Aquifer-Bohrer rufen, aktivieren, verteidigen und Sterilisationsmittel freigeben.",
+        "Für die Experimente: Videokamera nehmen, Beweise an den markierten Stellen filmen, Comms-Relay aufstellen und hochladen.",
+        "Für die Gazer Spire: Hellbomb rufen und den Turm sprengen.",
+        "Für die Blossoms: die geforderte Zahl im Areal zerstören."
+      ],
+      "tips": [
+        "Die Gazer Spire zuerst ausschalten – ihr Feuerbereich macht den Rest der Mission zur Hölle.",
+        "Nimm eine Support-Waffe mit, weil die Kamera den Slot belegt.",
+        "Das Portable Comms Relay bleibt stehen und blockiert den Boden darunter."
+      ],
+      "required": [
+        "Aquifer-Bohrer rufen",
+        "Videokamera und Comms-Relay",
+        "Hellbomb rufen",
+        "Void Blossoms zerstören"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–14 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Infiltrate_Illuminate_Lair",
+      "stepImages": [
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/darkfluid.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/overship.png"
+      ]
+    },
+    {
+      "id": "activate_tcs_plus_station",
+      "name": "Activate TCS+ Station",
+      "de": "TCS+-Station aktivieren",
+      "category": "main",
+      "faction": "terminids",
+      "summary": "Aktiviert eine TCS+-Station: drei Batteriesilos gegen Terminidenwellen halten, dann die Station hochfahren.",
+      "steps": [
+        "Drück den Knopf am Fuß des zentralen Turms, um die Sequenz zu starten.",
+        "Aktiviere Batteriesilo 1 und verteidige es, bis die Anzeige voll ist.",
+        "Wiederhole das für Silo 2 und 3.",
+        "Geh zum Aktivierungsterminal, gib den 7-Richtungs-Code ein und leg drei Schalter um.",
+        "Verlass die Station nach der Aktivierung; der Extrakt wird sofort gerufen."
+      ],
+      "tips": [
+        "Terminiden brechen direkt an jedem aktiven Silo durch – stell vorher Sentries.",
+        "Zu viel Schaden am Silo stoppt die Aktivierung; du musst sie neu starten.",
+        "Auf jeder Schwierigkeit spawnen Terminiden, auch auf Trivial."
+      ],
+      "required": [
+        "Zentralturm starten",
+        "3 Batteriesilos aktivieren und verteidigen",
+        "Terminal-Code eingeben"
+      ],
+      "rewards": "313 Requisition Slips, 63 XP pro Silo; 1250 Requisition Slips, 250 XP am Ende",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Activate_TCS%2B_Station",
+      "stepImages": [
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/overship.png"
+      ]
+    },
+    {
+      "id": "conduct_mobile_e711_extraction",
+      "name": "Conduct Mobile E-711 Extraction",
+      "de": "Mobile E-711-Extraktion",
+      "category": "main",
+      "faction": "terminids",
+      "summary": "Fahr den GATER-Bohrpanzer zu mehreren Ölfeldern und sichere die E-711-Förderung. Auf höheren Schwierigkeiten sind es bis zu vier Standorte.",
+      "steps": [
+        "Steig vorn links in den GATER ein; einer fährt, einer bedient das Autocannon.",
+        "Fahr zum markierten Förderstandort und halt die Stellung.",
+        "Ruf das Stratagem \"Bohrer aktivieren\" und starte die Extraktion.",
+        "Verteidige den GATER etwa 35 Sekunden lang, bis der Tanker kommt.",
+        "Fahr zum nächsten Standort und wiederhole das, bis alle Felder abgearbeitet sind.",
+        "Verlass den GATER nach der letzten Förderung – er sprengt sich selbst."
+      ],
+      "tips": [
+        "Der GATER kann zerstört werden; Hellpods und Bile Titans sind besonders gefährlich.",
+        "Erledige einen Hive Lord, bevor du losfährst – er kann den GATER umwerfen und die Mission scheitern lassen.",
+        "Bug Holes lassen sich einfach plattfahren."
+      ],
+      "required": [
+        "GATER besetzen",
+        "Zu den Förderstandorten fahren",
+        "Bohrer aktivieren",
+        "GATER verteidigen"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "8–12 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Conduct_Mobile_E-711_Extraction",
+      "stepImages": [
+        "assets/img/missions/steps/darkfluid.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/darkfluid.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/tcs.png"
+      ]
+    },
+    {
+      "id": "seaf_artillery",
+      "name": "SEAF Artillery",
+      "de": "SEAF-Artillerie",
+      "category": "tactical",
+      "faction": "any",
+      "summary": "Aktiviert eine stehengebliebene Artillerie und verschafft dem Team fünf Artillerieschläge.",
+      "steps": [
+        "Aktiviere das Terminal an der Artillerie.",
+        "Such die Geschosse im Umkreis und trag fünf Stück zum Geschütz (zweihändig, kein Sprint).",
+        "Verbinde das Terminal mit dem Super-Zerstörer und dreh das Signal auf 100 %.",
+        "Warte, bis das System startet – danach ist das Stratagem für alle verfügbar."
+      ],
+      "tips": [
+        "Die Reihenfolge der geladenen Granaten bestimmt die Schussfolge; sag sie dem Team.",
+        "Mini-Nuke-Geschosse sprengen Ziele, die sonst eine Hellbomb brauchen.",
+        "Artillerie funktioniert auch im Jammer- und Ionensturm-Bereich."
+      ],
+      "required": [
+        "Terminal aktivieren",
+        "5 Geschosse laden",
+        "Signal auf 100 %"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP, SEAF-Artillerie-Stratagem",
+      "time": "3–5 Min",
+      "source": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+      "stepImages": [
+        "assets/img/missions/steps/artillery.png",
+        "assets/img/missions/steps/artillery.png",
+        "assets/img/missions/steps/broadcast.png",
+        "assets/img/missions/steps/artillery.png"
+      ]
+    },
+    {
+      "id": "lidar_station",
+      "name": "LiDAR Station",
+      "de": "LiDAR-Station",
+      "category": "tactical",
+      "faction": "any",
+      "summary": "Richtet die Radarschüssel aus und deckt Nester, Außenposten und Nebenziele auf der Karte auf.",
+      "steps": [
+        "Aktiviere das Terminal und bestätige \"LiDAR-Turm anheben\"; warte 35 Sekunden.",
+        "Lies am Terminal die Zielrichtung ab.",
+        "Dreh die Schüssel am Turm in diese Richtung.",
+        "Bestätige am Terminal die Ausrichtung."
+      ],
+      "tips": [
+        "Die Schüssel zeigt immer zum nächsten Kartenrand – das hilft beim Ausrichten.",
+        "Ein Piepton bestätigt die korrekte Richtung.",
+        "Stell eine Sentry auf, während du drehst."
+      ],
+      "required": [
+        "Terminal aktivieren",
+        "Turm anheben",
+        "Schüssel ausrichten"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–3 Min",
+      "source": "https://helldivers.wiki.gg/wiki/LiDAR_Station",
+      "stepImages": [
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/radar.png"
+      ]
+    },
+    {
+      "id": "seaf_sam_site",
+      "name": "SEAF SAM Site",
+      "de": "SEAF-SAM-Stellung",
+      "category": "tactical",
+      "faction": "any",
+      "summary": "Aktiviert ein Flugabwehrsystem, das Dropships, Gunships und Warp Ships automatisch beschießt. Erscheint auf Automaton- und Illuminate-Planeten.",
+      "steps": [
+        "Aktiviere das Terminal.",
+        "Gib den 6-Richtungs-Code ein, um den Werfer auszufahren.",
+        "Warte, bis der Werfer oben ist.",
+        "Aktiviere nacheinander alle Subsysteme am Terminal."
+      ],
+      "tips": [
+        "Stell dich nicht hinter den Werfer – der Rückstoß tötet.",
+        "Die Stellung hat 24 Raketen und schaltet danach ab.",
+        "Warp Ships verlieren durch die Rakete nur den Schild; brich ihn vorher."
+      ],
+      "required": [
+        "Terminal aktivieren",
+        "6er-Code eingeben",
+        "Subsysteme aktivieren"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–3 Min",
+      "source": "https://helldivers.wiki.gg/wiki/SEAF_SAM_Site",
+      "stepImages": [
+        "assets/img/missions/steps/sam.png",
+        "assets/img/missions/steps/sam.png",
+        "assets/img/missions/steps/airbase.png",
+        "assets/img/missions/steps/sam.png"
+      ]
+    },
+    {
+      "id": "destroy_high_value_target",
+      "name": "Destroy High-Value Target",
+      "de": "Hochwertiges Ziel zerstören",
+      "category": "tactical",
+      "faction": "terminids",
+      "summary": "Optional: Erlegt den Hive Lord, das stärkste Terminiden-Ziel. Kein Terminal, nur Schaden.",
+      "steps": [
+        "Lokalisier den Hive Lord über Marker und Bodenzittern.",
+        "Zerstöre zuerst die Panzerplatten am Rücken mit Anti-Tank-Waffen.",
+        "Feuer in die freigelegten hellen Schwachstellen, sobald die Platten brechen.",
+        "Bleib in Bewegung und halt Abstand zu Teamkameraden – seine Angriffe sind flächig."
+      ],
+      "tips": [
+        "Der Hive Lord hat 150.000 HP; ohne AT-Loadout und Koordination lässt du ihn besser stehen.",
+        "Explosionen machen an freigelegtem Fleisch keinen Schaden – nimm Kugeln.",
+        "Exosuit oder Panzer sind stark, aber unbeweglich."
+      ],
+      "required": [
+        "Anti-Tank-Waffen",
+        "Panzerplatten brechen",
+        "Schwachstellen beschießen"
+      ],
+      "rewards": "200 Requisition Slips, 222 XP",
+      "time": "5–10 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Destroy_High-Value_Target",
+      "stepImages": [
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/fabricator.png"
+      ]
+    },
+    {
+      "id": "erase_terrorist_memorials",
+      "name": "Erase Terrorist Memorials",
+      "de": "Terroristen-Denkmäler tilgen",
+      "category": "tactical",
+      "faction": "automatons",
+      "summary": "Zerstört Automaton- und Cyborg-Statuen in einer Megafabrik.",
+      "steps": [
+        "Finde die markierten Statuen in der Megafabrik.",
+        "Zerstöre sie mit Sprengstoff (Demolition 30).",
+        "Arbeite alle Statuen ab, bis der Zähler voll ist."
+      ],
+      "tips": [
+        "Granaten, Autocannon und die meisten Sprengwaffen reichen.",
+        "Die Statuen stehen oft nahe bei Fabrikatoren – räum erst die Wachen."
+      ],
+      "required": [
+        "Statuen finden",
+        "Mit Sprengstoff zerstören"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–4 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Erase_Terrorist_Memorials",
+      "stepImages": [
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/flag.png",
+        "assets/img/missions/steps/broadcast.png"
+      ]
+    },
+    {
+      "id": "stratagem_jammer",
+      "name": "Stratagem Jammer",
+      "de": "Stratagem-Jammer",
+      "category": "tactical",
+      "faction": "automatons",
+      "summary": "Zerstört den Jammer, der im 150-Meter-Radius alle Stratagems blockiert.",
+      "steps": [
+        "Geh zum Jammer und finde das Terminal an seiner Basis.",
+        "Interagiere mit dem Terminal, um den Jammer abzuschalten.",
+        "Ruf eine Hellbomb und zerstöre den Bau (Demolition 50).",
+        "Zieh dich vor der Detonation zurück."
+      ],
+      "tips": [
+        "Ohne Abschalten kannst du keine Hellbomb rufen.",
+        "SEAF-Artillerie ignoriert den Jammer – damit kannst du ihn aus der Ferne sprengen.",
+        "Stirbt das ganze Team im Radius, landet die Verstärkung am Rand des Jammer-Radius."
+      ],
+      "required": [
+        "Jammer-Terminal deaktivieren",
+        "Hellbomb rufen",
+        "Bau sprengen"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "3–5 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Stratagem_Jammer",
+      "stepImages": [
+        "assets/img/missions/steps/jammer.png",
+        "assets/img/missions/steps/jammer.png",
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/jammer.png"
+      ]
+    },
+    {
+      "id": "detector_tower",
+      "name": "Detector Tower",
+      "de": "Detektorturm",
+      "category": "tactical",
+      "faction": "automatons",
+      "summary": "Zerstört den Automaton-Spähturm, der im 150-Meter-Kegel Verstärkung ruft.",
+      "steps": [
+        "Nähere dich im Liegen oder außerhalb des roten Sichtkegels.",
+        "Ruf in der Nähe eine Hellbomb.",
+        "Zerstöre den Turm (Demolition 50), bevor er dich entdeckt.",
+        "Ist er alarmiert, kämpf dich durch die Bot-Drops und zerstöre ihn trotzdem."
+      ],
+      "tips": [
+        "Liegend bist du für den Turm unsichtbar.",
+        "Eagle 500kg oder Orbital Precision reichen auch.",
+        "Bei Alarm fliegen Dropships auf deine letzte Position."
+      ],
+      "required": [
+        "Hellbomb rufen",
+        "Turm zerstören"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–4 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Detector_Tower",
+      "stepImages": [
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/radar.png"
+      ]
+    },
+    {
+      "id": "gunship_facility",
+      "name": "Gunship Facility",
+      "de": "Gunship-Fabrik",
+      "category": "tactical",
+      "faction": "automatons",
+      "summary": "Zerstört die Fabrik, die permanent Gunships produziert.",
+      "steps": [
+        "Nähere dich der Anlage und ruf eine Hellbomb.",
+        "Räum die Gunships am Himmel, bevor sie dich aufreiben.",
+        "Zerstöre die Fabrik (Demolition 60)."
+      ],
+      "tips": [
+        "Eagles und Orbital-Strikes machen keinen Schaden an der Fabrik.",
+        "Nur Hellbomb, Portable Hellbomb oder Mini-Nuke-Artillerie zerstören sie.",
+        "Die Fabrik spawnt bis zu vier Gunships; halt dich nicht im offenen Feld auf."
+      ],
+      "required": [
+        "Hellbomb rufen",
+        "Gunships abwehren",
+        "Fabrik sprengen"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "3–6 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Gunship_Facility",
+      "stepImages": [
+        "assets/img/missions/steps/gunship.png",
+        "assets/img/missions/steps/gunship.png",
+        "assets/img/missions/steps/fabricator.png"
+      ]
+    },
+    {
+      "id": "spore_spewer",
+      "name": "Spore Spewer",
+      "de": "Sporenspeier",
+      "category": "tactical",
+      "faction": "terminids",
+      "summary": "Zerstört den Pilzbau, der weite Teile der Karte in dichten Nebel hüllt.",
+      "steps": [
+        "Geh in die Nebelwolke und such den großen Pilzbau.",
+        "Zerstöre ihn mit einem Orbital- oder Eagle-Schlag.",
+        "Alternativ: Anti-Tank-Waffe oder Eruptor."
+      ],
+      "tips": [
+        "Der Bau hat 100 % durable HP – normale Primärwaffen brauchen ewig.",
+        "Ein Orbital Precision Strike reicht.",
+        "Räum danach die Bug Holes in der Nähe, wenn du Samples willst."
+      ],
+      "required": [
+        "Sporenspeier finden",
+        "Mit Stratagem oder AT zerstören"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–3 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Spore_Spewer",
+      "stepImages": [
+        "assets/img/missions/steps/spore.png",
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/spore.png"
+      ]
+    },
+    {
+      "id": "shrieker_nest",
+      "name": "Shrieker Nest",
+      "de": "Shrieker-Nest",
+      "category": "tactical",
+      "faction": "terminids",
+      "summary": "Zerstört die Nester, aus denen Shriekers Schwärme starten.",
+      "steps": [
+        "Nähere dich außerhalb von 130 Metern, sonst starten die Shriekers.",
+        "Zerstöre die zwei bis drei pilzförmigen Türme aus der Distanz.",
+        "Nimm Flak- oder Flächenwaffen gegen die fliegenden Gegner."
+      ],
+      "tips": [
+        "Keine Hellbomb nötig – aus der Ferne ist es sicherer.",
+        "Autocannon mit Flak oder Spear und Recoilless sind ideal.",
+        "Ein einzelner Turm hat viel durable HP; konzentrier dein Feuer."
+      ],
+      "required": [
+        "Nest aus Distanz angreifen",
+        "Türme zerstören"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–4 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Shrieker_Nest",
+      "stepImages": [
+        "assets/img/missions/steps/shrieker.png",
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/shrieker.png"
+      ]
+    },
+    {
+      "id": "stalker_lair",
+      "name": "Stalker Lair",
+      "de": "Stalker-Lair",
+      "category": "tactical",
+      "faction": "terminids",
+      "summary": "Schließt die Stalker-Nester, bevor dich die unsichtbaren Jäger überrennen.",
+      "steps": [
+        "Folge den Stalker-Angriffen zurück zur Quelle.",
+        "Wirf eine Granate in die Nester oder spreng sie von außen (Demolition 40).",
+        "Zerstöre alle ein bis zwei Nester."
+      ],
+      "tips": [
+        "Stalker sind extrem gefährlich – mach das Lair zur Priorität.",
+        "Dynamite kann zwei Nester gleichzeitig erledigen.",
+        "Die Nester glühen orange und sind auch nachts gut zu sehen."
+      ],
+      "required": [
+        "Nester finden",
+        "Granate hineinwerfen oder sprengen"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–4 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Stalker_Lair",
+      "stepImages": [
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/nest.png",
+        "assets/img/missions/steps/nest.png"
+      ]
+    },
+    {
+      "id": "cognitive_disruptor",
+      "name": "Cognitive Disruptor",
+      "de": "Kognitiver Disruptor",
+      "category": "tactical",
+      "faction": "illuminate",
+      "summary": "Zerstört die PSUs, die den Disruptor versorgen; sonst randomisiert er alle Stratagem-Codes im 200-Meter-Radius.",
+      "steps": [
+        "Ort den Disruptor und die markierten PSUs an umliegenden Generatoren.",
+        "Zerstöre die PSUs mit Barrages oder gezieltem Feuer.",
+        "Prüf, ob die Stratagem-Codes wieder normal sind."
+      ],
+      "tips": [
+        "Den Disruptor selbst kannst du nicht zerstören – nur die PSUs.",
+        "Orbital-120/380 oder Napalm räumen die PSUs schnell."
+      ],
+      "required": [
+        "PSUs finden",
+        "PSUs zerstören"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "3–5 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Cognitive_Disruptor",
+      "stepImages": [
+        "assets/img/missions/steps/radar.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/tcs.png"
+      ]
+    },
+    {
+      "id": "retrieve_mutant_larva",
+      "name": "Retrieve Mutant Larva",
+      "de": "Mutantenlarve bergen",
+      "category": "tactical",
+      "faction": "terminids",
+      "summary": "Sichert eine Terminiden-Larve im Probenbehälter und bringt sie zur Extraktion.",
+      "steps": [
+        "Finde den Probenbehälter im markierten Gebiet.",
+        "Nimm die Larve auf; du kannst nur einhändige Waffen nutzen.",
+        "Bring sie zur Extraktion und steig mit ihr in den Shuttle."
+      ],
+      "tips": [
+        "Der Behälter ist meist von Terminiden und Bug Holes bewacht.",
+        "Lässt du ihn fallen, markiert die Karte die Position."
+      ],
+      "required": [
+        "Probenbehälter aufnehmen",
+        "Zur Extraktion bringen",
+        "Mit Larve extrahieren"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "4–8 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Retrieve_Mutant_Larva",
+      "stepImages": [
+        "assets/img/missions/steps/eggs.png",
+        "assets/img/missions/steps/hatchery.png",
+        "assets/img/missions/steps/nest.png"
+      ]
+    },
+    {
+      "id": "destroy_rogue_research_station",
+      "name": "Destroy Rogue Research Station",
+      "de": "Abtrünnige Forschungsstation zerstören",
+      "category": "tactical",
+      "faction": "any",
+      "summary": "Zerstört ein illegales Forschungslabor, das auf eigene Faust experimentiert.",
+      "steps": [
+        "Geh zur markierten Station und räum die Wachen.",
+        "Ruf in der Nähe eine Hellbomb.",
+        "Zerstöre das Gebäude (Demolition 50)."
+      ],
+      "tips": [
+        "Eagle 500kg oder Orbital-Strikes erledigen das Gebäude schneller.",
+        "SEAF-Artillerie funktioniert auch, Napalm, Smoke und Static brauchen einen Direkttreffer."
+      ],
+      "required": [
+        "Hellbomb rufen",
+        "Gebäude zerstören"
+      ],
+      "rewards": "200 Requisition Slips, 50 XP",
+      "time": "2–4 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Destroy_Rogue_Research_Station",
+      "stepImages": [
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/research.png"
+      ]
+    },
+    {
+      "id": "deploy_dark_fluid",
+      "name": "Deploy Dark Fluid",
+      "de": "Dunkle Flüssigkeit einsetzen",
+      "category": "event",
+      "faction": "terminids",
+      "summary": "Bohrt Dark-Fluid-Behälter in tektonische Bohrer und verteidigt sie, um einen Planeten zu sprengen. Story-Mission um Meridia.",
+      "steps": [
+        "Ruf das Dark-Fluid-Gefäß und nimm den Rucksack auf.",
+        "Trag ihn zum markierten Payload-Standort.",
+        "Ruf den Tektonik-Bohrer und setz das Gefäß ein.",
+        "Verteidige den Bohrer eine Minute lang gegen Bug Breaches.",
+        "Wiederhole das an drei Standorten."
+      ],
+      "tips": [
+        "Schließ Bug Holes in der Nähe, um den Zustrom zu senken.",
+        "Zerstör die Spore Spewer für Sicht.",
+        "Nach dem letzten Bohrer kommen endlose Shrieker – bereite den Extrakt vor."
+      ],
+      "required": [
+        "Dark-Fluid-Gefäß rufen",
+        "Behälter transportieren",
+        "Tektonik-Bohrer rufen",
+        "Bohrer verteidigen"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "12–18 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Deploy_Dark_Fluid",
+      "stepImages": [
+        "assets/img/missions/steps/darkfluid.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/darkfluid.png",
+        "assets/img/missions/steps/overship.png"
+      ]
+    },
+    {
+      "id": "deactivate_terminid_control_system",
+      "name": "Deactivate Terminid Control System",
+      "de": "Terminiden-Kontrollsystem deaktivieren",
+      "category": "event",
+      "faction": "terminids",
+      "summary": "Zeitlich begrenzte Event-Mission: deaktiviert die Termizid-Türme und zerstört mutierte Nester.",
+      "steps": [
+        "Geh zu den drei markierten Batteriesilos und drück an jedem den Knopf.",
+        "Rechne danach mit dauerhaften Bug Breaches bis zur Extraktion.",
+        "Zerstöre die 17 mutierten Eier auf der Karte.",
+        "Halt Abstand zu den Eiern beim Zerstören – sie schleudern dich weg.",
+        "Ruf die Extraktion, sobald beide Ziele erledigt sind."
+      ],
+      "tips": [
+        "Arc Thrower und Blitzer zerstören die Eier nicht.",
+        "Kleine Spore Spewer im Gebiet vernebeln die Sicht – zerstör sie.",
+        "Die Mission war an die Barriereplaneten des Umlaut-Sektors gebunden."
+      ],
+      "required": [
+        "3 Batteriesilos deaktivieren",
+        "17 mutierte Eier zerstören"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "10–15 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Deactivate_Terminid_Control_System",
+      "stepImages": [
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/tcs.png",
+        "assets/img/missions/steps/eggs.png",
+        "assets/img/missions/steps/eggs.png",
+        "assets/img/missions/steps/tcs.png"
+      ]
+    },
+    {
+      "id": "take_down_overship",
+      "name": "Take Down Overship",
+      "de": "Overship abschießen",
+      "category": "event",
+      "faction": "illuminate",
+      "summary": "Holt die Zugangscodes und schießt mit der Planetenverteidigungskanone das Illuminate-Overship ab.",
+      "steps": [
+        "Durchsuch die Priority Emergency Bunker nach der Code-Festplatte (Rauschen wird lauter).",
+        "Aktivier das Kanonenterminal und gib die Codes ein.",
+        "Lös beide Verriegelungen am Bunker und öffne die Luke.",
+        "Fahr die Kanone aus (60 Sekunden) und richte sie auf die nächste Overship-Öffnung.",
+        "Gib Feuer, brich das Schild und wiederhole den Schuss, bis das Overship fällt."
+      ],
+      "tips": [
+        "Ziel auf Luke oder Vent – nach dem Schildbruch reicht oft ein Treffer.",
+        "Das Schild regeneriert nach 60 Sekunden; bleib am Terminal.",
+        "Nach dem Abschuss ruft das Overship Warp Ships – halt die Stellung."
+      ],
+      "required": [
+        "Zugangscodes finden",
+        "Kanonenterminal bedienen",
+        "Kanone ausrichten",
+        "Overship beschießen"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "10–15 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Take_Down_Overship",
+      "stepImages": [
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/gunship.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/overship.png"
+      ]
+    },
+    {
+      "id": "destroy_exospire",
+      "name": "Destroy Exospire",
+      "de": "Exospire zerstören",
+      "category": "event",
+      "faction": "illuminate",
+      "summary": "Zieht Daten aus Illuminate-Ruinen und destabilisiert den Kern der Exospire, die den Exosturm antreibt.",
+      "steps": [
+        "Nimm das Schild runter und zerstöre dann den Generator in den Ruinen.",
+        "Ruf den Data Jack und verteidige ihn, bis die Daten gezogen sind.",
+        "Wiederhole das an ein bis drei Ruinen.",
+        "Im Kern: Zerstör mindestens 148 Dark-Fluid-Zellen in den Wandnischen.",
+        "Verlass die Exospire, sobald der Kern kollabiert."
+      ],
+      "tips": [
+        "Der Data Jack kann zerstört werden – dann musst du einen neuen rufen.",
+        "Die Zellen sind klein und zahlreich; nimm eine Waffe mit großem Magazin.",
+        "Der Kernbereich ist eng – Flächenwaffen sparsam einsetzen."
+      ],
+      "required": [
+        "Schildgenerator zerstören",
+        "Data Jack rufen und verteidigen",
+        "Dark-Fluid-Zellen zerstören"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "10–15 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Destroy_Exospire",
+      "stepImages": [
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/research.png",
+        "assets/img/missions/steps/gunship.png",
+        "assets/img/missions/steps/overship.png",
+        "assets/img/missions/steps/radar.png"
+      ]
+    },
+    {
+      "id": "halt_cyborg_production",
+      "name": "Halt Cyborg Production",
+      "de": "Cyborg-Produktion stoppen",
+      "category": "event",
+      "faction": "automatons",
+      "summary": "Megafactory-Ziel: Flutet die Wasserstoffleitungen und sprengt die Cyborg-Produktionsanlage.",
+      "steps": [
+        "Dreh alle Ventile, bis der Druck im roten Bereich ist.",
+        "Ruf eine Hellbomb und zerstör den Kühlturm (Demolition 50).",
+        "Logge dich am Terminal ein, leite Wasserstoff in den Kern und zieh alle Abgasrohr-Klemmen an.",
+        "Öffne die Kontrollkammer, überlast die Ventile und starte den Prozess am Terminal.",
+        "Renn weg – 30 Sekunden später explodiert die Anlage."
+      ],
+      "tips": [
+        "Überlastete Leitungen brennen – nicht durchlaufen.",
+        "Im Gebäude gibt es nur einen Ausgang; sicher ihn vorher.",
+        "Der Kühlturm fällt auch durch 500-kg-Bombe oder Orbital-Strikes."
+      ],
+      "required": [
+        "Ventile auf Rot drehen",
+        "Hellbomb am Kühlturm",
+        "Wasserstoff in den Kern leiten",
+        "Prozess starten"
+      ],
+      "rewards": "500 Requisition Slips, 100 XP",
+      "time": "10–15 Min",
+      "source": "https://helldivers.wiki.gg/wiki/Halt_Cyborg_Production",
+      "stepImages": [
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/colony.png",
+        "assets/img/missions/steps/fabricator.png",
+        "assets/img/missions/steps/fabricator.png"
+      ]
+    }
+  ]
+}

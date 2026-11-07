@@ -1,0 +1,7 @@
+.tmp/
+node_modules/
+ai.config.json
+*.log
+*.zip
+.DS_Store
+Thumbs.db

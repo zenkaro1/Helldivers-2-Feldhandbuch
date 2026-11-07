@@ -1,0 +1,3548 @@
+{
+  "factions": [
+    {
+      "id": "terminids",
+      "name": "Terminiden",
+      "en": "Terminids",
+      "color": "#c9d94a",
+      "summary": "Die Terminiden sind Insekten-Schwärme, die in Wellen aus Brutlöchern und Bug Breaches kriechen und dich mit Klauen, Säure und Masse überrennen. Einzelne Gegner sind schwach, gefährlich wird der Schwarm, weil er dich einkreist und nachrückt. Auf hohen Schwierigkeitsgraden kommen gepanzerte Brocken wie Charger, Impaler und Bile Titan dazu.",
+      "playstyle": "Halte Abstand, bewege dich ständig und töte Chaff mit Feuerrate statt mit Präzision. Panzerbrechende Waffen hebst du für Charger, Impaler und Titanen auf, Sprengstoff für Brutlöcher und Nester.",
+      "subfactions": [
+        {
+          "name": "Predator Strain",
+          "note": "Gloom-Mutation mit Predator Hunter und Predator Stalker: schneller, aggressiver, Predator Hunter können sich tarnen und Säure spucken."
+        },
+        {
+          "name": "Spore Burst Strain",
+          "note": "Platzt beim Tod in eine Sporenwolke, die andere Terminiden beschleunigt. Ersetzt fast alle Standard-Terminiden, inklusive Spore Burst Bile Titan."
+        },
+        {
+          "name": "Rupture Strain",
+          "note": "Graben sich ein und brechen neben dir aus dem Boden. Rupture Warrior, Rupture Spewer und Rupture Charger tragen mittlere Panzerung, auch am Kopf."
+        },
+        {
+          "name": "Caustic Strain",
+          "note": "Explodieren beim Tod in einer Säurewolke. Caustic Spitter, Caustic Warrior, Caustic Spewer und Caustic Charger, letzterer erzeugt zusätzlich dichte Giftwolken."
+        },
+        {
+          "name": "Noxious Strain",
+          "note": "Gift-Variante mit Noxious Scavenger und Noxious Spewer: Bisse vergiften dich, Spinnweben bremsen dich aus."
+        }
+      ]
+    },
+    {
+      "id": "automatons",
+      "name": "Automatons",
+      "en": "Automatons",
+      "color": "#d64545",
+      "summary": "Die Automatons sind eine Roboterarmee aus Cyberstan: schwer gepanzert, präzise und mit Feuerkraft auf jeder Distanz. Anders als die Terminiden kämpfen sie mit Deckung, Salven und Panzerung. Für Einsteiger sind sie der härteste Einstieg.",
+      "playstyle": "Nutze Deckung, ziele auf Kopf und Rücken und hab immer eine Panzerabwehr-Option dabei. Wer frontal auf Panzerung 4 oder mehr schießt, verliert nur Munition und Zeit.",
+      "subfactions": [
+        {
+          "name": "Jet Brigade",
+          "note": "Sprungrucksäcke machen die Einheiten extrem mobil. Die Rucksäcke explodieren beim Zerstören und nehmen Nachbarn mit."
+        },
+        {
+          "name": "Incineration Corps",
+          "note": "Brandwaffen, Phosphor und Flammenwerfer. Feuerfeste Rüstungs-Passives und Abstand halten helfen."
+        },
+        {
+          "name": "Cyborg Legion",
+          "note": "Menschliche Cyborgs aus Cyberstan: Agitatoren befehligen Trupps, Radicals flankieren, der Vox Engine ist ein Koloss."
+        }
+      ]
+    },
+    {
+      "id": "illuminate",
+      "name": "Illuminate",
+      "en": "Illuminate",
+      "color": "#5ec8e8",
+      "summary": "Die Illuminate sind eine Hochtechnologie-Armee aus Aufsehern, pilotierten Konstrukten und gehirngewaschenen Menschen. Sie kämpfen mit Schilden, Plasmageschützen und Warp-Technik, statt dich einfach zu überrennen. Viele Einheiten rufen Verstärkung über Warp Ships, weshalb Aufklärung und schnelles Töten wichtiger sind als reine Feuerkraft.",
+      "playstyle": "Zerstöre zuerst Wächter und PSUs, sonst wächst der Gegner nach. Schilde bricht man mit Dauerfeuer, gepanzerte Teile mit mittlerer bis schwerer Durchdringung, und Kopf- oder Cockpit-Treffer beenden die meisten Konstrukte sofort.",
+      "subfactions": [
+        {
+          "name": "Appropriators",
+          "note": "Reine Illuminate ohne Voteless: Veracitor, Gatekeeper und Obtruder dominieren, dazu Harvester und Overseer. Mehr Panzerung, weniger Masse."
+        },
+        {
+          "name": "Vote Snatchers",
+          "note": "Mutierte Kreaturen aus The Void: Crusher und Wretch ersetzen alle Overseer, Harvester, Watcher und Stingrays. Keine Verstärkungsrufe, dafür enorme Mengen."
+        },
+        {
+          "name": "Mindless Masses",
+          "note": "Voteless und Fleshmobs im Massenaufgebot, nur wenige Squ'ith-Einheiten. Elevated Overseer und Stingray fehlen, dafür Schwärme von über 50 Voteless."
+        },
+        {
+          "name": "Invasion Fleet",
+          "note": "Die reguläre Illuminate-Flotte, die auf Planeten mit anderer Subfraktion zusätzliche Standardeinheiten ins Feld schickt."
+        },
+        {
+          "name": "The Great Host",
+          "note": "Die Invasionsstreitmacht, die Super Earth selbst angegriffen hat; nutzt das reguläre Illuminate-Aufgebot."
+        }
+      ]
+    },
+    {
+      "id": "superearth",
+      "name": "Super Earth",
+      "en": "Super Earth",
+      "color": "#3b7bd4",
+      "summary": "Auf Super-Earth-Seite stehen zivile Ziele, die du im Auftrag der Federation zerstörst: Forschungslabore und illegale Propagandasender. Sie schießen nicht zurück.",
+      "playstyle": "Kein Kampf nötig: Terminal hacken oder Sprengstoff mit genügend Demolition platzieren. Halte trotzdem Ausschau nach Automaton-Patrouillen.",
+      "subfactions": []
+    }
+  ],
+  "enemies": [
+    {
+      "id": "scavenger",
+      "name": "Scavenger",
+      "de": "Aasfresser",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "chaff",
+      "threat": 1,
+      "armor": 0,
+      "armorNote": "Ungepanzert am ganzen Körper.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 0, jeder Treffer genügt."
+        }
+      ],
+      "tactics": [
+        "Nicht stehen bleiben: im Gehen oder Rückwärtslaufen mit Feuerstößen wegräumen.",
+        "In Gruppen wirkt er nur als Zeitfresser, der dich für Charger und Spewer festhält."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "SG-8 Punisher",
+        "MG-43 Machine Gun",
+        "Eagle Cluster Bomb"
+      ],
+      "summary": "Der Aasfresser ist der häufigste Terminid und dein Maßstab für Schaden: ein kurzer Feuerstoß reicht. Gefährlich wird er nur in Masse, weil er Brutlöcher deckt und dich beim Nachladen bedrängt.",
+      "source": "https://helldivers.wiki.gg/wiki/Scavenger",
+      "imageLarge": "assets/img/enemies/icons/scavenger.png"
+    },
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "de": "Krieger",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "light",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Körper und Kopf je Panzerung 1, Beine 1; Werte aus der Wiki-Anatomie.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 1, tödlich und löst starke Blutung aus.",
+          "armor": 1
+        },
+        {
+          "zone": "Beine",
+          "note": "Panzerung 1, zwei Beine ab und er kippt.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Auf Kopfhöhe feuern: der Kopf stirbt viel schneller als der Körper und lässt ihn ausbluten.",
+        "Seitlich flankieren, statt frontal in die Klaue zu laufen; er holt zum Schlag weit aus."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "SG-8 Punisher",
+        "MG-43 Machine Gun",
+        "G-12 High Explosive"
+      ],
+      "summary": "Der Krieger ist der Standard-Soldat der Terminiden: mittelmäßig schnell, überraschend zäh und in Gruppen unterwegs. Er ist der Grund, warum deine Primärwaffe Feuerrate und Kontrolle braucht, keine Präzision.",
+      "source": "https://helldivers.wiki.gg/wiki/Warrior",
+      "imageLarge": "assets/img/enemies/icons/warrior.png"
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "de": "Jäger",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "chaff",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt nach Wiki-Klasse Leicht.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 1, ein Treffer aus der Schrotflinte reicht meist."
+        }
+      ],
+      "tactics": [
+        "Er springt dich an: im Sprung zur Seite wegducken und erst dann feuern.",
+        "Nie mit dem Rücken zur offenen Flanke kämpfen, Hunter kommen fast immer von hinten."
+      ],
+      "gear": [
+        "SG-225 Breaker",
+        "AR-23 Liberator",
+        "MG-43 Machine Gun",
+        "AX/AR-23 Guard Dog"
+      ],
+      "summary": "Der Jäger ist klein, schnell und springt dich aus dem Nichts an. Einzelnd harmlos, in Rudeln der Grund, warum du ständig in Bewegung bleiben musst.",
+      "source": "https://helldivers.wiki.gg/wiki/Hunter",
+      "imageLarge": "assets/img/enemies/icons/hunter.png"
+    },
+    {
+      "id": "pouncer",
+      "name": "Pouncer",
+      "de": "Springer",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "chaff",
+      "threat": 1,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt nach Wiki-Klasse Leicht.",
+      "weakspots": [
+        {
+          "zone": "Körper",
+          "note": "Panzerung 1, schwacher Gesundheitspool."
+        }
+      ],
+      "tactics": [
+        "Springer greifen in kleinen Sprüngen an, die leicht zu treffen sind: kurze Feuerstöße im Takt.",
+        "Nicht gezielt jagen, sie sind nur lästig und sterben an Streifschüssen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "SG-8 Punisher",
+        "MG-43 Machine Gun",
+        "G-12 High Explosive"
+      ],
+      "summary": "Der Springer ist eine kleinere, sprunghafte Chaff-Variante, die in Bodennähe bleibt. Er ist schnell tot, aber er bindet Aufmerksamkeit, während Größeres anrückt.",
+      "source": "https://helldivers.wiki.gg/wiki/Pouncer",
+      "imageLarge": "assets/img/enemies/icons/pouncer.png"
+    },
+    {
+      "id": "stalker",
+      "name": "Stalker",
+      "de": "Schleicher",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; im Spiel als leicht gepanzert dokumentiert.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Ungepanzert genug für jede Waffe, schneller Kill verhindert den Sprung."
+        }
+      ],
+      "tactics": [
+        "Der Schleicher tarnt sich: auf Schritte und Staub achten, nicht nur auf die Sichtlinie.",
+        "Er regeneriert Gesundheit, also nicht anfangen und dann weglaufen, sondern zu Ende bringen.",
+        "Die Quelle ist der Stalker Lair: Bau zerstören, sonst kommen immer neue."
+      ],
+      "gear": [
+        "SG-8 Punisher",
+        "ARC-12 Blitzer",
+        "AX/AR-23 Guard Dog",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Schleicher ist ein getarnter Einzeljäger, der dich verfolgt und aus dem Nichts anspringt. Er heilt sich mit der Zeit, weshalb halbe Treffer nichts bringen.",
+      "source": "https://helldivers.wiki.gg/wiki/Stalker",
+      "imageLarge": "assets/img/enemies/icons/stalker.png"
+    },
+    {
+      "id": "hive_guard",
+      "name": "Hive Guard",
+      "de": "Schwarmwächter",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Körper Panzerung 2, Kopf und Frontplatten 3, Klauen 1.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 3, braucht mittlere Durchdringung, ist aber tödlich.",
+          "armor": 3
+        },
+        {
+          "zone": "Rücken und Flanken",
+          "note": "Ungeschützt: frontal prallt alles an den Frontplatten ab, von hinten wirkt jede Waffe."
+        }
+      ],
+      "tactics": [
+        "Nie frontal: der Wächter hält die Frontplatten hoch und blockt dein Feuer.",
+        "Seitlich oder hinter ihn kommen und auf den Kopf schießen, dann kippt er schnell.",
+        "Er ist langsam, also umlaufen statt draufhalten."
+      ],
+      "gear": [
+        "GR-8 Recoilless Rifle",
+        "EAT-17",
+        "AC-8 Autocannon",
+        "G-16 Impact"
+      ],
+      "summary": "Der Schwarmwächter ist ein langsamer Schildträger: frontal fressen seine Platten deine Munition. Umlaufen ist die eigentliche Lösung, Durchdringung nur die Abkürzung.",
+      "source": "https://helldivers.wiki.gg/wiki/Hive_Guard",
+      "imageLarge": "assets/img/enemies/icons/hive_guard.png"
+    },
+    {
+      "id": "brood_commander",
+      "name": "Brood Commander",
+      "de": "Brutkommandant",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Körper und Kopf Panzerung 2, Beine 1.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 2, tödlich, 50 Prozent Schaden gehen auf den Hauptpool.",
+          "armor": 2
+        },
+        {
+          "zone": "Beine",
+          "note": "Panzerung 1, vier Treffer brechen die Bewegung.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Er ruft Verstärkung: sofort töten, sonst wächst der Schwarm weiter.",
+        "Er rammt und schlägt mit beiden Klauen, halte seitlich Abstand.",
+        "Kopf oder Beine fokussieren, nicht in die Körpermitte streuen."
+      ],
+      "gear": [
+        "GR-8 Recoilless Rifle",
+        "EAT-17",
+        "MG-206 Heavy Machine Gun",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Brutkommandant ist der Feldwebel des Schwarms: er ruft Nachschub und geht selbst in den Nahkampf. Solange er lebt, hört der Strom aus dem Brutloch nicht auf.",
+      "source": "https://helldivers.wiki.gg/wiki/Brood_Commander",
+      "imageLarge": "assets/img/enemies/icons/brood_commander.png"
+    },
+    {
+      "id": "charger",
+      "name": "Charger",
+      "de": "Rammbock",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 4,
+      "armorNote": "Körper, Kopf und Beinplatten Panzerung 4, Hintern 0, Beingewebe 2, Bauch 2.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, aber ein Panzerabwehr-Treffer tötet sofort.",
+          "armor": 4
+        },
+        {
+          "zone": "Hintern",
+          "note": "Panzerung 0: von hinten bricht er zusammen und blutet aus.",
+          "armor": 0
+        },
+        {
+          "zone": "Beingewebe",
+          "note": "Panzerung 2, Bein zerstören macht ihn langsam und verwundbar.",
+          "armor": 2
+        }
+      ],
+      "tactics": [
+        "Seitlich wegducken, nicht rückwärts laufen: er dreht eng, aber nicht eng genug.",
+        "Panzerabwehr auf den Kopf, dann ist er in einem Schuss weg.",
+        "Ohne Panzerabwehr: Beinplatte absprengen, dann auf das freie Gewebe schießen.",
+        "Gegen Wände laufen lassen: der Aufprall betäubt ihn kurz."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "LAS-99 Quasar Cannon",
+        "G-23 Stun"
+      ],
+      "summary": "Der Rammbock ist der erste echte Panzercheck: frontal unverwundbar für leichte Waffen, dafür langsam in der Kurve und mit ungeschütztem Hintern. Wer ihn mit normaler Munition beschießt, verliert nur Zeit.",
+      "source": "https://helldivers.wiki.gg/wiki/Charger",
+      "imageLarge": "assets/img/enemies/icons/charger.png"
+    },
+    {
+      "id": "charger_behemoth",
+      "name": "Charger Behemoth",
+      "de": "Rammbock-Behemoth",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper, Kopf und Beine Panzerung 4, Hintern 0, Beingewebe 2; mehr Gesundheit als der Standard-Rammbock.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, Panzerabwehr-Treffer beendet ihn.",
+          "armor": 4
+        },
+        {
+          "zone": "Hintern",
+          "note": "Panzerung 0, von hinten sehr effizient.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Er hat deutlich mehr Gesundheit: nicht auf Körpertreffer verlassen, sondern Kopf oder Hintern.",
+        "Ab Schwierigkeit 9 ersetzt er oft den normalen Rammbock, rechne also mit mehreren.",
+        "Mit Stun-Granaten festsetzen und dann in Ruhe den Kopf treffen."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "Orbital Railcannon Strike",
+        "G-123 Thermite"
+      ],
+      "summary": "Der Behemoth ist die härtere Ausführung des Rammbots: gleiche Panzerung, mehr Masse und höhere Schwierigkeitsstufen. Er frisst eine komplette Ladung Panzerabwehr, wenn du nicht Kopf oder Hintern triffst.",
+      "source": "https://helldivers.wiki.gg/wiki/Charger_Behemoth",
+      "imageLarge": "assets/img/enemies/icons/charger_behemoth.png"
+    },
+    {
+      "id": "impaler",
+      "name": "Impaler",
+      "de": "Pfäler",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 4,
+      "armorNote": "Körper, Kopfplatten, Rücken und Panzerplatten 4; Kopf selbst Panzerung 1, Hintern 1, Beingewebe 0.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 1 und tödlich, dazu 150 Prozent Schaden auf den Hauptpool.",
+          "armor": 1
+        },
+        {
+          "zone": "Tentakel",
+          "note": "Fleisch Panzerung 1: Tentakel abschießen stoppt den Fernangriff."
+        },
+        {
+          "zone": "Beine",
+          "note": "Beingewebe Panzerung 0, ein Bein reicht zum Umkippen.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Aus der Erde kommen Tentakel: sofort weg vom Bodenzittern, sonst wirst du aufgespießt.",
+        "Tentakel zuerst abschneiden, dann frontal auf den ungepanzerten Kopf.",
+        "Er bewegt sich kaum, also Zeit für präzise Schüsse nehmen."
+      ],
+      "gear": [
+        "GR-8 Recoilless Rifle",
+        "EAT-17",
+        "MG-206 Heavy Machine Gun",
+        "Orbital Precision Strike"
+      ],
+      "summary": "Der Pfäler ist ein stationärer Artillerist: er lässt Tentakel aus dem Boden schießen und hält dich auf Distanz. Seine Panzerung sitzt oben, sein Kopf und seine Beine sind die eigentlichen Schwachstellen.",
+      "source": "https://helldivers.wiki.gg/wiki/Impaler",
+      "imageLarge": "assets/img/enemies/icons/impaler.png"
+    },
+    {
+      "id": "bile_titan",
+      "name": "Bile Titan",
+      "de": "Säure-Titan",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper Panzerung 4, Kopf 4, Beinplatten 4; Bauch 2, Säcke 0. Werte aus der Wiki-Anatomie.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, 1.500 Gesundheit: ein Panzerabwehr-Treffer tötet.",
+          "armor": 4
+        },
+        {
+          "zone": "Säcke",
+          "note": "Panzerung 0: zerstört verhindert den Säureangriff komplett.",
+          "armor": 0
+        },
+        {
+          "zone": "Bauch",
+          "note": "Panzerung 2, freigelegt danach 4.000 Gesundheit als eigene Zone.",
+          "armor": 2
+        }
+      ],
+      "tactics": [
+        "Seitlich versetzen statt wegrennen: der Säurestrahl kommt in einer Linie und trifft auch andere Terminiden.",
+        "Kopf mit Panzerabwehr oder ein Orbital Railcannon Strike, alles andere ist Munitionsverschwendung.",
+        "Säcke zerstören, wenn kein Panzerabwehrschuss frei ist, dann kann er nicht mehr speien.",
+        "Betäubung wirkt nicht: er ist immun gegen Stun und Verwirrung."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "Orbital Railcannon Strike",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Säure-Titan ist der wandelnde Panzer der Terminiden: 6.500 Gesundheit, Panzerung 4 am ganzen Körper und ein Säurestrahl, der ganze Trupps auslöscht. Er ist langsam, aber sein Stampfen tötet sofort.",
+      "source": "https://helldivers.wiki.gg/wiki/Bile_Titan",
+      "attacks": [
+        {
+          "name": "CAUSTIC SURGE",
+          "type": "Säurestrahl",
+          "range": "40 m",
+          "danger": "HOCH",
+          "desc": "Verlangsamt · DoT · 1,5 s Vorwarnung"
+        },
+        {
+          "name": "CATACLYSMIC SLAM",
+          "type": "Stampfen",
+          "range": "8 m",
+          "danger": "TÖDLICH",
+          "desc": "Knockback · zerstört Deckung"
+        },
+        {
+          "name": "BILE SPEW",
+          "type": "Säureklumpen",
+          "range": "60 m",
+          "danger": "MITTEL",
+          "desc": "Streuschaden · hinterlässt Säure"
+        }
+      ],
+      "imageLarge": "assets/img/enemies/bile_titan_large.png"
+    },
+    {
+      "id": "nursing_spewer",
+      "name": "Nursing Spewer",
+      "de": "Brut-Speier",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt nach Wiki-Klasse Mittel.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 2, tödlich; der Kopf ist das größte Ziel am Tier."
+        },
+        {
+          "zone": "Säcke",
+          "note": "Ungeschützt, platzen und stoppen den Säureangriff."
+        }
+      ],
+      "tactics": [
+        "Der Säurestrahl trifft auch andere Terminiden: hinter Deckung locken und dort speien lassen.",
+        "Nicht in der Linie stehen bleiben, der Strahl brennt nach und bremst dich.",
+        "Er ist langsam, also seitlich umgehen und von der Flanke auf den Kopf."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "AC-8 Autocannon",
+        "MG-43 Machine Gun",
+        "G-16 Impact"
+      ],
+      "summary": "Der Brut-Speier ist die mittlere Säure-Einheit: er hält Abstand und speit in Bögen. Gefährlich ist weniger der Treffer als die Säurepfütze, die dich beim Ausweichen erwischt.",
+      "source": "https://helldivers.wiki.gg/wiki/Nursing_Spewer",
+      "imageLarge": "assets/img/enemies/icons/nursing_spewer.png"
+    },
+    {
+      "id": "shrieker",
+      "name": "Shrieker",
+      "de": "Kreischer",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "air",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; sehr geringe Gesundheit.",
+      "weakspots": [
+        {
+          "zone": "Körper",
+          "note": "Panzerung 1, ein kurzer Feuerstoß reicht."
+        }
+      ],
+      "tactics": [
+        "Sie kommen als Schwarm aus dem Shrieker Nest: Nest zerstören beendet den Strom.",
+        "In der Luft seitlich schießen, sie fliegen geradlinig auf dich zu.",
+        "Nicht in Panik zur Seite rennen, sondern ruhig im Schwarm mitziehen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "MG-43 Machine Gun",
+        "Eagle Cluster Bomb",
+        "AX/AR-23 Guard Dog"
+      ],
+      "summary": "Kreischer sind fliegende Schwarm-Terminiden, die dich aus der Luft anfallen und dich mit ihren Stößen aus dem Tritt bringen. Sie sind einzeln schwach, aber sie kommen in Dutzenden.",
+      "source": "https://helldivers.wiki.gg/wiki/Shrieker",
+      "imageLarge": "assets/img/enemies/icons/shrieker.png"
+    },
+    {
+      "id": "dragonroach",
+      "name": "Dragonroach",
+      "de": "Drachenroach",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "air",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper und Kopf Panzerung 4, Flügel 0; 50 Prozent Sprengstoffresistenz am ganzen Körper.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, 1.500 Gesundheit: ein Treffer mit EAT-17, Quasar oder Recoilless beendet ihn.",
+          "armor": 4
+        },
+        {
+          "zone": "Flügel",
+          "note": "Panzerung 0, aber 100 Prozent Haltbarkeit: Flügel zerstören ist tödlich, braucht aber Durchschlag.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Er kündigt den Sturzflug mit einem Kreischen und einem Flügelschlag an: dann sofort wegdrehen.",
+        "Wenn er tief schwebt und den Feuerstrahl setzt, ist das dein Fenster für den Kopftreffer.",
+        "Feuer trifft dich auch in Deckung: hinlegen löscht die Flammen und verhindert das Entzünden.",
+        "Er ist betäubbar: Dauerfeuer mit hohem Stagger hält ihn in der Luft fest."
+      ],
+      "gear": [
+        "EAT-17",
+        "LAS-99 Quasar Cannon",
+        "GR-8 Recoilless Rifle",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der Drachenroach ist der fliegende Bile Titan: er umkreist dich und verbrennt ganze Linien mit einem Feuerstrahl. Nur sein Kopf ist wirklich angreifbar, und der Rest des Körpers schluckt fast alles.",
+      "source": "https://helldivers.wiki.gg/wiki/Dragonroach",
+      "imageLarge": "assets/img/enemies/icons/dragonroach.png"
+    },
+    {
+      "id": "hive_lord",
+      "name": "Hive Lord",
+      "de": "Schwarmfürst",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "elite",
+      "threat": 5,
+      "armor": 5,
+      "armorNote": "Körper komplett Tank-I-Panzerung (5), Kopf 6, offener Mund 1; 150.000 Gesundheit, alle Teile 0 Prozent Haltbarkeit.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 6, nur mit schwerster Panzerabwehr sinnvoll.",
+          "armor": 6
+        },
+        {
+          "zone": "Offener Mund",
+          "note": "Panzerung 1: während des Säureangriffs das einzige weiche Ziel.",
+          "armor": 1
+        },
+        {
+          "zone": "Panzerplatten",
+          "note": "Platten brechen unter Panzerabwehrfeuer und legen leicht gepanzertes Fleisch frei."
+        }
+      ],
+      "tactics": [
+        "Er ist kein Pflichtziel: Weglaufen ist eine legitime Option, solange er dich nicht einholt.",
+        "Der Kampf ist ein Gruppenprojekt: Platten mit Panzerabwehr und Stratagems abtragen, dann Fleisch beschießen.",
+        "Explosionen auf das freigelegte Fleisch wirken nicht, dort brauchst du direkte Feuerkraft.",
+        "Bodenzittern bedeutet, er gräbt unter dir: seitwärts weg, nicht rückwärts."
+      ],
+      "gear": [
+        "GR-8 Recoilless Rifle",
+        "EAT-17",
+        "Eagle Strafing Run",
+        "Orbital Gatling Barrage",
+        "EXO-45 Patriot Exosuit"
+      ],
+      "summary": "Der Schwarmfürst ist der größte Gegner im Spiel: ein wurmartiger Koloss, der unterirdisch unter dir durchgräbt und mit Körper und Säure ganze Gebiete räumt. Ihn zu töten ist freiwillig, bringt aber Erfahrung und gilt als abgeschlossenes Ziel.",
+      "source": "https://helldivers.wiki.gg/wiki/Hive_Lord",
+      "imageLarge": "assets/img/enemies/icons/hive_lord.png"
+    },
+    {
+      "id": "caustic_spitter",
+      "name": "Caustic Spitter",
+      "de": "Ätz-Spucker",
+      "faction": "terminids",
+      "subfaction": "Caustic Strain",
+      "class": "chaff",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; ersetzt den Aasfresser.",
+      "weakspots": [
+        {
+          "zone": "Körper",
+          "note": "Panzerung 1, stirbt an wenigen Treffern."
+        }
+      ],
+      "tactics": [
+        "Er platzt beim Tod in einer Säurewolke: töte ihn nicht direkt vor deinen Füßen.",
+        "Aus der Distanz erledigen, dann am Explosionskreis vorbeilaufen.",
+        "Auf Exosuits und Fahrzeugen macht er 1,5-fachen Schaden, dort besonders früh beseitigen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "SG-8 Punisher",
+        "MG-43 Machine Gun",
+        "G-12 High Explosive"
+      ],
+      "summary": "Der Ätz-Spucker ist die Caustic-Version des Aasfressers: klein, schnell tot, aber er hinterlässt eine Säurewolke. In der Nahdistanz ist er damit deutlich gefährlicher als sein Vorbild.",
+      "source": "https://helldivers.wiki.gg/wiki/Caustic_Spitter",
+      "imageLarge": "assets/img/enemies/icons/caustic_spitter.png"
+    },
+    {
+      "id": "caustic_warrior",
+      "name": "Caustic Warrior",
+      "de": "Ätz-Krieger",
+      "faction": "terminids",
+      "subfaction": "Caustic Strain",
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt nach Wiki-Klasse Mittel; explodiert beim Tod.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 2, tödlich; verhindert den Nahkampf."
+        },
+        {
+          "zone": "Beine",
+          "note": "Panzerung 1, bricht seine Bewegung."
+        }
+      ],
+      "tactics": [
+        "Der Tod ist die Falle: nach dem Kill sofort zwei Schritte zurück.",
+        "Nahkampf meiden, er macht dreifachen Schaden an Exosuits und Panzern.",
+        "Mit Stagger- oder Stun-Waffen auf Abstand halten, dann einzeln abräumen."
+      ],
+      "gear": [
+        "SG-451 Cookout",
+        "AR-32 Pacifier",
+        "AC-8 Autocannon",
+        "FLAM-40 Flamethrower"
+      ],
+      "summary": "Der Ätz-Krieger ist der Caustic-Krieger: gleiche Rolle, aber er explodiert beim Ableben in Säure. Genau das macht Massenkämpfe auf Caustic-Planeten unangenehm.",
+      "source": "https://helldivers.wiki.gg/wiki/Caustic_Warrior",
+      "imageLarge": "assets/img/enemies/icons/caustic_warrior.png"
+    },
+    {
+      "id": "caustic_spewer",
+      "name": "Caustic Spewer",
+      "de": "Ätz-Speier",
+      "faction": "terminids",
+      "subfaction": "Caustic Strain",
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt nach Wiki-Klasse Mittel.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 2, tödlich; der Kopf ist gut sichtbar über dem Körper."
+        },
+        {
+          "zone": "Säcke",
+          "note": "Ungeschützt, platzen beim Treffer und stoppen den Beschuss."
+        }
+      ],
+      "tactics": [
+        "Er ist die einzige Terminiden-Mörser-Einheit: er schießt im Bogen über Deckung.",
+        "Weil er auf Distanz kämpft, lohnen Fernwaffen wie APW-1 oder R-63 Diligence.",
+        "Nicht in der Säurepfütze stehen bleiben, sie bremst und brennt nach."
+      ],
+      "gear": [
+        "APW-1 Anti-Materiel Rifle",
+        "R-63 Diligence",
+        "AC-8 Autocannon",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Ätz-Speier ist der Mörser der Caustic-Strain: er hält sich hinten und wirft Säurebälle über Deckung. Das ist der Grund, warum auf diesen Planeten Fernkampf-Optionen plötzlich nützlich sind.",
+      "source": "https://helldivers.wiki.gg/wiki/Caustic_Spewer",
+      "imageLarge": "assets/img/enemies/icons/caustic_spewer.png"
+    },
+    {
+      "id": "caustic_charger",
+      "name": "Caustic Charger",
+      "de": "Ätz-Rammbock",
+      "faction": "terminids",
+      "subfaction": "Caustic Strain",
+      "class": "heavy",
+      "threat": 4,
+      "armor": 4,
+      "armorNote": "Panzerung 4 wie der Standard-Rammbock; Hintern bleibt ungepanzert.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, Panzerabwehr-Treffer tötet sofort.",
+          "armor": 4
+        },
+        {
+          "zone": "Hintern",
+          "note": "Panzerung 0, von hinten der schnellste Weg.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Beim Tod setzt er eine dichte Giftwolke frei, die die Sicht fast nimmt: danach neu orientieren.",
+        "Auf hohen Schwierigkeiten kommt er zusammen mit Bug Breaches, also Position vorher planen.",
+        "In der Wolke helfen Zielsuchwaffen wie FAF-14 Spear oder P-92 Warrant."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "FAF-14 Spear",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der Ätz-Rammbock kombiniert die Panzerung eines Chargers mit einer Giftwolke beim Ableben. Die eigentliche Gefahr ist die Sichtbehinderung, nicht der Rammstoß.",
+      "source": "https://helldivers.wiki.gg/wiki/Caustic_Charger",
+      "imageLarge": "assets/img/enemies/icons/caustic_charger.png"
+    },
+    {
+      "id": "noxious_scavenger",
+      "name": "Noxious Scavenger",
+      "de": "Gift-Aasfresser",
+      "faction": "terminids",
+      "subfaction": "Noxious Strain",
+      "class": "chaff",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Ungepanzert, geschätzt wie der Standard-Aasfresser.",
+      "weakspots": [
+        {
+          "zone": "Körper",
+          "note": "Panzerung 0, jeder Treffer sitzt."
+        }
+      ],
+      "tactics": [
+        "Sein Biss vergiftet dich: nicht treten lassen, sondern auf Abstand halten.",
+        "Er bremst dich mit Spinnweben, die dich für den Rest des Schwarms zum Ziel machen.",
+        "Gift heilen oder aushalten, aber nicht mit Gift im Blut in den Nahkampf gehen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "SG-8 Punisher",
+        "MG-43 Machine Gun",
+        "G-12 High Explosive"
+      ],
+      "summary": "Der Gift-Aasfresser ist die Noxious-Variante des Standardschwarms: schwach, aber sein Biss vergiftet und seine Netze bremsen. Genau diese Bremsung ist in einer Horde tödlich.",
+      "source": "https://helldivers.wiki.gg/wiki/Noxious_Scavenger",
+      "imageLarge": "assets/img/enemies/icons/noxious_scavenger.png"
+    },
+    {
+      "id": "noxious_spewer",
+      "name": "Noxious Spewer",
+      "de": "Gift-Speier",
+      "faction": "terminids",
+      "subfaction": "Noxious Strain",
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt nach Wiki-Klasse Mittel.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 2, tödlich."
+        },
+        {
+          "zone": "Säcke",
+          "note": "Ungeschützt, verhindern den Giftangriff."
+        }
+      ],
+      "tactics": [
+        "Er speit Gift statt Säure: die Wolke bleibt stehen und schneidet Wege ab.",
+        "Von der Seite angreifen, nicht durch die eigene Fluchtlinie speien lassen.",
+        "Gegen Gift hilft Abstand mehr als jede Rüstung."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "AC-8 Autocannon",
+        "MG-43 Machine Gun",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Gift-Speier ist der mittlere Noxious-Gegner: er versprüht Giftwolken, die Räume sperren. Er zwingt dich, anders zu laufen, nicht härter zu kämpfen.",
+      "source": "https://helldivers.wiki.gg/wiki/Noxious_Spewer",
+      "imageLarge": "assets/img/enemies/icons/noxious_spewer.png"
+    },
+    {
+      "id": "predator_hunter",
+      "name": "Predator Hunter",
+      "de": "Predator-Jäger",
+      "faction": "terminids",
+      "subfaction": "Predator Strain",
+      "class": "light",
+      "threat": 3,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; ersetzt den normalen Jäger.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 1, ein Treffer mit Schrot beendet ihn."
+        }
+      ],
+      "tactics": [
+        "Er tarnt sich: Gas oder Feuer macht ihn sichtbar und vertreibt ihn.",
+        "Sein Zungenschlag wirft dich um und seine Säurespucke brennt nach.",
+        "In Gruppen mit Feuer oder Stagger bündeln, sonst wirst du einzeln herausgepickt."
+      ],
+      "gear": [
+        "SG-8 Punisher",
+        "SG-225IE Breaker Incendiary",
+        "ARC-12 Blitzer",
+        "G-4 Gas"
+      ],
+      "summary": "Der Predator-Jäger ist die getarnte, schnellere Version des Jägers und der Grund, warum Predator-Planeten anders gespielt werden. Er spuckt Säure, schlägt mit der Zunge zu und taucht genau dann auf, wenn du nachlädst.",
+      "source": "https://helldivers.wiki.gg/wiki/Predator_Hunter",
+      "imageLarge": "assets/img/enemies/icons/predator_hunter.png"
+    },
+    {
+      "id": "predator_stalker",
+      "name": "Predator Stalker",
+      "de": "Predator-Schleicher",
+      "faction": "terminids",
+      "subfaction": "Predator Strain",
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt; ersetzt Hive Guards und Krieger.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 2, tödlich."
+        },
+        {
+          "zone": "Beine",
+          "note": "Panzerung 1, bremst seinen Sturmangriff."
+        }
+      ],
+      "tactics": [
+        "Er kann sich nicht tarnen, kommt aber in großen Zahlen und sehr schnell.",
+        "Zusammenbleiben und Feuer bündeln, sonst wirst du auseinandergezogen.",
+        "Stagger-Waffen wie SG-8 Punisher oder ARC-12 Blitzer nehmen ihm die Geschwindigkeit."
+      ],
+      "gear": [
+        "SG-8 Punisher",
+        "ARC-12 Blitzer",
+        "MG-43 Machine Gun",
+        "AX/TX-13 Dog Breath"
+      ],
+      "summary": "Der Predator-Schleicher ist der Brecher der Predator-Strain: kein Tarnfeld, dafür enorme Geschwindigkeit und Rudelgröße. Er gewinnt, wenn du dich isolieren lässt.",
+      "source": "https://helldivers.wiki.gg/wiki/Predator_Stalker",
+      "imageLarge": "assets/img/enemies/icons/predator_stalker.png"
+    },
+    {
+      "id": "rupture_warrior",
+      "name": "Rupture Warrior",
+      "de": "Ruptur-Krieger",
+      "faction": "terminids",
+      "subfaction": "Rupture Strain",
+      "class": "medium",
+      "threat": 3,
+      "armor": 3,
+      "armorNote": "Mittlere Panzerung 3 am ganzen Körper inklusive Kopf; laut Wiki ausdrücklich mittel gepanzert.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 3, braucht mindestens mittlere Durchdringung.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Er gräbt sich ein und bricht neben dir hervor: auf bewegte Erdhaufen achten.",
+        "Sprengstoff zwingt ihn an die Oberfläche, auch Granaten und Explosiv-Primaries.",
+        "Mittlere Durchdringung ist auf Rupture-Planeten Pflicht, leichte Munition prallt ab."
+      ],
+      "gear": [
+        "CB-9 Exploding Crossbow",
+        "GL-21 Grenade Launcher",
+        "AC-8 Autocannon",
+        "G-16 Impact"
+      ],
+      "summary": "Der Ruptur-Krieger ist der Standard-Krieger mit mittlerer Panzerung und der Fähigkeit, sich unterirdisch an dich heranzugraben. Er taucht auf, wo du nicht hinschaust.",
+      "source": "https://helldivers.wiki.gg/wiki/Rupture_Warrior",
+      "imageLarge": "assets/img/enemies/icons/rupture_warrior.png"
+    },
+    {
+      "id": "rupture_charger",
+      "name": "Rupture Charger",
+      "de": "Ruptur-Rammbock",
+      "faction": "terminids",
+      "subfaction": "Rupture Strain",
+      "class": "heavy",
+      "threat": 4,
+      "armor": 4,
+      "armorNote": "Panzerung 4 wie der Standard-Rammbock, gräbt sich zusätzlich ein.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, Panzerabwehr-Treffer tötet.",
+          "armor": 4
+        },
+        {
+          "zone": "Hintern",
+          "note": "Panzerung 0, von hinten effizient.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Sein Erdhügel ist deutlich größer als bei Kriegern: daran erkennst du, was gleich kommt.",
+        "Ausgraben mit Granaten oder Explosivwaffen erzwingen, dann Kopf oder Hintern treffen.",
+        "Unterirdisch ist er gegen gezielte rote Stratagems immun, also nicht darauf verlassen."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "GL-21 Grenade Launcher",
+        "Eagle Cluster Bomb"
+      ],
+      "summary": "Der Ruptur-Rammbock ist die grabende Version des Chargers: er verschwindet und taucht näher wieder auf. Sein Vorteil ist der Überraschungseffekt, nicht die Panzerung.",
+      "source": "https://helldivers.wiki.gg/wiki/Rupture_Charger",
+      "imageLarge": "assets/img/enemies/icons/rupture_charger.png"
+    },
+    {
+      "id": "rupture_spewer",
+      "name": "Rupture Spewer",
+      "de": "Ruptur-Speier",
+      "faction": "terminids",
+      "subfaction": "Rupture Strain",
+      "class": "medium",
+      "threat": 3,
+      "armor": 3,
+      "armorNote": "Mittlere Panzerung 3 inklusive Kopf; laut Wiki ausdrücklich mittel gepanzert.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 3, braucht mittlere Durchdringung.",
+          "armor": 3
+        },
+        {
+          "zone": "Säcke",
+          "note": "Ungeschützt, stoppen den Säureangriff."
+        }
+      ],
+      "tactics": [
+        "Er taucht halb versunken auf und wirft kurze Säurebälle im Bogen.",
+        "Er verfolgt dich nicht bis in den Nahkampf, also Abstand halten und seitlich arbeiten.",
+        "Granaten auf den Erdhügel zwingen ihn zum Auftauchen."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "GL-21 Grenade Launcher",
+        "APW-1 Anti-Materiel Rifle",
+        "G-16 Impact"
+      ],
+      "summary": "Der Ruptur-Speier gräbt sich ein, bleibt halb im Boden und beschießt dich mit Säurebällen. Er ist der Grund, warum Rupture-Planeten auch Fernkampf verlangen.",
+      "source": "https://helldivers.wiki.gg/wiki/Rupture_Spewer",
+      "imageLarge": "assets/img/enemies/icons/rupture_spewer.png"
+    },
+    {
+      "id": "spore_burst_scavenger",
+      "name": "Spore Burst Scavenger",
+      "de": "Sporen-Aasfresser",
+      "faction": "terminids",
+      "subfaction": "Spore Burst Strain",
+      "class": "chaff",
+      "threat": 1,
+      "armor": 0,
+      "armorNote": "Ungepanzert wie der Standard-Aasfresser.",
+      "weakspots": [
+        {
+          "zone": "Körper",
+          "note": "Panzerung 0, ein Treffer genügt."
+        }
+      ],
+      "tactics": [
+        "Er platzt beim Tod in eine Sporenwolke, die andere Spore-Burst-Terminiden beschleunigt.",
+        "Wenn möglich brennend töten: dann entstehen keine Sporen.",
+        "Nicht durch die rote Wolke laufen, sie schadet dir und bufft den Schwarm."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "LAS-5 Scythe",
+        "FLAM-40 Flamethrower",
+        "MG-43 Machine Gun"
+      ],
+      "summary": "Der Sporen-Aasfresser ist ein explodierender Aasfresser: klein, schnell, aber sein Tod ist ein Buff für den ganzen Schwarm. Gegen Spore Burst zählt, wie du tötest, nicht nur wie viele.",
+      "source": "https://helldivers.wiki.gg/wiki/Spore_Burst_Scavenger",
+      "imageLarge": "assets/img/enemies/icons/spore_burst_scavenger.png"
+    },
+    {
+      "id": "spore_burst_warrior",
+      "name": "Spore Burst Warrior",
+      "de": "Sporen-Krieger",
+      "faction": "terminids",
+      "subfaction": "Spore Burst Strain",
+      "class": "light",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1 wie der Standard-Krieger.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 1, tödlich.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Schneller als normale Krieger und in größeren Patrouillen unterwegs.",
+        "Beim Tod Sporenexplosion: nach dem Kill kurz Platz schaffen.",
+        "Feuer- oder Gaswaffen verhindern die Sporen und bremsen den Rest."
+      ],
+      "gear": [
+        "FLAM-40 Flamethrower",
+        "SG-225IE Breaker Incendiary",
+        "AR-23 Liberator",
+        "AX/TX-13 Dog Breath"
+      ],
+      "summary": "Der Sporen-Krieger ist der schnellere, explodierende Krieger der Spore-Burst-Strain. Seine Patrouillen sind auffällig groß, also rechne mit mehr Gegnern als üblich.",
+      "source": "https://helldivers.wiki.gg/wiki/Spore_Burst_Warrior",
+      "imageLarge": "assets/img/enemies/icons/spore_burst_warrior.png"
+    },
+    {
+      "id": "spore_burst_hunter",
+      "name": "Spore Burst Hunter",
+      "de": "Sporen-Jäger",
+      "faction": "terminids",
+      "subfaction": "Spore Burst Strain",
+      "class": "chaff",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1 wie der Standard-Jäger.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 1, ein Streifschuss reicht."
+        }
+      ],
+      "tactics": [
+        "Springt und explodiert: töte ihn nicht in Sprungrichtung auf dich zu.",
+        "Feuerwaffen sind hier doppelt gut, weil sie die Sporenwolke verhindern.",
+        "In der Gruppe mit Flächenwaffen arbeiten, nicht einzeln."
+      ],
+      "gear": [
+        "SG-225IE Breaker Incendiary",
+        "FLAM-40 Flamethrower",
+        "AR-23 Liberator",
+        "Eagle Cluster Bomb"
+      ],
+      "summary": "Der Sporen-Jäger kombiniert den Sprungangriff des Jägers mit einer Sporenexplosion beim Tod. Auf Spore-Burst-Planeten ist er die häufigste Art, aus dem Nichts zu sterben.",
+      "source": "https://helldivers.wiki.gg/wiki/Spore_Burst_Hunter",
+      "imageLarge": "assets/img/enemies/icons/spore_burst_hunter.png"
+    },
+    {
+      "id": "spore_burst_bile_titan",
+      "name": "Spore Burst Bile Titan",
+      "de": "Sporen-Säure-Titan",
+      "faction": "terminids",
+      "subfaction": "Spore Burst Strain",
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Panzerung 4 wie der Bile Titan; ersetzt ihn ab Schwierigkeit 5 vollständig.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 4, Panzerabwehr-Treffer tötet.",
+          "armor": 4
+        },
+        {
+          "zone": "Säcke",
+          "note": "Panzerung 0, verhindern den Säureangriff.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Er speit nicht nur Säure, sein Tod hinterlässt zusätzlich eine Sporenwolke.",
+        "Kopf mit Panzerabwehr oder Orbital Railcannon, alles andere dauert zu lange.",
+        "Nach dem Kill sofort weg vom Kadaver, die Wolke bufft den restlichen Schwarm."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "Orbital Railcannon Strike",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Sporen-Säure-Titan ist der Bile Titan der Spore-Burst-Strain: gleiche Panzerung, gleiche Säure, aber beim Tod kommt eine Sporenwolke dazu. Auf Spore-Burst-Planeten ersetzt er den normalen Titanen komplett.",
+      "source": "https://helldivers.wiki.gg/wiki/Spore_Burst_Bile_Titan",
+      "imageLarge": "assets/img/enemies/icons/spore_burst_bile_titan.png"
+    },
+    {
+      "id": "voteless",
+      "name": "Voteless",
+      "de": "Stimmenlose",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "chaff",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Ungepanzert, nur Masse und Zähigkeit.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 0, ein Treffer beendet ihn."
+        }
+      ],
+      "tactics": [
+        "Sie kommen in Wellen von 20 bis 50 Stück: Feuerrate und Magazine sind wichtiger als Schaden pro Schuss.",
+        "Rückwärts laufen und dabei feuern, sonst wirst du umringt und festgehalten.",
+        "Flammen- und Gaswaffen räumen ganze Trauben, ohne dass du zielen musst."
+      ],
+      "gear": [
+        "M-105 Stalwart",
+        "FLAM-40 Flamethrower",
+        "MG-43 Machine Gun",
+        "GL-21 Grenade Launcher"
+      ],
+      "summary": "Voteless sind gehirngewaschene Menschen, die dich nur mit Masse und Nahkampf angreifen. Einzeln harmlos, in der Horde der Grund, warum dein Magazin zu klein ist.",
+      "source": "https://helldivers.wiki.gg/wiki/Voteless",
+      "imageLarge": "assets/img/enemies/icons/voteless.png"
+    },
+    {
+      "id": "watcher",
+      "name": "Watcher",
+      "de": "Wächter",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "air",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; sehr leichtes Flugziel.",
+      "weakspots": [
+        {
+          "zone": "Auge",
+          "note": "Panzerung 0, ein Treffer aus jeder Waffe genügt."
+        }
+      ],
+      "tactics": [
+        "Er ruft Warp Ships mit Verstärkung: immer zuerst abschießen, bevor er dich sieht.",
+        "Er leuchtet einen Kegel aus, daran erkennst du ihn auch im Getümmel.",
+        "Beim Tod explodiert er: nicht direkt darunter stehen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "LAS-5 Scythe",
+        "P-19 Redeemer",
+        "AX/AR-23 Guard Dog"
+      ],
+      "summary": "Der Wächter ist das Auge der Illuminate: ein kleiner fliegender Späher, der Verstärkung herbeiruft. Wer ihn ignoriert, kämpft Minuten später gegen eine zweite Welle.",
+      "source": "https://helldivers.wiki.gg/wiki/Watcher",
+      "imageLarge": "assets/img/enemies/icons/watcher.png"
+    },
+    {
+      "id": "obtruder",
+      "name": "Obtruder",
+      "de": "Eindringling",
+      "faction": "illuminate",
+      "subfaction": "Appropriators",
+      "class": "air",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; fliegende Chaff-Einheit.",
+      "weakspots": [
+        {
+          "zone": "Auge",
+          "note": "Panzerung 0: ein Treffer mit rund 200 Schaden tötet, weil Auge, Körper und Hauptpool gleichzeitig getroffen werden."
+        }
+      ],
+      "tactics": [
+        "Er ruft keine Verstärkung, kommt aber in Gruppen von bis zu 18 Stück aus Warp Ships.",
+        "Sie drängen sich dicht zusammen: Flächenwaffen und Kettenexplosionen räumen ganze Trupps.",
+        "Der AC-8 Autocannon im Flak-Modus ist das effizienteste Werkzeug gegen sie."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "LAS-16 Sickle",
+        "MG-43 Machine Gun",
+        "AX/AR-23 Guard Dog"
+      ],
+      "summary": "Der Eindringling ist der fliegende Chaff der Appropriators: ein Wächter ohne Verstärkungsruf, dafür in Rudeln. Er umkreist dich in Bodennähe und feuert träge Plasmaorbs.",
+      "source": "https://helldivers.wiki.gg/wiki/Obtruder",
+      "imageLarge": "assets/img/enemies/icons/obtruder.png"
+    },
+    {
+      "id": "overseer",
+      "name": "Overseer",
+      "de": "Aufseher",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Körper ungepanzert, Kopf 3, Brust und Glieder 2, Schild 1.500 Gesundheit; Werte aus der Wiki-Anatomie.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 3, tödlich: erst Schild und Helm runter, dann Kopf.",
+          "armor": 3
+        },
+        {
+          "zone": "Beine und Arme",
+          "note": "Panzerung 0 bis 1: Beine zerstören bremst ihn, Arme nehmen ihm die Waffe."
+        }
+      ],
+      "tactics": [
+        "Sein Schild schluckt die ersten Treffer: Dauerfeuer statt einzelner Präzisionsschüsse.",
+        "Er wirft Plasma und schlägt zu, halte mittlere Distanz und bewege dich seitlich.",
+        "Nach dem Schild auf den Kopf zielen, nicht auf die gepanzerte Brust."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "MG-43 Machine Gun",
+        "LAS-98 Laser Cannon",
+        "AC-8 Autocannon"
+      ],
+      "summary": "Der Aufseher ist der Infanterist der Illuminate: schildbewehrt, mit Plasmawerfer und Nahkampfschlag. Er ist kein Massengegner, sondern ein Ziel, das man sauber zerlegen muss.",
+      "source": "https://helldivers.wiki.gg/wiki/Overseer",
+      "imageLarge": "assets/img/enemies/icons/overseer.png"
+    },
+    {
+      "id": "elevated_overseer",
+      "name": "Elevated Overseer",
+      "de": "Erhabener Aufseher",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2 wie der Aufseher, geschätzt nach gleichem Körperbau.",
+      "weakspots": [
+        {
+          "zone": "Jetpack",
+          "note": "Zerstört ihn sofort: der Rucksack ist die tödliche Schwachstelle."
+        },
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 3, nach dem Schild tödlich.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Er schwebt über dir und schießt von oben: Jetpack treffen, dann fällt er.",
+        "Nicht senkrecht nach oben feuern, sondern warten, bis er seitlich vorbeizieht.",
+        "Er ist die fliegende Aufseher-Variante mit Jetpack und fehlt auf Planeten der Mindless Masses."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "MG-43 Machine Gun",
+        "AC-8 Autocannon",
+        "P-92 Warrant"
+      ],
+      "summary": "Der Erhabene Aufseher ist ein Aufseher mit Jetpack: er steigt über dich und beschießt dich aus der Luft. Sein Rucksack ist die Schwachstelle, die den Kampf in Sekunden beendet.",
+      "source": "https://helldivers.wiki.gg/wiki/Elevated_Overseer",
+      "imageLarge": "assets/img/enemies/icons/elevated_overseer.png"
+    },
+    {
+      "id": "crescent_overseer",
+      "name": "Crescent Overseer",
+      "de": "Sichel-Aufseher",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2 wie der Standard-Aufseher, gleicher Körperbau.",
+      "weakspots": [
+        {
+          "zone": "Rucksack",
+          "note": "Zerstört ihn sofort, genau wie das Jetpack des Erhabenen Aufsehers."
+        },
+        {
+          "zone": "Kopf",
+          "note": "Panzerung 3, nach dem Schild tödlich.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Er ist Artillerie: seine Plasmabomben fliegen im Bogen über Deckung und treffen dich dahinter.",
+        "Auf kurze Distanz wird er ungenauer, also nach vorne drücken statt Deckung zu vertrauen.",
+        "Gruppen von ihnen mit einer Explosion oder einem Stratagem auf einmal erledigen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "MG-43 Machine Gun",
+        "APW-1 Anti-Materiel Rifle",
+        "Orbital Precision Strike"
+      ],
+      "summary": "Der Sichel-Aufseher ist der Mörser der Illuminate: er lobt Plasma im Bogen und zwingt dich aus jeder Deckung. Nah dran ist er deutlich harmloser als auf Distanz.",
+      "source": "https://helldivers.wiki.gg/wiki/Crescent_Overseer",
+      "imageLarge": "assets/img/enemies/icons/crescent_overseer.png"
+    },
+    {
+      "id": "wretch",
+      "name": "Wretch",
+      "de": "Elender",
+      "faction": "illuminate",
+      "subfaction": "Vote Snatchers",
+      "class": "light",
+      "threat": 3,
+      "armor": 1,
+      "armorNote": "Panzerung 1, geschätzt; sehr beweglich, wenig Gesundheit pro Glied.",
+      "weakspots": [
+        {
+          "zone": "Arme",
+          "note": "Klauenarme zerstören nimmt ihm den Angriff; Kopf allein tötet ihn nicht."
+        },
+        {
+          "zone": "Beine",
+          "note": "Beine zerschießen stoppt den Sprung und die Verfolgung."
+        }
+      ],
+      "tactics": [
+        "Er springt mit verfolgender Flugbahn: hinlegen oder rutschen, nicht wegdrehen.",
+        "Nicht auf den Kopf schießen, sondern auf Arme und Beine, sonst kämpft er kopflos weiter.",
+        "In Gruppen mit Dauerfeuer oder Feuerwaffen bündeln."
+      ],
+      "gear": [
+        "MG-43 Machine Gun",
+        "MGX-42 Bullet Storm",
+        "FLAM-40 Flamethrower",
+        "SG-20 Halt"
+      ],
+      "summary": "Der Elende ist ein mutierter Mensch mit Klauenarmen, der wie ein Jäger springt und dich flankiert. Sein Kopf ist keine Schwachstelle: du musst ihm die Gliedmaßen nehmen.",
+      "source": "https://helldivers.wiki.gg/wiki/Wretch",
+      "imageLarge": "assets/img/enemies/icons/wretch.png"
+    },
+    {
+      "id": "crusher",
+      "name": "Crusher",
+      "de": "Zermalmer",
+      "faction": "illuminate",
+      "subfaction": "Vote Snatchers",
+      "class": "heavy",
+      "threat": 4,
+      "armor": 3,
+      "armorNote": "Helm Panzerung 4, Körper 3 (geschätzt); heilt 30 Gesundheit pro Sekunde an allen Teilen außer Kopf und Helm.",
+      "weakspots": [
+        {
+          "zone": "Helm",
+          "note": "Panzerung 4: mit AC-8, Railgun oder Boltpistole in ein bis zwei Schüssen brechen."
+        },
+        {
+          "zone": "Kopf",
+          "note": "Nach dem Helm ungepanzert und tödlich, der eigentliche Kill."
+        }
+      ],
+      "tactics": [
+        "Er heilt sich: nicht anfangen und weglaufen, sondern in einem Zug zu Ende bringen.",
+        "Sein Kolben tötet direkt: aus dem Aufprallbereich laufen, die Animation verfolgt nicht.",
+        "Explosivwaffen umgehen seine Zähigkeit: Thermite oder C4 beenden ihn sofort."
+      ],
+      "gear": [
+        "RS-422 Railgun",
+        "AC-8 Autocannon",
+        "G-123 Thermite",
+        "GL-21 Grenade Launcher"
+      ],
+      "summary": "Der Zermalmer ist ein gigantischer Nahkämpfer mit massivem Kolben und regenerierender Haut. Nur sein Helm ist wirklich angreifbar, und genau den musst du zuerst brechen.",
+      "source": "https://helldivers.wiki.gg/wiki/Crusher",
+      "imageLarge": "assets/img/enemies/icons/crusher.png"
+    },
+    {
+      "id": "harvester",
+      "name": "Harvester",
+      "de": "Ernter",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 4,
+      "armorNote": "Körper 4, Hüftgelenke 3, Auge 2, Schildgeneratoren 3; Schild 1.500 Gesundheit.",
+      "weakspots": [
+        {
+          "zone": "Auge",
+          "note": "Panzerung 2: mit mittlerer Durchdringung direkt auf den Hauptpool.",
+          "armor": 2
+        },
+        {
+          "zone": "Hüftgelenke",
+          "note": "Panzerung 3, tödlich: Bein abschießen lässt ihn kippen.",
+          "armor": 3
+        },
+        {
+          "zone": "Schildgeneratoren",
+          "note": "Panzerung 3, drei Stück: zerstören beendet den Schild.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Zuerst den Schild brechen, sonst prallt alles ab: die Generatoren sind die Ziele.",
+        "Sein Laser tötet in Sekunden, also ständig seitlich in Bewegung bleiben.",
+        "Auge oder Hüfte sind die schnellsten Wege, ihn wirklich zu töten."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "AC-8 Autocannon",
+        "Orbital Precision Strike"
+      ],
+      "summary": "Der Ernter ist der gepanzerte Säulenläufer der Illuminate: Schild, Laser und vier Beine. Er ist das erste Ziel, das ohne Panzerabwehr kaum zu knacken ist.",
+      "source": "https://helldivers.wiki.gg/wiki/Harvester",
+      "imageLarge": "assets/img/enemies/icons/harvester.png"
+    },
+    {
+      "id": "veracitor",
+      "name": "Veracitor",
+      "de": "Veracitor",
+      "faction": "illuminate",
+      "subfaction": "Appropriators",
+      "class": "medium",
+      "threat": 3,
+      "armor": 3,
+      "armorNote": "Arme Panzerung 2, Cockpit und Kopf 3 (geschätzt); alle Gliedmaßen immun gegen reinen Sprengschaden.",
+      "weakspots": [
+        {
+          "zone": "Cockpit-Schild",
+          "note": "Aufladbarer Schild: erst brechen, dann ist der Pilot verwundbar."
+        },
+        {
+          "zone": "Kopf",
+          "note": "Zerstört den Schild dauerhaft und legt eine sehr leichte Schwachstelle frei."
+        },
+        {
+          "zone": "Cockpit",
+          "note": "Der Pilot ist eine einzige leichte Trefferzone: tödlich, tötet den ganzen Mech."
+        }
+      ],
+      "tactics": [
+        "Kopf oder Cockpit treffen, nicht die Arme: die sind mittel gepanzert und zäh.",
+        "Er erkennt dich schon auf 100 Metern und stürmt sofort los.",
+        "Sprengstoff pur bringt wenig, nimm Durchdringung oder Flak auf das Cockpit."
+      ],
+      "gear": [
+        "MG-43 Machine Gun",
+        "AC-8 Autocannon",
+        "EAT-17",
+        "RL-77 Airburst Rocket Launcher"
+      ],
+      "summary": "Der Veracitor ist ein laufender Arbeitsmech mit Klauenarmen und einem Aufseher im Cockpit. Er kämpft im Nahkampf und schützt seinen Piloten mit einem regenerierenden Schild.",
+      "source": "https://helldivers.wiki.gg/wiki/Veracitor",
+      "imageLarge": "assets/img/enemies/icons/veracitor.png"
+    },
+    {
+      "id": "gatekeeper",
+      "name": "Gatekeeper",
+      "de": "Torwächter",
+      "faction": "illuminate",
+      "subfaction": "Appropriators",
+      "class": "heavy",
+      "threat": 4,
+      "armor": 4,
+      "armorNote": "Körper, Cockpit und Horn Panzerung 4; Gliedmaßen immun gegen Sprengschaden.",
+      "weakspots": [
+        {
+          "zone": "Horn",
+          "note": "Panzerung 4: der Schildgenerator, zerstören beendet den Piloten-Schild dauerhaft."
+        },
+        {
+          "zone": "Cockpit-Hals",
+          "note": "Ein einzelner Panzerabwehr-Treffer zerstört das Cockpit und damit den ganzen Mech."
+        }
+      ],
+      "tactics": [
+        "Er bleibt hinten und schießt: zwei Plasma-Starcannons, eine davon mit Rückstoß durch Deckung.",
+        "Die blaue Ziellinie verrät den Schuss: seitlich weg, bevor der Volley kommt.",
+        "Horn oder Cockpithals mit Panzerabwehr, der Rest ist Zeitverschwendung."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "LAS-98 Laser Cannon",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der Torwächter ist der Fernkampf-Zwilling des Veracitors: schwer gepanzert, mit zwei Plasmakanonen und einem Schildgenerator im Horn. Er hält die Mitte, während Veracitors vorne binden.",
+      "source": "https://helldivers.wiki.gg/wiki/Gatekeeper",
+      "imageLarge": "assets/img/enemies/icons/gatekeeper.png"
+    },
+    {
+      "id": "fleshmob",
+      "name": "Fleshmob",
+      "de": "Fleischmasse",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 0,
+      "armorNote": "Keine Panzerung, dafür ein sehr großer Gesundheitspool und 25 Prozent Haltbarkeit; Köpfe leiten 150 Prozent Schaden auf den Hauptpool.",
+      "weakspots": [
+        {
+          "zone": "Kopfhaufen",
+          "note": "Ungepanzert, 150 Prozent Schadensweitergabe: Alpha-Schaden platzt hier am schnellsten durch."
+        },
+        {
+          "zone": "Arme",
+          "note": "Arme zerstören nimmt ihm den Schlagangriff, er kann dann nur noch rammen."
+        }
+      ],
+      "tactics": [
+        "Reines DPS-Ziel ohne tödliche Zone: Sprengstoff und hohe Feuerrate, keine Präzision.",
+        "Auf 30 Meter Entfernung lädt er wie ein Charger: seitwärts wegducken.",
+        "Feuer macht 1,8-fachen Schaden, Gas lenkt ihn ab, auch während des Ansturms."
+      ],
+      "gear": [
+        "MG-206 Heavy Machine Gun",
+        "GL-21 Grenade Launcher",
+        "FLAM-40 Flamethrower",
+        "RL-77 Airburst Rocket Launcher"
+      ],
+      "summary": "Die Fleischmasse ist ein Klumpen aus verschmolzenen Voteless und Tieren, der ziellos umherzieht und dann rammt. Sie hat keine Panzerung, aber so viel Gesundheit, dass nur rohe Feuerkraft hilft.",
+      "source": "https://helldivers.wiki.gg/wiki/Fleshmob",
+      "imageLarge": "assets/img/enemies/icons/fleshmob.png"
+    },
+    {
+      "id": "stingray",
+      "name": "Stingray",
+      "de": "Stachelrochen",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "air",
+      "threat": 3,
+      "armor": 4,
+      "armorNote": "Panzerung 4, geschätzt nach Wiki-Angabe, dass schwere Durchdringung nötig ist.",
+      "weakspots": [
+        {
+          "zone": "Rumpf",
+          "note": "Nur im Sturzflug treffbar: dann mit schwerer Durchdringung auf den Rumpf."
+        }
+      ],
+      "tactics": [
+        "Er fliegt außerhalb der Reichweite der meisten Waffen und greift nur im Sturzflug an.",
+        "Die blaue Linie am Boden zeigt den Angriffspfad: quer dazu weglaufen.",
+        "Die LAS-98 Laser Cannon trifft ihn dank Hitscan und 1.000 Metern Reichweite sogar im Flug."
+      ],
+      "gear": [
+        "LAS-98 Laser Cannon",
+        "AC-8 Autocannon",
+        "FAF-14 Spear",
+        "StA-X3 W.A.S.P. Launcher"
+      ],
+      "summary": "Der Stachelrochen ist ein schnelles Erdkampfflugzeug, das mit Plasmastrahlen über den Boden fegt. Er ist nur während des Angriffs verwundbar, dann aber ein leichtes Ziel.",
+      "source": "https://helldivers.wiki.gg/wiki/Stingray",
+      "imageLarge": "assets/img/enemies/icons/stingray.png"
+    },
+    {
+      "id": "leviathan",
+      "name": "Leviathan",
+      "de": "Leviathan",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "air",
+      "threat": 5,
+      "armor": 5,
+      "armorNote": "Panzerung 5 (Tank I), geschätzt; nur mit schwerster Panzerabwehr sinnvoll. Flossen und Heck legen interne Zonen frei.",
+      "weakspots": [
+        {
+          "zone": "Geschütztürme",
+          "note": "Vier Desintegrator-Kanonen: mit Quasar oder EAT-17 in einem Schuss zerstören, senkt die Tödlichkeit massiv."
+        },
+        {
+          "zone": "Flossen und Heck",
+          "note": "Zerstören legt die Interna frei, Panzerung 4, dann mit schwerer Durchdringung drauf."
+        }
+      ],
+      "tactics": [
+        "Er ist ein Kriegsschiff über dem Schlachtfeld: zuerst die Türme, sonst stirbst du im Dauerfeuer.",
+        "Rauch deckt dich nur bedingt, ein bereits anvisierender Strahl trifft trotzdem.",
+        "Bewegung ist Pflicht: die Kanonen machen 400 Schaden pro Sekunde."
+      ],
+      "gear": [
+        "EAT-17",
+        "LAS-99 Quasar Cannon",
+        "GR-8 Recoilless Rifle",
+        "FAF-14 Spear"
+      ],
+      "summary": "Der Leviathan ist ein fliegendes Illuminate-Kriegsschiff mit vier Desintegrator-Kanonen und zehn Plasmageneratoren. Er ist der gefährlichste Luftgegner im Spiel und nur mit Panzerabwehr zu brechen.",
+      "source": "https://helldivers.wiki.gg/wiki/Leviathan",
+      "imageLarge": "assets/img/enemies/icons/leviathan.png"
+    },
+    {
+      "id": "bug_hole",
+      "name": "Bug Hole",
+      "de": "Brutloch",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Keine Trefferzone im üblichen Sinn: nur Demolition Force zerstört es, Kugeln prallen wirkungslos ab.",
+      "weakspots": [
+        {
+          "zone": "Öffnung",
+          "note": "Nur Sprengstoff mit Demolition Force, zum Beispiel eine Granate direkt ins Loch."
+        }
+      ],
+      "tactics": [
+        "Erst das Loch, dann die Terminiden: sonst spawnen sie endlos nach.",
+        "Granate oder gezielter Eagle-Schlag direkt in die Öffnung, nicht daneben.",
+        "Aus der Entfernung prüfen, ob das Loch wirklich zu ist, viele Explosionen wirken nur nach."
+      ],
+      "gear": [
+        "G-12 High Explosive",
+        "Eagle Airstrike",
+        "Orbital Precision Strike",
+        "GL-21 Grenade Launcher"
+      ],
+      "summary": "Ein Brutloch ist der Ausgang eines Terminiden-Nests und spawnt ohne Ende neue Gegner. Weil es versenkt im Boden liegt, zerstört es nur Sprengstoff mit ausreichender Demolition Force.",
+      "source": "https://helldivers.wiki.gg/wiki/Bug_Hole",
+      "imageLarge": "assets/img/enemies/hi/bug_hole.png"
+    },
+    {
+      "id": "bug_nest",
+      "name": "Bug Nest",
+      "de": "Brutnest",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Ansammlung mehrerer Brutlöcher, jedes einzeln nur mit Demolition Force zerstörbar.",
+      "weakspots": [
+        {
+          "zone": "Einzelne Brutlöcher",
+          "note": "Jedes Loch separat sprengen; ein Treffer in der Mitte erledigt selten das ganze Nest."
+        }
+      ],
+      "tactics": [
+        "Erst zählen, dann sprengen: ein übersehenes Loch startet den nächsten Schwarm.",
+        "Auf der Karte als Nest markiert, oft mit Wächtern in der Mitte.",
+        "Mit Flächensprengstoff von außen nach innen arbeiten."
+      ],
+      "gear": [
+        "Eagle Airstrike",
+        "Orbital Airburst Strike",
+        "G-12 High Explosive",
+        "GL-21 Grenade Launcher"
+      ],
+      "summary": "Ein Brutnest ist eine Gruppe von Brutlöchern, oft mit Gegnern dazwischen, und ein typisches Neben- oder Hauptziel. Erst wenn alle Löcher zu sind, ist das Nest erledigt.",
+      "source": "https://helldivers.wiki.gg/wiki/Bug_Nest",
+      "imageLarge": "assets/img/enemies/hi/bug_nest.png"
+    },
+    {
+      "id": "shrieker_nest",
+      "name": "Shrieker Nest",
+      "de": "Kreischer-Nest",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 2,
+      "armorNote": "Panzerung 2 bei sehr hoher Gesundheit: jede Waffe macht Schaden, aber langsam.",
+      "weakspots": [
+        {
+          "zone": "Nestkörper",
+          "note": "Panzerung 2, Sprengstoff ist deutlich schneller als Kugeln."
+        }
+      ],
+      "tactics": [
+        "Solange es steht, kommen Kreischer-Schwärme: Nest zerstören beendet den Strom.",
+        "Aus sicherer Entfernung sprengen, sonst wirst du beim Abbau von oben angegriffen.",
+        "Im Vorbeigehen mitnehmen, es ist ein häufiges Nebenobjektiv."
+      ],
+      "gear": [
+        "Eagle Airstrike",
+        "Orbital Precision Strike",
+        "G-16 Impact",
+        "AC-8 Autocannon"
+      ],
+      "summary": "Das Kreischer-Nest ist eine klebrige Struktur, aus der laufend fliegende Kreischer schlüpfen. Es hat nur Panzerung 2, aber so viel Gesundheit, dass sich Sprengstoff lohnt.",
+      "source": "https://helldivers.wiki.gg/wiki/Shrieker_Nest",
+      "imageLarge": "assets/img/enemies/hi/shrieker_nest.png"
+    },
+    {
+      "id": "spore_spewer",
+      "name": "Spore Spewer",
+      "de": "Sporen-Speier",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 2,
+      "armorNote": "Panzerung 2 bei hoher Gesundheit; laut Wiki mit jeder Waffe zerstörbar, nur langsam.",
+      "weakspots": [
+        {
+          "zone": "Kopf des Speiers",
+          "note": "Panzerung 2, Sprengstoff oder anhaltendes Feuer."
+        }
+      ],
+      "tactics": [
+        "Er erzeugt dichten Sporennebel: solange er steht, siehst du kaum etwas.",
+        "Zerstören ist oft wertvoller als Kämpfen, weil er das ganze Gebiet verdeckt.",
+        "Aus der Distanz mit Stratagem erledigen, statt in den Nebel zu laufen."
+      ],
+      "gear": [
+        "Eagle Airstrike",
+        "Orbital Precision Strike",
+        "G-16 Impact",
+        "AC-8 Autocannon"
+      ],
+      "summary": "Der Sporen-Speier ist eine organische Struktur, die weite Teile der Karte in Nebel hüllt. Er ist kein direkter Angreifer, sondern nimmt dir die Sicht.",
+      "source": "https://helldivers.wiki.gg/wiki/Spore_Spewer",
+      "imageLarge": "assets/img/enemies/hi/spore_spewer.png"
+    },
+    {
+      "id": "stalker_lair",
+      "name": "Stalker Lair",
+      "de": "Schleicher-Bau",
+      "faction": "terminids",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt; zerstörbar mit Sprengstoff.",
+      "weakspots": [
+        {
+          "zone": "Bauöffnung",
+          "note": "Sprengstoff in die Öffnung, ähnlich wie beim Brutloch."
+        }
+      ],
+      "tactics": [
+        "Solange der Bau steht, kommen getarnte Schleicher nach, auch mitten im Kampf.",
+        "Wenn du grundlos aus dem Nichts angegriffen wirst, suche den Bau in der Nähe.",
+        "Mit Flächensprengstoff zerstören, nicht mit Kugeln."
+      ],
+      "gear": [
+        "Eagle Airstrike",
+        "Orbital Precision Strike",
+        "G-12 High Explosive",
+        "GL-21 Grenade Launcher"
+      ],
+      "summary": "Der Schleicher-Bau ist die Quelle der getarnten Schleicher und meist der Grund, warum ein Gebiet nicht ruhig wird. Er steht oft abseits der offensichtlichen Wege.",
+      "source": "https://helldivers.wiki.gg/wiki/Stalker_Lair",
+      "imageLarge": "assets/img/enemies/hi/stalker_lair.png"
+    },
+    {
+      "id": "cognitive_disruptor",
+      "name": "Cognitive Disruptor",
+      "de": "Kognitiver Disruptor",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 0,
+      "armorNote": "Unverwundbar: der Turm selbst ist mit keiner Waffe und keinem Stratagem zerstörbar.",
+      "weakspots": [
+        {
+          "zone": "PSU-Generatoren",
+          "note": "Die Energiezufuhr in der Umgebung zerstören, dann schaltet der Disruptor ab."
+        }
+      ],
+      "tactics": [
+        "Er verdeckt die Namen deiner Stratagems und randomisiert die Eingaben im Umkreis von 200 Metern.",
+        "Nicht auf den Turm schießen, sondern die markierten PSUs an den Generatoren sprengen.",
+        "Orbital-Barrages auf die PSUs sind der einfachste Weg."
+      ],
+      "gear": [
+        "Orbital 120mm HE Barrage",
+        "Orbital 380mm HE Barrage",
+        "Orbital Napalm Barrage",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Kognitive Disruptor ist ein Illuminate-Turm, der deine Stratagem-Eingaben unbrauchbar macht, solange er steht. Zerstören kannst du ihn nicht, nur abschalten, indem du seine Stromversorgung sprengst.",
+      "source": "https://helldivers.wiki.gg/wiki/Cognitive_Disruptor",
+      "imageLarge": "assets/img/enemies/hi/cognitive_disruptor.png"
+    },
+    {
+      "id": "gazer",
+      "name": "Gazer",
+      "de": "Augenturm",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 5,
+      "armorNote": "Umgebung des Auges Panzerung 5 (Tank I), das Auge selbst ungepanzert.",
+      "weakspots": [
+        {
+          "zone": "Auge",
+          "note": "Panzerung 0, 0 Prozent Haltbarkeit: jeder Treffer sitzt, auch Kleinkaliber."
+        }
+      ],
+      "tactics": [
+        "Der Zielstrahl lädt sichtbar auf: seitlich weggehen, dann trifft der Laser nicht.",
+        "Auf das Auge schießen, nicht auf den Panzerring.",
+        "Auch Sprengstoff mit Demolition Force 20 zerstört ihn sofort."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "APW-1 Anti-Materiel Rifle",
+        "LAS-98 Laser Cannon",
+        "G-6 Frag"
+      ],
+      "summary": "Der Gazer ist ein schwebendes Auge, das an Illuminate-Strukturen Wache hält und einen Hitzestrahl feuert. Er ist leicht zu umgehen und stirbt an einem Treffer ins Auge.",
+      "source": "https://helldivers.wiki.gg/wiki/Gazer",
+      "imageLarge": "assets/img/enemies/hi/gazer.png"
+    },
+    {
+      "id": "gazer_spire",
+      "name": "Gazer Spire",
+      "de": "Gazer-Spitze",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 0,
+      "armorNote": "Unverwundbar gegen Waffen und Sprengstoff unter Demolition Force 60; explodiert nicht durch Schaden, sondern nur durch Demolition.",
+      "weakspots": [
+        {
+          "zone": "Sockel",
+          "note": "Nur B-100 Portable Hellbomb, NUX-223 Hellbomb oder SEAF Artillery Mini-Nuke zerstören die Spitze."
+        }
+      ],
+      "tactics": [
+        "Sie trifft auf rund 250 Meter mit einem tödlichen Laser: Deckung suchen oder seitlich laufen.",
+        "Der Hellbomb-Transport ist der einzige Weg, also vorher Weg und Deckung planen.",
+        "Rund um die Spitze stehen Warp Gateways, die dauerhaft Einheiten spawnen."
+      ],
+      "gear": [
+        "B-100 Portable Hellbomb",
+        "NUX-223 Hellbomb",
+        "Eagle Smoke Strike",
+        "SH-32 Shield Generator Pack"
+      ],
+      "summary": "Die Gazer-Spitze ist ein Illuminate-Kontrollturm mit tödlichem Laser und Zielobjekt eigener Missionen. Sie lässt sich nicht erschießen, sondern nur mit einem Hellbomb sprengen.",
+      "source": "https://helldivers.wiki.gg/wiki/Gazer_Spire",
+      "imageLarge": "assets/img/enemies/hi/gazer_spire.png"
+    },
+    {
+      "id": "grounded_warp_ship",
+      "name": "Grounded Warp Ship",
+      "de": "Gelandetes Warp-Schiff",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 5,
+      "armorNote": "Panzerung 5 (Tank I): im Gegensatz zum Brutloch zerstört jede Waffe mit Durchdringung 5 das Schiff.",
+      "weakspots": [
+        {
+          "zone": "Rumpf",
+          "note": "Mit Durchdringung 5 auf den Rumpf, oder Sprengstoff mit genug Demolition Force."
+        }
+      ],
+      "tactics": [
+        "Es spawnt Illuminate nach, bis es zerstört ist: Priorität vor den Bodentruppen.",
+        "Ein Schuss aus EAT-17, Recoilless oder Quasar auf den Rumpf reicht.",
+        "Auch Stingray-Bombardements können ein gelandetes Schiff zerstören, wenn es im Zielgebiet liegt."
+      ],
+      "gear": [
+        "EAT-17",
+        "GR-8 Recoilless Rifle",
+        "LAS-99 Quasar Cannon",
+        "Eagle Airstrike"
+      ],
+      "summary": "Ein gelandetes Warp-Schiff ist das Illuminate-Gegenstück zum Brutloch und spawnt Verstärkung, bis es zerstört wird. Anders als Terminiden-Strukturen reicht hier Durchdringung 5.",
+      "source": "https://helldivers.wiki.gg/wiki/Grounded_Warp_Ship",
+      "imageLarge": "assets/img/enemies/hi/grounded_warp_ship.png"
+    },
+    {
+      "id": "lightning_spire",
+      "name": "Lightning Spire",
+      "de": "Blitzspitze",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 2,
+      "armor": 2,
+      "armorNote": "Panzerung 2, geschätzt; zerstörbar mit normaler Waffenwirkung.",
+      "weakspots": [
+        {
+          "zone": "Energiekugel",
+          "note": "Der obere Teil ist das Ziel, Sprengstoff wirkt am schnellsten."
+        }
+      ],
+      "tactics": [
+        "Sie greift alles Nicht-Illuminate im Umkreis von 25 Metern an, mit einem Schlag, der fast immer tötet.",
+        "Hinlegen bricht die Aufladung ab: erst hinlegen, dann aus der Reichweite robben.",
+        "Vor dem Nahkampf die Guard-Dog-Drohne deaktivieren, sonst leitet der Blitz über sie zu dir."
+      ],
+      "gear": [
+        "Eagle Airstrike",
+        "Orbital Precision Strike",
+        "G-16 Impact",
+        "AC-8 Autocannon"
+      ],
+      "summary": "Die Blitzspitze ist ein stationärer Tesla-Turm der Illuminate, der im Umkreis von 25 Metern einen tödlichen Lichtbogen entlädt. Sie steht an Encampments und Zielobjekten und lässt sich mit Sprengstoff ausschalten.",
+      "source": "https://helldivers.wiki.gg/wiki/Lightning_Spire",
+      "imageLarge": "assets/img/enemies/hi/lightning_spire.png"
+    },
+    {
+      "id": "monolith",
+      "name": "Monolith",
+      "de": "Monolith",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 1,
+      "armor": 0,
+      "armorNote": "Unverwundbar gegen Waffen; nur Demolition Force 60 zerstört ihn.",
+      "weakspots": [
+        {
+          "zone": "Sockel",
+          "note": "Hellbomb oder Mini-Nuke innerhalb von 17 Metern platzieren, dann zünden."
+        }
+      ],
+      "tactics": [
+        "Er taucht bei Free Colony Missionen auf und ist Zielobjekt, kein Kämpfer.",
+        "Nicht berühren: die Berührung tötet Helldiver durch unbekannte Kräfte.",
+        "Hellbomb setzen, zurücklaufen, erst dann auslösen."
+      ],
+      "gear": [
+        "NUX-223 Hellbomb",
+        "B-100 Portable Hellbomb",
+        "SEAF Artillery Mini-Nuke",
+        "Eagle Smoke Strike"
+      ],
+      "summary": "Der Monolith ist ein hoch aufragender Illuminate-Turm mit einem Ring im Sockel, der in regelmäßigen Abständen blau pulsiert. Er greift nicht an, ist aber nur mit einem Hellbomb zu zerstören.",
+      "source": "https://helldivers.wiki.gg/wiki/Monolith",
+      "imageLarge": "assets/img/enemies/hi/monolith.png"
+    },
+    {
+      "id": "warp_gateway",
+      "name": "Warp Gateway",
+      "de": "Warp-Tor",
+      "faction": "illuminate",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 5,
+      "armorNote": "Panzerung 5 (Tank I); von außen Demolition Force 40 nötig, in der Öffnung reicht 20.",
+      "weakspots": [
+        {
+          "zone": "Mittelöffnung",
+          "note": "Öffnet sich beim Spawnen: Granate hineinwerfen, Demolition Force 20 genügt."
+        },
+        {
+          "zone": "Außenhülle",
+          "note": "Mit Demolition Force 40 oder Durchdringung 5 auf die Panzerung."
+        }
+      ],
+      "tactics": [
+        "Es teleportiert dauerhaft neue Einheiten heran: immer erst das Tor, dann die Gegner.",
+        "Nach der Zerstörung explodiert es nach einigen Sekunden: sofort weggehen.",
+        "Granaten in die offene Mitte sind billiger als eine komplette Hellbomb-Lieferung."
+      ],
+      "gear": [
+        "Eagle Airstrike",
+        "G-12 High Explosive",
+        "EAT-17",
+        "Orbital Precision Strike"
+      ],
+      "summary": "Ein Warp-Tor ist ein Illuminate-Portal, das ununterbrochen Einheiten auf den Planeten teleportiert. Es ist schwer gepanzert, hat aber eine Öffnung, in die eine Granate passt.",
+      "source": "https://helldivers.wiki.gg/wiki/Warp_Gateway",
+      "imageLarge": "assets/img/enemies/hi/warp_gateway.png"
+    },
+    {
+      "id": "trooper",
+      "name": "Trooper",
+      "de": null,
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "chaff",
+      "threat": 1,
+      "armor": 0,
+      "armorNote": "Keine Panzerung, jeder Treffer zählt. Kopf und Torso liegen bei Panzerung 0.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein Kopfschuss oder eine Granate reicht.",
+          "armor": 0
+        },
+        {
+          "zone": "Torso",
+          "note": "100 HP, das Standardziel aus der Hüfte.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Einzelne Trooper sind harmlos, aber sie rufen per Leuchtrakete einen Bot Drop.",
+        "Kopfschüsse sparen Munition; auf Distanz reicht ein kurzer Burst.",
+        "Steigt eine Leuchtspur auf, kommt ein Dropship: sofort in Deckung."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "MG-43 Machine Gun",
+        "G-12 High Explosive",
+        "Eagle Strafing Run"
+      ],
+      "summary": "Der Trooper ist der Standard-Infanterist der Automatons und das häufigste Ziel auf jedem Planeten. Er ist unbepanzert, schießt mit einem Fusion-Gewehr und ruft bei Alarm Verstärkung. Für Einsteiger ist er die beste Übung für Kopfschüsse.",
+      "source": "https://helldivers.wiki.gg/wiki/Trooper",
+      "imageLarge": "assets/img/enemies/icons/trooper.png"
+    },
+    {
+      "id": "commissar",
+      "name": "Commissar",
+      "de": "Kommissar",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "light",
+      "threat": 2,
+      "armor": 1,
+      "armorNote": "Panzerung 1 an Körper und Kopf. Leichte Waffen mit AP 2 kommen überall durch.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein sauberer Kopfschuss genügt.",
+          "armor": 1
+        },
+        {
+          "zone": "Torso",
+          "note": "100 HP, nur knapp über Trooper-Niveau.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Feuert präzises Einzelfeuer und treibt andere Einheiten nach vorn.",
+        "Priorität mittel: erst Hulks und Devastatoren, dann den Kommissar.",
+        "Kopf oder Beine anvisieren, dann fällt er wie jeder Trooper."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "R-63 Diligence",
+        "G-12 High Explosive",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Kommissar ist ein Trooper-großer Offizier mit leichtem Panzer und stärkerem Gewehr. Er treibt Trupps voran und trifft zuverlässig. Gefährlich wird er nur, wenn du ihn zwischen dir und einer Horde ignorierst.",
+      "source": "https://helldivers.wiki.gg/wiki/Commissar",
+      "imageLarge": "assets/img/enemies/icons/commissar.png"
+    },
+    {
+      "id": "brawler",
+      "name": "Brawler",
+      "de": "Raufbold",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "light",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Komplett unbepanzert. Kopf und linker Arm sind tödliche Trefferzonen.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "Sofort tot, ein Schuss reicht.",
+          "armor": 0
+        },
+        {
+          "zone": "Linker Arm",
+          "note": "85 HP und zählt als tödlicher Treffer.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Rennt in den Nahkampf und schlägt mit beiden Fäusten.",
+        "Auf Abstand halten und beim Heranstürmen den Kopf treffen.",
+        "Granaten auf den Boden vor dir stoppen den Ansturm."
+      ],
+      "gear": [
+        "SG-225 Breaker",
+        "AR-23 Liberator",
+        "G-12 High Explosive",
+        "Eagle Strafing Run"
+      ],
+      "summary": "Der Brawler ist ein Trooper ohne Schusswaffe, der direkt in den Nahkampf stürmt. Er ist schnell und in Gruppen lästig, aber unbepanzert. Ein Schuss in den Kopf oder linken Arm beendet ihn sofort.",
+      "source": "https://helldivers.wiki.gg/wiki/Brawler",
+      "imageLarge": "assets/img/enemies/icons/brawler.png"
+    },
+    {
+      "id": "rocket_raider",
+      "name": "Rocket Raider",
+      "de": "Raketen-Raider",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "light",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Körper unbepanzert, auch der Werferarm liegt bei 0.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "40 HP, der schnellste Kill.",
+          "armor": 0
+        },
+        {
+          "zone": "Rechter Arm (Werfer)",
+          "note": "65 HP, zerstört die Raketenwaffe.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Feuert einzelne Raketen aus mittlerer Distanz; der Einschlag wirft dich um.",
+        "Seitwärts bewegen und den Werferarm anvisieren statt des Körpers.",
+        "Bei Gruppen zuerst die Raketen-Raider, sonst wirst du dauernd umgeworfen."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "R-63 Diligence",
+        "MG-43 Machine Gun",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Rocket Raider trägt einen tragbaren Raketenwerfer und hält Abstand. Seine Raketen machen Flächenschaden und werfen Helldiver zu Boden. Der Werferarm ist die schnellste Lösung.",
+      "source": "https://helldivers.wiki.gg/wiki/Rocket_Raider",
+      "imageLarge": "assets/img/enemies/icons/rocket_raider.png"
+    },
+    {
+      "id": "assault_raider",
+      "name": "Assault Raider",
+      "de": "Sturm-Raider",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "light",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Körper 0, nur das Jetpack hat Panzerung 2.",
+      "weakspots": [
+        {
+          "zone": "Jetpack",
+          "note": "50 HP, explodiert und tötet den Raider sofort.",
+          "armor": 2
+        },
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein Treffer.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Springt mit dem Jetpack direkt an dich heran.",
+        "Auf das Jetpack schießen: Es explodiert und reißt ihn mit.",
+        "Nicht in der Gruppe sprengen, die Explosion trifft auch dich."
+      ],
+      "gear": [
+        "SG-225 Breaker",
+        "AR-23 Liberator",
+        "G-12 High Explosive",
+        "Eagle Strafing Run"
+      ],
+      "summary": "Der Assault Raider nutzt ein Jetpack, um blitzschnell in den Nahkampf zu kommen. Sein Sprengstoffrucksack ist zugleich seine größte Schwäche. Wer ihn früh trifft, verhindert den Sprung.",
+      "source": "https://helldivers.wiki.gg/wiki/Assault_Raider",
+      "imageLarge": "assets/img/enemies/icons/assault_raider.png"
+    },
+    {
+      "id": "marauder",
+      "name": "Marauder",
+      "de": "Marodeur",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "light",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Kopf und Gliedmaßen Panzerung 0, der Torso Panzerung 2. Der Kopf ist immer offen.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein Treffer.",
+          "armor": 0
+        },
+        {
+          "zone": "Torso",
+          "note": "100 HP, braucht AP 3.",
+          "armor": 2
+        }
+      ],
+      "tactics": [
+        "Bewegt sich in Gruppen und flankiert gern.",
+        "Kopf anvisieren, denn der Torso hält leichte Waffen ab.",
+        "Granaten in die Gruppe sind effizienter als Einzelfeuer."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "R-63 Diligence",
+        "G-12 High Explosive",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Marauder ist ein leichter Infanterist mit leicht gepanzertem Brustkorb. Er tritt meist in Gruppen auf und sucht die Flanke. Kopfschüsse umgehen seine Panzerung komplett.",
+      "source": "https://helldivers.wiki.gg/wiki/Marauder",
+      "imageLarge": "assets/img/enemies/icons/marauder.png"
+    },
+    {
+      "id": "scout_strider",
+      "name": "Scout Strider",
+      "de": "Späher-Läufer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 2,
+      "armor": 4,
+      "armorNote": "Chassis und Frontplatte Panzerung 4. Pilot 0, Beine 2, Hüfte und Turmsystem 3.",
+      "weakspots": [
+        {
+          "zone": "Pilot",
+          "note": "Sitzt oben offen, ein Kopfschuss tötet den Läufer.",
+          "armor": 0
+        },
+        {
+          "zone": "Beine",
+          "note": "400 HP pro Bein, zerstören stoppt die Bewegung.",
+          "armor": 2
+        },
+        {
+          "zone": "Hüfte",
+          "note": "300 HP, Panzerung 3.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Läuft auf Stelzen und beschießt dich mit schwerem MG.",
+        "Den Fahrer oben anvisieren, das ist der schnellste Kill.",
+        "Alternativ die Beine zerschießen und ihn stehen lassen."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "AR-23P Liberator Penetrator",
+        "RS-422 Railgun",
+        "AC-8 Autocannon",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Scout Strider ist ein zweibeiniger Läufer mit offenem Pilotensitz und schwerem MG. Seine Frontplatte hält viel aus, der Fahrer nicht. Ein gezielter Schuss auf den Piloten spart dir den Panzerkampf.",
+      "source": "https://helldivers.wiki.gg/wiki/Scout_Strider",
+      "imageLarge": "assets/img/enemies/icons/scout_strider.png"
+    },
+    {
+      "id": "reinforced_scout_strider",
+      "name": "Reinforced Scout Strider",
+      "de": "Verstärkter Späher-Läufer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 4,
+      "armorNote": "Chassis, Faceplate und HMG Panzerung 4. Raketenschienen und Beine 2, Turmsystem 3. Der Pilot ist gepanzert.",
+      "weakspots": [
+        {
+          "zone": "Raketenschienen",
+          "note": "200 HP, zerstört die Raketen und entschärft die Fernbedrohung.",
+          "armor": 2
+        },
+        {
+          "zone": "Beine",
+          "note": "400 HP pro Bein, Panzerung 2.",
+          "armor": 2
+        },
+        {
+          "zone": "Turmsystem",
+          "note": "300 HP, Panzerung 3.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Feuert zusätzlich vier Raketen, bleib nicht frontal stehen.",
+        "Raketenschienen zuerst zerstören, dann die Beine.",
+        "Aus der Deckung flankieren, die Frontplatte ist gegen leichte Waffen immun."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "RS-422 Railgun",
+        "EAT-17 Expendable Anti-Tank",
+        "Eagle 110mm Rocket Pods"
+      ],
+      "summary": "Der Reinforced Scout Strider ist die gepanzerte Version des Läufers mit Raketenwerfer. Er ist deutlich zäher und trifft härter. Zerstöre zuerst die Raketenschienen, sonst deckt er dich aus der Distanz ein.",
+      "source": "https://helldivers.wiki.gg/wiki/Reinforced_Scout_Strider",
+      "imageLarge": "assets/img/enemies/icons/reinforced_scout_strider.png"
+    },
+    {
+      "id": "berserker",
+      "name": "Berserker",
+      "de": "Berserker",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 1,
+      "armorNote": "Die meisten Trefferzonen liegen bei Panzerung 1, die Schultern bei 0. Kein Panzerproblem, aber viel Gesundheit.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "110 HP, deutlich schneller tot als über den Körper.",
+          "armor": 1
+        },
+        {
+          "zone": "Schultern",
+          "note": "180 HP, kein tödlicher Treffer, aber gut zum Stagger.",
+          "armor": 0
+        },
+        {
+          "zone": "Beine",
+          "note": "750 HP pro Bein, zerstören lässt ihn umfallen.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Rennt schreiend in den Nahkampf und schlägt mit zwei Klingen.",
+        "Kopf oder Beine treffen, der Körper hat 750 HP und schluckt zu viel.",
+        "Stagger-Waffen wie der Arc Thrower stoppen ihn zuverlässig."
+      ],
+      "gear": [
+        "SG-225 Breaker",
+        "ARC-3 Arc Thrower",
+        "MG-43 Machine Gun",
+        "G-12 High Explosive"
+      ],
+      "summary": "Der Berserker ist ein Nahkämpfer mit zwei Klingen und überraschend viel Gesundheit. Er ist kaum gepanzert, aber schnell und in Gruppen gefährlich. Kopf oder Beine sind die effizientesten Ziele.",
+      "source": "https://helldivers.wiki.gg/wiki/Berserker",
+      "imageLarge": "assets/img/enemies/icons/berserker.png"
+    },
+    {
+      "id": "devastator",
+      "name": "Devastator",
+      "de": "Devastator",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Körper 2, Brustpanzer 3, Kopf 1. Kopf und Bauch sind die Wege durch die Panzerung.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "110 HP, viele Waffen töten ihn mit einem Schuss.",
+          "armor": 1
+        },
+        {
+          "zone": "Bauch",
+          "note": "350 HP, freie Fläche unter dem Brustpanzer.",
+          "armor": 1
+        },
+        {
+          "zone": "Arme",
+          "note": "260 HP, Waffe wegschiessen entwaffnet ihn.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Feuert schwere Fusion-Salven, deckungslos wirst du schnell zerlegt.",
+        "Ein Kopfschuss mit R-63 oder JAR-5 beendet ihn sofort.",
+        "Aus der Deckung die Arme zerschießen, wenn der Kopf verdeckt ist."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "JAR-5 Dominator",
+        "AR-23P Liberator Penetrator",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Devastator ist der schwere Infanterist der Automatons mit Brustpanzer und schwerem Gewehr. Er hält deutlich mehr aus als ein Trooper und schießt in Salven. Kopf oder Bauch sind die Wege durch seine Panzerung.",
+      "source": "https://helldivers.wiki.gg/wiki/Devastator",
+      "imageLarge": "assets/img/enemies/icons/devastator.png"
+    },
+    {
+      "id": "heavy_devastator",
+      "name": "Heavy Devastator",
+      "de": "Schwerer Devastator",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 3,
+      "armorNote": "Brust 3, Kopf 1, Bauch 1. Das Schild hat Panzerung 4 und 800 HP, der Rucksack 2.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "110 HP, aber oft hinter dem Schild versteckt.",
+          "armor": 1
+        },
+        {
+          "zone": "Rucksack",
+          "note": "600 HP, Explosion kann ihn töten.",
+          "armor": 2
+        },
+        {
+          "zone": "Beine",
+          "note": "500 HP pro Bein, Panzerung 2.",
+          "armor": 2
+        }
+      ],
+      "tactics": [
+        "Hält ein Ballistikschild vor sich und schießt über die Deckung.",
+        "Flankiere ihn, von der Seite oder hinten ist der Kopf frei.",
+        "Rucksack oder Beine beschießen, wenn du frontal feststeckst."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "JAR-5 Dominator",
+        "EAT-17 Expendable Anti-Tank",
+        "G-123 Thermite",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Heavy Devastator trägt ein großes Schild und ein schweres MG. Frontal bist du fast chancenlos, seitlich oder von hinten dagegen schnell. Zwinge ihn zum Drehen, dann triffst du Kopf oder Rucksack.",
+      "source": "https://helldivers.wiki.gg/wiki/Heavy_Devastator",
+      "imageLarge": "assets/img/enemies/icons/heavy_devastator.png"
+    },
+    {
+      "id": "rocket_devastator",
+      "name": "Rocket Devastator",
+      "de": "Raketen-Devastator",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 2,
+      "armorNote": "Körper 2, Brust 3, Kopf 1. Raketenkapseln 1, die Raketen selbst 0.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "110 HP, Panzerung 1.",
+          "armor": 1
+        },
+        {
+          "zone": "Raketenkapseln",
+          "note": "300 HP, zerstört die Salve.",
+          "armor": 1
+        },
+        {
+          "zone": "Raketen",
+          "note": "200 HP, explosive Kettenreaktion.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Feuert Raketensalven auf große Distanz und bleibt gern hinten.",
+        "Raketenkapseln zerstören, dann ist er harmlos.",
+        "Nicht frontal stehen bleiben, die Salve wirft dich um."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "AC-8 Autocannon",
+        "RS-422 Railgun",
+        "Eagle 110mm Rocket Pods"
+      ],
+      "summary": "Der Rocket Devastator ist ein Devastator mit zwei Raketenwerfern und bleibt meist im Hintergrund. Seine Salven sind der eigentliche Schaden. Zerstöre die Kapseln oder den Kopf, dann bricht die Bedrohung zusammen.",
+      "source": "https://helldivers.wiki.gg/wiki/Rocket_Devastator",
+      "imageLarge": "assets/img/enemies/icons/rocket_devastator.png"
+    },
+    {
+      "id": "hulk_bruiser",
+      "name": "Hulk Bruiser",
+      "de": "Hulk-Bruiser",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper, Kopf, Arme und Beine Panzerung 4. Nur der Rückentank hat Panzerung 1, der Kopf nur 250 HP.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "250 HP, Railgun, APW-1 oder S-11 töten ihn mit einem Schuss.",
+          "armor": 4
+        },
+        {
+          "zone": "Rückentank",
+          "note": "900 HP, jede Waffe macht dort Schaden; Explosion versetzt ihn in Bleedout.",
+          "armor": 1
+        },
+        {
+          "zone": "Beine",
+          "note": "500 HP pro Bein, ein Bein zerstören bremst ihn stark.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Langsam, aber tödlich: Raketensalven und ein schwerer Schlag aus der Nähe.",
+        "Von hinten an den glühenden Tank, dort wirkt jede Waffe.",
+        "EAT-17, Quasar oder Recoilless treffen ihn überall tödlich."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "GR-8 Recoilless Rifle",
+        "RS-422 Railgun",
+        "G-123 Thermite",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Hulk Bruiser ist ein schwer gepanzerter Zweibeiner mit Raketenwerfern. Frontale Schüsse prallen an Panzerung 4 ab, nur der Rücken ist weich. Anti-Tank-Waffen oder ein Schuss in den Kopf beenden ihn.",
+      "source": "https://helldivers.wiki.gg/wiki/Hulk_Bruiser",
+      "imageLarge": "assets/img/enemies/icons/hulk_bruiser.png"
+    },
+    {
+      "id": "hulk_scorcher",
+      "name": "Hulk Scorcher",
+      "de": "Hulk-Scorcher",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Alles Panzerung 4 außer dem Rückentank (1). Der Flammenwerfer ignoriert Deckung.",
+      "weakspots": [
+        {
+          "zone": "Rückentank",
+          "note": "900 HP, jede Waffe wirkt.",
+          "armor": 1
+        },
+        {
+          "zone": "Kopf",
+          "note": "250 HP, one-shot mit Railgun oder APW-1.",
+          "armor": 4
+        },
+        {
+          "zone": "Arme",
+          "note": "500 HP pro Arm, beide zerstören entwaffnet ihn.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Brennt dich auf 25 m nieder; Feuer löschst du durch Hechten.",
+        "Nie frontal: umkreisen und den Rücken beschießen.",
+        "Ein Schuss ins Bein stoppt ihn, dann Kopf oder Tank."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "LAS-99 Quasar Cannon",
+        "RS-422 Railgun",
+        "G-123 Thermite",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Hulk Scorcher tauscht die Raketen gegen einen schweren Flammenwerfer und eine Kreissäge. Auf kurze Distanz ist er tödlich, auf Distanz langsam. Sein Rückentank bleibt die Schwachstelle.",
+      "source": "https://helldivers.wiki.gg/wiki/Hulk_Scorcher",
+      "attacks": [
+        {
+          "name": "FLAMMENWERFER",
+          "type": "Feuerstrahl",
+          "range": "12 m",
+          "danger": "HOCH",
+          "desc": "Brennt · hoher Nahkampfdruck"
+        },
+        {
+          "name": "SCHLAG",
+          "type": "Nahkampf",
+          "range": "3 m",
+          "danger": "TÖDLICH",
+          "desc": "Knockback · zerstört Deckung"
+        }
+      ],
+      "imageLarge": "assets/img/enemies/icons/hulk_scorcher.png"
+    },
+    {
+      "id": "annihilator_tank",
+      "name": "Annihilator Tank",
+      "de": "Annihilator-Panzer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 5,
+      "armor": 5,
+      "armorNote": "Wanne und Turm Panzerung 5, Motor 4, Ketten und Turm-Kühlkörper 3. Nur AP 4 oder mehr ist sinnvoll.",
+      "weakspots": [
+        {
+          "zone": "Turm-Kühlkörper",
+          "note": "750 HP, von hinten erreichbar.",
+          "armor": 3
+        },
+        {
+          "zone": "Ketten",
+          "note": "750 HP pro Kette, zerstören stoppt ihn.",
+          "armor": 3
+        },
+        {
+          "zone": "Motorraum",
+          "note": "1.500 HP, hinten am Heck.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Schießt präzise Panzerbrecher, ein Treffer wirft dich um.",
+        "Von hinten oder seitlich an Ketten und Motor.",
+        "In Bewegung bleiben, er dreht langsam und du nicht."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "GR-8 Recoilless Rifle",
+        "FAF-14 Spear",
+        "Eagle 500kg Bomb",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der Annihilator Tank ist der klassische Automaton-Panzer mit Turmkanone und Panzerung 5. Frontal ist er für die meisten Waffen unverwundbar. Angriff von hinten auf Motor, Ketten oder Kühlkörper.",
+      "source": "https://helldivers.wiki.gg/wiki/Annihilator_Tank",
+      "imageLarge": "assets/img/enemies/icons/annihilator_tank.png"
+    },
+    {
+      "id": "barrager_tank",
+      "name": "Barrager Tank",
+      "de": "Barrager-Panzer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "heavy",
+      "threat": 4,
+      "armor": 5,
+      "armorNote": "Wanne und Turm 5, Startrohre 3, Motor 4, Ketten 3.",
+      "weakspots": [
+        {
+          "zone": "Startrohre",
+          "note": "1.500 HP, zerstört die Raketensalven.",
+          "armor": 3
+        },
+        {
+          "zone": "Ketten",
+          "note": "750 HP pro Kette, Panzerung 3.",
+          "armor": 3
+        },
+        {
+          "zone": "Motorraum",
+          "note": "1.500 HP hinten, Panzerung 4.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Feuert Raketensalven auf weite Entfernung, oft aus der Deckung.",
+        "Die Startrohre sind das lohnendste Ziel bei Panzerung 3.",
+        "Nicht im offenen Feld stehen bleiben, Deckung suchen."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "GR-8 Recoilless Rifle",
+        "AC-8 Autocannon",
+        "Eagle 110mm Rocket Pods"
+      ],
+      "summary": "Der Barrager Tank ist ein Raketenpanzer, der dich aus großer Entfernung eindeckt. Seine Salven sind präzise und tödlich. Zerstöre die Startrohre oder die Ketten, statt auf die Wanne zu schießen.",
+      "source": "https://helldivers.wiki.gg/wiki/Barrager_Tank",
+      "imageLarge": "assets/img/enemies/icons/barrager_tank.png"
+    },
+    {
+      "id": "gunship",
+      "name": "Gunship",
+      "de": null,
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "air",
+      "threat": 4,
+      "armor": 3,
+      "armorNote": "Rumpf und Triebwerke Panzerung 3. Für AP 3 aufwärts kein Panzerproblem.",
+      "weakspots": [
+        {
+          "zone": "Triebwerke",
+          "note": "400 HP pro Triebwerk, ein zerstörtes Triebwerk reicht oft für den Absturz.",
+          "armor": 3
+        },
+        {
+          "zone": "Rumpf",
+          "note": "950 HP, Panzerung 3.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "Kreist über dir und beschießt dich mit Fusion-Bolzen.",
+        "Triebwerke anvisieren, nicht den Rumpf.",
+        "Gunship Facility zerstören, sonst kommen immer neue."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "LAS-98 Laser Cannon",
+        "RS-422 Railgun",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der Gunship ist ein bewaffneter VTOL-Jäger, der über dem Kampfgebiet kreist. Er ist das Produkt einer Gunship Facility und kommt sonst immer wieder. Triebwerke oder Rumpf mit AP 3 oder mehr beschießen.",
+      "source": "https://helldivers.wiki.gg/wiki/Gunship",
+      "imageLarge": "assets/img/enemies/icons/gunship.png"
+    },
+    {
+      "id": "factory_strider",
+      "name": "Factory Strider",
+      "de": "Fabrik-Läufer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "elite",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Rumpf 4, viele Panzerplatten 5, Bauch 3, hinterer Motor 3, Beinbaugruppe 4, Kopfkörper 4.",
+      "weakspots": [
+        {
+          "zone": "Bauch",
+          "note": "1.200 HP, von unten erreichbar, Panzerung 3.",
+          "armor": 3
+        },
+        {
+          "zone": "Hinterer Motor",
+          "note": "1.500 HP, Panzerung 3.",
+          "armor": 3
+        },
+        {
+          "zone": "Kopfkörper",
+          "note": "2.500 HP unter der Kopfpanzerung, tödlich.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Setzt laufend Trooper und Devastatoren ab, erst die Fabrik, dann der Rest.",
+        "Unter den Bauch laufen und die Paneele mit Panzerung 3 beschießen.",
+        "Kanonenturm und Gatlings zuerst ausschalten, dann den Kopf."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "GR-8 Recoilless Rifle",
+        "LAS-99 Quasar Cannon",
+        "Eagle 500kg Bomb",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der Factory Strider ist eine wandelnde Fabrik mit Kanone, Gatlings und eigenem Truppennachschub. Er ist der zäheste Standardgegner der Automatons. Unter ihn zu kommen und den Bauch zu beschießen ist der klassische Weg.",
+      "source": "https://helldivers.wiki.gg/wiki/Factory_Strider",
+      "imageLarge": "assets/img/enemies/icons/factory_strider.png"
+    },
+    {
+      "id": "war_strider",
+      "name": "War Strider",
+      "de": "Kriegs-Läufer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "elite",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Rumpf, Torso und Beine 4, Augen 4, Greaves 5. Hüftgelenke 3, Kühlkörper 4.",
+      "weakspots": [
+        {
+          "zone": "Hüftgelenke",
+          "note": "750 HP, Panzerung 3; bringt ihn ins Wanken.",
+          "armor": 3
+        },
+        {
+          "zone": "Augen",
+          "note": "500 HP, 30 % Schaden auf Main, Panzerung 4.",
+          "armor": 4
+        },
+        {
+          "zone": "Kühlkörper",
+          "note": "700 HP hinten, Panzerung 4.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Schwerer Läufer mit Fusionskanonen und Granatwerfern.",
+        "Hüftgelenke sind der beste Einstieg, dann Augen oder Kühlkörper.",
+        "In Bewegung bleiben, seine Salven decken große Flächen ab."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "GR-8 Recoilless Rifle",
+        "RS-422 Railgun",
+        "Eagle 500kg Bomb",
+        "Orbital Railcannon Strike"
+      ],
+      "summary": "Der War Strider ist ein schwerer Automaton-Läufer mit Fusionskanonen und Granatwerfern. Er ist zäh und trifft auf jede Distanz. Die Hüftgelenke sind die am leichtesten zu knackende Schwachstelle.",
+      "source": "https://helldivers.wiki.gg/wiki/War_Strider",
+      "imageLarge": "assets/img/enemies/icons/war_strider.png"
+    },
+    {
+      "id": "jet_brigade_trooper",
+      "name": "Jet Brigade Trooper",
+      "de": "Jet-Brigade-Trooper",
+      "faction": "automatons",
+      "subfaction": "Jet Brigade",
+      "class": "chaff",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Körper 0, nur der Sprungrucksack hat Panzerung 2 und 50 HP.",
+      "weakspots": [
+        {
+          "zone": "Jetpack",
+          "note": "Explodiert beim Zerstören und tötet ihn; nicht in der Gruppe sprengen.",
+          "armor": 2
+        },
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein Treffer.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Springt ohne Vorwarnung große Distanzen und landet im Nahkampf.",
+        "Jetpack treffen: Die Explosion tötet ihn, kann aber dich mitreißen.",
+        "Abstand halten und ihn im Sprung treffen."
+      ],
+      "gear": [
+        "SG-225 Breaker",
+        "AR-23 Liberator",
+        "G-12 High Explosive",
+        "Eagle Strafing Run"
+      ],
+      "summary": "Die Jet Brigade ersetzt Trooper durch Varianten mit Sprungrucksack. Sie schließen Distanz extrem schnell und sprengen sich beim Tod selbst. Kopf oder Jetpack sind die Ziele.",
+      "source": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Trooper",
+      "imageLarge": "assets/img/enemies/icons/jet_brigade_trooper.png"
+    },
+    {
+      "id": "jet_brigade_devastator",
+      "name": "Jet Brigade Devastator",
+      "de": "Jet-Brigade-Devastator",
+      "faction": "automatons",
+      "subfaction": "Jet Brigade",
+      "class": "medium",
+      "threat": 3,
+      "armor": 2,
+      "armorNote": "Wie der Devastator: Körper 2, Brust 3, Kopf 1. Der Jetpack hat Panzerung 2 und 300 HP.",
+      "weakspots": [
+        {
+          "zone": "Jetpack",
+          "note": "300 HP, die Explosion tötet ihn.",
+          "armor": 2
+        },
+        {
+          "zone": "Kopf",
+          "note": "110 HP, Panzerung 1.",
+          "armor": 1
+        },
+        {
+          "zone": "Bauch",
+          "note": "350 HP, Panzerung 1.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Springt heran und schießt dabei aus der Hüfte.",
+        "Jetpack oder Kopf treffen, beides beendet den Sprung.",
+        "Nach der Landung ist er kurz offen, das ist dein Fenster."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "JAR-5 Dominator",
+        "SG-225 Breaker",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Jet Brigade Devastator kombiniert den Brustpanzer eines Devastators mit einem Sprungrucksack. Er schließt Distanz, die normale Devastatoren nur langsam überbrücken. Der Rucksack ist zugleich seine Sprengfalle.",
+      "source": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Devastator",
+      "imageLarge": "assets/img/enemies/icons/jet_brigade_devastator.png"
+    },
+    {
+      "id": "jet_brigade_hulk_bruiser",
+      "name": "Jet Brigade Hulk Bruiser",
+      "de": "Jet-Brigade-Hulk-Bruiser",
+      "faction": "automatons",
+      "subfaction": "Jet Brigade",
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper 4 wie der normale Hulk Bruiser, Jetpack 3 mit 750 HP. Der Rucksack ersetzt den Rückentank.",
+      "weakspots": [
+        {
+          "zone": "Jetpack",
+          "note": "750 HP, die Explosion tötet den Hulk.",
+          "armor": 3
+        },
+        {
+          "zone": "Kopf",
+          "note": "250 HP, one-shot mit Railgun oder APW-1.",
+          "armor": 4
+        },
+        {
+          "zone": "Beine",
+          "note": "500 HP pro Bein, bremst ihn stark.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Springt über Deckung hinweg direkt zu dir.",
+        "Das Jetpack ist die Schwachstelle, selbst Airburst-Sprengstoff reicht.",
+        "Nicht in der Gruppe sprengen, die Explosion tötet auch Kleineinheiten."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "RS-422 Railgun",
+        "RL-77 Airburst Rocket Launcher",
+        "G-123 Thermite",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Jet Brigade Hulk Bruiser ist ein fliegender Hulk mit Raketenwerfern. Seine Mobilität nimmt ihm die übliche Schwäche der langsamen Hulks. Der Jetpack ist der wunde Punkt, nicht der Kopf.",
+      "source": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Hulk_Bruiser",
+      "imageLarge": "assets/img/enemies/icons/jet_brigade_hulk_bruiser.png"
+    },
+    {
+      "id": "jet_brigade_hulk_scorcher",
+      "name": "Jet Brigade Hulk Scorcher",
+      "de": "Jet-Brigade-Hulk-Scorcher",
+      "faction": "automatons",
+      "subfaction": "Jet Brigade",
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper 4, Jetpack 3 mit 750 HP. Kein Rückentank, der Sprungrucksack übernimmt diese Rolle.",
+      "weakspots": [
+        {
+          "zone": "Jetpack",
+          "note": "750 HP, Explosion tötet ihn.",
+          "armor": 3
+        },
+        {
+          "zone": "Kopf",
+          "note": "250 HP, Panzerung 4.",
+          "armor": 4
+        },
+        {
+          "zone": "Arme",
+          "note": "500 HP pro Arm, entwaffnet ihn.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Springt in Flammenwerfer-Reichweite und brennt alles nieder.",
+        "Auf das Jetpack schießen, das beendet ihn schneller als der Kopf.",
+        "Feuer löschst du durch Hechten, nicht durch Wegrennen."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "LAS-99 Quasar Cannon",
+        "RS-422 Railgun",
+        "G-123 Thermite",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Jet Brigade Hulk Scorcher verbindet Flammenwerfer und Kreissäge mit einem Sprungrucksack. Er taucht dort auf, wo du ihn nicht erwartest. Der Jetpack explodiert und ist die schnellste Lösung.",
+      "source": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Hulk_Scorcher",
+      "imageLarge": "assets/img/enemies/icons/jet_brigade_hulk_scorcher.png"
+    },
+    {
+      "id": "pyro_trooper",
+      "name": "Pyro Trooper",
+      "de": "Pyro-Trooper",
+      "faction": "automatons",
+      "subfaction": "Incineration Corps",
+      "class": "light",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Körper 0, nur die Brennstofftanks auf dem Rücken haben Panzerung 2.",
+      "weakspots": [
+        {
+          "zone": "Brennstofftanks",
+          "note": "200 HP, Panzerung 2; Explosion mit 400 Schaden tötet ihn und brennt die Umgebung.",
+          "armor": 2
+        },
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein Treffer.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Rennt heran und brennt dich mit kurzen Stößen nieder.",
+        "Schieße aus der Bewegung und nicht aus nächster Nähe auf den Rucksack.",
+        "Nach drei Feuerstößen kühlt die Waffe etwa 3 Sekunden, das ist dein Fenster."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "AR-23 Liberator",
+        "G-12 High Explosive",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Pyro Trooper ist der Flammenwerfer-Infanterist des Incineration Corps. Er stirbt leicht, aber seine Tanks explodieren beim Treffer. Schieß aus der Bewegung und nicht aus nächster Nähe auf den Rucksack.",
+      "source": "https://helldivers.wiki.gg/wiki/Pyro_Trooper",
+      "imageLarge": "assets/img/enemies/icons/pyro_trooper.png"
+    },
+    {
+      "id": "incendiary_rocket_raider",
+      "name": "Incendiary Rocket Raider",
+      "de": "Brand-Raketen-Raider",
+      "faction": "automatons",
+      "subfaction": "Incineration Corps",
+      "class": "light",
+      "threat": 2,
+      "armor": 0,
+      "armorNote": "Körper 0, keine Panzerung an Kopf oder Gliedmaßen.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "40 HP, ein Treffer.",
+          "armor": 0
+        },
+        {
+          "zone": "Werferarm",
+          "note": "65 HP, zerstört die Fusionskanone.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Feuert einen einzelnen Fusionsbolzen und lädt etwa 5 Sekunden nach.",
+        "Nutze die Ladepause und halte dich seitlich.",
+        "Im Spiel heißt die Einheit schlicht Trooper, gemeint ist der Raider mit der Kanone."
+      ],
+      "gear": [
+        "AR-23 Liberator",
+        "R-63 Diligence",
+        "MG-43 Machine Gun",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Incendiary Rocket Raider ersetzt die Raketen des Rocket Raiders durch eine einzelne, starke Fusionskanone. Der Bolzen wirft dich um und brennt. Nach jedem Schuss hat er eine lange Pause.",
+      "source": "https://helldivers.wiki.gg/wiki/Incendiary_Rocket_Raider",
+      "imageLarge": "assets/img/enemies/icons/incendiary_rocket_raider.png"
+    },
+    {
+      "id": "conflagration_devastator",
+      "name": "Conflagration Devastator",
+      "de": "Flammen-Devastator",
+      "faction": "automatons",
+      "subfaction": "Incineration Corps",
+      "class": "medium",
+      "threat": 4,
+      "armor": 2,
+      "armorNote": "Körper 2, Brust 3, Kopf 1. Das Schild hat Panzerung 4 und 800 HP, einen Rucksack gibt es nicht.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "110 HP, aber oft vom Schild verdeckt.",
+          "armor": 1
+        },
+        {
+          "zone": "Arme und Waffe",
+          "note": "Arme 1, Waffe 2; die große Waffe ist leichter zu treffen als der Kopf.",
+          "armor": 1
+        },
+        {
+          "zone": "Bauch",
+          "note": "350 HP, Panzerung 1 unter dem Schild.",
+          "armor": 1
+        }
+      ],
+      "tactics": [
+        "Schießt Brandschrot aus nächster Nähe, das kann selbst schwere Rüstung mit einem Treffer töten.",
+        "Sprengstoff bringt ihn ins Wanken und zwingt das Schild herunter.",
+        "Seitlich umgehen oder die Waffe zerschießen, statt auf das Schild zu feuern."
+      ],
+      "gear": [
+        "JAR-5 Dominator",
+        "R-63 Diligence",
+        "AC-8 Autocannon",
+        "G-123 Thermite"
+      ],
+      "summary": "Der Conflagration Devastator trägt Schild und Brandschrotflinte. Auf kurze Distanz ist er der tödlichste Devastator. Sprengstoff rüttelt ihn wach, danach triffst du Kopf oder Waffe.",
+      "source": "https://helldivers.wiki.gg/wiki/Conflagration_Devastator",
+      "imageLarge": "assets/img/enemies/icons/conflagration_devastator.png"
+    },
+    {
+      "id": "hulk_firebomber",
+      "name": "Hulk Firebomber",
+      "de": "Hulk-Brandbomber",
+      "faction": "automatons",
+      "subfaction": "Incineration Corps",
+      "class": "heavy",
+      "threat": 5,
+      "armor": 4,
+      "armorNote": "Körper, Kopf, Arme und Beine Panzerung 4, Rückentank 1 mit 900 HP.",
+      "weakspots": [
+        {
+          "zone": "Rückentank",
+          "note": "900 HP, jede Waffe wirkt.",
+          "armor": 1
+        },
+        {
+          "zone": "Kopf",
+          "note": "250 HP, one-shot mit Railgun oder APW-1.",
+          "armor": 4
+        },
+        {
+          "zone": "Arme",
+          "note": "500 HP pro Arm, beide zerstören entwaffnet ihn.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Schießt Phosphorgranaten im Bogen über Deckung, der Brand bleibt liegen.",
+        "Unter 25 m wechselt er auf den Flammenwerfer, dann ist er berechenbarer.",
+        "Richtungswechsel nach dem Schuss, sonst landest du im Brandfeld."
+      ],
+      "gear": [
+        "EAT-17 Expendable Anti-Tank",
+        "LAS-99 Quasar Cannon",
+        "RS-422 Railgun",
+        "G-123 Thermite",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Hulk Firebomber ist ein Hulk mit Phosphorwerfer und Flammenwerfer. Er beschießt dich indirekt und steckt ganze Flächen in Brand. Sein Rückentank bleibt die Schwachstelle, der Rest ist Panzerung 4.",
+      "source": "https://helldivers.wiki.gg/wiki/Hulk_Firebomber",
+      "imageLarge": "assets/img/enemies/icons/hulk_firebomber.png"
+    },
+    {
+      "id": "agitator",
+      "name": "Agitator",
+      "de": "Agitator",
+      "faction": "automatons",
+      "subfaction": "Cyborg Legion",
+      "class": "medium",
+      "threat": 4,
+      "armor": 2,
+      "armorNote": "Körper 2 mit abnehmbarer Rüstung (Helm, Torso, Schulterplatten je 2). Darunter Kopf 1, Arme 1.",
+      "weakspots": [
+        {
+          "zone": "Helm",
+          "note": "200 HP, Panzerung 2; nach 2–3 Treffern frei, dann Kopfschuss.",
+          "armor": 2
+        },
+        {
+          "zone": "Kopf",
+          "note": "150 HP, Panzerung 1, tödlich.",
+          "armor": 1
+        },
+        {
+          "zone": "Beine",
+          "note": "1.400 HP, Panzerung 2; Railgun-Overcharge legt ihn um.",
+          "armor": 2
+        }
+      ],
+      "tactics": [
+        "Befiehlt Troopern, Devastatoren und Berserkern und macht sie schneller.",
+        "Ihn zuerst töten: Sein Tod stunnt alle Einheiten unter seinem Befehl.",
+        "Explosivwaffen treffen mehrere seiner Rüstungsteile gleichzeitig."
+      ],
+      "gear": [
+        "R-63 Diligence",
+        "ARC-3 Arc Thrower",
+        "GP-31 Grenade Pistol",
+        "RS-422 Railgun"
+      ],
+      "summary": "Der Agitator ist ein Cyborg-Kommandeur mit Plasma-Lader und Stahlrüstung. Solange er lebt, sind seine Untergebenen schneller und aggressiver. Sein Tod stunnt den ganzen Trupp, deshalb ist er das erste Ziel.",
+      "source": "https://helldivers.wiki.gg/wiki/Agitator",
+      "imageLarge": "assets/img/enemies/icons/agitator.png"
+    },
+    {
+      "id": "radical",
+      "name": "Radical",
+      "de": "Radikaler",
+      "faction": "automatons",
+      "subfaction": "Cyborg Legion",
+      "class": "medium",
+      "threat": 4,
+      "armor": 1,
+      "armorNote": "Körper 1, Kopf 1, Torso-Kreislauf 2, Schulterplatte 2. Kaum Panzerung, aber 750 HP.",
+      "weakspots": [
+        {
+          "zone": "Kopf",
+          "note": "150 HP, Panzerung 1; APW-1 oder Diligence töten ihn mit einem Schuss.",
+          "armor": 1
+        },
+        {
+          "zone": "Torso",
+          "note": "1.200 HP, Panzerung 2.",
+          "armor": 2
+        },
+        {
+          "zone": "Beine",
+          "note": "1.400 HP, Panzerung 2; Arc-Waffen stoppen ihn.",
+          "armor": 2
+        }
+      ],
+      "tactics": [
+        "Wirft Rauchgranaten und sprintet dann im Bogen auf dich zu.",
+        "Rauchwolke in deiner Nähe heißt: Er ist schon fast da.",
+        "Arc Thrower oder Kopfschüsse, Nahkampf gegen ihn verlierst du."
+      ],
+      "gear": [
+        "APW-1 Anti-Materiel Rifle",
+        "R-63 Diligence",
+        "JAR-5 Dominator",
+        "ARC-3 Arc Thrower"
+      ],
+      "summary": "Der Radical ist ein Cyborg-Nahkämpfer mit Plasma-Schrotflinte und Kampfsport-Kicks. Er vernebelt die Sicht und schließt schnell auf. Sein Kopf ist schlecht gepanzert, also triff ihn, bevor er dich umwirft.",
+      "source": "https://helldivers.wiki.gg/wiki/Radical",
+      "imageLarge": "assets/img/enemies/icons/radical.png"
+    },
+    {
+      "id": "vox_engine",
+      "name": "Vox Engine",
+      "de": "Vox-Engine",
+      "faction": "automatons",
+      "subfaction": "Cyborg Legion",
+      "class": "elite",
+      "threat": 5,
+      "armor": 5,
+      "armorNote": "Rumpf und Sarg 5, Kanonen 4, Raketenwerfer 3, Miniguns 3, Lüftungen 1. Der größte Automaton im Spiel.",
+      "weakspots": [
+        {
+          "zone": "Lüftungen",
+          "note": "6 Stück, je 300 HP und Panzerung 1. Drei oben öffnen die Dachluke, drei unten die Heckluke; eine Granate hinein tötet ihn sofort.",
+          "armor": 1
+        },
+        {
+          "zone": "Kanonen",
+          "note": "3.500 HP pro Kanone, Panzerung 4; beide zerstören tötet ihn.",
+          "armor": 4
+        },
+        {
+          "zone": "Raketenwerfer",
+          "note": "1.200 HP, Panzerung 3; stoppt den Raketenbeschuss.",
+          "armor": 3
+        }
+      ],
+      "tactics": [
+        "9.000 HP, Kanonen, Miniguns und Raketen: frontal ist er ein Fass ohne Boden.",
+        "Erst die Miniguns ausschalten, dann an die Flanken gehen.",
+        "Lüftungen zerstören und eine Granate in die offene Luke, das ist der Instant-Kill."
+      ],
+      "gear": [
+        "Orbital Railcannon Strike",
+        "EAT-411 Leveller",
+        "MS-11 Solo Silo",
+        "G-123 Thermite",
+        "GR-8 Recoilless Rifle"
+      ],
+      "summary": "Der Vox Engine ist ein wandelnder Cyborg-Koloss mit drei Waffensystemen und 9.000 HP. Frontal hält ihn fast nichts auf. Der saubere Weg führt über die sechs Lüftungen und eine Granate in die Luke.",
+      "source": "https://helldivers.wiki.gg/wiki/Vox_Engine",
+      "imageLarge": "assets/img/enemies/icons/vox_engine.png"
+    },
+    {
+      "id": "automaton_fabricator",
+      "name": "Automaton Fabricator",
+      "de": "Automaton-Fabrikator",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 5,
+      "armorNote": "Außenhaut Panzerung 5 und 1.500 HP. Die obere Lüftung ist ungepanzert und der eigentliche Weg.",
+      "weakspots": [
+        {
+          "zone": "Lüftung",
+          "note": "Granate oder Sprengwaffe mit Demolition 20 in die obere Öffnung.",
+          "armor": 0
+        },
+        {
+          "zone": "Außenhaut",
+          "note": "Nur Sprengstoff mit Demolition 40+ oder Waffen mit AP 5.",
+          "armor": 5
+        }
+      ],
+      "tactics": [
+        "Spawnt laufend Trooper, bis du ihn zerstörst.",
+        "Eine Granate in die obere Lüftung ist der billigste Kill.",
+        "Quasar oder Recoilless aus sicherer Entfernung, sonst kostet jeder Fabrikator Munition."
+      ],
+      "gear": [
+        "G-12 High Explosive",
+        "GR-8 Recoilless Rifle",
+        "LAS-99 Quasar Cannon",
+        "GP-20 Ultimatum",
+        "Eagle Airstrike"
+      ],
+      "summary": "Der Automaton Fabricator ist die Fabrik in jedem Automaton Outpost und spawnt neuen Nachschub. Solange er steht, hörst du nicht auf zu kämpfen. Eine Granate in die Lüftung oder eine Panzerfaust beendet das.",
+      "source": "https://helldivers.wiki.gg/wiki/Automaton_Fabricator",
+      "imageLarge": "assets/img/enemies/hi/automaton_fabricator.png"
+    },
+    {
+      "id": "detector_tower",
+      "name": "Detector Tower",
+      "de": "Detektor-Turm",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 0,
+      "armorNote": "Nicht durch Beschuss zerstörbar, nur Sprengstoff mit Demolition 50. Deshalb Panzerung 0.",
+      "weakspots": [
+        {
+          "zone": "Gebäude",
+          "note": "Hellbomb, Eagle 500kg, Orbital Precision Strike oder SEAF-Mininuke.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Erkennt dich auf 150 m und ruft endlos Dropships.",
+        "Hinlegen macht dich für den Turm unsichtbar.",
+        "Hellbomb oder 500kg; alternativ einen Cannon Turret auf ihn feuern lassen."
+      ],
+      "gear": [
+        "NUX-223 Hellbomb",
+        "Eagle 500kg Bomb",
+        "Orbital Precision Strike",
+        "SEAF Artillery"
+      ],
+      "summary": "Der Detector Tower ist ein optionales Ziel, das dich auf 150 m erkennt und Dropships ruft. Sein roter Lichtkegel verrät ihn. Hinlegen oder Sprengstoff mit Demolition 50 löst das Problem.",
+      "source": "https://helldivers.wiki.gg/wiki/Detector_Tower",
+      "imageLarge": "assets/img/enemies/hi/detector_tower.png"
+    },
+    {
+      "id": "stratagem_jammer",
+      "name": "Stratagem Jammer",
+      "de": "Stratagem-Jammer",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 0,
+      "armorNote": "Nur Sprengstoff mit Demolition 50 zerstört ihn. Beschuss bringt nichts, deshalb Panzerung 0.",
+      "weakspots": [
+        {
+          "zone": "Gebäude",
+          "note": "Hellbomb oder Stratagem mit Demolition 50.",
+          "armor": 0
+        },
+        {
+          "zone": "Terminal",
+          "note": "Am Fuß deaktivieren, dann Sprengstoff platzieren.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Blockiert alle Stratagems im 150-m-Radius außer SEAF Artillery.",
+        "Terminal deaktivieren, dann Hellbomb rufen.",
+        "SEAF-Mininuke oder B-100 Portable Hellbomb wirken auch ohne Abschalten."
+      ],
+      "gear": [
+        "NUX-223 Hellbomb",
+        "B-100 Portable Hellbomb",
+        "SEAF Artillery",
+        "Eagle 500kg Bomb"
+      ],
+      "summary": "Der Stratagem Jammer schaltet in 150 m Umkreis deine Stratagems ab. Ohne Plan bist du dort auf Beine und Primärwaffe reduziert. Terminal deaktivieren, dann Sprengstoff mit Demolition 50.",
+      "source": "https://helldivers.wiki.gg/wiki/Stratagem_Jammer",
+      "imageLarge": "assets/img/enemies/hi/stratagem_jammer.png"
+    },
+    {
+      "id": "gunship_facility",
+      "name": "Gunship Facility",
+      "de": "Gunship-Fabrik",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 0,
+      "armorNote": "Immun gegen Eagle und Orbital. Nur Hellbomb oder SEAF-Mininuke mit Demolition 60, deshalb Panzerung 0.",
+      "weakspots": [
+        {
+          "zone": "Turmfundament",
+          "note": "Hellbomb muss innerhalb von 17 m liegen, sonst fällt die Sprengkraft zu stark ab.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Spawnt bis zu vier Gunships pro Turm, solange du in 150 m bist.",
+        "Nur Hellbomb oder SEAF-Mininuke zerstören ihn, Eagle und Orbital prallen ab.",
+        "Hellbomb innerhalb von 17 m platzieren und bis zur Zündung verteidigen."
+      ],
+      "gear": [
+        "NUX-223 Hellbomb",
+        "B-100 Portable Hellbomb",
+        "SEAF Artillery"
+      ],
+      "summary": "Die Gunship Facility produziert die Gunships, die dich von oben beschießen. Sie ist immun gegen Eagle- und Orbital-Angriffe. Ein Hellbomb innerhalb von 17 m ist der einzige zuverlässige Weg.",
+      "source": "https://helldivers.wiki.gg/wiki/Gunship_Facility",
+      "imageLarge": "assets/img/enemies/hi/gunship_facility.png"
+    },
+    {
+      "id": "mortar_emplacement",
+      "name": "Mortar Emplacement",
+      "de": "Mörserstellung",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 4,
+      "armorNote": "Front Panzerung 4, Kühlkörper hinten Panzerung 3. 400 HP, jede Panzerfaust one-shottet.",
+      "weakspots": [
+        {
+          "zone": "Kühlkörper",
+          "note": "400 HP, Panzerung 3, von hinten erreichbar.",
+          "armor": 3
+        },
+        {
+          "zone": "Front",
+          "note": "Panzerung 4, braucht AP 4 oder mehr.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Feuert Mörsergranaten auf 150 bis 50 m, sobald dich jemand gesehen hat.",
+        "Rote Leuchtspur am Himmel zeigt die Richtung des Beschusses.",
+        "Von hinten an den Kühlkörper oder eine Panzerfaust frontal."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "LAS-98 Laser Cannon",
+        "EAT-17 Expendable Anti-Tank",
+        "G-123 Thermite"
+      ],
+      "summary": "Das Mortar Emplacement beschießt dich indirekt aus sicherer Entfernung. Die Granaten kommen von oben und treffen auch Deckung. Von hinten an den Kühlkörper oder mit einer Panzerfaust ausschalten.",
+      "source": "https://helldivers.wiki.gg/wiki/Mortar_Emplacement",
+      "imageLarge": "assets/img/enemies/hi/mortar_emplacement.png"
+    },
+    {
+      "id": "anti_air_emplacement",
+      "name": "Anti-Air Emplacement",
+      "de": "Flak-Stellung",
+      "faction": "automatons",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 3,
+      "armor": 4,
+      "armorNote": "Front Panzerung 4, Kühlkörper hinten 3. 400 HP, Anti-Tank one-shottet.",
+      "weakspots": [
+        {
+          "zone": "Kühlkörper",
+          "note": "400 HP, Panzerung 3, von hinten erreichbar.",
+          "armor": 3
+        },
+        {
+          "zone": "Front",
+          "note": "Panzerung 4, braucht AP 4 oder mehr.",
+          "armor": 4
+        }
+      ],
+      "tactics": [
+        "Blockiert alle Eagle-Stratagems im 150-m-Radius.",
+        "Verrät sich durch Schüsse nach oben.",
+        "Kühlkörper hinten (Panzerung 3) oder eine Panzerfaust frontal."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "LAS-98 Laser Cannon",
+        "EAT-17 Expendable Anti-Tank",
+        "G-123 Thermite"
+      ],
+      "summary": "Das Anti-Air Emplacement sperrt deine Eagles im Umkreis von 150 m. Es schießt nach oben und verrät sich dadurch. Von hinten an den Kühlkörper oder mit AP 4 frontal.",
+      "source": "https://helldivers.wiki.gg/wiki/Anti-Air_Emplacement",
+      "imageLarge": "assets/img/enemies/hi/anti_air_emplacement.png"
+    },
+    {
+      "id": "destroy_rogue_research_station",
+      "name": "Destroy Rogue Research Station",
+      "de": "Illegale Forschungsstation zerstören",
+      "faction": "superearth",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 1,
+      "armor": 0,
+      "armorNote": "Ziviles Gebäude ohne Panzerung. Nur Sprengstoff mit Demolition 50 zerstört es.",
+      "weakspots": [
+        {
+          "zone": "Gebäude",
+          "note": "Hellbomb, Eagle 500kg oder Orbital; ein Treffer genügt.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Ziviles Ziel: ein Gebäude mit illegaler Forschung.",
+        "Hellbomb rufen oder 500-kg-Bombe werfen, fertig.",
+        "Kein Kampf nötig, aber die Automatons in der Nähe wecken."
+      ],
+      "gear": [
+        "NUX-223 Hellbomb",
+        "Eagle 500kg Bomb",
+        "Orbital Precision Strike"
+      ],
+      "summary": "Die Rogue Research Station ist ein ziviles Gebäude, das illegale Forschung betreibt. Ein Sprengsatz mit Demolition 50 reicht. Für Einsteiger ist das ein leichter Auftrag mit 200 Requisition.",
+      "source": "https://helldivers.wiki.gg/wiki/Destroy_Rogue_Research_Station",
+      "imageLarge": "assets/img/enemies/hi/destroy_rogue_research_station.png"
+    },
+    {
+      "id": "terminate_illegal_broadcast",
+      "name": "Terminate Illegal Broadcast",
+      "de": "Illegalen Sender abschalten",
+      "faction": "superearth",
+      "subfaction": null,
+      "class": "structure",
+      "threat": 1,
+      "armor": 0,
+      "armorNote": "Keine Panzerung. Terminal oder Sprengstoff mit Demolition 30.",
+      "weakspots": [
+        {
+          "zone": "Sendemast",
+          "note": "Jeder Treffer mit Demolition 30 zerstört ihn, auch Autocannon oder Granatwerfer.",
+          "armor": 0
+        },
+        {
+          "zone": "Terminal",
+          "note": "Code eingeben und Signal auf 100 % drehen.",
+          "armor": 0
+        }
+      ],
+      "tactics": [
+        "Optional: Terminal hacken (Pfeilcode, Signal auf 100 %).",
+        "Schneller: den Turm mit Demolition 30 sprengen.",
+        "Auf Difficulty 1 und 2 ist das ein Hauptziel."
+      ],
+      "gear": [
+        "AC-8 Autocannon",
+        "GL-21 Grenade Launcher",
+        "G-12 High Explosive",
+        "Eagle Strafing Run"
+      ],
+      "summary": "Der Illegal Broadcast ist ein Propagandaturm, den du hacken oder sprengen kannst. Das Terminal ist der saubere Weg, Sprengstoff der schnelle. Auf niedrigen Difficulty ist es ein Hauptziel.",
+      "source": "https://helldivers.wiki.gg/wiki/Terminate_Illegal_Broadcast",
+      "imageLarge": "assets/img/enemies/hi/terminate_illegal_broadcast.png"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "classes": [
+    {
+      "id": "light",
+      "name": "Leicht",
+      "armor": "50–100",
+      "note": "Basis 50, mit Extra Padding bis 100. Du nimmst bei 50 Panzerung +25% Schaden, bist dafür 10% schneller als Mittel (Speed 550 statt 500) und regenerierst Ausdauer am schnellsten (125 statt 100). Für Stealth, Objektiv-Rushs und alle, die Treffern ausweichen statt sie zu fressen."
+    },
+    {
+      "id": "medium",
+      "name": "Mittel",
+      "armor": "100–150",
+      "note": "Basis 100, mit Extra Padding 150. Bei 100 Panzerung nimmst du normalen Schaden (Faktor 1,0), Speed 500, Ausdauer-Regeneration 100. Der sichere Allrounder: genug Schutz für Fehler, genug Tempo für die Karte. Für Einsteiger die richtige Wahl."
+    },
+    {
+      "id": "heavy",
+      "name": "Schwer",
+      "armor": "150–200",
+      "note": "Basis 150, mit Extra Padding 200. Du nimmst 25% weniger Schaden (bei 200 Panzerung 35%), bist aber 10% langsamer als Mittel (Speed 450) und regenerierst Ausdauer nur halb so schnell (50). Für Fronttanks gegen Automatons-Beschuss und Terminiden-Brecher; Movement wird träge."
+    }
+  ],
+  "passives": [
+    {
+      "id": "stationary_shroud",
+      "name": "Stationary Shroud",
+      "effect": "-35% Waffenwackeln beim Zielen, 15% weniger Lärm beim Bewegen. Im Stand (geduckt oder liegend) tarnt dich die Rüstung wie Laub und senkt die Entdeckungsreichweite von Feinden.",
+      "rating": "C",
+      "note": "Reiner Sniper-/Solo-Stealth-Stil. Im offenen Gefecht bringt er fast nichts, deshalb nur für gezielte Kampagnen sinnvoll."
+    },
+    {
+      "id": "blunt_force_mitigation",
+      "name": "Blunt-Force Mitigation",
+      "effect": "Du wirst schwerer umgeworfen und nimmst 30% weniger Schaden durch Aufprall und Kollisionen. Zusätzlich höhere Panzerungswertung.",
+      "rating": "B",
+      "note": "Gegen Charger-Stöße, Bile-Titan-Tritte und Explosionsdruck. Gut für Frontkämpfer, die ständig umgeworfen werden — gegen Automatons stärker als gegen Terminiden."
+    },
+    {
+      "id": "true_grit",
+      "name": "True Grit",
+      "effect": "Unterstützungswaffen laden 30% schneller nach; bessere Waffenführung, also weniger Trägheit beim Zielen.",
+      "rating": "A",
+      "note": "Für Railgun, Autocannon, Recoilless Rifle — alles mit langer Nachladezeit. Solide gegen Automatons und Illuminate, weniger wichtig bei reinen Primärwaffen-Builds."
+    },
+    {
+      "id": "kinetic_displacement_mitigation",
+      "name": "Kinetic Displacement Mitigation",
+      "effect": "50% Feuerresistenz, 50% Chance schwere Gliedmaßenverletzungen zu vermeiden, 30% weniger Aufprallschaden.",
+      "rating": "B",
+      "note": "Für feuerlastige Missionen und Eigenbeschuss mit Flammenwerfer oder Napalm. Die Kombination aus Feuer und Aufprall ist stark, aber speziell."
+    },
+    {
+      "id": "oxygenator",
+      "name": "Oxygenator",
+      "effect": "Erhöht Geh- und Laufgeschwindigkeit. Rutschen (Slides) gehen schneller und weiter.",
+      "rating": "A",
+      "note": "Der Mobility-Pick: auf großen Karten und für Objektiv-Rushs jede Runde spürbar. Ideal mit leichter Rüstung, die ohnehin schnell ist."
+    },
+    {
+      "id": "concussive_padding_grenadier",
+      "name": "Concussive Padding (Grenadier)",
+      "effect": "50% Explosionsresistenz und +2 Wurfgegenstände im Inventar (auch die Haltekapazität).",
+      "rating": "A",
+      "note": "Granaten-Build gegen Automatons und Terminiden. Direkte Konkurrenz zum Engineering Kit: mehr Sprengschutz, dafür kein Rückstoß-Bonus."
+    },
+    {
+      "id": "concussive_padding_hazmat",
+      "name": "Concussive Padding (Hazmat)",
+      "effect": "50% Explosionsresistenz, 25% Resistenz gegen Gas und Gaseffekte, 30% weniger Rückstoß der Nebenwaffe.",
+      "rating": "C",
+      "note": "Chemical-Agents-Builds mit Gasgranaten. Die Kombination aus Explosionsschutz, Gas und Sidearm ist sehr speziell — nur für eingespielte Loadouts."
+    },
+    {
+      "id": "concussive_padding_reinforced",
+      "name": "Concussive Padding (Reinforced)",
+      "effect": "50% Explosionsresistenz plus höhere Panzerungswertung.",
+      "rating": "A",
+      "note": "Der Tank-Pick gegen Automatons-Raketen und Terminiden-Säure. Beste reine Überlebenswahl auf hohen Schwierigkeitsgraden."
+    },
+    {
+      "id": "reduced_signature",
+      "name": "Reduced Signature",
+      "effect": "50% weniger Lärm beim Bewegen; Feinde erkennen dich erst auf 40% kürzere Distanz.",
+      "rating": "B",
+      "note": "Stealth und Solo-Objekte. Gegen Terminiden spürbar (Patrouillen laufen vorbei), gegen Automatons wegen Sensoren nur bedingt."
+    },
+    {
+      "id": "supplemental_adrenaline",
+      "name": "Supplemental Adrenaline",
+      "effect": "Wenn du Schaden nimmst, bekommst du Ausdauer zurück. Zusätzlich höhere Panzerungswertung.",
+      "rating": "B",
+      "note": "Für Dauerläufer und Retreat-Spieler, die unter Beschuss sprinten. Praktisch, aber kein Ersatz für echten Schutz."
+    },
+    {
+      "id": "rock_solid",
+      "name": "Rock Solid",
+      "effect": "+40% Nahkampfschaden; du wirst schwerer umgeworfen.",
+      "rating": "C",
+      "note": "Melee-Nische. Nur mit Peak-Physique-Kombi und Schildbackpack sinnvoll, sonst verschenkter Passiv-Slot."
+    },
+    {
+      "id": "desert_stormer",
+      "name": "Desert Stormer",
+      "effect": "40% Resistenz gegen Feuer, Gas, Säure und Elektrizität. +20% Wurfweite.",
+      "rating": "A",
+      "note": "Breiter Allrounder gegen Terminiden (Säure, Gas) und auf Planeten mit Feuerstürmen. Die Wurfweite hilft zusätzlich bei Stratagems."
+    },
+    {
+      "id": "feet_first",
+      "name": "Feet First",
+      "effect": "50% weniger Lärm beim Bewegen, +30% Reichweite zum Erkennen von Points of Interest, Immunität gegen Beinverletzungen.",
+      "rating": "B",
+      "note": "Sammler und Erkunder. Die Beinimmunität rettet dich nach Stürzen und Sprengfallen — auf Dschungel- und Ruinenkarten stark."
+    },
+    {
+      "id": "adreno_defibrillator",
+      "name": "Adreno-Defibrillator",
+      "effect": "Einmalige kurze Wiederbelebung nach dem Tod, solange der Körper intakt ist. +2,0 s Stimpack-Wirkung, 50% Elektroresistenz.",
+      "rating": "B",
+      "note": "Gegen Illuminate (Arc-Schaden) und für riskante Solo-Aktionen. Der Selbst-Rez funktioniert nur einmal pro Einsatz."
+    },
+    {
+      "id": "ballistic_padding",
+      "name": "Ballistic Padding",
+      "effect": "25% weniger Schaden auf die Brust, 25% Explosionsresistenz. Keine Blutungsschäden, wenn die Brust getroffen wird.",
+      "rating": "B",
+      "note": "Automatons-Beschuss auf offener Fläche. Die Blutungssperre ist stark gegen Devastator-Salven und HMG-Feuer."
+    },
+    {
+      "id": "reinforced_epaulettes",
+      "name": "Reinforced Epaulettes",
+      "effect": "+30% Nachladegeschwindigkeit der Primärwaffe, 50% Chance schwere Gliedmaßenverletzungen zu vermeiden, +20% Nahkampfschaden.",
+      "rating": "A",
+      "note": "Für Dauerfeuer-Primaries mit kleinem Magazin. Bringt echten DPS-Gewinn ohne Munitionskosten — gut gegen jede Fraktion."
+    },
+    {
+      "id": "gunslinger",
+      "name": "Gunslinger",
+      "effect": "+40% Nachladegeschwindigkeit der Nebenwaffe, +50% Ziehen/Holstern, 70% weniger Rückstoß der Nebenwaffe.",
+      "rating": "C",
+      "note": "Revolver- und Pistolen-Builds. Nur sinnvoll, wenn du die Sidearm wirklich als Hauptwaffe spielst — sonst verschwendet."
+    },
+    {
+      "id": "integrated_explosives",
+      "name": "Integrated Explosives",
+      "effect": "+2 Wurfgegenstände im Inventar. Die Rüstung explodiert 1,5 s nach deinem Tod.",
+      "rating": "B",
+      "note": "Granatenlastige Builds. Der Todesknall räumt gelegentlich noch Chaff weg, der eigentliche Wert sind die +2 Granaten."
+    },
+    {
+      "id": "acclimated",
+      "name": "Acclimated",
+      "effect": "50% Resistenz gegen Feuer, Gas, Säure und Elektrizität.",
+      "rating": "A",
+      "note": "Universeller Elementarschutz gegen Terminiden und Illuminate. Schwächer als die Spezialisten, aber nie nutzlos."
+    },
+    {
+      "id": "siege_ready",
+      "name": "Siege-Ready",
+      "effect": "+30% Nachladegeschwindigkeit der Primärwaffe, +20% Munitionskapazität aller Waffen (Rucksäcke ausgenommen).",
+      "rating": "A",
+      "note": "Für Waffen mit kleinem Magazin und lange Gefechte. Gegen Automatons sehr beliebt, weil Nachschub dort oft fehlt."
+    },
+    {
+      "id": "unflinching",
+      "name": "Unflinching",
+      "effect": "Du zuckst bei Treffern nicht mehr zusammen, höhere Panzerungswertung. Kartenmarker erzeugen alle 2,0 s einen Radarping.",
+      "rating": "B",
+      "note": "Präzisionsschützen unter Beschuss und Aufklärer. Der eingebaute Radar ist ein netter Bonus für Solo-Spieler."
+    },
+    {
+      "id": "advanced_filtration",
+      "name": "Advanced Filtration",
+      "effect": "80% Resistenz gegen Gas und Gaseffekte.",
+      "rating": "B",
+      "note": "Chemical-Agents- und Terminiden-Missionen mit Gaswolken. Gegen alles andere komplett wirkungslos."
+    },
+    {
+      "id": "inflammable",
+      "name": "Inflammable",
+      "effect": "75% Feuerresistenz.",
+      "rating": "B",
+      "note": "Feuerstürme, Flammenwerfer-Eigenbeschuss und Freedom's-Flame-Builds. Auf Feuerplaneten fast Pflicht."
+    },
+    {
+      "id": "peak_physique",
+      "name": "Peak Physique",
+      "effect": "+40% Nahkampfschaden; bessere Waffenführung mit weniger Trägheit beim Zielen.",
+      "rating": "B",
+      "note": "Melee-Fans und schwere Waffen. Das Handling hilft auch ohne Nahkampf, deshalb breiter einsetzbar als Rock Solid."
+    },
+    {
+      "id": "electrical_conduit",
+      "name": "Electrical Conduit",
+      "effect": "95% Resistenz gegen Elektroschaden (Tesla-Türme, Arc-Waffen, Illuminate).",
+      "rating": "B",
+      "note": "Illuminate- und Tesla-Missionen. Macht dich praktisch immun gegen den eigenen Arc Thrower und Blitzschläge."
+    },
+    {
+      "id": "fortified",
+      "name": "Fortified",
+      "effect": "30% weniger Rückstoß im Ducken oder Liegen. 50% Explosionsresistenz.",
+      "rating": "S",
+      "note": "Der Standard gegen Automatons (Raketen, Mörser) und für MG- und Sniper-Spieler. Funktioniert in fast jedem Loadout — immer eine sichere Wahl."
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "effect": "Kartenmarker erzeugen alle 2,0 s einen Radarping. Feinde erkennen dich 30% später.",
+      "rating": "A",
+      "note": "Solo, Aufklärung und Objektiv-Rushs. Auf hohen Schwierigkeitsgraden Gold wert, im Team weniger wichtig."
+    },
+    {
+      "id": "engineering_kit",
+      "name": "Engineering Kit",
+      "effect": "30% weniger Rückstoß im Ducken oder Liegen. +2 Wurfgegenstände im Inventar.",
+      "rating": "S",
+      "note": "Granaten und Rückstoßkontrolle in einem. Funktioniert gegen jede Fraktion und mit fast jedem Loadout — der beste Allrounder im Spiel."
+    },
+    {
+      "id": "med_kit",
+      "name": "Med-Kit",
+      "effect": "+2 Stimpacks im Inventar. +2,0 s Stimpack-Wirkung.",
+      "rating": "S",
+      "note": "Mehr Heilung und längere Unverwundbarkeit. Für Einsteiger der beste 'Ich sterbe nicht'-Pick, besonders auf hohen Schwierigkeitsgraden."
+    },
+    {
+      "id": "servo_assisted",
+      "name": "Servo-Assisted",
+      "effect": "+30% Wurfweite. +50% Gesundheit der Gliedmaßen.",
+      "rating": "S",
+      "note": "Stratagems und Granaten landen deutlich weiter weg, Gliedmaßen halten länger. Universell stark, besonders für 380er- und Eagle-Würfe."
+    },
+    {
+      "id": "democracy_protects",
+      "name": "Democracy Protects",
+      "effect": "50% Chance, bei tödlichem Schaden nicht zu sterben. Keine Blutungsschäden, wenn die Brust getroffen wird.",
+      "rating": "A",
+      "note": "Absicherung auf hohen Schwierigkeitsgraden. Der Zufallsfaktor macht es unberechenbar, rettet aber regelmäßig den Einsatz."
+    },
+    {
+      "id": "extra_padding",
+      "name": "Extra Padding",
+      "effect": "Erhöht die Panzerungswertung deutlich (ca. +50).",
+      "rating": "S",
+      "note": "Macht mittlere Rüstung so zäh wie schwere und leichte wie mittlere. Der einfachste Schutzboost im Spiel — immer sinnvoll."
+    }
+  ],
+  "sets": [
+    { "name": "B-01 Tactical", "passive": "Extra Padding", "class": "medium", "unlock": "Standard (Starter-Ausrüstung)" },
+    { "name": "SC-34 Infiltrator", "passive": "Scout", "class": "light", "unlock": "Helldivers Mobilize, Seite 1" },
+    { "name": "SC-30 Trailblazer Scout", "passive": "Scout", "class": "light", "unlock": "Helldivers Mobilize, Seite 7" },
+    { "name": "CE-35 Trench Engineer", "passive": "Engineering Kit", "class": "medium", "unlock": "Helldivers Mobilize, Seite 3" },
+    { "name": "CM-09 Bonesnapper", "passive": "Med-Kit", "class": "medium", "unlock": "Helldivers Mobilize, Seite 4" },
+    { "name": "DP-40 Hero of the Federation", "passive": "Democracy Protects", "class": "medium", "unlock": "Helldivers Mobilize, Seite 5" },
+    { "name": "SA-04 Combat Technician", "passive": "Scout", "class": "medium", "unlock": "Helldivers Mobilize, Seite 8" },
+    { "name": "FS-05 Marksman", "passive": "Fortified", "class": "heavy", "unlock": "Helldivers Mobilize, Seite 2" },
+    { "name": "FS-23 Battle Master", "passive": "Fortified", "class": "heavy", "unlock": "Helldivers Mobilize, Seite 6" },
+    { "name": "CE-27 Ground Breaker", "passive": "Engineering Kit", "class": "medium", "unlock": "Democratic Detonation, Seite 1" },
+    { "name": "CE-07 Demolition Specialist", "passive": "Engineering Kit", "class": "light", "unlock": "Democratic Detonation, Seite 2" },
+    { "name": "FS-55 Devastator", "passive": "Fortified", "class": "heavy", "unlock": "Democratic Detonation, Seite 3" },
+    { "name": "SA-12 Servo Assisted", "passive": "Servo-Assisted", "class": "medium", "unlock": "Steeled Veterans, Seite 2" },
+    { "name": "SA-32 Dynamo", "passive": "Servo-Assisted", "class": "heavy", "unlock": "Steeled Veterans, Seite 3" },
+    { "name": "EX-03 Prototype 3", "passive": "Electrical Conduit", "class": "medium", "unlock": "Cutting Edge, Seite 1" },
+    { "name": "AF-02 Haz-Master", "passive": "Advanced Filtration", "class": "medium", "unlock": "Chemical Agents, Seite 2" },
+    { "name": "I-102 Draconaught", "passive": "Inflammable", "class": "medium", "unlock": "Freedom's Flame, Seite 2" },
+    { "name": "PH-9 Predator", "passive": "Peak Physique", "class": "light", "unlock": "Viper Commandos, Seite 1" },
+    { "name": "CW-22 Kodiak", "passive": "Fortified", "class": "heavy", "unlock": "Polar Patriots, Seite 2" },
+    { "name": "UF-50 Bloodhound", "passive": "Unflinching", "class": "medium", "unlock": "Truth Enforcers, Seite 2" },
+    { "name": "SR-24 Street Scout", "passive": "Siege-Ready", "class": "light", "unlock": "Urban Legends, Seite 1" },
+    { "name": "GS-17 Frontier Marshal", "passive": "Gunslinger", "class": "medium", "unlock": "Borderline Justice, Seite 1" },
+    { "name": "DS-42 Federation's Blade", "passive": "Desert Stormer", "class": "heavy", "unlock": "Dust Devils, Seite 1" },
+    { "name": "AD-26 Bleeding Edge", "passive": "Adreno-Defibrillator", "class": "medium", "unlock": "Control Group, Seite 1" },
+    { "name": "SS-33 Mimetic Marshal", "passive": "Stationary Shroud", "class": "light", "unlock": "Scope of Authority, Seite 1" },
+    { "name": "BFM-220 Ironclad", "passive": "Blunt-Force Mitigation", "class": "heavy", "unlock": "Ironclad Democracy, Seite 2" },
+    { "name": "CPG-48 Sapper", "passive": "Concussive Padding (Grenadier)", "class": "medium", "unlock": "Entrenched Division, Seite 1" },
+    { "name": "TG-8 Sharpshooter", "passive": "True Grit", "class": "medium", "unlock": "Castellan's Creed, Seite 1" },
+    { "name": "B-24 Enforcer", "passive": "Fortified", "class": "medium", "unlock": "Superstore" },
+    { "name": "B-27 Fortified Commando", "passive": "Extra Padding", "class": "heavy", "unlock": "Superstore" }
+  ]
+}

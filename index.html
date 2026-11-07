@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEAF Feldhandbuch — Helldivers 2 Terminal (Fanprojekt)</title>
+<meta name="description" content="Inoffizielles Fan-Projekt: Helldivers 2 Einsteiger-Handbuch im SEAF-Terminal — Missionen, Objektive, Feinde, Weakspots, Waffen, Stratagems, Planeten und Fortschritt. Keine Verbindung zu Arrowhead oder Sony.">
+<meta name="theme-color" content="#030B12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23030B12'/%3E%3Cpath d='M32 6 38 26 58 32 38 38 32 58 26 38 6 32 26 26Z' fill='%238FF2FF'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/terminal.css">
+</head>
+<body>
+<a class="skip" href="#view">Zum Inhalt springen</a>
+<noscript><div class="banner">Dieses Terminal braucht JavaScript.</div></noscript>
+
+<div class="app">
+  <aside class="rail" aria-label="Hauptnavigation">
+    <a class="rail__brand" href="#/" aria-label="Kommandozentrale">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 3 39 25 61 32 39 39 32 61 25 39 3 32 25 25Z" fill="currentColor"/></svg>
+      <span>SEAF</span>
+    </a>
+    <nav class="rail__nav">
+      <a href="#/" data-nav="home"><b>00</b><span>Start</span></a>
+      <a href="#/missionen" data-nav="missionen"><b>01</b><span>Missionen</span></a>
+      <a href="#/feinde" data-nav="feinde"><b>02</b><span>Feinde</span></a>
+      <a href="#/waffen" data-nav="waffen"><b>03</b><span>Waffen</span></a>
+      <a href="#/stratagems" data-nav="stratagems"><b>04</b><span>Strats</span></a>
+      <a href="#/planeten" data-nav="planeten"><b>05</b><span>Planeten</span></a>
+      <a href="#/fortschritt" data-nav="fortschritt"><b>06</b><span>Fortschritt</span></a>
+      <a href="#/assistent" data-nav="assistent"><b>07</b><span>Assist</span></a>
+      <a href="#/grundlagen" data-nav="grundlagen"><b>08</b><span>Basis</span></a>
+    </nav>
+    <div class="rail__status">
+      <span class="dot"></span>
+      <small>LINK<br>STABLE</small>
+    </div>
+  </aside>
+
+  <div class="shell">
+    <header class="topbar">
+      <div class="crumb">
+        <span>SEAF // FELDHANDBUCH</span>
+        <b id="crumb-title">KOMMANDOZENTRALE</b>
+      </div>
+      <div class="topbar__right">
+        <button class="topbtn" id="search-open" type="button" aria-label="Suche öffnen">
+          <span class="search-glyph" aria-hidden="true">⌕</span>
+          <span>Suche</span>
+          <kbd>Strg K</kbd>
+        </button>
+        <button class="topbtn topbtn--ai" id="ai-open" type="button" aria-label="Assistent öffnen">
+          <span class="dot"></span>
+          <span>Assistent</span>
+        </button>
+        <div class="clock" aria-hidden="true"><span>2184.11.07</span><b>14:22:08</b></div>
+      </div>
+    </header>
+
+    <main id="view" tabindex="-1">
+      <div class="loading"><span></span><span></span><span></span> Datenbank wird geladen …</div>
+    </main>
+
+    <footer class="footer">
+      <div>SEAF TACTICAL NETWORK // FELDHANDBUCH 2184</div>
+      <div class="footer__links">
+        <a href="#/grundlagen">Grundlagen</a>
+        <a href="#/fortschritt">Fortschritt</a>
+        <a href="#/quellen">Quellen</a>
+        <button type="button" id="print-btn">Drucken</button>
+      </div>
+      <small>INOFFIZIELLES FANPROJEKT — keine Verbindung zu Arrowhead Game Studios / Sony. Spielinhalte © jeweilige Rechteinhaber. <a href="#/quellen">Bildrechte &amp; Quellen</a></small>
+    </footer>
+  </div>
+</div>
+
+<div class="overlay" id="search-overlay" hidden>
+  <div class="searchbox" role="dialog" aria-modal="true" aria-labelledby="search-title">
+    <div class="searchbox__head">
+      <span id="search-title">KATALOG DURCHSUCHEN</span>
+      <button class="close" type="button" data-close-search>Esc</button>
+    </div>
+    <div class="searchbox__input">
+      <span aria-hidden="true">⌕</span>
+      <input id="search-input" type="text" placeholder="Feind, Waffe, Mission, Stratagem, Währung …" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="searchbox__hints" id="search-hints">
+      <span>Beliebt:</span>
+      <button type="button" data-q="Bile Titan">Bile Titan</button>
+      <button type="button" data-q="Launch ICBM">Launch ICBM</button>
+      <button type="button" data-q="AR-23 Liberator">AR-23</button>
+      <button type="button" data-q="Super Credits">Super Credits</button>
+      <button type="button" data-q="Ionenstürme">Ionenstürme</button>
+    </div>
+    <div class="searchbox__results" id="search-results"></div>
+    <div class="searchbox__foot">
+      <span><kbd>↑</kbd><kbd>↓</kbd> wählen</span>
+      <span><kbd>Enter</kbd> öffnen</span>
+      <span id="search-count"></span>
+    </div>
+  </div>
+</div>
+
+<aside class="ai" id="ai" aria-hidden="true" aria-label="Feldassistent">
+  <div class="ai__head">
+    <div>
+      <span class="ai__kicker"><span class="dot" id="ai-dot"></span> SEAF // FELDASSISTENT</span>
+      <h2>Frag das Handbuch</h2>
+    </div>
+    <div class="ai__actions">
+      <button class="iconbtn" id="ai-settings-open" type="button" title="Assistent einrichten" aria-label="Assistent einrichten">⚙</button>
+      <button class="iconbtn" id="ai-close" type="button" title="Schließen" aria-label="Assistent schließen">✕</button>
+    </div>
+  </div>
+  <div class="ai__status" id="ai-status">
+    <span id="ai-status-text">Offline-Suche · funktioniert ohne API-Key</span>
+  </div>
+  <div class="ai__context" id="ai-context">Kontext: <b>Titelblatt</b> — du kannst „davon“, „der“ oder „mehr“ fragen.</div>
+  <div class="ai__log" id="ai-log" aria-live="polite"></div>
+  <div class="ai__starters" id="ai-starters">
+    <button type="button" data-prompt="Wie töte ich einen Bile Titan?">Bile Titan</button>
+    <button type="button" data-prompt="Wie mache ich das ICBM-Objektiv?">ICBM-Objektiv</button>
+    <button type="button" data-prompt="Welche Waffe gegen Automaton-Hulks?">Hulks</button>
+    <button type="button" data-prompt="Was sind Schiffmodule?">Schiffmodule</button>
+  </div>
+  <form class="ai__form" id="ai-form">
+    <textarea id="ai-input" rows="2" placeholder="Frage zu Feinden, Waffen, Zielen, Währungen …" autocomplete="off"></textarea>
+    <button type="submit" class="btn btn--primary" id="ai-send">Senden</button>
+  </form>
+  <p class="ai__note">Antworten aus dem Handbuch. KI-Modus optional — API-Key bleibt lokal.</p>
+</aside>
+
+<div class="overlay" id="ai-settings" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="ai-settings-title">
+    <div class="dialog__head">
+      <div><span class="kicker">ASSISTENT KONFIGURIEREN</span><h2 id="ai-settings-title">Lokal oder KI-Modell</h2></div>
+      <button class="close" type="button" data-close-settings>Esc</button>
+    </div>
+    <div class="dialog__body">
+      <p class="muted">Der lokale Modus durchsucht das Handbuch offline. Für freie Antworten kannst du ein OpenAI-kompatibles Modell anbinden — OpenAI, DeepSeek, Groq, OpenRouter, Ollama oder LM Studio.</p>
+      <fieldset class="mode">
+        <legend>Modus</legend>
+        <label><input type="radio" name="ai-mode" value="local"> Nur lokal</label>
+        <label><input type="radio" name="ai-mode" value="llm"> KI-Modell verwenden</label>
+      </fieldset>
+      <div class="field"><label for="ai-preset">Anbieter</label>
+        <select id="ai-preset"><option value="">— Vorlage wählen —</option><option value="openai">OpenAI</option><option value="deepseek">DeepSeek</option><option value="groq">Groq</option><option value="openrouter">OpenRouter</option><option value="ollama">Ollama (lokal)</option><option value="lmstudio">LM Studio (lokal)</option></select>
+      </div>
+      <div class="field-row">
+        <div class="field"><label for="ai-base">Base-URL</label><input id="ai-base" type="url" placeholder="https://api.openai.com/v1" spellcheck="false"></div>
+        <div class="field"><label for="ai-model">Modell</label><input id="ai-model" type="text" placeholder="gpt-4o-mini" spellcheck="false"></div>
+      </div>
+      <div class="field"><label for="ai-key">API-Key <span class="muted">(nicht nötig bei Server-Proxy)</span></label><input id="ai-key" type="password" placeholder="sk-…" autocomplete="off" spellcheck="false"></div>
+      <div class="server-note" id="server-note"><span class="tag">PRÜFE SERVER …</span></div>
+      <p class="fine">Der Key liegt nur im localStorage dieses Browsers und geht direkt an den Anbieter. Alternativ läuft er in <code>ai.config.json</code> auf deinem Server.</p>
+    </div>
+    <div class="dialog__foot">
+      <button class="btn btn--ghost" type="button" id="ai-test">Verbindung testen</button>
+      <span class="spacer"></span>
+      <button class="btn btn--ghost" type="button" data-close-settings>Abbrechen</button>
+      <button class="btn btn--primary" type="button" id="ai-save">Speichern</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "id": "grundausbildung",
+      "number": "I",
+      "title": "Grundausbildung",
+      "subtitle": "Was du tust, warum du es tust und wann du stirbst",
+      "intro": "Helldivers 2 ist ein kooperativer PvE-Shooter für ein bis vier Spieler. Du bist ein Helldiver der Super-Erde, wirst von einem Super-Zerstörer im Orbit abgeworfen und erledigst auf einem Planeten Missionsziele, während drei feindliche Fraktionen versuchen, dich daran zu hindern. Der Krieg läuft global weiter, auch wenn du offline bist.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Der Kern jeder Runde ist eine **Operation**: ein Auftrag aus ein bis drei Missionen auf demselben Planeten. Du wählst Planet, Fraktion und Schwierigkeit, wirfst dich mit vier Stratagems und einem Booster ab, erfüllst Haupt- und Nebenziele, sammelst Proben und fliegst am Ende mit dem Pelican wieder raus. Belohnungen gibt es auch ohne Extraction — Proben aber nur, wenn du sie mit nach Hause bringst."
+        },
+        {
+          "type": "callout",
+          "title": "Die drei Fraktionen",
+          "text": "**Terminiden** sind schnelle, zahlenmäßig überlegene Insekten mit Säure und Grabangriffen. **Automatons** sind gepanzerte Roboter mit Fernkampf, Raketen und festen Basen. **Illuminate** sind eine technologische Fraktion mit Schilden, Warp-Technik und Luftbedrohung. Jede Fraktion belohnt andere Waffen — ein Loadout für Bugs ist selten gut gegen Bots."
+        },
+        {
+          "type": "table",
+          "head": ["Phase", "Was passiert", "Was du tun solltest"],
+          "rows": [
+            ["Planet & Operation", "Du wählst Front, Schwierigkeit und siehst Operation Modifiers", "Modifiers lesen, bevor du dich verpflichtest"],
+            ["Loadout", "4 Stratagems, Primär-/Sekundärwaffe, Granate, Rüstung, Booster", "Mindestens eine Panzerabwehr-Option mitnehmen"],
+            ["Drop", "Hellpod-Abwurf, Landung steuerbar", "Nicht mitten in eine Feindgruppe landen"],
+            ["Ziele", "Hauptziel(e), optionale Ziele, Basen, Proben", "Erst Karte lesen, dann Route festlegen"],
+            ["Extraction", "Pelican rufen, Landezone halten, einsteigen", "Früh rufen, LZ vorher freiräumen"],
+            ["Debrief", "Belohnungen, Sterne, Proben, Freischaltungen", "Proben für Ship Modules ausgeben"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Du hast **gemeinsame Verstärkungen** (Reinforcements). Jeder Tod kostet eine davon. Ist der Vorrat leer, ist die Mission vorbei — egal, wie viele Ziele noch offen sind. Deshalb ist Sterben nicht nur peinlich, sondern ein Ressourcenverlust für das ganze Team. Heilung (Stims) ist billiger als ein neuer Helldiver."
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Friendly Fire ist immer an.** Deine Artillerie, Minen, Sentries und sogar der Pelican töten dich und dein Team.",
+            "**Proben gehen bei Tod verloren**, bis jemand sie aufhebt. Wer sie trägt, sollte nicht den Helden spielen.",
+            "**Munition und Stims teilen.** Resupply gibt vier Vorräte — einer pro Person, nicht einer für alle.",
+            "**Sprengstoff öffnet Wege.** Bug Holes und Fabrikatoren brauchen Demolition Force, keine Panzerungsdurchdringung.",
+            "**Karte lesen ist eine Waffe.** Ziele, Patrouillen und Basen sind markiert, sobald du in der Nähe warst."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Merksatz",
+          "text": "Du bist kein Supersoldat. Du bist ein sterblicher Mensch mit einem sehr guten Support-Netz. Bewegung, Deckung und Timing schlagen jede Waffe."
+        }
+      ]
+    },
+    {
+      "id": "panzerung",
+      "number": "II",
+      "title": "Panzerung & Schaden",
+      "subtitle": "Der eine Mechanik-Kapitel, das alles verändert",
+      "intro": "Wenn deine Kugeln „ricochet“ sagen und der Gegner weiterläuft, liegt es fast nie an zu wenig Schaden. Es liegt an fehlender Panzerungsdurchdringung. Dieses Kapitel erklärt das System in fünf Minuten.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jeder Trefferpunkt eines Gegners hat einen **Panzerungswert (Armor Value, AV)** von 0 bis 10. Jede Waffe hat eine **Panzerungsdurchdringung (Armor Penetration, AP)** von 0 bis 10. Es zählt der Trefferpunkt, nicht der Gegner: Ein Charger hat am Kopf eine andere Panzerung als am Hintern."
+        },
+        {
+          "type": "table",
+          "head": ["Vergleich", "Ergebnis", "Hitmarker"],
+          "rows": [
+            ["AP > AV", "100 % Schaden", "rot"],
+            ["AP = AV", "65 % Schaden", "weiß"],
+            ["AP < AV", "kein Schaden, Abpraller", "kein Treffer"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Deshalb ist „mehr DPS“ oft die falsche Antwort. Eine Waffe mit AP 2 macht an einem AV-4-Ziel **null** Schaden, egal wie viele Kugeln du verschießt. Eine Waffe mit AP 4 macht an derselben Stelle 65 %, eine mit AP 5 volle 100 %. Gegen schwere Ziele brauchst du entweder höhere AP oder einen anderen Trefferpunkt."
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Winkel zählen.** Schräge Treffer kosten Durchdringung. Frontal auf die Platte ist immer besser als seitlich am Winkel.",
+            "**Explosionen haben eine AP** und verlieren 1 AP im äußeren Radius. Eine Granate, die knapp daneben landet, kann deshalb wirkungslos sein.",
+            "**Abbrechbare Panzerung** (Charger-Beine, Bile-Titan-Rücken, Hulk-Arme) hat eigenen Lebenswert. Erst die Platte zerstören, dann die weiche Stelle treffen.",
+            "**Durable Damage** zählt bei dicken, weichen Teilen (Säcke, Hintern, Fleisch). Explosionen machen 100 % durable Schaden und sind dort besonders stark.",
+            "**Demolition Force** ist separat: Bug Holes, Fabrikatoren und Warp Ships brauchen genug Sprengkraft, nicht AP."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Die Einsteiger-Faustregel",
+          "text": "Nimm **eine** Waffe mit AP 4+ gegen mittlere Ziele und **eine** echte Panzerabwehr (EAT, Recoilless, Quasar, Railgun, 500 kg) gegen schwere Ziele mit. Alles andere ist zum Aufräumen von Kleinvieh."
+        },
+        {
+          "type": "p",
+          "text": "Die zweite Hälfte des Systems ist der Trefferpunkt. Ein Bile Titan ist vorne praktisch unverwundbar und hinten verwundbar. Ein Hulk ist frontal eine Wand und im Rücken ein Feuerball. Wer nur auf die große Silhouette schießt, verliert. Wer weiß, wohin, gewinnt mit einer halben Magazine."
+        }
+      ]
+    },
+    {
+      "id": "erste-mission",
+      "number": "III",
+      "title": "Deine erste Mission",
+      "subtitle": "Vom Loadout bis zum Pelican",
+      "intro": "Diese Seite ist der Ablauf, den du in den ersten zehn Stunden immer wiederholst. Wenn du ihn beherrschst, kannst du jede Mission auf jeder Schwierigkeit spielen — nur mit mehr Gegnern und weniger Fehlern.",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**1. Loadout lesen.** Vier Stratagems: mindestens eine Panzerabwehr, eine Flächenwaffe, ein Support- oder Defensiv-Slot, ein Flex-Slot (Resupply, Schild, Jump Pack, Sentry).",
+            "**2. Booster wählen.** Der Booster gilt für das ganze Team. Nimm keinen doppelten — frag kurz, was die anderen haben.",
+            "**3. Abwurf steuern.** Der Hellpod ist lenkbar. Lande neben dem ersten Ziel, nicht in der Feindgruppe. Ein Direkttreffer tötet kleine Gegner.",
+            "**4. Karte öffnen.** Hauptziel, optionale Ziele, Basen und Proben sind sichtbar, sobald du in der Nähe bist. Route festlegen, bevor du losrennst.",
+            "**5. Zuerst das Hauptziel.** Optionale Ziele sind wertvoll, aber sie kosten Zeit und Verstärkungen. Auf hoher Schwierigkeit zählt zuerst der Abschluss.",
+            "**6. Proben einsammeln.** Common, Rare und Super Samples liegen in Basen und PoIs. Wer sie trägt, bleibt hinten.",
+            "**7. Extraction vorbereiten.** Ruf den Pelican, wenn das Hauptziel steht — nicht erst, wenn alle tot sind. LZ freiräumen, Minen und Sentries decken den Anflug.",
+            "**8. Einsteigen.** Der Pelican wartet nur begrenzt. Wer noch samples hat, ist wichtiger als der letzte Kill."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Die 10 Regeln für den Anfang",
+          "text": "1. Bewege dich, stehe nie im Offenen. 2. Nutze Deckung, aber verlasse sie, bevor sie gesprengt wird. 3. Wirf keine 380er auf dein Team. 4. Teile Resupply. 5. Reinforce nicht in die Feindmenge. 6. Lies Modifiers. 7. Nimm Panzerabwehr mit. 8. Sammle Proben nur, wenn die Route sicher ist. 9. Extraction ist ein Ziel, kein Nachgedanke. 10. Sterben ist normal — aber jeder Tod kostet das Team."
+        },
+        {
+          "type": "p",
+          "text": "Die erste Mission auf **Trivial** oder **Easy** ist zum Lernen da. Dort gibt es wenige Gegner, keine Operation Modifiers und genug Zeit, die Karte zu verstehen. Steigere die Schwierigkeit, sobald du deine Stratagems blind werfen kannst — nicht, sobald du eine Mission gewinnst."
+        }
+      ]
+    },
+    {
+      "id": "schwierigkeit",
+      "number": "IV",
+      "title": "Schwierigkeit, Sterne, Belohnungen",
+      "subtitle": "Was du für welchen Aufwand bekommst",
+      "intro": "Helldivers 2 hat zehn Schwierigkeitsstufen. Sie ändern nicht nur die Gegnermenge, sondern auch Modifiers, Ziele, Proben und Belohnungen. Die richtige Stufe ist die, auf der du noch extrahierst — nicht die, auf der du dich am meisten fühlst.",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Stufe", "Name", "Was dazukommt"],
+          "rows": [
+            ["1", "Trivial", "Kaum Gegner, keine Modifiers, wenig Proben"],
+            ["2", "Easy", "Erste optionale Ziele, mehr Patrouillen"],
+            ["3", "Medium", "Belohnungsmultiplikator beginnt (+25 %)"],
+            ["4", "Challenging", "Rare Samples erscheinen"],
+            ["5", "Hard", "Erster Operation Modifier"],
+            ["6", "Extreme", "Super Samples erscheinen, mehr Basen"],
+            ["7", "Suicide Mission", "Hive Lords möglich, deutlich mehr Schweres"],
+            ["8", "Impossible", "Zweiter Operation Modifier"],
+            ["9", "Helldive", "Maximale Gegnerdichte, kaum Fehler erlaubt"],
+            ["10", "Super Helldive", "+300 % Belohnungen, die härteste Auswahl"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Sterne** sind kein reines Können-Maß, sondern eine Checkliste: Der erste Stern ist das Hauptziel (ab Trivial). Der zweite sind alle optionalen Ziele (ab Easy). Der dritte und vierte Stern kommen für die Zerstörung eines Teils bzw. des Großteils der feindlichen Basen (ab Medium/Hard). Der fünfte Stern ist ab Suicide Mission möglich und verlangt eine sehr vollständige Karte. Extraktion ist für Sterne nicht zwingend, für Proben schon."
+        },
+        {
+          "type": "callout",
+          "title": "Belohnungen",
+          "text": "Hauptziel: 500 Requisition + 100 XP (Basis, vor Multiplikator). Optionales Ziel: 200 Requisition + 50 XP — außer „Destroy High-Value Target“ (222 XP, keine Requisition). Tägliche Personal Orders geben 15 Medals. Major Orders geben Medals und manchmal Ausrüstung."
+        },
+        {
+          "type": "p",
+          "text": "**Proben** sind der eigentliche Fortschritt. Commons findest du überall, Rares ab Challenging, Supers ab Extreme. Sie werden erst beim erfolgreichen Extrahieren gutgeschrieben. Deshalb ist die letzte Minute oft wichtiger als der ganze Rest der Mission."
+        },
+        {
+          "type": "callout",
+          "title": "Operation Modifiers",
+          "text": "Ab Hard liegt ein Modifier auf der Operation, ab Impossible ein zweiter. Sie gelten für alle Missionen der Operation und sind vor dem Start sichtbar. Auf Defense-Planeten gibt es keine Operation Modifiers — dafür andere Event-Effekte."
+        }
+      ]
+    },
+    {
+      "id": "teamplay",
+      "number": "V",
+      "title": "Teamplay & Kommunikation",
+      "subtitle": "Vier Menschen, ein Vorrat, null Toleranz für Helden",
+      "intro": "Helldivers 2 ist ohne Kommunikation spielbar, aber nicht gut. Die meisten verlorenen Missionen entstehen nicht durch fehlenden Schaden, sondern durch doppelte Resupplies, schlechte Reinforces und Sprengstoff im Rücken.",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Rollen verteilen.** Einer räumt Kleinvieh, einer bricht Panzerung, einer hält den Rücken frei, einer bringt Support (Schild, Resupply, Sentry, Aufklärung).",
+            "**Resupply ist heilig.** Ein Call gibt vier Pakete. Nimm eins, wenn du es brauchst — nicht alle vier.",
+            "**Reinforce mit Bedacht.** Wirf den Pod neben Deckung, nicht in die Feindgruppe. Der neue Helldiver kommt mit vollem Loadout, aber ohne Situationsbewusstsein.",
+            "**Sprengstoff ansagen.** „380 auf das Nest, nicht auf mich.“ Ein Satz verhindert drei Tode.",
+            "**Sentry-Regeln.** Sentries schießen auf alles, was sich bewegt, auch auf dich. Stelle sie hinter die eigene Linie, nicht in den Rücken der Gegner.",
+            "**Ping statt schreien.** Marker auf Gegner, Ziele und Samples sind schneller als jede Erklärung."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Friendly Fire",
+          "text": "Es gibt keinen Friendly-Fire-Schutz. Deine Artillerie tötet dich genauso wie den Feind. Minen unterscheiden nicht. Der Pelican zerlegt alles, was unter ihm steht. Wer das verinnerlicht, stirbt deutlich seltener."
+        },
+        {
+          "type": "p",
+          "text": "Auf höheren Schwierigkeiten wird das Team zu einer einzigen Bewegung: Wer stehen bleibt, wird eingekreist. Wer allein läuft, wird von einer Patrouille gefressen. Bleib in Hörweite, teile Sichtlinien und kämpfe nicht jede Begegnung — Weglaufen ist eine gültige Taktik."
+        }
+      ]
+    },
+    {
+      "id": "fortschritt",
+      "number": "VI",
+      "title": "Fortschritt & Ausrüstung",
+      "subtitle": "Wohin mit Requisition, Medals, Super Credits und Proben",
+      "intro": "Das Spiel wirft dir vier Währungen und ein Dutzend Menüs entgegen. Die gute Nachricht: Jede Währung hat genau einen Hauptzweck. Wer das einmal versteht, gibt nie wieder etwas falsch aus.",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Währung", "Hauptquelle", "Wofür ausgeben"],
+          "rows": [
+            ["Requisition Slips", "Missionen, Ziele, Major Orders", "Stratagems und Ship Modules freischalten"],
+            ["Medals", "Missionen, Personal/Major Orders, Warbonds", "Warbond-Seiten freischalten"],
+            ["Super Credits", "Warbonds, Superstore, Major Orders", "Premium-Warbonds und Superstore-Items"],
+            ["Common Samples", "Alle Schwierigkeiten", "Ship Modules (Basismodule)"],
+            ["Rare Samples", "Ab Challenging", "Ship Modules (mittlere Module)"],
+            ["Super Samples", "Ab Extreme", "Ship Modules (Top-Module)"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Die Reihenfolge für Einsteiger: **Erst Stratagems**, die dein Loadout komplett machen (Panzerabwehr, Eagle, Support). **Dann Ship Modules**, weil sie dauerhaft und teamweit wirken. **Dann Warbonds**, wenn du gezielt eine Waffe oder Rüstung willst. Super Credits nur für Warbonds ausgeben, die dir wirklich etwas geben — nicht für jeden Skin."
+        },
+        {
+          "type": "callout",
+          "title": "Was zuerst?",
+          "text": "Ein vollständiges Loadout schlägt jedes einzelne „beste“ Item. Wenn dir Panzerabwehr fehlt, kaufe sie zuerst. Wenn dir Mobilität fehlt, hol dir ein Jump Pack oder Schild. Wenn du ständig stirbst, investiere in Rüstung und Booster, nicht in mehr Feuerkraft."
+        },
+        {
+          "type": "p",
+          "text": "Alle Details — Warbonds, Ship Modules, Superstore und die beste Reihenfolge — stehen im Kapitel **Wirtschaft & Fortschritt**."
+        }
+      ]
+    },
+    {
+      "id": "glossar",
+      "number": "VII",
+      "title": "Glossar",
+      "subtitle": "Die Begriffe, die im Voice-Chat fallen",
+      "intro": "Die Community spricht in Abkürzungen. Diese Liste reicht, um im Team nicht verloren zu sein.",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Begriff", "Bedeutung"],
+          "rows": [
+            ["Aggro", "Aufmerksamkeit der Gegner; wer Aggro hat, wird verfolgt"],
+            ["AP / AV", "Armor Penetration / Armor Value — Durchdringung vs. Panzerung"],
+            ["Breach", "Terminiden-Loch, aus dem Verstärkung kriecht"],
+            ["Bug Hole", "Terminiden-Nestöffnung, nur mit Demolition zerstörbar"],
+            ["Drop", "Automaton-Landeanflug mit Verstärkung"],
+            ["Fabricator", "Automaton-Gebäude, das Einheiten produziert"],
+            ["Hellpod", "Absetzkapsel des Helldivers"],
+            ["LZ", "Landing Zone, Extraktionspunkt"],
+            ["MO", "Major Order, globale Community-Aufgabe"],
+            ["Patrouille", "Feindtrupp, der zufällig über die Karte zieht"],
+            ["Pelican", "Extraktionsshuttle"],
+            ["PoI", "Point of Interest, Nebenfundort mit Proben oder Vorräten"],
+            ["Reinforce", "Verstärkung rufen; kostet einen gemeinsamen Vorrat"],
+            ["Resupply", "Nachschub mit Munition, Stims und Granaten"],
+            ["Samples", "Proben für Ship Modules (Common/Rare/Super)"],
+            ["Sentry", "Automatisches Geschütz"],
+            ["Stratagem", "Ausrüstung, die per Tastencode vom Orbit gerufen wird"],
+            ["Tactical Objective", "Optionales Missionsziel"],
+            ["Warbond", "Freischalt-Pass mit Waffen, Rüstungen und Cosmetics"]
+          ]
+        }
+      ]
+    }
+  ]
+}
